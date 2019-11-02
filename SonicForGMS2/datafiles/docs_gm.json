@@ -1,0 +1,62 @@
+{
+	"output": {
+		"design": "modules-multipage",
+		"template": "basic",
+		"outputFolder": "./docs/",
+		"templatesFolder": ""
+	},
+	"pattern": "**/*",
+	"root": "scripts",
+	"parser": {
+		"warnUnrecognizedTags": true,
+		"mergeDuplicateParams": false
+	},
+	"scripts": {
+		"markUnderscoreScriptsAsPrivate": true,
+		"ignorePrivate": true,
+		"undocumented": {
+			"ignore": true,
+			"warn": true
+		},
+		"mismatchingFunctionName": {
+			"ignore": true,
+			"warn": true
+		},
+		"noDescription": {
+			"ignore": true,
+			"warn": true
+		},
+		"undocumentedArguments": {
+			"ignore": true,
+			"warn": true
+		},
+		"mismatchingArguments": {
+			"ignore": true,
+			"warn": true
+		},
+		"noParamDescription": {
+			"ignore": true,
+			"warn": true
+		},
+		"noParamType": {
+			"ignore": true,
+			"warn": true
+		},
+		"functionSignatureInDescription": {
+			"ignore": true,
+			"warn": true
+		},
+		"noReturnDescription": {
+			"ignore": true,
+			"warn": true
+		},
+		"noReturnType": {
+			"ignore": true,
+			"warn": true
+		},
+		"duplicatedParams": {
+			"ignore": true,
+			"warn": true
+		}
+	}
+}

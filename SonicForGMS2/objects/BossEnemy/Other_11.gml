@@ -1,0 +1,3 @@
+/// @description  Destroy
+destroyed = true;
+

@@ -1,0 +1,1 @@
+bottom_solid = false;
