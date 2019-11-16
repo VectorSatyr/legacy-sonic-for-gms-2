@@ -68,4 +68,4 @@ for (var n = 0; n < total_parts; ++n) {
     }
 }
 
-action_kill_object();
+instance_destroy();

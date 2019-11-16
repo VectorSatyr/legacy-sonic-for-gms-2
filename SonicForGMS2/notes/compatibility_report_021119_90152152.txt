@@ -1,5 +1,6 @@
 Converting GML script: ${project_dir}\scripts\rectangle_in_object\rectangle_in_object.gml
-Converted description /// @description  rectangle_in_object(x1, y1, x2, y2, obj, prec, notme)/// @param x1
+Converted description /// @description  rectangle_in_object(x1, y1, x2, y2, obj, prec, notme)
+/// @param x1
 /// @param  y1
 /// @param  x2
 /// @param  y2
@@ -8,7 +9,8 @@ Converted description /// @description  rectangle_in_object(x1, y1, x2, y2, obj,
 /// @param  notme
 
 Converting GML script: ${project_dir}\scripts\line_in_object\line_in_object.gml
-Converted description /// @description  line_in_object(x1, y1, x2, y2, obj, prec, notme)/// @param x1
+Converted description /// @description  line_in_object(x1, y1, x2, y2, obj, prec, notme)
+/// @param x1
 /// @param  y1
 /// @param  x2
 /// @param  y2
@@ -17,7 +19,8 @@ Converted description /// @description  line_in_object(x1, y1, x2, y2, obj, prec
 /// @param  notme
 
 Converting GML script: ${project_dir}\scripts\line_in_circle\line_in_circle.gml
-Converted description /// @description  line_in_circle(sx1, sy1, sx2, sy2, cx, cy, rad)/// @param sx1
+Converted description /// @description  line_in_circle(sx1, sy1, sx2, sy2, cx, cy, rad)
+/// @param sx1
 /// @param  sy1
 /// @param  sx2
 /// @param  sy2
@@ -26,7 +29,8 @@ Converted description /// @description  line_in_circle(sx1, sy1, sx2, sy2, cx, c
 /// @param  rad
 
 Converting GML script: ${project_dir}\scripts\line_in_ellipse\line_in_ellipse.gml
-Converted description /// @description  line_in_ellipse(sx1, sy1, sx2, sy2, cx, cy, xrad, yrad)/// @param sx1
+Converted description /// @description  line_in_ellipse(sx1, sy1, sx2, sy2, cx, cy, xrad, yrad)
+/// @param sx1
 /// @param  sy1
 /// @param  sx2
 /// @param  sy2
@@ -36,7 +40,8 @@ Converted description /// @description  line_in_ellipse(sx1, sy1, sx2, sy2, cx, 
 /// @param  yrad
 
 Converting GML script: ${project_dir}\scripts\line_in_line\line_in_line.gml
-Converted description /// @description  line_in_line(sx1, sy1, sx2, sy2, dx1, dy1, dx2, dy2)/// @param sx1
+Converted description /// @description  line_in_line(sx1, sy1, sx2, sy2, dx1, dy1, dx2, dy2)
+/// @param sx1
 /// @param  sy1
 /// @param  sx2
 /// @param  sy2
@@ -46,7 +51,8 @@ Converted description /// @description  line_in_line(sx1, sy1, sx2, sy2, dx1, dy
 /// @param  dy2
 
 Converting GML script: ${project_dir}\scripts\line_in_rectangle\line_in_rectangle.gml
-Converted description /// @description  line_in_rectangle(sx1, sy1, sx2, sy2, dx1, dy1, dx2, dy2)/// @param sx1
+Converted description /// @description  line_in_rectangle(sx1, sy1, sx2, sy2, dx1, dy1, dx2, dy2)
+/// @param sx1
 /// @param  sy1
 /// @param  sx2
 /// @param  sy2
@@ -56,7 +62,8 @@ Converted description /// @description  line_in_rectangle(sx1, sy1, sx2, sy2, dx
 /// @param  dy2
 
 Converting GML script: ${project_dir}\scripts\line_in_triangle\line_in_triangle.gml
-Converted description /// @description  line_in_triangle(sx1, sy1, sx2, sy2, x1, y1, x2, y2, x3, y3)/// @param sx1
+Converted description /// @description  line_in_triangle(sx1, sy1, sx2, sy2, x1, y1, x2, y2, x3, y3)
+/// @param sx1
 /// @param  sy1
 /// @param  sx2
 /// @param  sy2
@@ -68,7 +75,8 @@ Converted description /// @description  line_in_triangle(sx1, sy1, sx2, sy2, x1,
 /// @param  y3
 
 Converting GML script: ${project_dir}\scripts\line_in_quarter_ellipse\line_in_quarter_ellipse.gml
-Converted description /// @description  line_in_quarter_ellipse(sx1, sy1, sx2, sy2, cx, cy, xrad, yrad)/// @param sx1
+Converted description /// @description  line_in_quarter_ellipse(sx1, sy1, sx2, sy2, cx, cy, xrad, yrad)
+/// @param sx1
 /// @param  sy1
 /// @param  sx2
 /// @param  sy2
@@ -78,7 +86,8 @@ Converted description /// @description  line_in_quarter_ellipse(sx1, sy1, sx2, s
 /// @param  yrad
 
 Converting GML script: ${project_dir}\scripts\line_in_quarter_pipe\line_in_quarter_pipe.gml
-Converted description /// @description  line_in_quarter_pipe(sx1, sy1, sx2, sy2, cx, cy, xrad, yrad)/// @param sx1
+Converted description /// @description  line_in_quarter_pipe(sx1, sy1, sx2, sy2, cx, cy, xrad, yrad)
+/// @param sx1
 /// @param  sy1
 /// @param  sx2
 /// @param  sy2
@@ -88,7 +97,8 @@ Converted description /// @description  line_in_quarter_pipe(sx1, sy1, sx2, sy2,
 /// @param  yrad
 
 Converting GML script: ${project_dir}\scripts\point_in_ellipse\point_in_ellipse.gml
-Converted description /// @description  point_in_ellipse(px, py, cx, cy, xrad, yrad)/// @param px
+Converted description /// @description  point_in_ellipse(px, py, cx, cy, xrad, yrad)
+/// @param px
 /// @param  py
 /// @param  cx
 /// @param  cy
@@ -96,7 +106,8 @@ Converted description /// @description  point_in_ellipse(px, py, cx, cy, xrad, y
 /// @param  yrad
 
 Converting GML script: ${project_dir}\scripts\point_in_line\point_in_line.gml
-Converted description /// @description  point_in_line(px, py, x1, y1, x2, y2)/// @param px
+Converted description /// @description  point_in_line(px, py, x1, y1, x2, y2)
+/// @param px
 /// @param  py
 /// @param  x1
 /// @param  y1
@@ -104,7 +115,8 @@ Converted description /// @description  point_in_line(px, py, x1, y1, x2, y2)//
 /// @param  y2
 
 Converting GML script: ${project_dir}\scripts\point_in_quarter_ellipse\point_in_quarter_ellipse.gml
-Converted description /// @description  point_in_quarter_ellipse(px, py, cx, cy, xrad, yrad)/// @param px
+Converted description /// @description  point_in_quarter_ellipse(px, py, cx, cy, xrad, yrad)
+/// @param px
 /// @param  py
 /// @param  cx
 /// @param  cy
@@ -112,7 +124,8 @@ Converted description /// @description  point_in_quarter_ellipse(px, py, cx, cy,
 /// @param  yrad
 
 Converting GML script: ${project_dir}\scripts\point_in_quarter_pipe\point_in_quarter_pipe.gml
-Converted description /// @description  point_in_quarter_pipe(px, py, cx, cy, xrad, yrad)/// @param px
+Converted description /// @description  point_in_quarter_pipe(px, py, cx, cy, xrad, yrad)
+/// @param px
 /// @param  py
 /// @param  cx
 /// @param  cy
@@ -120,7 +133,8 @@ Converted description /// @description  point_in_quarter_pipe(px, py, cx, cy, xr
 /// @param  yrad
 
 Converting GML script: ${project_dir}\scripts\rectangle_in_circle_full\rectangle_in_circle_full.gml
-Converted description /// @description  rectangle_in_circle_full(sx1, sy1, sx2, sy2, cx, cy, rad)/// @param sx1
+Converted description /// @description  rectangle_in_circle_full(sx1, sy1, sx2, sy2, cx, cy, rad)
+/// @param sx1
 /// @param  sy1
 /// @param  sx2
 /// @param  sy2
@@ -129,7 +143,8 @@ Converted description /// @description  rectangle_in_circle_full(sx1, sy1, sx2, 
 /// @param  rad
 
 Converting GML script: ${project_dir}\scripts\rectangle_in_ellipse\rectangle_in_ellipse.gml
-Converted description /// @description  rectangle_in_ellipse(sx1, sy1, sx2, sy2, cx, cy, xrad, yrad)/// @param sx1
+Converted description /// @description  rectangle_in_ellipse(sx1, sy1, sx2, sy2, cx, cy, xrad, yrad)
+/// @param sx1
 /// @param  sy1
 /// @param  sx2
 /// @param  sy2
@@ -139,7 +154,8 @@ Converted description /// @description  rectangle_in_ellipse(sx1, sy1, sx2, sy2,
 /// @param  yrad
 
 Converting GML script: ${project_dir}\scripts\rectangle_in_triangle_full\rectangle_in_triangle_full.gml
-Converted description /// @description  rectangle_in_triangle_full(sx1, sy1, sx2, sy2, x1, y1, x2, y2, x3, y3)/// @param sx1
+Converted description /// @description  rectangle_in_triangle_full(sx1, sy1, sx2, sy2, x1, y1, x2, y2, x3, y3)
+/// @param sx1
 /// @param  sy1
 /// @param  sx2
 /// @param  sy2
@@ -151,7 +167,8 @@ Converted description /// @description  rectangle_in_triangle_full(sx1, sy1, sx2
 /// @param  y3
 
 Converting GML script: ${project_dir}\scripts\rectangle_in_quarter_ellipse\rectangle_in_quarter_ellipse.gml
-Converted description /// @description  rectangle_in_quarter_ellipse(sx1, sy1, sx2, sy2, cx, cy, xrad, yrad)/// @param sx1
+Converted description /// @description  rectangle_in_quarter_ellipse(sx1, sy1, sx2, sy2, cx, cy, xrad, yrad)
+/// @param sx1
 /// @param  sy1
 /// @param  sx2
 /// @param  sy2
@@ -161,7 +178,8 @@ Converted description /// @description  rectangle_in_quarter_ellipse(sx1, sy1, s
 /// @param  yrad
 
 Converting GML script: ${project_dir}\scripts\rectangle_in_quarter_pipe\rectangle_in_quarter_pipe.gml
-Converted description /// @description  rectangle_in_quarter_pipe(sx1, sy1, sx2, sy2, cx, cy, xrad, yrad)/// @param sx1
+Converted description /// @description  rectangle_in_quarter_pipe(sx1, sy1, sx2, sy2, cx, cy, xrad, yrad)
+/// @param sx1
 /// @param  sy1
 /// @param  sx2
 /// @param  sy2
@@ -175,65 +193,79 @@ Converted builtin - line 21: view_xview[vind] -> __view_get( e__VW.XView, vind )
 Converted builtin - line 22: view_yview[vind] -> __view_get( e__VW.YView, vind )
 Converted builtin - line 23: view_wview[vind] -> __view_get( e__VW.WView, vind )
 Converted builtin - line 24: view_hview[vind] -> __view_get( e__VW.HView, vind )
-Converted description /// @description  rectangle_in_view(x1, y1, x2, y2, vind)/// @param x1
+Converted description /// @description  rectangle_in_view(x1, y1, x2, y2, vind)
+/// @param x1
 /// @param  y1
 /// @param  x2
 /// @param  y2
 /// @param  vind
 
 Converting GML script: ${project_dir}\scripts\instance_perform_user_event\instance_perform_user_event.gml
-Converted description /// @description  instance_perform_user_event(inst, index)/// @param inst
+Converted description /// @description  instance_perform_user_event(inst, index)
+/// @param inst
 /// @param  index
 
 Converting GML script: ${project_dir}\scripts\object_is_family\object_is_family.gml
-Converted description /// @description  object_is_family(obj, kind)/// @param obj
+Converted description /// @description  object_is_family(obj, kind)
+/// @param obj
 /// @param  kind
 
 Converting GML script: ${project_dir}\scripts\ceil_to\ceil_to.gml
-Converted description /// @description  ceil_to(n, m)/// @param n
+Converted description /// @description  ceil_to(n, m)
+/// @param n
 /// @param  m
 
 Converting GML script: ${project_dir}\scripts\floor_to\floor_to.gml
-Converted description /// @description  floor_to(n, m)/// @param n
+Converted description /// @description  floor_to(n, m)
+/// @param n
 /// @param  m
 
 Converting GML script: ${project_dir}\scripts\in_range\in_range.gml
-Converted description /// @description  in_range(n, a, b)/// @param n
+Converted description /// @description  in_range(n, a, b)
+/// @param n
 /// @param  a
 /// @param  b
 
 Converting GML script: ${project_dir}\scripts\round_to\round_to.gml
-Converted description /// @description  round_to(n, m)/// @param n
+Converted description /// @description  round_to(n, m)
+/// @param n
 /// @param  m
 
 Converting GML script: ${project_dir}\scripts\shader_set_uniform_color\shader_set_uniform_color.gml
-Converted description /// @description  shader_set_uniform_color(uniform_id, color)/// @param uniform_id
+Converted description /// @description  shader_set_uniform_color(uniform_id, color)
+/// @param uniform_id
 /// @param  color
 
 Converting GML script: ${project_dir}\scripts\shader_set_uniform_color_array\shader_set_uniform_color_array.gml
-Converted description /// @description  shader_set_uniform_color_array(uniform_id, colors)/// @param uniform_id
+Converted description /// @description  shader_set_uniform_color_array(uniform_id, colors)
+/// @param uniform_id
 /// @param  colors
 
 Converting GML script: ${project_dir}\scripts\string_format_zero\string_format_zero.gml
-Converted description /// @description  string_format_zero(val, total, dec)/// @param val
+Converted description /// @description  string_format_zero(val, total, dec)
+/// @param val
 /// @param  total
 /// @param  dec
 
 Converting GML script: ${project_dir}\scripts\timeline_expired\timeline_expired.gml
-Converted description /// @description  timeline_expired(obj)/// @param obj
+Converted description /// @description  timeline_expired(obj)
+/// @param obj
 
 Converting GML script: ${project_dir}\scripts\angle_wrap\angle_wrap.gml
-Converted description /// @description  angle_wrap(ang)/// @param ang
+Converted description /// @description  angle_wrap(ang)
+/// @param ang
 
 Converting GML script: ${project_dir}\scripts\instance_on_screen\instance_on_screen.gml
 Converted builtin - line 24: view_visible[vind] -> __view_get( e__VW.Visible, vind )
-Converted description /// @description  instance_on_screen(ind, [padding])/// @param ind
+Converted description /// @description  instance_on_screen(ind, [padding])
+/// @param ind
 /// @param  [padding]
 
 Converting GML script: ${project_dir}\scripts\view_centre\view_centre.gml
 Converted builtin - line 14: view_xview[vind] = clamp(ox - (view_wview[vind] * 0.5), 0, room_width - view_wview[vind]) -> __view_set( e__VW.XView, vind, clamp(ox - (view_wview[vind] * 0.5), 0, room_width - view_wview[vind]) )
 Converted builtin - line 15: view_yview[vind] = clamp(oy - (view_hview[vind] * 0.5), 0, room_height - view_hview[vind]) -> __view_set( e__VW.YView, vind, clamp(oy - (view_hview[vind] * 0.5), 0, room_height - view_hview[vind]) )
-Converted description /// @description  view_centre(vind, ox, oy)/// @param vind
+Converted description /// @description  view_centre(vind, ox, oy)
+/// @param vind
 /// @param  ox
 /// @param  oy
 Converted builtin - line 17: view_wview[vind] -> __view_get( e__VW.WView, vind )
@@ -242,7 +274,8 @@ Converted builtin - line 18: view_hview[vind] -> __view_get( e__VW.HView, vind )
 Converted builtin - line 18: view_hview[vind] -> __view_get( e__VW.HView, vind )
 
 Converting GML script: ${project_dir}\scripts\view_exists\view_exists.gml
-Converted description /// @description  view_exists(vind)/// @param vind
+Converted description /// @description  view_exists(vind)
+/// @param vind
 
 Converting GML script: ${project_dir}\scripts\view_follow\view_follow.gml
 Converted builtin - line 15: view_xview[vind] -> __view_get( e__VW.XView, vind )
@@ -263,68 +296,81 @@ Converted builtin - line 30: view_hspeed[vind] -> __view_get( e__VW.HSpeed, vind
 Converted builtin - line 32: view_vspeed[vind] -> __view_get( e__VW.VSpeed, vind )
 Converted builtin - line 32: view_vspeed[vind] -> __view_get( e__VW.VSpeed, vind )
 Converted builtin - line 33: view_vspeed[vind] -> __view_get( e__VW.VSpeed, vind )
-Converted description /// @description  view_follow(vind, ox, oy)/// @param vind
+Converted description /// @description  view_follow(vind, ox, oy)
+/// @param vind
 /// @param  ox
 /// @param  oy
 Converted builtin - line 41: view_xview[vind] = clamp(__view_get( e__VW.XView, vind ) + ocx, 0, room_width - __view_get( e__VW.WView, vind )) -> __view_set( e__VW.XView, vind, clamp(__view_get( e__VW.XView, vind ) + ocx, 0, room_width - __view_get( e__VW.WView, vind )) )
 Converted builtin - line 44: view_yview[vind] = clamp(__view_get( e__VW.YView, vind ) + ocy, 0, room_height - __view_get( e__VW.HView, vind )) -> __view_set( e__VW.YView, vind, clamp(__view_get( e__VW.YView, vind ) + ocy, 0, room_height - __view_get( e__VW.HView, vind )) )
 
 Converting GML script: ${project_dir}\scripts\game_audio_fade_in_music\game_audio_fade_in_music.gml
-Converted description /// @description  game_audio_fade_in_music(steps, [music])/// @param steps
+Converted description /// @description  game_audio_fade_in_music(steps, [music])
+/// @param steps
 /// @param  [music]
 
 Converting GML script: ${project_dir}\scripts\game_audio_fade_out_music\game_audio_fade_out_music.gml
-Converted description /// @description  game_audio_fade_out_music(steps, [music])/// @param steps
+Converted description /// @description  game_audio_fade_out_music(steps, [music])
+/// @param steps
 /// @param  [music]
 
 Converting GML script: ${project_dir}\scripts\game_audio_play\game_audio_play.gml
-Converted description /// @description  game_audio_play(soundid, [priority], [loops])/// @param soundid
+Converted description /// @description  game_audio_play(soundid, [priority], [loops])
+/// @param soundid
 /// @param  [priority]
 /// @param  [loops]
 
 Converting GML script: ${project_dir}\scripts\game_audio_play_fmod\game_audio_play_fmod.gml
-Converted description /// @description  game_audio_play_fmod(soundid)/// @param soundid
+Converted description /// @description  game_audio_play_fmod(soundid)
+/// @param soundid
 
 Converting GML script: ${project_dir}\scripts\game_audio_play_music\game_audio_play_music.gml
-Converted description /// @description  game_audio_play_music(soundid, [priority], [loops])/// @param soundid
+Converted description /// @description  game_audio_play_music(soundid, [priority], [loops])
+/// @param soundid
 /// @param  [priority]
 /// @param  [loops]
 
 Converting GML script: ${project_dir}\scripts\game_audio_play_sound\game_audio_play_sound.gml
-Converted description /// @description  game_audio_play_sound(soundid, [priority], [loops])/// @param soundid
+Converted description /// @description  game_audio_play_sound(soundid, [priority], [loops])
+/// @param soundid
 /// @param  [priority]
 /// @param  [loops]
 
 Converting GML script: ${project_dir}\scripts\game_audio_enqueue_jingle\game_audio_enqueue_jingle.gml
-Converted description /// @description  game_audio_enqueue_jingle(soundid, [time], [fadetime], [priority], [loops])/// @param soundid
+Converted description /// @description  game_audio_enqueue_jingle(soundid, [time], [fadetime], [priority], [loops])
+/// @param soundid
 /// @param  [time]
 /// @param  [fadetime]
 /// @param  [priority]
 /// @param  [loops]
 
 Converting GML script: ${project_dir}\scripts\game_audio_enqueue_music\game_audio_enqueue_music.gml
-Converted description /// @description  game_audio_enqueue_music(soundid, [priority], [loops])/// @param soundid
+Converted description /// @description  game_audio_enqueue_music(soundid, [priority], [loops])
+/// @param soundid
 /// @param  [priority]
 /// @param  [loops]
 
 Converting GML script: ${project_dir}\scripts\game_audio_enqueue_music_fmod\game_audio_enqueue_music_fmod.gml
-Converted description /// @description  game_audio_enqueue_music_fmod(soundid)/// @param soundid
+Converted description /// @description  game_audio_enqueue_music_fmod(soundid)
+/// @param soundid
 
 Converting GML script: ${project_dir}\scripts\game_audio_enqueue_music_timed\game_audio_enqueue_music_timed.gml
-Converted description /// @description  game_audio_enqueue_music_timed(soundid, [time], [priority], [loops])/// @param soundid
+Converted description /// @description  game_audio_enqueue_music_timed(soundid, [time], [priority], [loops])
+/// @param soundid
 /// @param  [time]
 /// @param  [priority]
 /// @param  [loops]
 
 Converting GML script: ${project_dir}\scripts\game_audio_enqueue_music_timed_fmod\game_audio_enqueue_music_timed_fmod.gml
-Converted description /// @description  game_audio_enqueue_music_timed_fmod(soundid, [time])/// @param soundid
+Converted description /// @description  game_audio_enqueue_music_timed_fmod(soundid, [time])
+/// @param soundid
 /// @param  [time]
 
 Converting GML script: ${project_dir}\scripts\game_audio_current_music\game_audio_current_music.gml
 Converted description /// @description  game_audio_current_music()
 
 Converting GML script: ${project_dir}\scripts\game_audio_fmod_add_sound\game_audio_fmod_add_sound.gml
-Converted description /// @description  game_audio_fmod_add_sound(fname, [looppoint])/// @param fname
+Converted description /// @description  game_audio_fmod_add_sound(fname, [looppoint])
+/// @param fname
 /// @param  [looppoint]
 
 Converting GML script: ${project_dir}\scripts\game_audio_pause_all\game_audio_pause_all.gml
@@ -334,10 +380,12 @@ Converting GML script: ${project_dir}\scripts\game_audio_resume_all\game_audio_r
 Converted description /// @description  game_audio_resume_all()
 
 Converting GML script: ${project_dir}\scripts\game_camera_default_behavior\game_camera_default_behavior.gml
-Converted description /// @description  game_camera_default_behavior(vind)/// @param vind
+Converted description /// @description  game_camera_default_behavior(vind)
+/// @param vind
 
 Converting GML script: ${project_dir}\scripts\game_camera_direct\game_camera_direct.gml
-Converted description /// @description  game_camera_direct(vind, script, [caller])/// @param vind
+Converted description /// @description  game_camera_direct(vind, script, [caller])
+/// @param vind
 /// @param  script
 /// @param  [caller]
 
@@ -345,19 +393,22 @@ Converting GML script: ${project_dir}\scripts\game_clock_get_step\game_clock_get
 Converted description /// @description  game_clock_get_step()
 
 Converting GML script: ${project_dir}\scripts\game_shape_in_line\game_shape_in_line.gml
-Converted description /// @description  game_shape_in_line(shape, x1, y1, x2, y2)/// @param shape
+Converted description /// @description  game_shape_in_line(shape, x1, y1, x2, y2)
+/// @param shape
 /// @param  x1
 /// @param  y1
 /// @param  x2
 /// @param  y2
 
 Converting GML script: ${project_dir}\scripts\game_shape_in_point\game_shape_in_point.gml
-Converted description /// @description  game_shape_in_point(shape, px, py)/// @param shape
+Converted description /// @description  game_shape_in_point(shape, px, py)
+/// @param shape
 /// @param  px
 /// @param  py
 
 Converting GML script: ${project_dir}\scripts\game_shape_in_rectangle\game_shape_in_rectangle.gml
-Converted description /// @description  game_shape_in_rectangle(shape, x1, y1, x2, y2)/// @param shape
+Converted description /// @description  game_shape_in_rectangle(shape, x1, y1, x2, y2)
+/// @param shape
 /// @param  x1
 /// @param  y1
 /// @param  x2
@@ -367,17 +418,20 @@ Converting GML script: ${project_dir}\scripts\game_console_reset\game_console_re
 Converted description /// @description  game_console_reset()
 
 Converting GML script: ${project_dir}\scripts\game_console_show_message\game_console_show_message.gml
-Converted description /// @description  game_console_show_message(text, [duration], [separation])/// @param text
+Converted description /// @description  game_console_show_message(text, [duration], [separation])
+/// @param text
 /// @param  [duration]
 /// @param  [separation]
 
 Converting GML script: ${project_dir}\scripts\game_spawn_rings\game_spawn_rings.gml
-Converted description /// @description  game_spawn_rings(rings, ox, oy)/// @param rings
+Converted description /// @description  game_spawn_rings(rings, ox, oy)
+/// @param rings
 /// @param  ox
 /// @param  oy
 
 Converting GML script: ${project_dir}\scripts\game_parallax_add_layer\game_parallax_add_layer.gml
-Converted description /// @description  game_parallax_add_layer(back, left, top, width, height, ox, oy, [x_tiled], [y_tiled], [x_ratio], [y_ratio], [x_separation], [y_separation], [x_speed], [y_speed]);/// @param back
+Converted description /// @description  game_parallax_add_layer(back, left, top, width, height, ox, oy, [x_tiled], [y_tiled], [x_ratio], [y_ratio], [x_separation], [y_separation], [x_speed], [y_speed]);
+/// @param back
 /// @param  left
 /// @param  top
 /// @param  width
@@ -394,7 +448,8 @@ Converted description /// @description  game_parallax_add_layer(back, left, top,
 /// @param  [y_speed]
 
 Converting GML script: ${project_dir}\scripts\game_parallax_add_sprite_layer\game_parallax_add_sprite_layer.gml
-Converted description /// @description  game_parallax_add_sprite_layer(sprite, subimg, subspd, ox, oy, [x_tiled], [y_tiled], [x_ratio], [y_ratio], [x_separation], [y_separation], [x_speed], [y_speed]);/// @param sprite
+Converted description /// @description  game_parallax_add_sprite_layer(sprite, subimg, subspd, ox, oy, [x_tiled], [y_tiled], [x_ratio], [y_ratio], [x_separation], [y_separation], [x_speed], [y_speed]);
+/// @param sprite
 /// @param  subimg
 /// @param  subspd
 /// @param  ox
@@ -409,7 +464,8 @@ Converted description /// @description  game_parallax_add_sprite_layer(sprite, s
 /// @param  [y_speed]
 
 Converting GML script: ${project_dir}\scripts\game_sign_add_moment\game_sign_add_moment.gml
-Converted description /// @description  game_sign_add_moment(ind, duration, delay, xpos, ypos, xscale, yscale, rot, color, alpha)/// @param ind
+Converted description /// @description  game_sign_add_moment(ind, duration, delay, xpos, ypos, xscale, yscale, rot, color, alpha)
+/// @param ind
 /// @param  duration
 /// @param  delay
 /// @param  xpos
@@ -424,83 +480,103 @@ Converting GML script: ${project_dir}\scripts\game_window_toggle_fullscreen\game
 Converted description /// @description  game_window_toggle_fullscreen()
 
 Converting GML script: ${project_dir}\scripts\game_window_update_ports\game_window_update_ports.gml
-Converted description /// @description  game_window_update_ports([total])/// @param [total]
+Converted description /// @description  game_window_update_ports([total])
+/// @param [total]
 
 Converting GML script: ${project_dir}\scripts\game_window_update_resolution\game_window_update_resolution.gml
 Converted description /// @description  game_window_update_resolution()
 
 Converting GML script: ${project_dir}\scripts\game_input_event\game_input_event.gml
-Converted description /// @description  game_input_event(event, [channel])/// @param event
+Converted description /// @description  game_input_event(event, [channel])
+/// @param event
 /// @param  [channel]
 
 Converting GML script: ${project_dir}\scripts\game_input_event_pressed\game_input_event_pressed.gml
-Converted description /// @description  game_input_event_pressed(event, [channel])/// @param event
+Converted description /// @description  game_input_event_pressed(event, [channel])
+/// @param event
 /// @param  [channel]
 
 Converting GML script: ${project_dir}\scripts\game_input_event_released\game_input_event_released.gml
-Converted description /// @description  game_input_event_released(event, [channel])/// @param event
+Converted description /// @description  game_input_event_released(event, [channel])
+/// @param event
 /// @param  [channel]
 
 Converting GML script: ${project_dir}\scripts\game_input_event_map_button\game_input_event_map_button.gml
-Converted description /// @description  game_input_event_map_button(channel, event, button)/// @param channel
+Converted description /// @description  game_input_event_map_button(channel, event, button)
+/// @param channel
 /// @param  event
 /// @param  button
 
 Converting GML script: ${project_dir}\scripts\game_input_event_map_key\game_input_event_map_key.gml
-Converted description /// @description  game_input_event_map_key(event, key)/// @param event
+Converted description /// @description  game_input_event_map_key(event, key)
+/// @param event
 /// @param  key
 
 Converting GML script: ${project_dir}\scripts\game_input_event_map_negative_axis\game_input_event_map_negative_axis.gml
-Converted description /// @description  game_input_event_map_negative_axis(channel, event, axis)/// @param channel
+Converted description /// @description  game_input_event_map_negative_axis(channel, event, axis)
+/// @param channel
 /// @param  event
 /// @param  axis
 
 Converting GML script: ${project_dir}\scripts\game_input_event_map_positive_axis\game_input_event_map_positive_axis.gml
-Converted description /// @description  game_input_event_map_positive_axis(channel, event, axis)/// @param channel
+Converted description /// @description  game_input_event_map_positive_axis(channel, event, axis)
+/// @param channel
 /// @param  event
 /// @param  axis
 
 Converting GML script: ${project_dir}\scripts\game_menu_add_page\game_menu_add_page.gml
-Converted description /// @description  game_menu_add_page(menu, page)/// @param menu
+Converted description /// @description  game_menu_add_page(menu, page)
+/// @param menu
 /// @param  page
 
 Converting GML script: ${project_dir}\scripts\game_menu_change_page\game_menu_change_page.gml
-Converted description /// @description  game_menu_change_page(menu, name)/// @param menu
+Converted description /// @description  game_menu_change_page(menu, name)
+/// @param menu
 /// @param  name
 
 Converting GML script: ${project_dir}\scripts\game_menu_find_page\game_menu_find_page.gml
-Converted description /// @description  game_menu_find_page(menu, name)/// @param menu
+Converted description /// @description  game_menu_find_page(menu, name)
+/// @param menu
 /// @param  name
 
 Converting GML script: ${project_dir}\scripts\game_menu_page_add_choice\game_menu_page_add_choice.gml
-Converted description /// @description  game_menu_page_add_choice(page, choice)/// @param page
+Converted description /// @description  game_menu_page_add_choice(page, choice)
+/// @param page
 /// @param  choice
 
 Converting GML script: ${project_dir}\scripts\game_menu_page_replace_choice\game_menu_page_replace_choice.gml
-Converted description /// @description  game_menu_page_replace_choice(page, choice, index)/// @param page
+Converted description /// @description  game_menu_page_replace_choice(page, choice, index)
+/// @param page
 /// @param  choice
 /// @param  index
 
 Converting GML script: ${project_dir}\scripts\player_is_climbing\player_is_climbing.gml
-Converted description /// @description  player_is_climbing(phase)/// @param phase
+Converted description /// @description  player_is_climbing(phase)
+/// @param phase
 
 Converting GML script: ${project_dir}\scripts\player_is_glide_falling\player_is_glide_falling.gml
-Converted description /// @description  player_is_glide_falling(phase)/// @param phase
+Converted description /// @description  player_is_glide_falling(phase)
+/// @param phase
 
 Converting GML script: ${project_dir}\scripts\player_is_gliding\player_is_gliding.gml
-Converted description /// @description  player_is_gliding(phase)/// @param phase
+Converted description /// @description  player_is_gliding(phase)
+/// @param phase
 
 Converting GML script: ${project_dir}\scripts\player_is_lifting\player_is_lifting.gml
-Converted description /// @description  player_is_lifting(phase)/// @param phase
+Converted description /// @description  player_is_lifting(phase)
+/// @param phase
 
 Converting GML script: ${project_dir}\scripts\player_is_aqua_bouncing\player_is_aqua_bouncing.gml
-Converted description /// @description  player_is_aqua_bouncing(phase)/// @param phase
+Converted description /// @description  player_is_aqua_bouncing(phase)
+/// @param phase
 
 Converting GML script: ${project_dir}\scripts\player_is_drop_dashing\player_is_drop_dashing.gml
-Converted description /// @description  player_is_drop_dashing(step)/// @param step
+Converted description /// @description  player_is_drop_dashing(step)
+/// @param step
 
 Converting GML script: ${project_dir}\scripts\player_is_super_sonic_flying\player_is_super_sonic_flying.gml
-Converted description /// @description  player_is_super_sonic_flying(phase)/// @param phase
+Converted description /// @description  player_is_super_sonic_flying(phase)
+/// @param phase
 
 Converting GML script: ${project_dir}\scripts\player_perform_flame_dash\player_perform_flame_dash.gml
 Converted description /// @description  player_perform_flame_dash()
@@ -509,46 +585,59 @@ Converting GML script: ${project_dir}\scripts\player_perform_thunder_jump\player
 Converted description /// @description  player_perform_thunder_jump()
 
 Converting GML script: ${project_dir}\scripts\player_is_flying\player_is_flying.gml
-Converted description /// @description  player_is_flying(phase)/// @param phase
+Converted description /// @description  player_is_flying(phase)
+/// @param phase
 
 Converting GML script: ${project_dir}\scripts\player_is_swimming\player_is_swimming.gml
-Converted description /// @description  player_is_swimming(phase)/// @param phase
+Converted description /// @description  player_is_swimming(phase)
+/// @param phase
 
 Converting GML script: ${project_dir}\scripts\player_is_falling\player_is_falling.gml
-Converted description /// @description  player_is_falling(phase)/// @param phase
+Converted description /// @description  player_is_falling(phase)
+/// @param phase
 
 Converting GML script: ${project_dir}\scripts\player_is_hurt\player_is_hurt.gml
-Converted description /// @description  player_is_hurt(phase)/// @param phase
+Converted description /// @description  player_is_hurt(phase)
+/// @param phase
 
 Converting GML script: ${project_dir}\scripts\player_is_jumping\player_is_jumping.gml
-Converted description /// @description  player_is_jumping(step)/// @param step
+Converted description /// @description  player_is_jumping(step)
+/// @param step
 
 Converting GML script: ${project_dir}\scripts\player_is_transforming\player_is_transforming.gml
-Converted description /// @description  player_is_transforming(phase)/// @param phase
+Converted description /// @description  player_is_transforming(phase)
+/// @param phase
 
 Converting GML script: ${project_dir}\scripts\player_is_debug\player_is_debug.gml
-Converted description /// @description  player_is_debug(phase)/// @param phase
+Converted description /// @description  player_is_debug(phase)
+/// @param phase
 
 Converting GML script: ${project_dir}\scripts\player_is_defeated\player_is_defeated.gml
-Converted description /// @description  player_is_defeated(step)/// @param step
+Converted description /// @description  player_is_defeated(step)
+/// @param step
 
 Converting GML script: ${project_dir}\scripts\player_is_drowning\player_is_drowning.gml
-Converted description /// @description  player_is_drowning(step)/// @param step
+Converted description /// @description  player_is_drowning(step)
+/// @param step
 
 Converting GML script: ${project_dir}\scripts\player_is_ready\player_is_ready.gml
-Converted description /// @description  player_is_ready(phase)/// @param phase
+Converted description /// @description  player_is_ready(phase)
+/// @param phase
 
 Converting GML script: ${project_dir}\scripts\game_pc_animate\game_pc_animate.gml
-Converted description /// @description  game_pc_animate(character, name, [reset?])/// @param character
+Converted description /// @description  game_pc_animate(character, name, [reset?])
+/// @param character
 /// @param  name
 /// @param  [reset?]
 
 Converting GML script: ${project_dir}\scripts\game_pc_animating\game_pc_animating.gml
-Converted description /// @description  game_pc_animating(character, animation)/// @param character
+Converted description /// @description  game_pc_animating(character, animation)
+/// @param character
 /// @param  animation
 
 Converting GML script: ${project_dir}\scripts\game_pc_define_animation\game_pc_define_animation.gml
-Converted description /// @description  game_pc_define_animation(character, animation, index)/// @param character
+Converted description /// @description  game_pc_define_animation(character, animation, index)
+/// @param character
 /// @param  animation
 /// @param  index
 
@@ -556,7 +645,8 @@ Converting GML script: ${project_dir}\scripts\game_pc_camera_state_aerial\game_p
 Converted builtin - line 14: view_hview[vind] -> __view_get( e__VW.HView, vind )
 Converted builtin - line 12: view_hspeed = x_speed * (freeze_time <= 0) -> __view_set( e__VW.HSpeed, 0, x_speed * (freeze_time <= 0) )
 Converted builtin - line 13: view_vspeed[vind] = min(min_y_speed + abs(y - yprevious), y_speed) -> __view_set( e__VW.VSpeed, vind, min(min_y_speed + abs(y - yprevious), y_speed) )
-Converted description /// @description  game_pc_camera_state_aerial(vind)/// @param vind
+Converted description /// @description  game_pc_camera_state_aerial(vind)
+/// @param vind
 Converted builtin - line 15: view_vborder[vind] = (__view_get( e__VW.HView, vind ) * 0.5) - y_border -> __view_set( e__VW.VBorder, vind, (__view_get( e__VW.HView, vind ) * 0.5) - y_border )
 
 Converting GML script: ${project_dir}\scripts\game_pc_camera_state_common\game_pc_camera_state_common.gml
@@ -564,377 +654,468 @@ Converted builtin - line 12: view_xview[vind] -> __view_get( e__VW.XView, vind )
 Converted builtin - line 13: view_yview[vind] -> __view_get( e__VW.YView, vind )
 Converted builtin - line 12: view_wview[vind] -> __view_get( e__VW.WView, vind )
 Converted builtin - line 13: view_hview[vind] -> __view_get( e__VW.HView, vind )
-Converted description /// @description  game_pc_camera_state_common(vind)/// @param vind
+Converted description /// @description  game_pc_camera_state_common(vind)
+/// @param vind
 Converted builtin - line 13: view_xview[vind] = clamp(__view_get( e__VW.XView, vind ), bound_left, bound_right - __view_get( e__VW.WView, vind )) -> __view_set( e__VW.XView, vind, clamp(__view_get( e__VW.XView, vind ), bound_left, bound_right - __view_get( e__VW.WView, vind )) )
 Converted builtin - line 14: view_yview[vind] = clamp(__view_get( e__VW.YView, vind ), bound_top, bound_bottom - __view_get( e__VW.HView, vind )) -> __view_set( e__VW.YView, vind, clamp(__view_get( e__VW.YView, vind ), bound_top, bound_bottom - __view_get( e__VW.HView, vind )) )
 
 Converting GML script: ${project_dir}\scripts\game_pc_camera_state_crouching\game_pc_camera_state_crouching.gml
-Converted description /// @description  game_pc_camera_state_crouching(vind)/// @param vind
+Converted description /// @description  game_pc_camera_state_crouching(vind)
+/// @param vind
 
 Converting GML script: ${project_dir}\scripts\game_pc_camera_state_grounded\game_pc_camera_state_grounded.gml
 Converted builtin - line 7: view_hview[vind] -> __view_get( e__VW.HView, vind )
 Converted builtin - line 5: view_hspeed = x_speed * (freeze_time <= 0) -> __view_set( e__VW.HSpeed, 0, x_speed * (freeze_time <= 0) )
 Converted builtin - line 6: view_vspeed[vind] = min(min_y_speed + abs(y - yprevious), y_speed) -> __view_set( e__VW.VSpeed, vind, min(min_y_speed + abs(y - yprevious), y_speed) )
-Converted description /// @description  game_pc_camera_state_grounded(vind)/// @param vind
+Converted description /// @description  game_pc_camera_state_grounded(vind)
+/// @param vind
 Converted builtin - line 8: view_vborder[vind] = (__view_get( e__VW.HView, vind ) * 0.5) -> __view_set( e__VW.VBorder, vind, (__view_get( e__VW.HView, vind ) * 0.5) )
 
 Converting GML script: ${project_dir}\scripts\game_pc_camera_state_looking\game_pc_camera_state_looking.gml
-Converted description /// @description  game_pc_camera_state_looking(vind)/// @param vind
+Converted description /// @description  game_pc_camera_state_looking(vind)
+/// @param vind
 
 Converting GML script: ${project_dir}\scripts\game_pc_camera_state_normal\game_pc_camera_state_normal.gml
-Converted description /// @description  game_pc_camera_state_normal(vind)/// @param vind
+Converted description /// @description  game_pc_camera_state_normal(vind)
+/// @param vind
 
 Converting GML script: ${project_dir}\scripts\game_pc_camera_connect\game_pc_camera_connect.gml
-Converted description /// @description  game_pc_camera_connect(character)/// @param character
+Converted description /// @description  game_pc_camera_connect(character)
+/// @param character
 
 Converting GML script: ${project_dir}\scripts\game_pc_camera_constraint\game_pc_camera_constraint.gml
-Converted description /// @description  game_pc_camera_constraint(character, left, top, right, bottom)/// @param character
+Converted description /// @description  game_pc_camera_constraint(character, left, top, right, bottom)
+/// @param character
 /// @param  left
 /// @param  top
 /// @param  right
 /// @param  bottom
 
 Converting GML script: ${project_dir}\scripts\game_pc_camera_direct\game_pc_camera_direct.gml
-Converted description /// @description  game_pc_camera_direct(character, script)/// @param character
+Converted description /// @description  game_pc_camera_direct(character, script)
+/// @param character
 /// @param  script
 
 Converting GML script: ${project_dir}\scripts\game_pc_camera_disconnect\game_pc_camera_disconnect.gml
-Converted description /// @description  game_pc_camera_disconnect(character)/// @param character
+Converted description /// @description  game_pc_camera_disconnect(character)
+/// @param character
 
 Converting GML script: ${project_dir}\scripts\game_pc_become_invincible\game_pc_become_invincible.gml
-Converted description /// @description  game_pc_become_invincible(character, time)/// @param character
+Converted description /// @description  game_pc_become_invincible(character, time)
+/// @param character
 /// @param  time
 
 Converting GML script: ${project_dir}\scripts\game_pc_become_super\game_pc_become_super.gml
-Converted description /// @description  game_pc_become_super(character)/// @param character
+Converted description /// @description  game_pc_become_super(character)
+/// @param character
 
 Converting GML script: ${project_dir}\scripts\game_pc_damage\game_pc_damage.gml
-Converted description /// @description  game_pc_damage(character, recoil_sign, [soundid])/// @param character
+Converted description /// @description  game_pc_damage(character, recoil_sign, [soundid])
+/// @param character
 /// @param  recoil_sign
 /// @param  [soundid]
 
 Converting GML script: ${project_dir}\scripts\game_pc_gain_shield\game_pc_gain_shield.gml
-Converted description /// @description  game_pc_gain_shield(character, kind)/// @param character
+Converted description /// @description  game_pc_gain_shield(character, kind)
+/// @param character
 /// @param  kind
 
 Converting GML script: ${project_dir}\scripts\game_pc_lose_super\game_pc_lose_super.gml
-Converted description /// @description  game_pc_lose_super(character)/// @param character
+Converted description /// @description  game_pc_lose_super(character)
+/// @param character
 
 Converting GML script: ${project_dir}\scripts\game_pc_perform\game_pc_perform.gml
-Converted description /// @description  game_pc_perform(character, action, [reset?])/// @param character
+Converted description /// @description  game_pc_perform(character, action, [reset?])
+/// @param character
 /// @param  action
 /// @param  [reset?]
 
 Converting GML script: ${project_dir}\scripts\game_pc_play_sound\game_pc_play_sound.gml
-Converted description /// @description  game_pc_play_sound(character, soundid, [loops])/// @param character
+Converted description /// @description  game_pc_play_sound(character, soundid, [loops])
+/// @param character
 /// @param  soundid
 /// @param  [loops]
 
 Converting GML script: ${project_dir}\scripts\game_pc_calc_shape_normal\game_pc_calc_shape_normal.gml
-Converted description /// @description  game_pc_calc_shape_normal(character, shape, orientation)/// @param character
+Converted description /// @description  game_pc_calc_shape_normal(character, shape, orientation)
+/// @param character
 /// @param  shape
 /// @param  orientation
 
 Converting GML script: ${project_dir}\scripts\game_pc_calc_slope_friction\game_pc_calc_slope_friction.gml
-Converted description /// @description  game_pc_calc_slope_friction(character, force, threshold)/// @param character
+Converted description /// @description  game_pc_calc_slope_friction(character, force, threshold)
+/// @param character
 /// @param  force
 /// @param  threshold
 
 Converting GML script: ${project_dir}\scripts\game_pc_calc_wall_distance\game_pc_calc_wall_distance.gml
-Converted description /// @description  game_pc_calc_wall_distance(character, ind, radius)/// @param character
+Converted description /// @description  game_pc_calc_wall_distance(character, ind, radius)
+/// @param character
 /// @param  ind
 /// @param  radius
 
 Converting GML script: ${project_dir}\scripts\game_pc_find_ceiling\game_pc_find_ceiling.gml
-Converted description /// @description  game_pc_find_ceiling(character, radius)/// @param character
+Converted description /// @description  game_pc_find_ceiling(character, radius)
+/// @param character
 /// @param  radius
 
 Converting GML script: ${project_dir}\scripts\game_pc_find_cliff\game_pc_find_cliff.gml
-Converted description /// @description  game_pc_find_cliff(character)/// @param character
+Converted description /// @description  game_pc_find_cliff(character)
+/// @param character
 
 Converting GML script: ${project_dir}\scripts\game_pc_find_ground\game_pc_find_ground.gml
-Converted description /// @description  game_pc_find_ground(character, radius)/// @param character
+Converted description /// @description  game_pc_find_ground(character, radius)
+/// @param character
 /// @param  radius
 
 Converting GML script: ${project_dir}\scripts\game_pc_find_outlier\game_pc_find_outlier.gml
-Converted description /// @description  game_pc_find_outlier(character)/// @param character
+Converted description /// @description  game_pc_find_outlier(character)
+/// @param character
 
 Converting GML script: ${project_dir}\scripts\game_pc_find_wall\game_pc_find_wall.gml
-Converted description /// @description  game_pc_find_wall(character, radius)/// @param character
+Converted description /// @description  game_pc_find_wall(character, radius)
+/// @param character
 /// @param  radius
 
 Converting GML script: ${project_dir}\scripts\game_pc_in_shape_bounds\game_pc_in_shape_bounds.gml
-Converted description /// @description  game_pc_in_shape_bounds(character, shape, orientation)/// @param character
+Converted description /// @description  game_pc_in_shape_bounds(character, shape, orientation)
+/// @param character
 /// @param  shape
 /// @param  orientation
 
 Converting GML script: ${project_dir}\scripts\game_pc_refresh_local_index\game_pc_refresh_local_index.gml
-Converted description /// @description  game_pc_refresh_local_index(character)/// @param character
+Converted description /// @description  game_pc_refresh_local_index(character)
+/// @param character
 
 Converting GML script: ${project_dir}\scripts\game_pc_arms_in_shape\game_pc_arms_in_shape.gml
-Converted description /// @description  game_pc_arms_in_shape(character, shape, radius)/// @param character
+Converted description /// @description  game_pc_arms_in_shape(character, shape, radius)
+/// @param character
 /// @param  shape
 /// @param  radius
 
 Converting GML script: ${project_dir}\scripts\game_pc_in_shape\game_pc_in_shape.gml
-Converted description /// @description  game_pc_in_shape(character, shape, xrad, yrad)/// @param character
+Converted description /// @description  game_pc_in_shape(character, shape, xrad, yrad)
+/// @param character
 /// @param  shape
 /// @param  xrad
 /// @param  yrad
 
 Converting GML script: ${project_dir}\scripts\game_pc_leg_in_shape\game_pc_leg_in_shape.gml
-Converted description /// @description  game_pc_leg_in_shape(character, shape, xrad, yrad)/// @param character
+Converted description /// @description  game_pc_leg_in_shape(character, shape, xrad, yrad)
+/// @param character
 /// @param  shape
 /// @param  xrad
 /// @param  yrad
 
 Converting GML script: ${project_dir}\scripts\game_pc_lower_in_shape\game_pc_lower_in_shape.gml
-Converted description /// @description  game_pc_lower_in_shape(character, shape, radius)/// @param character
+Converted description /// @description  game_pc_lower_in_shape(character, shape, radius)
+/// @param character
 /// @param  shape
 /// @param  radius
 
 Converting GML script: ${project_dir}\scripts\game_pc_upper_in_shape\game_pc_upper_in_shape.gml
-Converted description /// @description  game_pc_upper_in_shape(character, shape, radius)/// @param character
+Converted description /// @description  game_pc_upper_in_shape(character, shape, radius)
+/// @param character
 /// @param  shape
 /// @param  radius
 
 Converting GML script: ${project_dir}\scripts\player_react_to_boss_enemy\player_react_to_boss_enemy.gml
-Converted description /// @description  player_react_to_boss_enemy(ind, phase)/// @param ind
+Converted description /// @description  player_react_to_boss_enemy(ind, phase)
+/// @param ind
 /// @param  phase
 
 Converting GML script: ${project_dir}\scripts\player_react_to_breakable_wall\player_react_to_breakable_wall.gml
-Converted description /// @description  player_react_to_breakable_wall(ind, phase)/// @param ind
+Converted description /// @description  player_react_to_breakable_wall(ind, phase)
+/// @param ind
 /// @param  phase
 
 Converting GML script: ${project_dir}\scripts\player_react_to_bubble\player_react_to_bubble.gml
-Converted description /// @description  player_react_to_bubble(ind, phase)/// @param ind
+Converted description /// @description  player_react_to_bubble(ind, phase)
+/// @param ind
 /// @param  phase
 
 Converting GML script: ${project_dir}\scripts\player_react_to_bumper\player_react_to_bumper.gml
-Converted description /// @description  player_react_to_bumper(ind, phase)/// @param ind
+Converted description /// @description  player_react_to_bumper(ind, phase)
+/// @param ind
 /// @param  phase
 
 Converting GML script: ${project_dir}\scripts\player_react_to_climbable_wall\player_react_to_climbable_wall.gml
-Converted description /// @description  player_react_to_climbable_wall(ind, phase)/// @param ind
+Converted description /// @description  player_react_to_climbable_wall(ind, phase)
+/// @param ind
 /// @param  phase
 
 Converting GML script: ${project_dir}\scripts\player_react_to_corkscrew\player_react_to_corkscrew.gml
-Converted description /// @description  player_react_to_corkscrew(ind, phase)/// @param ind
+Converted description /// @description  player_react_to_corkscrew(ind, phase)
+/// @param ind
 /// @param  phase
 
 Converting GML script: ${project_dir}\scripts\player_react_to_crumbling_floor\player_react_to_crumbling_floor.gml
-Converted description /// @description  player_react_to_crumbling_floor(ind, phase)/// @param ind
+Converted description /// @description  player_react_to_crumbling_floor(ind, phase)
+/// @param ind
 /// @param  phase
 
 Converting GML script: ${project_dir}\scripts\player_react_to_death_zone\player_react_to_death_zone.gml
-Converted description /// @description  player_react_to_death_zone(ind, phase)/// @param ind
+Converted description /// @description  player_react_to_death_zone(ind, phase)
+/// @param ind
 /// @param  phase
 
 Converting GML script: ${project_dir}\scripts\player_react_to_enemy\player_react_to_enemy.gml
-Converted description /// @description  player_react_to_enemy(ind, phase)/// @param ind
+Converted description /// @description  player_react_to_enemy(ind, phase)
+/// @param ind
 /// @param  phase
 
 Converting GML script: ${project_dir}\scripts\player_react_to_hazard\player_react_to_hazard.gml
-Converted description /// @description  player_react_to_hazard(ind, phase)/// @param ind
+Converted description /// @description  player_react_to_hazard(ind, phase)
+/// @param ind
 /// @param  phase
 
 Converting GML script: ${project_dir}\scripts\player_react_to_lamp_post\player_react_to_lamp_post.gml
-Converted description /// @description  player_react_to_lamp_post(ind, phase)/// @param ind
+Converted description /// @description  player_react_to_lamp_post(ind, phase)
+/// @param ind
 /// @param  phase
 
 Converting GML script: ${project_dir}\scripts\player_react_to_layer_flip\player_react_to_layer_flip.gml
-Converted description /// @description  player_react_to_layer_flip(ind, phase)/// @param ind
+Converted description /// @description  player_react_to_layer_flip(ind, phase)
+/// @param ind
 /// @param  phase
 
 Converting GML script: ${project_dir}\scripts\player_react_to_monitor\player_react_to_monitor.gml
-Converted description /// @description  player_react_to_monitor(ind, phase)/// @param ind
+Converted description /// @description  player_react_to_monitor(ind, phase)
+/// @param ind
 /// @param  phase
 
 Converting GML script: ${project_dir}\scripts\player_react_to_push_block\player_react_to_push_block.gml
-Converted description /// @description  player_react_to_push_block(ind, phase)/// @param ind
+Converted description /// @description  player_react_to_push_block(ind, phase)
+/// @param ind
 /// @param  phase
 
 Converting GML script: ${project_dir}\scripts\player_react_to_ring\player_react_to_ring.gml
-Converted description /// @description  player_react_to_ring(ind, phase)/// @param ind
+Converted description /// @description  player_react_to_ring(ind, phase)
+/// @param ind
 /// @param  phase
 
 Converting GML script: ${project_dir}\scripts\player_react_to_score_bumper\player_react_to_score_bumper.gml
-Converted description /// @description  player_react_to_score_bumper(ind, phase)/// @param ind
+Converted description /// @description  player_react_to_score_bumper(ind, phase)
+/// @param ind
 /// @param  phase
 
 Converting GML script: ${project_dir}\scripts\player_react_to_speed_based_mask\player_react_to_speed_based_mask.gml
-Converted description /// @description  player_react_to_speed_based_mask(ind, phase)/// @param ind
+Converted description /// @description  player_react_to_speed_based_mask(ind, phase)
+/// @param ind
 /// @param  phase
 
 Converting GML script: ${project_dir}\scripts\player_react_to_spike_trap\player_react_to_spike_trap.gml
-Converted description /// @description  player_react_to_spike_trap(ind, phase)/// @param ind
+Converted description /// @description  player_react_to_spike_trap(ind, phase)
+/// @param ind
 /// @param  phase
 
 Converting GML script: ${project_dir}\scripts\player_react_to_spring\player_react_to_spring.gml
-Converted description /// @description  player_react_to_spring(ind, phase)/// @param ind
+Converted description /// @description  player_react_to_spring(ind, phase)
+/// @param ind
 /// @param  phase
 
 Converting GML script: ${project_dir}\scripts\player_react_to_spring_diagonal\player_react_to_spring_diagonal.gml
-Converted description /// @description  player_react_to_spring_diagonal(ind, phase)/// @param ind
+Converted description /// @description  player_react_to_spring_diagonal(ind, phase)
+/// @param ind
 /// @param  phase
 
 Converting GML script: ${project_dir}\scripts\player_react_to_switch\player_react_to_switch.gml
-Converted description /// @description  player_react_to_switch(ind, phase)/// @param ind
+Converted description /// @description  player_react_to_switch(ind, phase)
+/// @param ind
 /// @param  phase
 
 Converting GML script: ${project_dir}\scripts\player_react_to_water\player_react_to_water.gml
-Converted description /// @description  player_react_to_water(ind, phase)/// @param ind
+Converted description /// @description  player_react_to_water(ind, phase)
+/// @param ind
 /// @param  phase
 
 Converting GML script: ${project_dir}\scripts\player_react_to_world_ring\player_react_to_world_ring.gml
-Converted description /// @description  player_react_to_world_ring(ind, phase)/// @param ind
+Converted description /// @description  player_react_to_world_ring(ind, phase)
+/// @param ind
 /// @param  phase
 
 Converting GML script: ${project_dir}\scripts\game_pc_enter_reactions\game_pc_enter_reactions.gml
-Converted description /// @description  game_pc_enter_reactions(character)/// @param character
+Converted description /// @description  game_pc_enter_reactions(character)
+/// @param character
 
 Converting GML script: ${project_dir}\scripts\game_pc_exit_reactions\game_pc_exit_reactions.gml
-Converted description /// @description  game_pc_exit_reactions(character)/// @param character
+Converted description /// @description  game_pc_exit_reactions(character)
+/// @param character
 
 Converting GML script: ${project_dir}\scripts\game_pc_find_reactions\game_pc_find_reactions.gml
-Converted description /// @description  game_pc_find_reactions(character)/// @param character
+Converted description /// @description  game_pc_find_reactions(character)
+/// @param character
 
 Converting GML script: ${project_dir}\scripts\game_pc_memorize_reactions\game_pc_memorize_reactions.gml
-Converted description /// @description  game_pc_memorize_reactions(character)/// @param character
+Converted description /// @description  game_pc_memorize_reactions(character)
+/// @param character
 
 Converting GML script: ${project_dir}\scripts\game_pc_react_to\game_pc_react_to.gml
-Converted description /// @description  game_pc_react_to(character, ind)/// @param character
+Converted description /// @description  game_pc_react_to(character, ind)
+/// @param character
 /// @param  ind
 
 Converting GML script: ${project_dir}\scripts\game_pc_trigger_reactions\game_pc_trigger_reactions.gml
-Converted description /// @description  game_pc_trigger_reactions(character)/// @param character
+Converted description /// @description  game_pc_trigger_reactions(character)
+/// @param character
 
 Converting GML script: ${project_dir}\scripts\game_pc_arms_collision_solid\game_pc_arms_collision_solid.gml
-Converted description /// @description  game_pc_arms_collision_solid(character, radius)/// @param character
+Converted description /// @description  game_pc_arms_collision_solid(character, radius)
+/// @param character
 /// @param  radius
 
 Converting GML script: ${project_dir}\scripts\game_pc_lower_collision_solid\game_pc_lower_collision_solid.gml
-Converted description /// @description  game_pc_lower_collision_solid(character, radius)/// @param character
+Converted description /// @description  game_pc_lower_collision_solid(character, radius)
+/// @param character
 /// @param  radius
 
 Converting GML script: ${project_dir}\scripts\game_pc_upper_collision_solid\game_pc_upper_collision_solid.gml
-Converted description /// @description  game_pc_upper_collision_solid(character, radius)/// @param character
+Converted description /// @description  game_pc_upper_collision_solid(character, radius)
+/// @param character
 /// @param  radius
 
 Converting GML script: ${project_dir}\scripts\game_pc_move_in_air\game_pc_move_in_air.gml
-Converted description /// @description  game_pc_move_in_air(character)/// @param character
+Converted description /// @description  game_pc_move_in_air(character)
+/// @param character
 
 Converting GML script: ${project_dir}\scripts\game_pc_move_on_ground\game_pc_move_on_ground.gml
-Converted description /// @description  game_pc_move_on_ground(character)/// @param character
+Converted description /// @description  game_pc_move_on_ground(character)
+/// @param character
 
 Converting GML script: ${project_dir}\scripts\game_pc_sample_x\game_pc_sample_x.gml
-Converted description /// @description  game_pc_sample_x(character, script)/// @param character
+Converted description /// @description  game_pc_sample_x(character, script)
+/// @param character
 /// @param  script
 
 Converting GML script: ${project_dir}\scripts\game_pc_sample_y\game_pc_sample_y.gml
-Converted description /// @description  game_pc_sample_y(character, script)/// @param character
+Converted description /// @description  game_pc_sample_y(character, script)
+/// @param character
 /// @param  script
 
 Converting GML script: ${project_dir}\scripts\game_pc_step_in_air_horizontal\game_pc_step_in_air_horizontal.gml
-Converted description /// @description  game_pc_step_in_air_horizontal(character, step)/// @param character
+Converted description /// @description  game_pc_step_in_air_horizontal(character, step)
+/// @param character
 /// @param  step
 
 Converting GML script: ${project_dir}\scripts\game_pc_step_in_air_vertical\game_pc_step_in_air_vertical.gml
-Converted description /// @description  game_pc_step_in_air_vertical(character, step)/// @param character
+Converted description /// @description  game_pc_step_in_air_vertical(character, step)
+/// @param character
 /// @param  step
 
 Converting GML script: ${project_dir}\scripts\game_pc_step_on_ground\game_pc_step_on_ground.gml
-Converted description /// @description  game_pc_step_on_ground(character, step)/// @param character
+Converted description /// @description  game_pc_step_on_ground(character, step)
+/// @param character
 /// @param  step
 
 Converting GML script: ${project_dir}\scripts\game_pc_align\game_pc_align.gml
-Converted description /// @description  game_pc_align(character, dir)/// @param character
+Converted description /// @description  game_pc_align(character, dir)
+/// @param character
 /// @param  dir
 
 Converting GML script: ${project_dir}\scripts\game_pc_eject\game_pc_eject.gml
-Converted description /// @description  game_pc_eject(character, len, dir)/// @param character
+Converted description /// @description  game_pc_eject(character, len, dir)
+/// @param character
 /// @param  len
 /// @param  dir
 
 Converting GML script: ${project_dir}\scripts\game_pc_land\game_pc_land.gml
-Converted description /// @description  game_pc_land(character, ind)/// @param character
+Converted description /// @description  game_pc_land(character, ind)
+/// @param character
 /// @param  ind
 
 Converting GML script: ${project_dir}\scripts\game_pc_lift\game_pc_lift.gml
-Converted description /// @description  game_pc_lift(character, len, dir)/// @param character
+Converted description /// @description  game_pc_lift(character, len, dir)
+/// @param character
 /// @param  len
 /// @param  dir
 
 Converting GML script: ${project_dir}\scripts\game_pc_position\game_pc_position.gml
-Converted description /// @description  game_pc_position(character, nx, ny)/// @param character
+Converted description /// @description  game_pc_position(character, nx, ny)
+/// @param character
 /// @param  nx
 /// @param  ny
 
 Converting GML script: ${project_dir}\scripts\game_pc_redirect\game_pc_redirect.gml
-Converted description /// @description  game_pc_redirect(character, angle)/// @param character
+Converted description /// @description  game_pc_redirect(character, angle)
+/// @param character
 /// @param  angle
 
 Converting GML script: ${project_dir}\scripts\game_pc_redirect_gravity\game_pc_redirect_gravity.gml
-Converted description /// @description  game_pc_redirect_gravity(character, angle)/// @param character
+Converted description /// @description  game_pc_redirect_gravity(character, angle)
+/// @param character
 /// @param  angle
 
 Converting GML script: ${project_dir}\scripts\game_pc_refresh_physics\game_pc_refresh_physics.gml
-Converted description /// @description  game_pc_refresh_physics(character)/// @param character
+Converted description /// @description  game_pc_refresh_physics(character)
+/// @param character
 
 Converting GML script: ${project_dir}\scripts\game_pc_ride\game_pc_ride.gml
-Converted description /// @description  game_pc_ride(character, ind)/// @param character
+Converted description /// @description  game_pc_ride(character, ind)
+/// @param character
 /// @param  ind
 
 Converting GML script: ${project_dir}\scripts\game_pc_translate_speed\game_pc_translate_speed.gml
-Converted description /// @description  game_pc_translate_speed(character, len, dir)/// @param character
+Converted description /// @description  game_pc_translate_speed(character, len, dir)
+/// @param character
 /// @param  len
 /// @param  dir
 
 Converting GML script: ${project_dir}\scripts\game_player_find\game_player_find.gml
-Converted description /// @description  game_player_find(index)/// @param index
+Converted description /// @description  game_player_find(index)
+/// @param index
 
 Converting GML script: ${project_dir}\scripts\game_player_spawn_character\game_player_spawn_character.gml
-Converted description /// @description  game_player_spawn_character(player, ox, oy)/// @param player
+Converted description /// @description  game_player_spawn_character(player, ox, oy)
+/// @param player
 /// @param  ox
 /// @param  oy
 
 Converting GML script: ${project_dir}\scripts\game_player_spawn_rings\game_player_spawn_rings.gml
-Converted description /// @description  game_player_spawn_rings(player, cx, cy)/// @param player
+Converted description /// @description  game_player_spawn_rings(player, cx, cy)
+/// @param player
 /// @param  cx
 /// @param  cy
 
 Converting GML script: ${project_dir}\scripts\game_player_change_lives\game_player_change_lives.gml
-Converted description /// @description  game_player_change_lives(player, amount)/// @param player
+Converted description /// @description  game_player_change_lives(player, amount)
+/// @param player
 /// @param  amount
 
 Converting GML script: ${project_dir}\scripts\game_player_change_rings\game_player_change_rings.gml
-Converted description /// @description  game_player_change_rings(player, amount)/// @param player
+Converted description /// @description  game_player_change_rings(player, amount)
+/// @param player
 /// @param  amount
 
 Converting GML script: ${project_dir}\scripts\game_player_change_score\game_player_change_score.gml
-Converted description /// @description  game_player_change_score(player, amount)/// @param player
+Converted description /// @description  game_player_change_score(player, amount)
+/// @param player
 /// @param  amount
 
 Converting GML script: ${project_dir}\scripts\game_player_set_lives\game_player_set_lives.gml
-Converted description /// @description  game_player_set_lives(player, amount)/// @param player
+Converted description /// @description  game_player_set_lives(player, amount)
+/// @param player
 /// @param  amount
 
 Converting GML script: ${project_dir}\scripts\game_player_set_rings\game_player_set_rings.gml
-Converted description /// @description  game_player_set_rings(player, amount)/// @param player
+Converted description /// @description  game_player_set_rings(player, amount)
+/// @param player
 /// @param  amount
 
 Converting GML script: ${project_dir}\scripts\game_player_set_score\game_player_set_score.gml
-Converted description /// @description  game_player_set_score(player, amount)/// @param player
+Converted description /// @description  game_player_set_score(player, amount)
+/// @param player
 /// @param  amount
 
 Converting GML script: ${project_dir}\scripts\game_save_delete\game_save_delete.gml
-Converted description /// @description  game_save_delete([index])/// @param [index]
+Converted description /// @description  game_save_delete([index])
+/// @param [index]
 
 Converting GML script: ${project_dir}\scripts\game_save_delete_all\game_save_delete_all.gml
 Converted description /// @description  game_save_delete_all()
 
 Converting GML script: ${project_dir}\scripts\game_save_read\game_save_read.gml
-Converted description /// @description  game_save_read([index])/// @param [index]
+Converted description /// @description  game_save_read([index])
+/// @param [index]
 
 Converting GML script: ${project_dir}\scripts\game_save_read_all\game_save_read_all.gml
 Converted description /// @description  game_save_read_all()
@@ -943,7 +1124,8 @@ Converting GML script: ${project_dir}\scripts\game_save_refresh_all\game_save_re
 Converted description /// @description  game_save_refresh_all()
 
 Converting GML script: ${project_dir}\scripts\game_save_write\game_save_write.gml
-Converted description /// @description  game_save_write([index])/// @param [index]
+Converted description /// @description  game_save_write([index])
+/// @param [index]
 
 Converting GML script: ${project_dir}\scripts\game_save_write_all\game_save_write_all.gml
 Converted description /// @description  game_save_write_all()
@@ -952,47 +1134,59 @@ Converting GML script: ${project_dir}\scripts\game_save_current\game_save_curren
 Converted description /// @description  game_save_current()
 
 Converting GML script: ${project_dir}\scripts\game_save_find\game_save_find.gml
-Converted description /// @description  game_save_find(index)/// @param index
+Converted description /// @description  game_save_find(index)
+/// @param index
 
 Converting GML script: ${project_dir}\scripts\game_save_select_current\game_save_select_current.gml
-Converted description /// @description  game_save_select_current(index)/// @param index
+Converted description /// @description  game_save_select_current(index)
+/// @param index
 
 Converting GML script: ${project_dir}\scripts\game_save_start\game_save_start.gml
-Converted description /// @description  game_save_start([index])/// @param [index]
+Converted description /// @description  game_save_start([index])
+/// @param [index]
 
 Converting GML script: ${project_dir}\scripts\game_save_all_emeralds_found\game_save_all_emeralds_found.gml
-Converted description /// @description  game_save_all_emeralds_found([index])/// @param [index]
+Converted description /// @description  game_save_all_emeralds_found([index])
+/// @param [index]
 
 Converting GML script: ${project_dir}\scripts\game_save_collect_emerald\game_save_collect_emerald.gml
-Converted description /// @description  game_save_collect_emerald(emeraldIndex, [index])/// @param emeraldIndex
+Converted description /// @description  game_save_collect_emerald(emeraldIndex, [index])
+/// @param emeraldIndex
 /// @param  [index]
 
 Converting GML script: ${project_dir}\scripts\game_save_complete\game_save_complete.gml
-Converted description /// @description  game_save_complete([index])/// @param [index]
+Converted description /// @description  game_save_complete([index])
+/// @param [index]
 
 Converting GML script: ${project_dir}\scripts\game_save_update_continues\game_save_update_continues.gml
-Converted description /// @description  game_save_update_continues(amount, [index])/// @param amount
+Converted description /// @description  game_save_update_continues(amount, [index])
+/// @param amount
 /// @param  [index]
 
 Converting GML script: ${project_dir}\scripts\game_save_update_lives\game_save_update_lives.gml
-Converted description /// @description  game_save_update_lives(player, [index])/// @param player
+Converted description /// @description  game_save_update_lives(player, [index])
+/// @param player
 /// @param  [index]
 
 Converting GML script: ${project_dir}\scripts\game_save_update_location\game_save_update_location.gml
-Converted description /// @description  game_save_update_location([location], [index])/// @param [location]
+Converted description /// @description  game_save_update_location([location], [index])
+/// @param [location]
 /// @param  [index]
 
 Converting GML script: ${project_dir}\scripts\game_screen_fade_in\game_screen_fade_in.gml
-Converted description /// @description  game_screen_fade_in(shader, steps)/// @param shader
+Converted description /// @description  game_screen_fade_in(shader, steps)
+/// @param shader
 /// @param  steps
 
 Converting GML script: ${project_dir}\scripts\game_screen_fade_out\game_screen_fade_out.gml
-Converted description /// @description  game_screen_fade_out(shader, steps, [next_room])/// @param shader
+Converted description /// @description  game_screen_fade_out(shader, steps, [next_room])
+/// @param shader
 /// @param  steps
 /// @param  [next_room]
 
 Converting GML script: ${project_dir}\scripts\game_start_location_record\game_start_location_record.gml
-Converted description /// @description  game_start_location_record(ox, oy, [epoch], [location])/// @param ox
+Converted description /// @description  game_start_location_record(ox, oy, [epoch], [location])
+/// @param ox
 /// @param  oy
 /// @param  [epoch]
 /// @param  [location]
@@ -1187,7 +1381,8 @@ Converting GML script: ${project_dir}\timelines\SignPostAnim\moment_10.gml
 Converted description /// @description  Change frame
 
 Converting GML script: ${project_dir}\timelines\SignPostAnim\moment_11.gml
-Converted description /// @description  Sparkle (1)/// @param 1
+Converted description /// @description  Sparkle (1)
+/// @param 1
 
 Converting GML script: ${project_dir}\timelines\SignPostAnim\moment_12.gml
 Converted description /// @description  Change frame
@@ -1223,7 +1418,8 @@ Converting GML script: ${project_dir}\timelines\SignPostAnim\moment_32.gml
 Converted description /// @description  Change frame
 
 Converting GML script: ${project_dir}\timelines\SignPostAnim\moment_33.gml
-Converted description /// @description  Sparkle (3)/// @param 3
+Converted description /// @description  Sparkle (3)
+/// @param 3
 
 Converting GML script: ${project_dir}\timelines\SignPostAnim\moment_34.gml
 Converted description /// @description  Change frame
@@ -1259,7 +1455,8 @@ Converting GML script: ${project_dir}\timelines\SignPostAnim\moment_54.gml
 Converted description /// @description  Change frame
 
 Converting GML script: ${project_dir}\timelines\SignPostAnim\moment_55.gml
-Converted description /// @description  Sparkle (5)/// @param 5
+Converted description /// @description  Sparkle (5)
+/// @param 5
 
 Converting GML script: ${project_dir}\timelines\SignPostAnim\moment_56.gml
 Converted description /// @description  Change frame
@@ -1274,7 +1471,8 @@ Converting GML script: ${project_dir}\timelines\SignPostAnim\moment_62.gml
 Converted description /// @description  Change frame
 
 Converting GML script: ${project_dir}\timelines\SignPostAnim\moment_64.gml
-Converted description /// @description  Change frame (face)/// @param face
+Converted description /// @description  Change frame (face)
+/// @param face
 
 Converting GML script: ${project_dir}\timelines\SignPostAnim\moment_66.gml
 Converted description /// @description  Change frame
@@ -1286,7 +1484,8 @@ Converting GML script: ${project_dir}\timelines\SignPostAnim\moment_70.gml
 Converted description /// @description  Change frame
 
 Converting GML script: ${project_dir}\timelines\SignPostAnim\moment_72.gml
-Converted description /// @description  Change frame (face)/// @param face
+Converted description /// @description  Change frame (face)
+/// @param face
 
 Converting GML script: ${project_dir}\timelines\SignPostAnim\moment_74.gml
 Converted description /// @description  Change frame
@@ -1295,13 +1494,15 @@ Converting GML script: ${project_dir}\timelines\SignPostAnim\moment_76.gml
 Converted description /// @description  Change frame
 
 Converting GML script: ${project_dir}\timelines\SignPostAnim\moment_77.gml
-Converted description /// @description  Sparkle (7)/// @param 7
+Converted description /// @description  Sparkle (7)
+/// @param 7
 
 Converting GML script: ${project_dir}\timelines\SignPostAnim\moment_78.gml
 Converted description /// @description  Change frame
 
 Converting GML script: ${project_dir}\timelines\SignPostAnim\moment_80.gml
-Converted description /// @description  Change frame (face)/// @param face
+Converted description /// @description  Change frame (face)
+/// @param face
 
 Converting GML script: ${project_dir}\timelines\SignPostAnim\moment_82.gml
 Converted description /// @description  Change frame
@@ -1313,7 +1514,8 @@ Converting GML script: ${project_dir}\timelines\SignPostAnim\moment_86.gml
 Converted description /// @description  Change frame
 
 Converting GML script: ${project_dir}\timelines\SignPostAnim\moment_88.gml
-Converted description /// @description  Change frame (face)/// @param face
+Converted description /// @description  Change frame (face)
+/// @param face
 
 Converting GML script: ${project_dir}\timelines\SignPostAnim\moment_90.gml
 Converted description /// @description  Change frame
@@ -1325,13 +1527,15 @@ Converting GML script: ${project_dir}\timelines\SignPostAnim\moment_94.gml
 Converted description /// @description  Change frame
 
 Converting GML script: ${project_dir}\timelines\SignPostAnim\moment_96.gml
-Converted description /// @description  Change frame (face)/// @param face
+Converted description /// @description  Change frame (face)
+/// @param face
 
 Converting GML script: ${project_dir}\timelines\SignPostAnim\moment_98.gml
 Converted description /// @description  Change frame
 
 Converting GML script: ${project_dir}\timelines\SignPostAnim\moment_99.gml
-Converted description /// @description  Sparkle (1)/// @param 1
+Converted description /// @description  Sparkle (1)
+/// @param 1
 
 Converting GML script: ${project_dir}\timelines\SignPostAnim\moment_100.gml
 Converted description /// @description  Change frame
@@ -1340,7 +1544,8 @@ Converting GML script: ${project_dir}\timelines\SignPostAnim\moment_102.gml
 Converted description /// @description  Change frame
 
 Converting GML script: ${project_dir}\timelines\SignPostAnim\moment_104.gml
-Converted description /// @description  Change frame (face)/// @param face
+Converted description /// @description  Change frame (face)
+/// @param face
 
 Converting GML script: ${project_dir}\timelines\SignPostAnim\moment_106.gml
 Converted description /// @description  Change frame
@@ -1352,7 +1557,8 @@ Converting GML script: ${project_dir}\timelines\SignPostAnim\moment_110.gml
 Converted description /// @description  Change frame
 
 Converting GML script: ${project_dir}\timelines\SignPostAnim\moment_112.gml
-Converted description /// @description  Change frame (face)/// @param face
+Converted description /// @description  Change frame (face)
+/// @param face
 
 Converting GML script: ${project_dir}\timelines\SignPostAnim\moment_114.gml
 Converted description /// @description  Change frame
@@ -3686,7 +3892,8 @@ Converting GML script: ${project_dir}\objects\FMODGameMusic\Other_10.gml
 Converted description /// @description  Start
 
 Converting GML script: ${project_dir}\objects\FMODTimedGameMusic\Step_0.gml
-Converted description /// @description  Destroy (when finished)/// @param when finished
+Converted description /// @description  Destroy (when finished)
+/// @param when finished
 
 Converting GML script: ${project_dir}\objects\GameAudioConfiguration\Create_0.gml
 Converted description /// @description  Initialize
@@ -3722,10 +3929,12 @@ Converting GML script: ${project_dir}\objects\GMSGameMusic\Other_10.gml
 Converted description /// @description  Start
 
 Converting GML script: ${project_dir}\objects\GMSJingle\Destroy_0.gml
-Converted description /// @description  Restart (if applicable)/// @param if applicable
+Converted description /// @description  Restart (if applicable)
+/// @param if applicable
 
 Converting GML script: ${project_dir}\objects\GMSTimedGameMusic\Step_0.gml
-Converted description /// @description  Destroy (when finished)/// @param when finished
+Converted description /// @description  Destroy (when finished)
+/// @param when finished
 
 Converting GML script: ${project_dir}\objects\GameAudioSystem\Create_0.gml
 Converted description /// @description  Initialize
@@ -4145,10 +4354,12 @@ Converting GML script: ${project_dir}\objects\LegalDisclaimer\Draw_73.gml
 Converted description /// @description  Draw
 
 Converting GML script: ${project_dir}\objects\GameSuspension\Create_0.gml
-Converted description /// @description  Initialize (if first)/// @param if first
+Converted description /// @description  Initialize (if first)
+/// @param if first
 
 Converting GML script: ${project_dir}\objects\GameSuspension\Destroy_0.gml
-Converted description /// @description  Resume the game (if last)/// @param if last
+Converted description /// @description  Resume the game (if last)
+/// @param if last
 
 Converting GML script: ${project_dir}\objects\FadeIn\Step_2.gml
 Converted description /// @description  Transition
@@ -4236,10 +4447,12 @@ Converting GML script: ${project_dir}\objects\DevControl\Create_0.gml
 Converted description /// @description  Initialize
 
 Converting GML script: ${project_dir}\objects\DevControl\Keyboard_34.gml
-Converted description /// @description  Lower (water level)/// @param water level
+Converted description /// @description  Lower (water level)
+/// @param water level
 
 Converting GML script: ${project_dir}\objects\DevControl\Keyboard_33.gml
-Converted description /// @description  Rise (water level)/// @param water level
+Converted description /// @description  Rise (water level)
+/// @param water level
 
 Converting GML script: ${project_dir}\objects\DevControl\KeyPress_116.gml
 Converted description /// @description  Restart room
@@ -4248,10 +4461,12 @@ Converting GML script: ${project_dir}\objects\DevControl\KeyPress_114.gml
 Converted description /// @description  Increase display ports
 
 Converting GML script: ${project_dir}\objects\DevControl\KeyPress_90.gml
-Converted description /// @description  Reach max speed left (for player 1)/// @param for player 1
+Converted description /// @description  Reach max speed left (for player 1)
+/// @param for player 1
 
 Converting GML script: ${project_dir}\objects\DevControl\KeyPress_88.gml
-Converted description /// @description  Reach max speed right (for player 1)/// @param for player 1
+Converted description /// @description  Reach max speed right (for player 1)
+/// @param for player 1
 
 Converting GML script: ${project_dir}\objects\DevControl\KeyPress_87.gml
 Converted description /// @description  Reverse gravity
@@ -4260,7 +4475,8 @@ Converting GML script: ${project_dir}\objects\DevControl\KeyPress_84.gml
 Converted description /// @description  Add chaos emeralds
 
 Converting GML script: ${project_dir}\objects\DevControl\KeyPress_82.gml
-Converted description /// @description  Acquire 50 rings (for player 1)/// @param for player 1
+Converted description /// @description  Acquire 50 rings (for player 1)
+/// @param for player 1
 
 Converting GML script: ${project_dir}\objects\DevControl\KeyPress_81.gml
 Converted description /// @description  Shift gravity left
@@ -4269,7 +4485,8 @@ Converting GML script: ${project_dir}\objects\DevControl\KeyPress_69.gml
 Converted description /// @description  Shift gravity right
 
 Converting GML script: ${project_dir}\objects\DevControl\KeyPress_67.gml
-Converted description /// @description  Toggle debug flight (for player 1)/// @param for player 1
+Converted description /// @description  Toggle debug flight (for player 1)
+/// @param for player 1
 
 Converting GML script: ${project_dir}\objects\DevVisualization\Create_0.gml
 Converted description /// @description  Initialize
@@ -4323,7 +4540,8 @@ Converting GML script: ${project_dir}\objects\Enemy\Destroy_0.gml
 Converted description /// @description  Release
 
 Converting GML script: ${project_dir}\objects\RhinoBot\Step_2.gml
-Converted description /// @description  Move on terrain (and animate)/// @param and animate
+Converted description /// @description  Move on terrain (and animate)
+/// @param and animate
 
 Converting GML script: ${project_dir}\objects\RhinoBot\Step_0.gml
 Converted description /// @description  Patrol
@@ -4404,7 +4622,8 @@ Converting GML script: ${project_dir}\objects\SignPost\Step_2.gml
 Converted description /// @description  Gate
 
 Converting GML script: ${project_dir}\objects\Sonic2LampPost\Other_12.gml
-Converted description /// @description  Blink (Pre-Activated)/// @param Pre-Activated
+Converted description /// @description  Blink (Pre-Activated)
+/// @param Pre-Activated
 
 Converting GML script: ${project_dir}\objects\Sonic2LampPost\Other_11.gml
 Converted description /// @description  Deactivate
@@ -4416,7 +4635,8 @@ Converting GML script: ${project_dir}\objects\Sonic2SignPost\Other_10.gml
 Converted description /// @description  Activate
 
 Converting GML script: ${project_dir}\objects\LostRing\Step_2.gml
-Converted description /// @description  Destroy off-screen (otherwise, animate)/// @param otherwise
+Converted description /// @description  Destroy off-screen (otherwise, animate)
+/// @param otherwise
 /// @param  animate
 
 Converting GML script: ${project_dir}\objects\LostRing\Step_1.gml
@@ -4498,7 +4718,8 @@ Converting GML script: ${project_dir}\objects\Bubble\Step_0.gml
 Converted description /// @description  Rise in water
 
 Converting GML script: ${project_dir}\objects\BubbleCluster\Step_0.gml
-Converted description /// @description  Release (and animate)/// @param and animate
+Converted description /// @description  Release (and animate)
+/// @param and animate
 
 Converting GML script: ${project_dir}\objects\WaterBlend\Create_0.gml
 Converted description /// @description  Initialize
@@ -4580,7 +4801,8 @@ Converted builtin - line 2: view_yview[view_current] -> __view_get( e__VW.YView,
 Converted description /// @description  Render water
 
 Converting GML script: ${project_dir}\objects\ConveyorBelt\Step_2.gml
-Converted description /// @description  Reset to start (and animate)/// @param and animate
+Converted description /// @description  Reset to start (and animate)
+/// @param and animate
 
 Converting GML script: ${project_dir}\objects\ConveyorBelt\Step_1.gml
 Converted description /// @description  Shift left
@@ -4754,7 +4976,8 @@ Converting GML script: ${project_dir}\objects\GameMenuPage\Other_10.gml
 Converted description /// @description  Ascend
 
 Converting GML script: ${project_dir}\objects\GameMenuPage\Other_5.gml
-Converted description /// @description  Destroy (if not owned)/// @param if not owned
+Converted description /// @description  Destroy (if not owned)
+/// @param if not owned
 
 Converting GML script: ${project_dir}\objects\GameOverScreen\Step_0.gml
 Converted description /// @description  Handle state
@@ -4906,7 +5129,6 @@ Missing audiogroup for sound: 'FlightFallSound' - setting to default audio group
 Missing audiogroup for sound: 'FlightSound' - setting to default audio group
 Game speed set to 60
 Added compatibility script 'action/action_inherited.gml'
-Added compatibility script 'action/action_kill_object.gml'
 Added compatibility script 'background/background_get_height.gml'
 Added compatibility script 'background/background_get_width.gml'
 Added compatibility script 'background/draw_background.gml'
