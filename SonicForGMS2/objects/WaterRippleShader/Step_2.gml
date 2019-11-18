@@ -1,4 +1,4 @@
-action_inherited();
+event_inherited();
 /// Animate
 cycle_time = (game_clock_get_step() / room_speed) * cycle_speed;
 

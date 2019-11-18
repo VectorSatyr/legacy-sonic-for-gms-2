@@ -1,4 +1,4 @@
-action_inherited();
+event_inherited();
 /// Iniitalize animations
 game_pc_define_animation(self, "stand", KnucklesStanceAnim);
 game_pc_define_animation(self, "walk", KnucklesWalkAnim);

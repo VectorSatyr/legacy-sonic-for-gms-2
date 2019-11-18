@@ -1,4 +1,4 @@
-action_inherited();
+event_inherited();
 /// Initialize
 constant = true;
 mask_width = sprite_get_width(mask_index);

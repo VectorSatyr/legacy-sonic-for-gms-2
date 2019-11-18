@@ -1,4 +1,4 @@
-action_inherited();
+event_inherited();
 /// Initialize
 name = "select";
 event_descend = "left";

@@ -1,4 +1,4 @@
-action_inherited();
+event_inherited();
 /// Initialize
 timeline_running = true;
 timeline_loop = false;

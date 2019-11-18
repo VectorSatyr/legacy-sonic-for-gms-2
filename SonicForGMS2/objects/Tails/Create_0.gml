@@ -1,4 +1,4 @@
-action_inherited();
+event_inherited();
 /// Iniitalize animations
 game_pc_define_animation(self, "stand", TailsStanceAnim);
 game_pc_define_animation(self, "stance_loop", TailsStanceLoopAnim);

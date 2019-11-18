@@ -1,4 +1,4 @@
-action_inherited();
+event_inherited();
 /// Initialize
 name = "save";
 text = "ZONE 1";

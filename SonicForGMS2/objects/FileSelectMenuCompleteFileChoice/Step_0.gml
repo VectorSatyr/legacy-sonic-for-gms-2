@@ -1,4 +1,4 @@
-action_inherited();
+event_inherited();
 /// Update
 if (game_is_running()) {
     select_enabled = (selected and owner.mode == "select" and owner.cursor.hspeed == 0);

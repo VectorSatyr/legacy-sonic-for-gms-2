@@ -6,7 +6,7 @@ if (next != noone) {
     }
 }
 
-action_inherited();
+event_inherited();
 /// Fade in
 if (next == noone) {
     with (previous) {

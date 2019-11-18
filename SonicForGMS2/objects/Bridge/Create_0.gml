@@ -1,4 +1,4 @@
-action_inherited();
+event_inherited();
 /// Intialize
 bottom_solid = false;
 

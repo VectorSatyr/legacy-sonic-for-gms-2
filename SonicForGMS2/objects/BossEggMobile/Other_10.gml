@@ -1,4 +1,4 @@
-action_inherited();
+event_inherited();
 /// Animate
 with (eggman) {
     timeline_index = EggMobileEggmanStunnedAnim;

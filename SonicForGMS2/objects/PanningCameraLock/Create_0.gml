@@ -1,4 +1,4 @@
-action_inherited();
+event_inherited();
 /// Initialize
 enabled = false;
 scroll_hspeed = 2;

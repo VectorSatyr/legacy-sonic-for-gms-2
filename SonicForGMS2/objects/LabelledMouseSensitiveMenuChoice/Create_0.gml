@@ -1,4 +1,4 @@
-action_inherited();
+event_inherited();
 /// Initialize
 label = "";
 font = global.CrackersFont;

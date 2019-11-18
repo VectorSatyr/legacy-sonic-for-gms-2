@@ -1,4 +1,4 @@
-action_inherited();
+event_inherited();
 /// Initialize
 timeline_index = ThunderShieldAnim;
 timeline_position = 0;

@@ -1,4 +1,4 @@
-action_inherited();
+event_inherited();
 /// Destroy
 state = "destroyed";
 x_speed = 0;

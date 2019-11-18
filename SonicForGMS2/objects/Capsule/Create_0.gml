@@ -1,4 +1,4 @@
-action_inherited();
+event_inherited();
 /// Initialize
 opened = false;
 waiting_for_animals = false;

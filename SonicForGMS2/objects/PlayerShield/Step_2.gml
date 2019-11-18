@@ -1,4 +1,4 @@
-action_inherited();
+event_inherited();
 /// Adjust
 if (game_is_running()) {
     image_xscale = source.facing_sign;

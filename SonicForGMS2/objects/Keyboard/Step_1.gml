@@ -1,4 +1,4 @@
-action_inherited();
+event_inherited();
 /// Register
 for (var key = ds_map_find_first(buttons);
     not is_undefined(key);

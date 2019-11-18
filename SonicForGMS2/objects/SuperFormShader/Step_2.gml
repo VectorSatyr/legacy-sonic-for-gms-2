@@ -1,4 +1,4 @@
-action_inherited();
+event_inherited();
 /// Animate
 if (game_is_running()) {
     switch (state) {

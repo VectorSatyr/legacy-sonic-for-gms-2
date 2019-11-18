@@ -1,4 +1,4 @@
-action_inherited();
+event_inherited();
 /// Initialize
 shader = ColorReplaceShd;
 previous_shader = -1;

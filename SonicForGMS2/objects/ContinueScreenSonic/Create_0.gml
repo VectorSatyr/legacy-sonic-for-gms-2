@@ -1,4 +1,4 @@
-action_inherited();
+event_inherited();
 /// Initialize
 timeline_index = SonicContinueStanceAnim;
 timeline_speed = 1;

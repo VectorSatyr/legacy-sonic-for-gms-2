@@ -1,4 +1,4 @@
-action_inherited();
+event_inherited();
 /// Initialize
 text = "";
 text_ox = bbox_left + 13;

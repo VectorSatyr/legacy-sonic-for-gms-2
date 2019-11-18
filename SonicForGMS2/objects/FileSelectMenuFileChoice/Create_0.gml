@@ -1,4 +1,4 @@
-action_inherited();
+event_inherited();
 /// Initialize
 file_index = -1;
 

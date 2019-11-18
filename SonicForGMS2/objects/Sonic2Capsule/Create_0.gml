@@ -1,4 +1,4 @@
-action_inherited();
+event_inherited();
 /// Initialize
 button.y -= 52;
 button.visible = true;

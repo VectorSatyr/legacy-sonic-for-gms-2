@@ -1,4 +1,4 @@
-action_inherited();
+event_inherited();
 /// Initialize
 timeline_index = TailsAssistContinueStanceAnim;
 timeline_speed = 1;

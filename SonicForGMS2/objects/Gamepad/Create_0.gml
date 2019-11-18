@@ -1,4 +1,4 @@
-action_inherited();
+event_inherited();
 /// Initialize
 device = -1;
 axes_positive = ds_map_create();

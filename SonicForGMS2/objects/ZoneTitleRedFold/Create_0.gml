@@ -1,4 +1,4 @@
-action_inherited();
+event_inherited();
 /// Initialize
 back = ZoneTitleRedFoldBack
 height = background_get_height(back);

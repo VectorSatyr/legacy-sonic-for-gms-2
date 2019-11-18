@@ -1,4 +1,4 @@
-action_inherited();
+event_inherited();
 /// Initialize
 depth_mask = $03;
 normal = undefined;
