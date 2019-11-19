@@ -1,5 +1,5 @@
 event_inherited();
 /// Initialize
 back = ZoneTitleRedFoldBack
-height = background_get_height(back);
+height = sprite_get_height(back);
 

@@ -5128,8 +5128,6 @@ Missing audiogroup for sound: 'ThunderJumpSound' - setting to default audio grou
 Missing audiogroup for sound: 'FlightFallSound' - setting to default audio group
 Missing audiogroup for sound: 'FlightSound' - setting to default audio group
 Game speed set to 60
-Added compatibility script 'background/background_get_height.gml'
-Added compatibility script 'background/background_get_width.gml'
 Added compatibility script 'background/draw_background.gml'
 Added compatibility script 'background/draw_background_ext.gml'
 Added compatibility script 'background/draw_background_part_ext.gml'

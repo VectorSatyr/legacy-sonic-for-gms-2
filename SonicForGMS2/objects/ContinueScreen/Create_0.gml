@@ -22,7 +22,7 @@ continues_separation = 24;
 continues_flash = 0;
 
 continue_stars_back = ContinueScreenStarsBack;
-var w = background_get_width(continue_stars_back);
+var w = sprite_get_width(continue_stars_back);
 continue_stars_ox = countdown_ox - (w * 0.5);
 continue_stars_oy = countdown_oy - 1;
 

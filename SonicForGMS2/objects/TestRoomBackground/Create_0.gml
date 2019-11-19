@@ -6,10 +6,10 @@ total_lines = 20;
 scale_limit = 3;
 
 var back = OceanBack;
-var width = background_get_width(back);
-var height = background_get_height(back);
+var width = sprite_get_width(back);
+var height = sprite_get_height(back);
 
-var sky_height = background_get_height(SkyBack);
+var sky_height = sprite_get_height(SkyBack);
 
 event_user(0); // water height
 

@@ -4255,14 +4255,6 @@
             }
         },
         {
-            "Key": "722ff2bd-5c51-479c-800f-a2bbff0e4d8c",
-            "Value": {
-                "id": "d6233604-c2de-4bf0-b1f5-c655405823ed",
-                "resourcePath": "scripts\\@background_get_width\\background_get_width.yy",
-                "resourceType": "GMScript"
-            }
-        },
-        {
             "Key": "72402345-5282-4dc6-bbec-96c1857fc2aa",
             "Value": {
                 "id": "061eeb10-11ae-4ef5-b3e1-e3e1542b81f7",
@@ -6772,14 +6764,6 @@
                 "id": "3e29ad95-b0ed-4334-9480-4da1575e2d8c",
                 "resourcePath": "objects\\DefaultPlayerEntrance\\DefaultPlayerEntrance.yy",
                 "resourceType": "GMObject"
-            }
-        },
-        {
-            "Key": "b7dd5b77-97c2-4ba8-aaa8-7d51e0e61b0e",
-            "Value": {
-                "id": "7628f243-4cad-4663-b182-09b508eddd91",
-                "resourcePath": "scripts\\@background_get_height\\background_get_height.yy",
-                "resourceType": "GMScript"
             }
         },
         {
@@ -9494,8 +9478,6 @@
         "04910f36-049a-4403-8d80-c77f8a7cc635",
         "087f9894-6d64-4506-a898-d3f543b5365a",
         "d239b969-53f9-4d74-8305-f2c79a8655c2",
-        "b7dd5b77-97c2-4ba8-aaa8-7d51e0e61b0e",
-        "722ff2bd-5c51-479c-800f-a2bbff0e4d8c",
         "1d35b923-c7f9-4794-a977-45fc45022b34",
         "2ffd2811-1118-490f-b910-7dfa499bfdd0",
         "fb152e2c-7aa0-42ff-be96-557b8ecea5fa",

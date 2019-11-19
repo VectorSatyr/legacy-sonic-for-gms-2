@@ -3,7 +3,7 @@ event_inherited();
 image_speed = 0;
 
 var back = AzureLakeBack;
-var vscroll = (room_height - background_get_height(back)) / (room_height - CAMERA_HEIGHT);
+var vscroll = (room_height - sprite_get_height(back)) / (room_height - CAMERA_HEIGHT);
 
 // clouds
 game_parallax_add_layer(back, 0, 0, 256, 32, 0, 0, true, false, 0.85, vscroll, 0, 0, -0.4, 0);
