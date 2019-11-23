@@ -79,9 +79,7 @@ case "step":
 
     if (flight_time) {
         game_pc_animate(self, "swim");
-        if (y_speed >= 0) {
-            timeline_speed = 0.5;
-        }
+        timeline_speed = 0.75 - (0.25 * sign(y_speed));
     } else {
         game_pc_animate(self, "swim_fall");
     }
