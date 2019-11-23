@@ -12,5 +12,5 @@ draw_surface_stretched(application_surface, 1, 0, w, h);
 draw_set_color_write_enable(true, true, true, true);
 draw_enable_alphablend(true);
 draw_set_alpha_test(true);
-draw_background_tiled(ScanLinesBack, 0, 0);
+draw_sprite_tiled(ScanLinesBack, 0, 0, 0);
 

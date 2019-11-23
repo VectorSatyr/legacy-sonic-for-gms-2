@@ -8,12 +8,12 @@ if (view_current < MAX_PLAYER_COUNT) {
         draw_sprite(ZoneTitleS2ActSprite, scene_act - 1, x1 + act_screen_x + header_ox2, y1 + 62);
     }
 
-    draw_background(TimeBonusScoreBack, x1 + time_score_screen_x + time_score_ox, y1 + time_score_screen_y);
-    draw_background(RingBonusScoreBack, x1 + ring_score_screen_x + ring_score_ox, y1 + ring_score_screen_y);
+    draw_sprite(TimeBonusScoreBack, 0, x1 + time_score_screen_x + time_score_ox, y1 + time_score_screen_y);
+    draw_sprite(RingBonusScoreBack, 0, x1 + ring_score_screen_x + ring_score_ox, y1 + ring_score_screen_y);
     if (perfect_bonus > -1) {
-        draw_background(PerfectBonusScoreBack, x1 + perfect_score_screen_x + perfect_score_ox, y1 + perfect_score_screen_y);
+        draw_sprite(PerfectBonusScoreBack, 0, x1 + perfect_score_screen_x + perfect_score_ox, y1 + perfect_score_screen_y);
     }
-    draw_background(TotalBonusScoreBack, x1 + total_score_screen_x + total_score_ox, y1 + total_score_screen_y);
+    draw_sprite(TotalBonusScoreBack, 0, x1 + total_score_screen_x + total_score_ox, y1 + total_score_screen_y);
 
     if (continues_count > 0 and state == 5 and (continues_flash div 16) mod 2 == 0) {
         draw_sprite(continues_icon, game_clock_get_step() div 22, x1 + continues_screen_x, y1 + continues_screen_y);

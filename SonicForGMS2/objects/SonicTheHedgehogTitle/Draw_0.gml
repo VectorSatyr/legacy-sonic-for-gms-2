@@ -4,10 +4,10 @@ var alpha = draw_get_alpha();
 
 draw_sprite_ext(SonicTheHedgehogTitleSprite, image_index, logo_ox, logo_oy, image_xscale, image_yscale, image_angle, image_blend, image_alpha);
 
-draw_background_ext(LegalDisclaimerInputBack, disclaimer_ox, disclaimer_oy, image_xscale, image_yscale, image_angle, image_blend, image_alpha);
+draw_sprite_ext(LegalDisclaimerInputBack, 0, disclaimer_ox, disclaimer_oy, image_xscale, image_yscale, image_angle, image_blend, image_alpha);
 
 draw_set_alpha(press_start_alpha * image_alpha);
-draw_background(press_start_back, press_start_ox, press_start_oy);
+draw_sprite(press_start_back, 0, press_start_ox, press_start_oy);
 
 draw_set_font(font);
 draw_set_halign(fa_right);
