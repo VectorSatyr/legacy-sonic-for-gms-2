@@ -17,9 +17,8 @@ case os_macosx:
     break;
 }
 
-//draw_enable_alphablend(false);
-draw_set_alpha_test(true);
-draw_set_alpha_test_ref_value(0);
+gpu_set_alphatestenable(true);
+gpu_set_alphatestref(0);
 application_surface_draw_enable(false);
 
 event_user(0); // resize

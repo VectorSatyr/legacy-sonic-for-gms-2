@@ -4039,14 +4039,6 @@
             }
         },
         {
-            "Key": "6cbf6a62-2d83-4dc2-ad70-33db47dcd512",
-            "Value": {
-                "id": "8fb80109-ae69-4f12-8aba-bb125471a775",
-                "resourcePath": "scripts\\@draw_set_color_write_enable\\draw_set_color_write_enable.yy",
-                "resourceType": "GMScript"
-            }
-        },
-        {
             "Key": "6cf8bcc9-baaf-4188-af77-7b3eb3a7a03e",
             "Value": {
                 "id": "52b1b50f-864f-42af-9ff4-7e6051a0a86f",
@@ -4324,14 +4316,6 @@
                 "id": "f2144972-63e2-454d-b6d6-1990e3d6c285",
                 "resourcePath": "scripts\\object_is_family\\object_is_family.yy",
                 "resourceType": "GMScript"
-            }
-        },
-        {
-            "Key": "75030730-9b6a-4f4c-bd91-e9a6ae8d8706",
-            "Value": {
-                "id": "c509e662-eb6c-42a1-aaf9-5ccbb368ba1f",
-                "resourcePath": "views\\75030730-9b6a-4f4c-bd91-e9a6ae8d8706.yy",
-                "resourceType": "GMFolder"
             }
         },
         {
@@ -5451,14 +5435,6 @@
             "Value": {
                 "id": "fa6ac428-1824-414d-8f96-864a174942bb",
                 "resourcePath": "scripts\\game_pc_camera_state_looking\\game_pc_camera_state_looking.yy",
-                "resourceType": "GMScript"
-            }
-        },
-        {
-            "Key": "9253d8f1-6fc4-4513-8e54-da6275f3b2bc",
-            "Value": {
-                "id": "8000a61b-a63e-42f5-9bcd-db59134b501f",
-                "resourcePath": "scripts\\@draw_set_alpha_test_ref_value\\draw_set_alpha_test_ref_value.yy",
                 "resourceType": "GMScript"
             }
         },
@@ -7319,14 +7295,6 @@
             }
         },
         {
-            "Key": "c7751948-9a60-4de5-870f-443d64275f2e",
-            "Value": {
-                "id": "2a1e8799-9714-462c-96be-a0f2cb6fd97f",
-                "resourcePath": "scripts\\@draw_set_blend_mode_ext\\draw_set_blend_mode_ext.yy",
-                "resourceType": "GMScript"
-            }
-        },
-        {
             "Key": "c795a650-ec5c-4220-85d3-e84461cf84ac",
             "Value": {
                 "id": "18d0ae75-75b9-44b3-9af2-de77f4f25c96",
@@ -8007,14 +7975,6 @@
             }
         },
         {
-            "Key": "d932df63-7384-4e7b-b3eb-32b0e46a7888",
-            "Value": {
-                "id": "f3bf686b-ed8c-48ce-ba7a-1edabfcba673",
-                "resourcePath": "scripts\\@draw_set_alpha_test\\draw_set_alpha_test.yy",
-                "resourceType": "GMScript"
-            }
-        },
-        {
             "Key": "d93bef2d-2e06-443c-9aa9-aa616685177c",
             "Value": {
                 "id": "ac7f15ee-326c-4b74-87a7-68c79c4e6759",
@@ -8044,14 +8004,6 @@
                 "id": "d94de2c1-1c5c-4182-a71f-cd01911d6013",
                 "resourcePath": "sprites\\SonicBreatheSprite\\SonicBreatheSprite.yy",
                 "resourceType": "GMSprite"
-            }
-        },
-        {
-            "Key": "da1e10ab-3ad7-480a-9537-f1cf1de31272",
-            "Value": {
-                "id": "31e8fa48-cb7f-4b3e-8678-d0a69b7f7bf3",
-                "resourcePath": "scripts\\@draw_enable_alphablend\\draw_enable_alphablend.yy",
-                "resourceType": "GMScript"
             }
         },
         {
@@ -8767,14 +8719,6 @@
             }
         },
         {
-            "Key": "f1ee0530-012d-4494-8ff7-1120df2e5d64",
-            "Value": {
-                "id": "760a626c-f3d4-4479-b951-de7093c659dd",
-                "resourcePath": "scripts\\@draw_set_blend_mode\\draw_set_blend_mode.yy",
-                "resourceType": "GMScript"
-            }
-        },
-        {
             "Key": "f229f058-2ccf-428d-8492-f64de7177074",
             "Value": {
                 "id": "29adf6f1-fef6-4712-85b3-5dc1a30c1c25",
@@ -9430,12 +9374,6 @@
         "04910f36-049a-4403-8d80-c77f8a7cc635",
         "087f9894-6d64-4506-a898-d3f543b5365a",
         "d239b969-53f9-4d74-8305-f2c79a8655c2",
-        "da1e10ab-3ad7-480a-9537-f1cf1de31272",
-        "d932df63-7384-4e7b-b3eb-32b0e46a7888",
-        "9253d8f1-6fc4-4513-8e54-da6275f3b2bc",
-        "f1ee0530-012d-4494-8ff7-1120df2e5d64",
-        "c7751948-9a60-4de5-870f-443d64275f2e",
-        "6cbf6a62-2d83-4dc2-ad70-33db47dcd512",
         "8ccf574b-ed37-42c1-99ac-197a2b9b5836",
         "3f50a9fd-f10b-4421-933a-9bdc78349d5d",
         "43e50df2-e5c2-44c1-ae29-efd3c391a5dc",

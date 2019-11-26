@@ -5128,12 +5128,6 @@ Missing audiogroup for sound: 'ThunderJumpSound' - setting to default audio grou
 Missing audiogroup for sound: 'FlightFallSound' - setting to default audio group
 Missing audiogroup for sound: 'FlightSound' - setting to default audio group
 Game speed set to 60
-Added compatibility script 'draw/draw_enable_alphablend.gml'
-Added compatibility script 'draw/draw_set_alpha_test.gml'
-Added compatibility script 'draw/draw_set_alpha_test_ref_value.gml'
-Added compatibility script 'draw/draw_set_blend_mode.gml'
-Added compatibility script 'draw/draw_set_blend_mode_ext.gml'
-Added compatibility script 'draw/draw_set_color_write_enable.gml'
 Added compatibility script 'instance/instance_create.gml'
 Added compatibility script 'object/object_get_depth.gml'
 Added compatibility script 'view/__view_get.gml'
