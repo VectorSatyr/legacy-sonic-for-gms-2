@@ -6,7 +6,7 @@ cycle_time = (game_clock_get_step() / room_speed) * cycle_speed;
 visible = false;
 for (var n = 0; n < MAX_VIEW_COUNT; ++n) {
     view_render[n] = false;
-    if (__view_get( e__VW.Visible, n )) {
+    if (view_get_visible( n )) {
         with (Water) {
             if (rectangle_in_view(bbox_left, bbox_top, bbox_right, bbox_bottom, n)) {
                 other.view_render[n] = true;

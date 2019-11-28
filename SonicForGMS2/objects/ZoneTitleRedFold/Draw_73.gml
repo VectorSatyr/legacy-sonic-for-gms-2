@@ -1,5 +1,9 @@
 /// @description  Render
-for (var oy = 0; oy < __view_get( e__VW.WView, view_current ); oy += height) {
-    draw_sprite_ext(back, 0, __view_get( e__VW.XView, view_current ) + x, __view_get( e__VW.YView, view_current ) + y + oy, image_xscale, image_yscale, image_angle, image_blend, image_alpha);
+var cam = view_get_camera(view_current);
+var vx = camera_get_view_x(cam);
+var vy = camera_get_view_y(cam);
+var vw = camera_get_view_width(cam);
+for (var oy = 0; oy < vw; oy += height) {
+    draw_sprite_ext(back, 0, vx + x, vy + y + oy, image_xscale, image_yscale, image_angle, image_blend, image_alpha);
 }
 

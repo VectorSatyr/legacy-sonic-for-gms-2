@@ -23,10 +23,11 @@ var vind = argument4;
 var result = INTERSECT_NONE;
 
 if (view_exists(vind)) {
-    var vx1 = __view_get( e__VW.XView, vind );
-    var vy1 = __view_get( e__VW.YView, vind );
-    var vx2 = vx1 + __view_get( e__VW.WView, vind );
-    var vy2 = vy1 + __view_get( e__VW.HView, vind );
+	var cam = view_get_camera(vind);
+    var vx1 = camera_get_view_x(cam);
+    var vy1 = camera_get_view_y(cam);
+    var vx2 = vx1 + camera_get_view_width(cam);
+    var vy2 = vy1 + camera_get_view_height(cam);
     result = rectangle_in_rectangle(x1, y1, x2, y2, vx1, vy1, vx2, vy2);
 }
 

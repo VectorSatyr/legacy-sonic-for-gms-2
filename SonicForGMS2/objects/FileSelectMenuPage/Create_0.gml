@@ -62,7 +62,8 @@ delete_icon = instance_create(choice_delete.x, choice_delete.y, FileSelectMenuDe
 // cursor
 cursor = instance_create(starting_slot.x, starting_slot.y, FileSelectMenuCursor);
 game_camera_direct(0, game_camera_default_behavior, cursor);
-__view_set( e__VW.HBorder, 0, CAMERA_WIDTH * 0.5 );
+var cam = view_get_camera(0);
+camera_set_view_border(cam, CAMERA_WIDTH * 0.5, camera_get_view_border_y(cam));
 with (cursor) {
     game_camera_default_behavior(0);
 }

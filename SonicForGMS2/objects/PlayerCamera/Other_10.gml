@@ -6,11 +6,13 @@ if (view_exists(vind)) {
     bound_top = owner.bound_top;
     bound_right = owner.bound_right;
     bound_bottom = owner.bound_bottom;
-    __view_set( e__VW.XView, vind, clamp(__view_get( e__VW.XView, vind ), bound_left, bound_right - __view_get( e__VW.WView, vind )) );
-    __view_set( e__VW.YView, vind, clamp(__view_get( e__VW.YView, vind ), bound_top, bound_bottom - __view_get( e__VW.HView, vind )) );
-    __view_set( e__VW.HBorder, vind, (__view_get( e__VW.WView, vind ) * 0.5) - x_border );
-    __view_set( e__VW.VBorder, vind, (__view_get( e__VW.HView, vind ) * 0.5) - y_border );
-    __view_set( e__VW.HSpeed, vind, x_speed );
-    __view_set( e__VW.VSpeed, vind, y_speed );
+	var cam = view_get_camera(vind);
+	var view_x = clamp(camera_get_view_x(cam), bound_left, bound_right - camera_get_view_width(cam));
+	var view_y = clamp(camera_get_view_y(cam), bound_top, bound_bottom - camera_get_view_height(cam));
+	var border_x = (camera_get_view_width(cam) * 0.5) - x_border;
+	var border_y = (camera_get_view_height(cam) * 0.5) - y_border;
+	camera_set_view_pos(cam, view_x, view_y);
+	camera_set_view_border(cam, border_x, border_y);
+	camera_set_view_speed(cam, x_speed, y_speed);
 }
 

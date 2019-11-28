@@ -23,7 +23,7 @@ if (view_enabled) {
     var x2 = ind.x + padding;
     var y2 = ind.y + padding;
     for (var vind = 0; vind < MAX_VIEW_COUNT; ++vind) {
-        if (__view_get( e__VW.Visible, vind ) and rectangle_in_view(x1, y1, x2, y2, vind)) {
+        if (view_get_visible( vind ) and rectangle_in_view(x1, y1, x2, y2, vind)) {
             result = true;
             break;
         }

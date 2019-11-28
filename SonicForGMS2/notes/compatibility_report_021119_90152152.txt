@@ -189,10 +189,6 @@ Converted description /// @description  rectangle_in_quarter_pipe(sx1, sy1, sx2,
 /// @param  yrad
 
 Converting GML script: ${project_dir}\scripts\rectangle_in_view\rectangle_in_view.gml
-Converted builtin - line 21: view_xview[vind] -> __view_get( e__VW.XView, vind )
-Converted builtin - line 22: view_yview[vind] -> __view_get( e__VW.YView, vind )
-Converted builtin - line 23: view_wview[vind] -> __view_get( e__VW.WView, vind )
-Converted builtin - line 24: view_hview[vind] -> __view_get( e__VW.HView, vind )
 Converted description /// @description  rectangle_in_view(x1, y1, x2, y2, vind)
 /// @param x1
 /// @param  y1
@@ -256,52 +252,26 @@ Converted description /// @description  angle_wrap(ang)
 /// @param ang
 
 Converting GML script: ${project_dir}\scripts\instance_on_screen\instance_on_screen.gml
-Converted builtin - line 24: view_visible[vind] -> __view_get( e__VW.Visible, vind )
+Converted builtin - line 24: view_visible[vind] -> view_get_visible( vind )
 Converted description /// @description  instance_on_screen(ind, [padding])
 /// @param ind
 /// @param  [padding]
 
 Converting GML script: ${project_dir}\scripts\view_centre\view_centre.gml
-Converted builtin - line 14: view_xview[vind] = clamp(ox - (view_wview[vind] * 0.5), 0, room_width - view_wview[vind]) -> __view_set( e__VW.XView, vind, clamp(ox - (view_wview[vind] * 0.5), 0, room_width - view_wview[vind]) )
-Converted builtin - line 15: view_yview[vind] = clamp(oy - (view_hview[vind] * 0.5), 0, room_height - view_hview[vind]) -> __view_set( e__VW.YView, vind, clamp(oy - (view_hview[vind] * 0.5), 0, room_height - view_hview[vind]) )
 Converted description /// @description  view_centre(vind, ox, oy)
 /// @param vind
 /// @param  ox
 /// @param  oy
-Converted builtin - line 17: view_wview[vind] -> __view_get( e__VW.WView, vind )
-Converted builtin - line 17: view_wview[vind] -> __view_get( e__VW.WView, vind )
-Converted builtin - line 18: view_hview[vind] -> __view_get( e__VW.HView, vind )
-Converted builtin - line 18: view_hview[vind] -> __view_get( e__VW.HView, vind )
 
 Converting GML script: ${project_dir}\scripts\view_exists\view_exists.gml
 Converted description /// @description  view_exists(vind)
 /// @param vind
 
 Converting GML script: ${project_dir}\scripts\view_follow\view_follow.gml
-Converted builtin - line 15: view_xview[vind] -> __view_get( e__VW.XView, vind )
-Converted builtin - line 38: view_xview[vind] -> __view_get( e__VW.XView, vind )
-Converted builtin - line 16: view_yview[vind] -> __view_get( e__VW.YView, vind )
-Converted builtin - line 41: view_yview[vind] -> __view_get( e__VW.YView, vind )
-Converted builtin - line 15: view_wview[vind] -> __view_get( e__VW.WView, vind )
-Converted builtin - line 23: view_wview[vind] -> __view_get( e__VW.WView, vind )
-Converted builtin - line 38: view_wview[vind] -> __view_get( e__VW.WView, vind )
-Converted builtin - line 16: view_hview[vind] -> __view_get( e__VW.HView, vind )
-Converted builtin - line 24: view_hview[vind] -> __view_get( e__VW.HView, vind )
-Converted builtin - line 41: view_hview[vind] -> __view_get( e__VW.HView, vind )
-Converted builtin - line 23: view_hborder[vind] -> __view_get( e__VW.HBorder, vind )
-Converted builtin - line 24: view_vborder[vind] -> __view_get( e__VW.VBorder, vind )
-Converted builtin - line 29: view_hspeed[vind] -> __view_get( e__VW.HSpeed, vind )
-Converted builtin - line 29: view_hspeed[vind] -> __view_get( e__VW.HSpeed, vind )
-Converted builtin - line 30: view_hspeed[vind] -> __view_get( e__VW.HSpeed, vind )
-Converted builtin - line 32: view_vspeed[vind] -> __view_get( e__VW.VSpeed, vind )
-Converted builtin - line 32: view_vspeed[vind] -> __view_get( e__VW.VSpeed, vind )
-Converted builtin - line 33: view_vspeed[vind] -> __view_get( e__VW.VSpeed, vind )
 Converted description /// @description  view_follow(vind, ox, oy)
 /// @param vind
 /// @param  ox
 /// @param  oy
-Converted builtin - line 41: view_xview[vind] = clamp(__view_get( e__VW.XView, vind ) + ocx, 0, room_width - __view_get( e__VW.WView, vind )) -> __view_set( e__VW.XView, vind, clamp(__view_get( e__VW.XView, vind ) + ocx, 0, room_width - __view_get( e__VW.WView, vind )) )
-Converted builtin - line 44: view_yview[vind] = clamp(__view_get( e__VW.YView, vind ) + ocy, 0, room_height - __view_get( e__VW.HView, vind )) -> __view_set( e__VW.YView, vind, clamp(__view_get( e__VW.YView, vind ) + ocy, 0, room_height - __view_get( e__VW.HView, vind )) )
 
 Converting GML script: ${project_dir}\scripts\game_audio_fade_in_music\game_audio_fade_in_music.gml
 Converted description /// @description  game_audio_fade_in_music(steps, [music])
@@ -642,34 +612,20 @@ Converted description /// @description  game_pc_define_animation(character, anim
 /// @param  index
 
 Converting GML script: ${project_dir}\scripts\game_pc_camera_state_aerial\game_pc_camera_state_aerial.gml
-Converted builtin - line 14: view_hview[vind] -> __view_get( e__VW.HView, vind )
-Converted builtin - line 12: view_hspeed = x_speed * (freeze_time <= 0) -> __view_set( e__VW.HSpeed, 0, x_speed * (freeze_time <= 0) )
-Converted builtin - line 13: view_vspeed[vind] = min(min_y_speed + abs(y - yprevious), y_speed) -> __view_set( e__VW.VSpeed, vind, min(min_y_speed + abs(y - yprevious), y_speed) )
 Converted description /// @description  game_pc_camera_state_aerial(vind)
 /// @param vind
-Converted builtin - line 15: view_vborder[vind] = (__view_get( e__VW.HView, vind ) * 0.5) - y_border -> __view_set( e__VW.VBorder, vind, (__view_get( e__VW.HView, vind ) * 0.5) - y_border )
 
 Converting GML script: ${project_dir}\scripts\game_pc_camera_state_common\game_pc_camera_state_common.gml
-Converted builtin - line 12: view_xview[vind] -> __view_get( e__VW.XView, vind )
-Converted builtin - line 13: view_yview[vind] -> __view_get( e__VW.YView, vind )
-Converted builtin - line 12: view_wview[vind] -> __view_get( e__VW.WView, vind )
-Converted builtin - line 13: view_hview[vind] -> __view_get( e__VW.HView, vind )
 Converted description /// @description  game_pc_camera_state_common(vind)
 /// @param vind
-Converted builtin - line 13: view_xview[vind] = clamp(__view_get( e__VW.XView, vind ), bound_left, bound_right - __view_get( e__VW.WView, vind )) -> __view_set( e__VW.XView, vind, clamp(__view_get( e__VW.XView, vind ), bound_left, bound_right - __view_get( e__VW.WView, vind )) )
-Converted builtin - line 14: view_yview[vind] = clamp(__view_get( e__VW.YView, vind ), bound_top, bound_bottom - __view_get( e__VW.HView, vind )) -> __view_set( e__VW.YView, vind, clamp(__view_get( e__VW.YView, vind ), bound_top, bound_bottom - __view_get( e__VW.HView, vind )) )
 
 Converting GML script: ${project_dir}\scripts\game_pc_camera_state_crouching\game_pc_camera_state_crouching.gml
 Converted description /// @description  game_pc_camera_state_crouching(vind)
 /// @param vind
 
 Converting GML script: ${project_dir}\scripts\game_pc_camera_state_grounded\game_pc_camera_state_grounded.gml
-Converted builtin - line 7: view_hview[vind] -> __view_get( e__VW.HView, vind )
-Converted builtin - line 5: view_hspeed = x_speed * (freeze_time <= 0) -> __view_set( e__VW.HSpeed, 0, x_speed * (freeze_time <= 0) )
-Converted builtin - line 6: view_vspeed[vind] = min(min_y_speed + abs(y - yprevious), y_speed) -> __view_set( e__VW.VSpeed, vind, min(min_y_speed + abs(y - yprevious), y_speed) )
 Converted description /// @description  game_pc_camera_state_grounded(vind)
 /// @param vind
-Converted builtin - line 8: view_vborder[vind] = (__view_get( e__VW.HView, vind ) * 0.5) -> __view_set( e__VW.VBorder, vind, (__view_get( e__VW.HView, vind ) * 0.5) )
 
 Converting GML script: ${project_dir}\scripts\game_pc_camera_state_looking\game_pc_camera_state_looking.gml
 Converted description /// @description  game_pc_camera_state_looking(vind)
@@ -4054,45 +4010,21 @@ Converting GML script: ${project_dir}\objects\ParallaxLayer\Step_0.gml
 Converted description /// @description  Move
 
 Converting GML script: ${project_dir}\objects\ParallaxLayer\Draw_0.gml
-Converted builtin - line 3: view_xview[view_current] -> __view_get( e__VW.XView, view_current )
-Converted builtin - line 9: view_xview[view_current] -> __view_get( e__VW.XView, view_current )
-Converted builtin - line 9: view_xview[view_current] -> __view_get( e__VW.XView, view_current )
-Converted builtin - line 10: view_xview[view_current] -> __view_get( e__VW.XView, view_current )
-Converted builtin - line 4: view_yview[view_current] -> __view_get( e__VW.YView, view_current )
-Converted builtin - line 16: view_yview[view_current] -> __view_get( e__VW.YView, view_current )
-Converted builtin - line 16: view_yview[view_current] -> __view_get( e__VW.YView, view_current )
-Converted builtin - line 17: view_yview[view_current] -> __view_get( e__VW.YView, view_current )
-Converted builtin - line 10: view_wview[view_current] -> __view_get( e__VW.WView, view_current )
-Converted builtin - line 17: view_hview[view_current] -> __view_get( e__VW.HView, view_current )
 Converted description /// @description  Render
 
 Converting GML script: ${project_dir}\objects\ParallaxSpriteLayer\Step_2.gml
 Converted description /// @description  Wrap texture
 
 Converting GML script: ${project_dir}\objects\ParallaxSpriteLayer\Draw_0.gml
-Converted builtin - line 3: view_xview[view_current] -> __view_get( e__VW.XView, view_current )
-Converted builtin - line 9: view_xview[view_current] -> __view_get( e__VW.XView, view_current )
-Converted builtin - line 9: view_xview[view_current] -> __view_get( e__VW.XView, view_current )
-Converted builtin - line 10: view_xview[view_current] -> __view_get( e__VW.XView, view_current )
-Converted builtin - line 4: view_yview[view_current] -> __view_get( e__VW.YView, view_current )
-Converted builtin - line 16: view_yview[view_current] -> __view_get( e__VW.YView, view_current )
-Converted builtin - line 16: view_yview[view_current] -> __view_get( e__VW.YView, view_current )
-Converted builtin - line 17: view_yview[view_current] -> __view_get( e__VW.YView, view_current )
-Converted builtin - line 10: view_wview[view_current] -> __view_get( e__VW.WView, view_current )
-Converted builtin - line 17: view_hview[view_current] -> __view_get( e__VW.HView, view_current )
 Converted description /// @description  Render background
 
 Converting GML script: ${project_dir}\objects\DrownPopup\Step_2.gml
-Converted builtin - line 6: view_xview[vind] -> __view_get( e__VW.XView, vind )
-Converted builtin - line 7: view_yview[vind] -> __view_get( e__VW.YView, vind )
 Converted description /// @description  Animate
 
 Converting GML script: ${project_dir}\objects\DrownPopup\Step_0.gml
 Converted description /// @description  Rise in water
 
 Converting GML script: ${project_dir}\objects\DrownPopup\Draw_0.gml
-Converted builtin - line 3: view_xview[vind] -> __view_get( e__VW.XView, vind )
-Converted builtin - line 3: view_yview[vind] -> __view_get( e__VW.YView, vind )
 Converted description /// @description  Draw
 
 Converting GML script: ${project_dir}\objects\ScorePopup\Create_0.gml
@@ -4114,31 +4046,6 @@ Converting GML script: ${project_dir}\objects\GameWindow\Other_12.gml
 Converted description /// @description  Fullscreen
 
 Converting GML script: ${project_dir}\objects\GameWindow\Other_11.gml
-Converted builtin - line 5: view_visible[vind] = false -> __view_set( e__VW.Visible, vind, false )
-Converted builtin - line 16: view_visible[vind] = true -> __view_set( e__VW.Visible, vind, true )
-Converted builtin - line 23: view_visible[0] = true -> __view_set( e__VW.Visible, 0, true )
-Converted builtin - line 27: view_visible[vind] = true -> __view_set( e__VW.Visible, vind, true )
-Converted builtin - line 37: view_visible[vind] = true -> __view_set( e__VW.Visible, vind, true )
-Converted builtin - line 46: view_visible[0] = true -> __view_set( e__VW.Visible, 0, true )
-Converted builtin - line 6: view_xport[vind] = 0 -> __view_set( e__VW.XPort, vind, 0 )
-Converted builtin - line 28: view_xport[vind] = (vind - 1) * width * 0.5 -> __view_set( e__VW.XPort, vind, (vind - 1) * width * 0.5 )
-Converted builtin - line 38: view_xport[vind] = (vind mod 2) * width * 0.5 -> __view_set( e__VW.XPort, vind, (vind mod 2) * width * 0.5 )
-Converted builtin - line 7: view_yport[vind] = 0 -> __view_set( e__VW.YPort, vind, 0 )
-Converted builtin - line 14: view_yport[1] = height * 0.5 -> __view_set( e__VW.YPort, 1, height * 0.5 )
-Converted builtin - line 29: view_yport[vind] = height * 0.5 -> __view_set( e__VW.YPort, vind, height * 0.5 )
-Converted builtin - line 39: view_yport[vind] = (vind div 2) * height * 0.5 -> __view_set( e__VW.YPort, vind, (vind div 2) * height * 0.5 )
-Converted builtin - line 8: view_wport[vind] = 0 -> __view_set( e__VW.WPort, vind, 0 )
-Converted builtin - line 17: view_wport[vind] = width -> __view_set( e__VW.WPort, vind, width )
-Converted builtin - line 24: view_wport[0] = width -> __view_set( e__VW.WPort, 0, width )
-Converted builtin - line 30: view_wport[vind] = width * 0.5 -> __view_set( e__VW.WPort, vind, width * 0.5 )
-Converted builtin - line 40: view_wport[vind] = width * 0.5 -> __view_set( e__VW.WPort, vind, width * 0.5 )
-Converted builtin - line 47: view_wport[0] = width -> __view_set( e__VW.WPort, 0, width )
-Converted builtin - line 9: view_hport[vind] = 0 -> __view_set( e__VW.HPort, vind, 0 )
-Converted builtin - line 18: view_hport[vind] = height * 0.5 -> __view_set( e__VW.HPort, vind, height * 0.5 )
-Converted builtin - line 25: view_hport[0] = height * 0.5 -> __view_set( e__VW.HPort, 0, height * 0.5 )
-Converted builtin - line 31: view_hport[vind] = height * 0.5 -> __view_set( e__VW.HPort, vind, height * 0.5 )
-Converted builtin - line 41: view_hport[vind] = height * 0.5 -> __view_set( e__VW.HPort, vind, height * 0.5 )
-Converted builtin - line 48: view_hport[0] = height -> __view_set( e__VW.HPort, 0, height )
 Converted description /// @description  Reframe
 
 Converting GML script: ${project_dir}\objects\GameWindow\Other_10.gml
@@ -4169,19 +4076,7 @@ Converting GML script: ${project_dir}\objects\PlayerCamera\Other_11.gml
 Converted description /// @description  Detach
 
 Converting GML script: ${project_dir}\objects\PlayerCamera\Other_10.gml
-Converted builtin - line 9: view_xview[vind] -> __view_get( e__VW.XView, vind )
-Converted builtin - line 10: view_yview[vind] -> __view_get( e__VW.YView, vind )
-Converted builtin - line 9: view_wview[vind] -> __view_get( e__VW.WView, vind )
-Converted builtin - line 11: view_wview[vind] -> __view_get( e__VW.WView, vind )
-Converted builtin - line 10: view_hview[vind] -> __view_get( e__VW.HView, vind )
-Converted builtin - line 12: view_hview[vind] -> __view_get( e__VW.HView, vind )
-Converted builtin - line 13: view_hspeed[vind] = x_speed -> __view_set( e__VW.HSpeed, vind, x_speed )
-Converted builtin - line 14: view_vspeed[vind] = y_speed -> __view_set( e__VW.VSpeed, vind, y_speed )
 Converted description /// @description  Attach
-Converted builtin - line 9: view_xview[vind] = clamp(__view_get( e__VW.XView, vind ), bound_left, bound_right - __view_get( e__VW.WView, vind )) -> __view_set( e__VW.XView, vind, clamp(__view_get( e__VW.XView, vind ), bound_left, bound_right - __view_get( e__VW.WView, vind )) )
-Converted builtin - line 10: view_yview[vind] = clamp(__view_get( e__VW.YView, vind ), bound_top, bound_bottom - __view_get( e__VW.HView, vind )) -> __view_set( e__VW.YView, vind, clamp(__view_get( e__VW.YView, vind ), bound_top, bound_bottom - __view_get( e__VW.HView, vind )) )
-Converted builtin - line 11: view_hborder[vind] = (__view_get( e__VW.WView, vind ) * 0.5) - x_border -> __view_set( e__VW.HBorder, vind, (__view_get( e__VW.WView, vind ) * 0.5) - x_border )
-Converted builtin - line 12: view_vborder[vind] = (__view_get( e__VW.HView, vind ) * 0.5) - y_border -> __view_set( e__VW.VBorder, vind, (__view_get( e__VW.HView, vind ) * 0.5) - y_border )
 
 Converting GML script: ${project_dir}\objects\InvincibilityEffect\Destroy_0.gml
 Converted description /// @description  Cleanup
@@ -4421,8 +4316,6 @@ Converting GML script: ${project_dir}\objects\Bumper\Step_0.gml
 Converted description /// @description  Animate
 
 Converting GML script: ${project_dir}\objects\Camera\Create_0.gml
-Converted builtin - line 5: view_wview[vind] = CAMERA_WIDTH -> __view_set( e__VW.WView, vind, CAMERA_WIDTH )
-Converted builtin - line 6: view_hview[vind] = CAMERA_HEIGHT -> __view_set( e__VW.HView, vind, CAMERA_HEIGHT )
 Converted description /// @description  Initialize
 
 Converting GML script: ${project_dir}\objects\Camera\Step_2.gml
@@ -4504,21 +4397,9 @@ Converting GML script: ${project_dir}\objects\DevVisualization\KeyPress_117.gml
 Converted description /// @description  Toggle
 
 Converting GML script: ${project_dir}\objects\CameraLock\Step_2.gml
-Converted builtin - line 6: view_xview[owner.index] -> __view_get( e__VW.XView, owner.index )
-Converted builtin - line 12: view_xview[owner.index] -> __view_get( e__VW.XView, owner.index )
-Converted builtin - line 18: view_yview[owner.index] -> __view_get( e__VW.YView, owner.index )
-Converted builtin - line 24: view_yview[owner.index] -> __view_get( e__VW.YView, owner.index )
-Converted builtin - line 12: view_wview[owner.index] -> __view_get( e__VW.WView, owner.index )
-Converted builtin - line 24: view_hview[owner.index] -> __view_get( e__VW.HView, owner.index )
 Converted description /// @description  Lock
 
 Converting GML script: ${project_dir}\objects\PanningCameraLock\Step_2.gml
-Converted builtin - line 9: view_xview[owner.index] -> __view_get( e__VW.XView, owner.index )
-Converted builtin - line 17: view_xview[owner.index] -> __view_get( e__VW.XView, owner.index )
-Converted builtin - line 13: view_yview[owner.index] -> __view_get( e__VW.YView, owner.index )
-Converted builtin - line 21: view_yview[owner.index] -> __view_get( e__VW.YView, owner.index )
-Converted builtin - line 17: view_wview[owner.index] -> __view_get( e__VW.WView, owner.index )
-Converted builtin - line 21: view_hview[owner.index] -> __view_get( e__VW.HView, owner.index )
 Converted description /// @description  Scroll
 
 Converting GML script: ${project_dir}\objects\Region\Other_5.gml
@@ -4737,20 +4618,9 @@ Converting GML script: ${project_dir}\objects\WaterRippleShader\Destroy_0.gml
 Converted description /// @description  Clean up
 
 Converting GML script: ${project_dir}\objects\WaterRippleShader\Step_2.gml
-Converted builtin - line 9: view_visible[n] -> __view_get( e__VW.Visible, n )
+Converted builtin - line 9: view_visible[n] -> view_get_visible( n )
 
 Converting GML script: ${project_dir}\objects\WaterRippleShader\Draw_73.gml
-Error: variable 'shader_current' has same name as a built-in (function, constant or variable), it must be renamed to function correctly
-Converted builtin - line 45: view_xview[view_current] -> __view_get( e__VW.XView, view_current )
-Converted builtin - line 46: view_yview[view_current] -> __view_get( e__VW.YView, view_current )
-Converted builtin - line 47: view_wview[view_current] -> __view_get( e__VW.WView, view_current )
-Converted builtin - line 54: view_wview[view_current] -> __view_get( e__VW.WView, view_current )
-Converted builtin - line 48: view_hview[view_current] -> __view_get( e__VW.HView, view_current )
-Converted builtin - line 54: view_hview[view_current] -> __view_get( e__VW.HView, view_current )
-Converted builtin - line 26: view_xport[view_current] -> __view_get( e__VW.XPort, view_current )
-Converted builtin - line 27: view_yport[view_current] -> __view_get( e__VW.YPort, view_current )
-Converted builtin - line 28: view_wport[view_current] -> __view_get( e__VW.WPort, view_current )
-Converted builtin - line 29: view_hport[view_current] -> __view_get( e__VW.HPort, view_current )
 Converted description /// @description  Draw
 
 Converting GML script: ${project_dir}\objects\GameZone\Create_0.gml
@@ -4766,10 +4636,6 @@ Converting GML script: ${project_dir}\objects\PauseControl\Step_2.gml
 Converted description /// @description  Check pause event
 
 Converting GML script: ${project_dir}\objects\ZoneCleanup\Alarm_0.gml
-Converted builtin - line 12: view_xview[vind] -> __view_get( e__VW.XView, vind )
-Converted builtin - line 13: view_yview[vind] -> __view_get( e__VW.YView, vind )
-Converted builtin - line 14: view_wview[vind] -> __view_get( e__VW.WView, vind )
-Converted builtin - line 15: view_hview[vind] -> __view_get( e__VW.HView, vind )
 Converted description /// @description  Organize
 
 Converting GML script: ${project_dir}\objects\ZoneCleanup\Other_10.gml
@@ -4797,7 +4663,6 @@ Converting GML script: ${project_dir}\objects\TestRoomBackground\Other_10.gml
 Converted description /// @description  Update water height
 
 Converting GML script: ${project_dir}\objects\TestRoomBackground\Draw_0.gml
-Converted builtin - line 2: view_yview[view_current] -> __view_get( e__VW.YView, view_current )
 Converted description /// @description  Render water
 
 Converting GML script: ${project_dir}\objects\ConveyorBelt\Step_2.gml
@@ -4910,9 +4775,6 @@ Converted description /// @description  End animating
 Converting GML script: ${project_dir}\objects\FileSelectMenuDeleteIcon\Other_10.gml
 Converted description /// @description  Start animating
 
-Converting GML script: ${project_dir}\objects\FileSelectMenuPage\Create_0.gml
-Converted builtin - line 65: view_hborder[0] = CAMERA_WIDTH * 0.5 -> __view_set( e__VW.HBorder, 0, CAMERA_WIDTH * 0.5 )
-
 Converting GML script: ${project_dir}\objects\FileSelectMenuPage\Step_0.gml
 Converted description /// @description  Update
 
@@ -4983,20 +4845,12 @@ Converting GML script: ${project_dir}\objects\GameOverScreen\Step_0.gml
 Converted description /// @description  Handle state
 
 Converting GML script: ${project_dir}\objects\GameOverScreen\Draw_73.gml
-Converted builtin - line 2: view_xview[view_current] -> __view_get( e__VW.XView, view_current )
-Converted builtin - line 3: view_yview[view_current] -> __view_get( e__VW.YView, view_current )
-Converted builtin - line 2: view_wview[view_current] -> __view_get( e__VW.WView, view_current )
-Converted builtin - line 3: view_hview[view_current] -> __view_get( e__VW.HView, view_current )
 Converted description /// @description  Draw "GAME OVER"
 
 Converting GML script: ${project_dir}\objects\TimeOverScreen\Step_0.gml
 Converted description /// @description  Handle state
 
 Converting GML script: ${project_dir}\objects\TimeOverScreen\Draw_73.gml
-Converted builtin - line 2: view_xview[view_current] -> __view_get( e__VW.XView, view_current )
-Converted builtin - line 3: view_yview[view_current] -> __view_get( e__VW.YView, view_current )
-Converted builtin - line 2: view_wview[view_current] -> __view_get( e__VW.WView, view_current )
-Converted builtin - line 3: view_hview[view_current] -> __view_get( e__VW.HView, view_current )
 Converted description /// @description  Draw "TIME OVER"
 
 Converting GML script: ${project_dir}\objects\ScoreTally\Create_0.gml
@@ -5006,8 +4860,6 @@ Converting GML script: ${project_dir}\objects\ScoreTally\Step_0.gml
 Converted description /// @description  Handle state
 
 Converting GML script: ${project_dir}\objects\ScoreTally\Draw_73.gml
-Converted builtin - line 4: view_xview[view_current] -> __view_get( e__VW.XView, view_current )
-Converted builtin - line 5: view_yview[view_current] -> __view_get( e__VW.YView, view_current )
 Converted description /// @description  Draw scorecard
 
 Converting GML script: ${project_dir}\objects\Sonic2Display\Create_0.gml
@@ -5035,18 +4887,13 @@ Converting GML script: ${project_dir}\objects\GameSign\Create_0.gml
 Converted description /// @description  Initialize
 
 Converting GML script: ${project_dir}\objects\GameSign\Draw_73.gml
-Converted builtin - line 8: view_xview[view] -> __view_get( e__VW.XView, view )
-Converted builtin - line 8: view_yview[view] -> __view_get( e__VW.YView, view )
 Converted description /// @description  Render
 
 Converting GML script: ${project_dir}\objects\LabeledGameSign\Create_0.gml
 Converted string - line 3: '' -> ""
 
 Converting GML script: ${project_dir}\objects\LabeledGameSign\Draw_73.gml
-Converted builtin - line 15: view_xview[view] -> __view_get( e__VW.XView, view )
-Converted builtin - line 15: view_yview[view] -> __view_get( e__VW.YView, view )
-Converted description /// @description  Render
-Converted string - line 2: '' -> ""
+onverted string - line 2: '' -> ""
 
 Converting GML script: ${project_dir}\objects\ZoneTitle\Step_1.gml
 Converted description /// @description  Update
@@ -5055,9 +4902,6 @@ Converting GML script: ${project_dir}\objects\ZoneTitle\Other_4.gml
 Converted description /// @description  Setup
 
 Converting GML script: ${project_dir}\objects\ZoneTitleRedFold\Draw_73.gml
-Converted builtin - line 3: view_xview[view_current] -> __view_get( e__VW.XView, view_current )
-Converted builtin - line 3: view_yview[view_current] -> __view_get( e__VW.YView, view_current )
-Converted builtin - line 2: view_wview[view_current] -> __view_get( e__VW.WView, view_current )
 Converted description /// @description  Render
 
 Converting GML script: ${project_dir}\objects\GameConsoleMessage\Create_0.gml
@@ -5130,11 +4974,7 @@ Missing audiogroup for sound: 'FlightSound' - setting to default audio group
 Game speed set to 60
 Added compatibility script 'instance/instance_create.gml'
 Added compatibility script 'object/object_get_depth.gml'
-Added compatibility script 'view/__view_get.gml'
-Added compatibility script 'view/__view_set.gml'
-Added compatibility script 'view/__view_set_internal.gml'
 Added compatibility script 'action/__init_action.gml'
 Added compatibility script 'background/__init_background.gml'
-Added compatibility script 'view/__init_view.gml'
 Added compatibility script '__init_global.gml'
 Added compatibility script '__global_object_depths.gml'

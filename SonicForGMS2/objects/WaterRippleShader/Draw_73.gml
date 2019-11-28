@@ -23,10 +23,10 @@ if (view_render[view_current]) {
         rh /= height;
     }
     
-    var vx = __view_get( e__VW.XPort, view_current ) * rw;
-    var vy = __view_get( e__VW.YPort, view_current ) * rh;
-    var vw = __view_get( e__VW.WPort, view_current ) * rw;
-    var vh = __view_get( e__VW.HPort, view_current ) * rh;
+    var vx = view_get_xport(view_current) * rw;
+    var vy = view_get_yport(view_current) * rh;
+    var vw = view_get_wport(view_current) * rw;
+    var vh = view_get_hport(view_current) * rh;
     
     surface_set_target(base_surface);
     draw_clear_alpha(image_blend, 0);
@@ -42,16 +42,15 @@ if (view_render[view_current]) {
         final_surface = surface_create(vw, vh);
     }
     
-    var x1 = __view_get( e__VW.XView, view_current );
-    var y1 = __view_get( e__VW.YView, view_current );
-    var x2 = x1 + __view_get( e__VW.WView, view_current );
-    var y2 = y1 + __view_get( e__VW.HView, view_current );
+	var cam = view_get_camera(view_current);
+    var x1 = camera_get_view_x(cam);
+    var y1 = camera_get_view_y(cam);
     
     surface_set_target(final_surface);
     draw_clear_alpha(image_blend, 0);
     draw_set_color(c_white);
     shader_set(shader);
-    shader_set_uniform_f(u_resolution, __view_get( e__VW.WView, view_current ), __view_get( e__VW.HView, view_current ));
+    shader_set_uniform_f(u_resolution, camera_get_view_width(cam), camera_get_view_height(cam));
     shader_set_uniform_f(u_magnitude, x_magnitude, y_magnitude);
     shader_set_uniform_f(u_cycles, x_cycles, y_cycles);
     shader_set_uniform_f(u_time, cycle_time);

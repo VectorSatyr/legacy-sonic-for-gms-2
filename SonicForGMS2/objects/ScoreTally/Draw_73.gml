@@ -1,8 +1,9 @@
 /// @description  Draw scorecard
 if (view_current < MAX_PLAYER_COUNT) {
     var color = draw_get_color();
-    var x1 = __view_get( e__VW.XView, view_current );
-    var y1 = __view_get( e__VW.YView, view_current );
+	var cam = view_get_camera(view_current);
+    var x1 = camera_get_view_x(cam);
+    var y1 = camera_get_view_y(cam);
 
     if (scene_act > 0) {
         draw_sprite(ZoneTitleS2ActSprite, scene_act - 1, x1 + act_screen_x + header_ox2, y1 + 62);

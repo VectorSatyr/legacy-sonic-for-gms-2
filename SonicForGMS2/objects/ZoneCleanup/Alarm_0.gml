@@ -9,10 +9,11 @@ with (Camera) {
     var vx, vy, vw, vh;
     for (var vind = 0; vind < MAX_VIEW_COUNT; ++vind) {
         if (caller[vind] != noone) {
-            vx = __view_get( e__VW.XView, vind ) - other.camera_border;
-            vy = __view_get( e__VW.YView, vind ) - other.camera_border;
-            vw = __view_get( e__VW.WView, vind ) + (other.camera_border * 2);
-            vh = __view_get( e__VW.HView, vind ) + (other.camera_border * 2);
+			var cam = view_get_camera(vind);
+            vx = camera_get_view_x(cam) - other.camera_border;
+            vy = camera_get_view_y(cam) - other.camera_border;
+            vw = camera_get_view_width(cam) + (other.camera_border * 2);
+            vh = camera_get_view_height(cam) + (other.camera_border * 2);
             instance_activate_region(vx, vy, vw, vh, true);
         }
     }

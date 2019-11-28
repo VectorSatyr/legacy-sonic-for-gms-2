@@ -1,24 +1,24 @@
 /// @description  Scroll
-var diff;
 if (game_is_running()) {
     with (PlayableCharacter) {
         if (sign(other.image_xscale) == sign(x_int - other.x)) {
             other.enabled = true;
         }
         if (other.enabled) {
-            bound_left = max(bound_left, min(other.left, __view_get( e__VW.XView, owner.index )));
+			var cam = view_get_camera(owner.index);
+            bound_left = max(bound_left, min(other.left, camera_get_view_x(cam)));
             if (bound_left < other.left) {
                 bound_left = min(bound_left + other.scroll_hspeed, other.left);
             }
-            bound_top = max(bound_top, min(other.top, __view_get( e__VW.YView, owner.index )));
+            bound_top = max(bound_top, min(other.top, camera_get_view_y(cam)));
             if (bound_top < other.top) {
                 bound_top = min(bound_top + other.scroll_vspeed, other.top);
             }
-            bound_right = min(bound_right, max(other.right, __view_get( e__VW.XView, owner.index ) + __view_get( e__VW.WView, owner.index )));
+            bound_right = min(bound_right, max(other.right, camera_get_view_x(cam) + camera_get_view_width(cam)));
             if (bound_right > other.right) {
                 bound_right = max(bound_right - other.scroll_hspeed, other.right);
             }
-            bound_bottom = min(bound_bottom, max(other.bottom, __view_get( e__VW.YView, owner.index ) + __view_get( e__VW.HView, owner.index )));
+            bound_bottom = min(bound_bottom, max(other.bottom, camera_get_view_y(cam) + camera_get_view_height(cam)));
             if (bound_bottom > other.bottom) {
                 bound_bottom = max(bound_bottom - other.scroll_vspeed, other.bottom);
             }

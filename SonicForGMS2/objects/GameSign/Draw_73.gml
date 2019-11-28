@@ -5,7 +5,8 @@ if (sprite_index > -1) {
         view = view_current;
     }
     if (view_current == view) {
-        draw_sprite_ext(sprite_index, image_index, __view_get( e__VW.XView, view ) + x, __view_get( e__VW.YView, view ) + y, image_xscale, image_yscale, image_angle, image_blend, image_alpha);
+		var cam = view_get_camera(view);
+        draw_sprite_ext(sprite_index, image_index, camera_get_view_x(cam) + x, camera_get_view_y(cam) + y, image_xscale, image_yscale, image_angle, image_blend, image_alpha);
     }
 }
 

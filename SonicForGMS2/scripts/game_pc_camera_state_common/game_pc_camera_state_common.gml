@@ -10,5 +10,7 @@ var oy = y - (look_x_distance * sine) + (look_y_distance * cosine);
 
 view_follow(vind, ox, oy);
 
-__view_set( e__VW.XView, vind, clamp(__view_get( e__VW.XView, vind ), bound_left, bound_right - __view_get( e__VW.WView, vind )) );
-__view_set( e__VW.YView, vind, clamp(__view_get( e__VW.YView, vind ), bound_top, bound_bottom - __view_get( e__VW.HView, vind )) );
+var cam = view_get_camera(vind);
+var view_x = clamp(camera_get_view_x(cam), bound_left, bound_right - camera_get_view_width(cam));
+var view_y = clamp(camera_get_view_y(cam), bound_top, bound_bottom - camera_get_view_height(cam));
+camera_set_view_pos(cam, view_x, view_y);

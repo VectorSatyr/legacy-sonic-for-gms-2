@@ -1,20 +1,21 @@
 /// @description  Render background
 if (sprite_index != -1) {
-    var fx = x_absolute + x + floor(__view_get( e__VW.XView, view_current ) * x_scroll);
-    var fy = y_absolute + y + floor(__view_get( e__VW.YView, view_current ) * y_scroll);
+	var cam = view_get_camera(view_current);
+    var fx = x_absolute + x + floor(camera_get_view_x(cam) * x_scroll);
+    var fy = y_absolute + y + floor(camera_get_view_y(cam) * y_scroll);
     var sx = sprite_width + x_separation;
     var sy = sprite_height + y_separation;
 
     if (tile_horizontal) {
-        var lx = __view_get( e__VW.XView, view_current ) + ((fx - __view_get( e__VW.XView, view_current )) mod sx) - sx;
-        var rx = __view_get( e__VW.XView, view_current ) + __view_get( e__VW.WView, view_current ) + sx;
+        var lx = camera_get_view_x(cam) + ((fx - camera_get_view_x(cam)) mod sx) - sx;
+        var rx = camera_get_view_x(cam) + camera_get_view_width(cam) + sx;
     } else {
         var lx = fx;
         var rx = fx;
     }
     if (tile_vertical) {
-        var ly = __view_get( e__VW.YView, view_current ) + ((fy - __view_get( e__VW.YView, view_current )) mod sy) - sy;
-        var ry = __view_get( e__VW.YView, view_current ) + __view_get( e__VW.HView, view_current ) + sy;
+        var ly = camera_get_view_y(cam) + ((fy - camera_get_view_y(cam)) mod sy) - sy;
+        var ry = camera_get_view_y(cam) + camera_get_view_height(cam) + sy;
     } else {
         var ly = fy;
         var ry = fy;

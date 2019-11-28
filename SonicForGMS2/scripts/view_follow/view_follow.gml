@@ -14,33 +14,34 @@ var ox = argument1;
 var oy = argument2;
 
 if (view_exists(vind)) {
+	var cam = view_get_camera(vind);
+	
     // calculate centre point
-    var cx = __view_get( e__VW.XView, vind ) + (__view_get( e__VW.WView, vind ) * 0.5);
-    var cy = __view_get( e__VW.YView, vind ) + (__view_get( e__VW.HView, vind ) * 0.5);
+    var cx = camera_get_view_x(cam) + (camera_get_view_width(cam) * 0.5);
+    var cy = camera_get_view_y(cam) + (camera_get_view_height(cam) * 0.5);
     
     // calculate offset from centre point
     var ocx = ox - cx;
     var ocy = oy - cy;
     
     // limit to view border
-    var hborder = (__view_get( e__VW.WView, vind ) * 0.5) - __view_get( e__VW.HBorder, vind );
-    var vborder = (__view_get( e__VW.HView, vind ) * 0.5) - __view_get( e__VW.VBorder, vind );
+    var hborder = (camera_get_view_width(cam) * 0.5) - camera_get_view_border_x(cam);
+    var vborder = (camera_get_view_height(cam) * 0.5) - camera_get_view_border_y(cam);
     ocx = max(abs(ocx) - hborder, 0) * sign(ocx);
     ocy = max(abs(ocy) - vborder, 0) * sign(ocy);
     
     // limit movement speed
-    if (__view_get( e__VW.HSpeed, vind ) > -1 and abs(ocx) > __view_get( e__VW.HSpeed, vind )) {
-        ocx = __view_get( e__VW.HSpeed, vind ) * sign(ocx);
+    if (camera_get_view_speed_x(cam) > -1 and abs(ocx) > camera_get_view_speed_x(cam)) {
+        ocx = camera_get_view_speed_x(cam) * sign(ocx);
     }
-    if (__view_get( e__VW.VSpeed, vind ) > -1 and abs(ocy) > __view_get( e__VW.VSpeed, vind )) {
-        ocy = __view_get( e__VW.VSpeed, vind ) * sign(ocy);
+    if (camera_get_view_speed_y(cam) > -1 and abs(ocy) > camera_get_view_speed_y(cam)) {
+        ocy = camera_get_view_speed_y(cam) * sign(ocy);
     }
     
     // move the view
-    if (ocx != 0) {
-        __view_set( e__VW.XView, vind, clamp(__view_get( e__VW.XView, vind ) + ocx, 0, room_width - __view_get( e__VW.WView, vind )) );
-    }
-    if (ocy != 0) {
-        __view_set( e__VW.YView, vind, clamp(__view_get( e__VW.YView, vind ) + ocy, 0, room_height - __view_get( e__VW.HView, vind )) );
-    }
+	if (ocx != 0 or ocy != 0) {
+		var view_x = clamp(camera_get_view_x(cam) + ocx, 0, room_width - camera_get_view_width(cam));
+		var view_y = clamp(camera_get_view_y(cam) + ocy, 0, room_height - camera_get_view_height(cam));
+		camera_set_view_pos(cam, view_x, view_y);
+	}
 }

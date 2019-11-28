@@ -1,5 +1,6 @@
 /// @description  Render water
-var offset = vpos + floor(__view_get( e__VW.YView, view_current ) * vscroll);
+var cam = view_get_camera(view_current);
+var offset = vpos + floor(camera_get_view_y(cam) * vscroll);
 var scale = clamp((water_height - offset) * water_scale_factor, -scale_limit, scale_limit);
 for (var n = 0; n < total_lines; ++n) {
     with (line[n]) {
