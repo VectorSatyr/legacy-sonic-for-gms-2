@@ -12,7 +12,7 @@ if (game_is_running()) {
         --starting_time;
         if (starting_time <= 0) {
             game_audio_enqueue_music(ZoneBossMusic, 0, true);
-            mobile = instance_create(camera_lock.left + CAMERA_WIDTH - 64, camera_lock.top - 48, GHZBossEggMobile);
+            mobile = instance_create_layer(camera_lock.left + CAMERA_WIDTH - 64, camera_lock.top - 48, "objects", GHZBossEggMobile);
             mobile.owner = self;
             mobile.constant = true;
             mobile.camera_left = camera_lock.left;
@@ -31,7 +31,7 @@ if (game_is_running()) {
                     bound_right = other.bound_right;
                 }
             }
-            with (instance_create(0, 0, CameraLock)) {
+            with (instance_create_layer(0, 0, "objects", CameraLock)) {
                 constant = true;
                 left = room_width - CAMERA_WIDTH - 16;
             }

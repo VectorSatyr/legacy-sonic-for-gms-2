@@ -19,7 +19,7 @@ default:
     var text = argument[0];
 }
 
-var message = instance_create(display_get_gui_width() - 4, display_get_gui_height() - 14, GameConsoleMessage);
+var message = instance_create_layer(display_get_gui_width() - 4, display_get_gui_height() - 14, "screen", GameConsoleMessage);
 message.text = text;
 message.alarm[0] = duration;
 

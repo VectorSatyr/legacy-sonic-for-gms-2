@@ -4,7 +4,7 @@ instance_destroy(GamePlayer);
 var player;
 
 if (object_exists(player_character)) {
-    player = instance_create(0, 0, RealPlayer);
+    player = instance_create_layer(0, 0, "general", RealPlayer);
     player.index = 0;
     player.input_channel = 0;
     player.character_id = player_character;
@@ -12,7 +12,7 @@ if (object_exists(player_character)) {
 }
 
 if (object_exists(assist_character)) {
-    player = instance_create(0, 0, ComputerPlayer);
+    player = instance_create_layer(0, 0, "general", ComputerPlayer);
     player.index = 1;
     player.input_channel = 1;
     player.character_id = assist_character;

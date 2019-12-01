@@ -22,7 +22,7 @@ default:
 }
 
 instance_destroy(PlayerEntrance);
-with (instance_create(ox, oy, PlayerEntrance)) {
+with (instance_create_layer(ox, oy, "general", PlayerEntrance)) {
     self.location = location;
     self.epoch = epoch;
 }

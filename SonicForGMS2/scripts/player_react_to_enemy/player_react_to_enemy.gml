@@ -57,7 +57,7 @@ case "entering":
             part_particles_create(system, ind.x, ind.y, explosion, 1);
         }
 
-        with (instance_create(ind.x, ind.y, ScorePopup)) {
+        with (instance_create_layer(ind.x, ind.y, "effects", ScorePopup)) {
             if (bonus >= 200) {
                 image_index = 2;
             } else {

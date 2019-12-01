@@ -22,7 +22,7 @@ with (character) {
             visible = false;
         }
         if (not instance_exists(invincibility_effect)) {
-            invincibility_effect = instance_create(x_int, y_int, InvincibilityEffect);
+            invincibility_effect = instance_create_layer(x_int, y_int, "effects", InvincibilityEffect);
             invincibility_effect.source = id;
             invincibility_effect.depth = depth - 1;
         }

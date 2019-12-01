@@ -11,7 +11,7 @@ var event = argument0;
 var key = argument1;
 
 if (not instance_exists(Keyboard)) {
-    instance_create(0, 0, Keyboard);
+    instance_create_layer(0, 0, "general", Keyboard);
 }
 
 with (Keyboard) {

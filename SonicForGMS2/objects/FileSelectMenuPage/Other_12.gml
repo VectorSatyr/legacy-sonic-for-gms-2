@@ -56,7 +56,7 @@ default:
             break;
 
         default:
-            var file = instance_create(0, 0, GameSaveFile); // empty
+            var file = instance_create_layer(0, 0, "general", GameSaveFile); // empty
             file.index = selection.file_index;
             switch (selection.character_index) {
             case 1: file.player_character = Sonic; break;

@@ -24,7 +24,7 @@ case "start":
     game_pc_camera_disconnect(self);
 
     if (owner.index == 0) { // player 1
-        with (instance_create(0, 0, ZoneRestart)) {
+        with (instance_create_layer(0, 0, "general", ZoneRestart)) {
             player = other.owner;
         }
     }

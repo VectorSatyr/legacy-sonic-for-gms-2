@@ -27,7 +27,7 @@ with (Gamepad) {
 }
 
 if (not exists and event != "") {
-    with (instance_create(0, 0, Gamepad)) {
+    with (instance_create_layer(0, 0, "general", Gamepad)) {
         self.channel = channel;
         ds_map_replace(buttons, button, event);
     }

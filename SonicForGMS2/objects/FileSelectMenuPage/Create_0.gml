@@ -18,7 +18,7 @@ var save_ox = 44;
 var save_w = 96 + separation;
 
 // no save option
-choice_nosave = instance_create(start_x + nosave_ox, start_y, FileSelectMenuNoSaveChoice);
+choice_nosave = instance_create_layer(start_x + nosave_ox, start_y, "gui", FileSelectMenuNoSaveChoice);
 game_menu_page_add_choice(self, choice_nosave);
 
 // save files
@@ -27,16 +27,16 @@ for (var n = 0; n < MAX_GAME_SAVES; ++n) {
     file = game_save_find(n);
     if (instance_exists(file)) {
         if (file.complete) {
-            choice_save[n] = instance_create(start_x + nosave_w + save_ox + (n * save_w), start_y, FileSelectMenuCompleteFileChoice);
+            choice_save[n] = instance_create_layer(start_x + nosave_w + save_ox + (n * save_w), start_y, "gui", FileSelectMenuCompleteFileChoice);
             choice_save[n].name = "complete" + string(n);
         } else {
-            choice_save[n] = instance_create(start_x + nosave_w + save_ox + (n * save_w), start_y, FileSelectMenuExistingFileChoice);
+            choice_save[n] = instance_create_layer(start_x + nosave_w + save_ox + (n * save_w), start_y, "gui", FileSelectMenuExistingFileChoice);
             choice_save[n].name = "existing" + string(n);
         }
         choice_save[n].file_index = n;
         instance_perform_user_event(choice_save[n], 1);
     } else {
-        choice_save[n] = instance_create(start_x + nosave_w + save_ox + (n * save_w), start_y, FileSelectMenuNewFileChoice);
+        choice_save[n] = instance_create_layer(start_x + nosave_w + save_ox + (n * save_w), start_y, "gui", FileSelectMenuNewFileChoice);
         choice_save[n].name = "new" + string(n);
         choice_save[n].file_index = n;
     }
@@ -53,14 +53,14 @@ with (GameSaveDirectory) {
 instance_perform_user_event(starting_slot, 0);
 
 // delete option
-choice_delete = instance_create(start_x + nosave_w + (MAX_GAME_SAVES * save_w) + nosave_ox, start_y, FileSelectMenuDeleteChoice);
+choice_delete = instance_create_layer(start_x + nosave_w + (MAX_GAME_SAVES * save_w) + nosave_ox, start_y, "gui", FileSelectMenuDeleteChoice);
 game_menu_page_add_choice(self, choice_delete);
 
 // delete icon
-delete_icon = instance_create(choice_delete.x, choice_delete.y, FileSelectMenuDeleteIcon);
+delete_icon = instance_create_depth(choice_delete.x, choice_delete.y, depth - 2, FileSelectMenuDeleteIcon);
 
 // cursor
-cursor = instance_create(starting_slot.x, starting_slot.y, FileSelectMenuCursor);
+cursor = instance_create_depth(starting_slot.x, starting_slot.y, depth - 1, FileSelectMenuCursor);
 game_camera_direct(0, game_camera_default_behavior, cursor);
 var cam = view_get_camera(0);
 camera_set_view_border(cam, CAMERA_WIDTH * 0.5, camera_get_view_border_y(cam));

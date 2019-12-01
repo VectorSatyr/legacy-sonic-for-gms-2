@@ -15,7 +15,7 @@ default:
     var soundid = argument[0];
 }
 
-var music = instance_create(0, 0, FMODTimedGameMusic);
+var music = instance_create_layer(0, 0, "general", FMODTimedGameMusic);
 music.soundid = soundid;
 if (time > -1) {
     music.time = time;

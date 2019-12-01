@@ -7,7 +7,7 @@ var max_y_speed = 4;
 var ox, oy;
 for (oy = 0; oy < rows; ++oy) {
     for (ox = 0; ox < collumns; ++ox) {
-        var debris = instance_create(x + (cell_width * ox), y + (cell_height * oy), BreakableWallDebris);
+        var debris = instance_create_layer(x + (cell_width * ox), y + (cell_height * oy), "effects", BreakableWallDebris);
         debris.sprite_index = sprite_index;
         debris.image_speed = 0;
         debris.left = cell_width * ox;

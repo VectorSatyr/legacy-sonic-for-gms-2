@@ -12,7 +12,7 @@ case "entering":
     if (ind.counter[owner.index] > 0) {
         --ind.counter[owner.index];
         game_player_change_score(owner, 10);
-        instance_create(ind.x, ind.y, ScorePopup);
+        instance_create_layer(ind.x, ind.y, "effects", ScorePopup);
     }
     break;
 }

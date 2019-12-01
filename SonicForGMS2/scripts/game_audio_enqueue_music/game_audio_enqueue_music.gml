@@ -19,7 +19,7 @@ default:
     var soundid = argument[0];
 }
 
-var music = instance_create(0, 0, GMSGameMusic);
+var music = instance_create_layer(0, 0, "general", GMSGameMusic);
 music.soundid = soundid;
 music.priority = priority;
 music.loops = loops;

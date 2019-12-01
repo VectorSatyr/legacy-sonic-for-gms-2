@@ -27,7 +27,7 @@ default:
     var soundid = argument[0];
 }
 
-var music = instance_create(0, 0, GMSJingle);
+var music = instance_create_layer(0, 0, "general", GMSJingle);
 music.soundid = soundid;
 music.fade_time = fadetime;
 music.priority = priority;

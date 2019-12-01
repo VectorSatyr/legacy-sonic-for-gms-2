@@ -2,7 +2,7 @@ event_inherited();
 /// Initialize
 image_speed = 0;
 
-eggman = instance_create(x, y, BossEggMobileEggman);
+eggman = instance_create_layer(x, y, "objects", BossEggMobileEggman);
 eggman.constant = true;
 
 base_y = ystart;

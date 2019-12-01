@@ -38,7 +38,7 @@ case "entering":
     ind.icon_instance.player = id;
     instance_perform_user_event(ind.icon_instance, 0);
 
-    instance_create(ind.x, ind.y, BrokenMonitor);
+    instance_create_depth(ind.x, ind.y, ind.depth, BrokenMonitor);
 
     instance_destroy(ind);
     break;

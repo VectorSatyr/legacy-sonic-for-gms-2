@@ -114,10 +114,10 @@ current_animation = "";
 image_angle_resolution = 45;
 
 /// Initialize other values
-camera = instance_create(x, y, PlayerCamera);
+camera = instance_create_layer(x, y, "general", PlayerCamera);
 camera.owner = self;
 
-shader = instance_create(x, y, SuperFormShader);
+shader = instance_create_layer(x, y, "effects", SuperFormShader);
 shader.source = self;
 
 shield = noone;

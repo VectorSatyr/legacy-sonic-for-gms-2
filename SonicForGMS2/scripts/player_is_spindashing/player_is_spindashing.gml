@@ -11,9 +11,8 @@ case "start":
 
     rev_soundid = game_pc_play_sound(self, SpinRevSound);
 
-    with (instance_create(x, y, PlayerDashSmoke)) {
+    with (instance_create_depth(x, y, depth - 1, PlayerDashSmoke)) {
         image_xscale = other.facing_sign;
-        depth = other.depth - 1;
         source = other.id;
     }
 

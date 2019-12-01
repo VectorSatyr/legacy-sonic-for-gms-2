@@ -11,7 +11,7 @@
 var shader = argument0;
 var steps = argument1;
 
-var fade = instance_create(0, 0, FadeIn);
+var fade = instance_create_layer(0, 0, "screen", FadeIn);
 fade.image_speed = 3.0 / steps;
 fade.shader = shader;
 

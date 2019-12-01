@@ -49,7 +49,7 @@ for (var n = 0; n < total_parts; ++n) {
     }
 
     // place triangle
-    with (instance_create(ox, oy, RightTriangle)) {
+    with (instance_create_layer(ox, oy, "collisions", RightTriangle)) {
         // scale across intersections
         image_xscale = (ix - px) / part_width;
         image_yscale = (iy - py) / part_height;

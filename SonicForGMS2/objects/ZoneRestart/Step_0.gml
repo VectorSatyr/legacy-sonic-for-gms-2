@@ -9,7 +9,7 @@ if (game_is_running()) {
             game_player_change_lives(player, -1);
             with (player) {
                 if (life_count <= 0) {
-                    instance_create(0, 0, GameOverScreen);
+                    instance_create_layer(0, 0, "gui", GameOverScreen);
                     instance_destroy(other);
                 }
             }

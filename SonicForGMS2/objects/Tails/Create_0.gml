@@ -43,7 +43,6 @@ flight_time = -1;
 flight_soundid = -1;
 
 // tails' tails
-tails = instance_create(x, y, TailsTails);
+tails = instance_create_depth(x, y, depth + 1, TailsTails);
 tails.source = self;
-tails.depth = depth + 1;
 

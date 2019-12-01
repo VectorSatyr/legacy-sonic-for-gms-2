@@ -35,7 +35,7 @@ case "exit":
         }
     }
     if (done) {
-        instance_create(0, 0, ScoreTally);
+        instance_create_layer(0, 0, "gui", ScoreTally);
         state = "";
     }
     break;

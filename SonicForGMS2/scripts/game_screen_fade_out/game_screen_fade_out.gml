@@ -18,7 +18,7 @@ default:
     var shader = argument[0];
 }
 
-var fade = instance_create(0, 0, FadeOut);
+var fade = instance_create_layer(0, 0, "screen", FadeOut);
 fade.image_speed = 3.0 / steps;
 fade.shader = shader;
 fade.next_room = next_room;

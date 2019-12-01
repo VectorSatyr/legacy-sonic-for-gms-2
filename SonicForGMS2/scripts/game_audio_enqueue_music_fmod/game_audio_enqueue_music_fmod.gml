@@ -8,7 +8,7 @@
 
 var soundid = argument0;
 
-var music = instance_create(0, 0, FMODGameMusic);
+var music = instance_create_layer(0, 0, "general", FMODGameMusic);
 music.soundid = soundid;
 
 with (GameMusic) {

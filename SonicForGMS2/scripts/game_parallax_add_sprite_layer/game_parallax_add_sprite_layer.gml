@@ -55,7 +55,7 @@ default:
     var sprite = argument[0];
 }
 
-with (instance_create(0, 0, ParallaxSpriteLayer)) {
+with (instance_create_layer(0, 0, "backgrounds", ParallaxSpriteLayer)) {
     sprite_index = sprite;
     image_index = subimg;
     frame_speed = subspd;

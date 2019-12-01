@@ -11,7 +11,7 @@ if (time_to_crumble > 0) {
 
         for (row = 0; row < total_rows; ++row) {
             for (collumn = 0; collumn < total_collumns; ++collumn) {
-                ind = instance_create(bbox_left + collumn * cell_width, bbox_top + row * cell_height, CrumblingFloorPiece);
+                ind = instance_create_layer(bbox_left + collumn * cell_width, bbox_top + row * cell_height, "collisions", CrumblingFloorPiece);
                 ind.image_xscale = cell_width / ind.sprite_width;
                 ind.image_yscale = cell_height / ind.sprite_height;
                 ind.bottom_solid = false;

@@ -24,9 +24,8 @@ with (character) {
         }
     }
     if (not instance_exists(shield)) {
-        shield = instance_create(x_int, y_int, kind);
+        shield = instance_create_depth(x_int, y_int, depth - 1, kind);
         shield.image_xscale = facing_sign;
-        shield.depth = depth - 1;
         shield.source = id;
         if (invincibility_time > 0 or superform) {
             shield.visible = false;

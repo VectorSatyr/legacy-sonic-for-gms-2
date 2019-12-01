@@ -61,7 +61,7 @@ default:
     var back = argument[0];
 }
 
-with (instance_create(0, 0, ParallaxLayer)) {
+with (instance_create_layer(0, 0, "backgrounds", ParallaxLayer)) {
     self.back = back;
     self.left = left;
     self.top = top;

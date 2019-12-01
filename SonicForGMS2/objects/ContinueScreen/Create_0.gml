@@ -34,8 +34,8 @@ if (instance_exists(file)) {
 
     switch (file.assist_character) {
     case Tails:
-        instance_create(center_ox - 4, CAMERA_HEIGHT - 64, ContinueScreenSonic);
-        instance_create(center_ox + 24, CAMERA_HEIGHT - 64, ContinueScreenTailsAssist);
+        var sonic = instance_create_layer(center_ox - 4, CAMERA_HEIGHT - 64, "gui", ContinueScreenSonic);
+        instance_create_depth(center_ox + 24, CAMERA_HEIGHT - 64, sonic.depth + 1, ContinueScreenTailsAssist);
         break;
     default:
         var character = ContinueScreenSonic;
@@ -49,7 +49,7 @@ if (instance_exists(file)) {
             continues_sprite = ContinueKnucklesIconSprite;
             break;
         }
-        instance_create(center_ox, CAMERA_HEIGHT - 66, character);
+        instance_create_layer(center_ox, CAMERA_HEIGHT - 66, "gui", character);
     }
 }
 

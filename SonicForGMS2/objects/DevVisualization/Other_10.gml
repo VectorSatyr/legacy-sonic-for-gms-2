@@ -15,6 +15,7 @@ with (QuarterPipeTerrain) {
     visible = other.visible;
 }
 with (Corkscrew) {
-    mask.visible = other.visible;
+	if (instance_exists(mask)) {
+		mask.visible = other.visible;
+	}
 }
-

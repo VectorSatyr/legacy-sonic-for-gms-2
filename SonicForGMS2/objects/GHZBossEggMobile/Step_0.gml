@@ -33,13 +33,13 @@ if (game_is_running()) {
             x_speed = 0;
             y_speed = 0;
         
-            chain_base = instance_create(x, y, GHZBossChainBase);
+            chain_base = instance_create_depth(x, y, depth + 2, GHZBossChainBase);
     
             for (var n = 0; n < total_chain_links; ++n) {
-                chain_link[n] = instance_create(x, y, GHZBossChainLink);
+                chain_link[n] = instance_create_depth(x, y, depth + 2, GHZBossChainLink);
             }
     
-            chain_ball = instance_create(x, y, GHZBossChainBall);
+            chain_ball = instance_create_depth(x, y, depth + 1, GHZBossChainBall);
     
             state = "deploying";
         }

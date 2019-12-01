@@ -23,7 +23,7 @@ for (var ring = 0; ring < total; ++ring) {
         len = 2;
         dir = 101.25;
     }
-    with (instance_create(ox, oy, LostRing)) {
+    with (instance_create_layer(ox, oy, "objects", LostRing)) {
         depth = other.depth + 1;
         x_speed = lengthdir_x(len, dir);
         y_speed = lengthdir_y(len, dir);
