@@ -1,6 +1,3 @@
-/// @description  game_pc_gain_shield(character, kind)
-/// @param character
-/// @param  kind
 // ---------------------------------------------------------------
 /*
 **  Gives the calling player instance a shield of the given kind.

@@ -1,8 +1,3 @@
-/// @description  game_player_spawn_character(player, ox, oy)
-/// @param player
-/// @param  ox
-/// @param  oy
-
 var player = argument0;
 var ox = argument1;
 var oy = argument2;

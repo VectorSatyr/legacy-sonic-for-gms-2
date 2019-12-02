@@ -1,8 +1,3 @@
-/// @description  game_pc_animate(character, name, [reset?])
-/// @param character
-/// @param  name
-/// @param  [reset?]
-
 var reset = false;
 switch (argument_count) {
 case 3: reset = argument[2];

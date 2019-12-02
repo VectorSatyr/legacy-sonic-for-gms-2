@@ -1,7 +1,3 @@
-/// @description  game_pc_camera_direct(character, script)
-/// @param character
-/// @param  script
-
 var character = argument0;
 var script = argument1;
 

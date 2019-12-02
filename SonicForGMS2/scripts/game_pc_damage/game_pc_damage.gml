@@ -1,7 +1,3 @@
-/// @description  game_pc_damage(character, recoil_sign, [soundid])
-/// @param character
-/// @param  recoil_sign
-/// @param  [soundid]
 // ---------------------------------------------------------------
 /*
 **  Evaluates the calling player instance's condition after taking

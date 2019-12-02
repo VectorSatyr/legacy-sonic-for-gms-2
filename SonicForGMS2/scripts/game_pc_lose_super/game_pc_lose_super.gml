@@ -1,5 +1,3 @@
-/// @description  game_pc_lose_super(character)
-/// @param character
 // ---------------------------------------------------------------
 /*  
 **  Cancels a character's super form

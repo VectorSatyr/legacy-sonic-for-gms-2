@@ -1,12 +1,6 @@
-/// @description  game_audio_fmod_add_sound(fname, [looppoint])
-/// @param fname
-/// @param  [looppoint]
-/**
- * @description Loads an audio file with the given name from the "Audio" directory for use later
- * @argument {real} fname audio filename
- * @argument {real} looppoint (optional) loop point start position in samples
- */
-
+/// @description Loads an audio file with the given name from the "Audio" directory for use later
+/// @argument {real} fname audio filename
+/// @argument {real} looppoint (optional) loop point start position in samples
 var looppoint = 0;
 switch (argument_count) {
 case 2: var looppoint = argument[1];

@@ -1,7 +1,3 @@
-/// @description  game_pc_react_to(character, ind)
-/// @param character
-/// @param  ind
-
 var character = argument0;
 var ind = argument1;
 

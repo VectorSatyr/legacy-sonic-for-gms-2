@@ -1,29 +1,15 @@
-/// @description  line_in_triangle(sx1, sy1, sx2, sy2, x1, y1, x2, y2, x3, y3)
-/// @param sx1
-/// @param  sy1
-/// @param  sx2
-/// @param  sy2
-/// @param  x1
-/// @param  y1
-/// @param  x2
-/// @param  y2
-/// @param  x3
-/// @param  y3
-/**
- * @description Checks if the given line crosses the given triangle
- * @argument {real} sx1  line first point x-position
- * @argument {real} sy1  line first point y-position
- * @argument {real} sx2  line second point x-position
- * @argument {real} sy2  line second point y-position
- * @argument {real} x1   triangle first point x-position
- * @argument {real} y1   triangle first point y-position
- * @argument {real} x2   triangle second point x-position
- * @argument {real} y2   triangle second point y-position
- * @argument {real} x3   triangle third point x-position
- * @argument {real} y3   triangle third point y-position
- * @returns {real} INTERSECT_NONE, INTERSECT_INSIDE or INTERSECT_OVERLAP
- */
-
+/// @description Checks if the given line crosses the given triangle
+/// @argument {real} sx1  line first point x-position
+/// @argument {real} sy1  line first point y-position
+/// @argument {real} sx2  line second point x-position
+/// @argument {real} sy2  line second point y-position
+/// @argument {real} x1   triangle first point x-position
+/// @argument {real} y1   triangle first point y-position
+/// @argument {real} x2   triangle second point x-position
+/// @argument {real} y2   triangle second point y-position
+/// @argument {real} x3   triangle third point x-position
+/// @argument {real} y3   triangle third point y-position
+/// @returns {real} INTERSECT_NONE, INTERSECT_INSIDE or INTERSECT_OVERLAP
 var sx1 = argument0;
 var sy1 = argument1;
 var sx2 = argument2;

@@ -1,5 +1,3 @@
-/// @description  game_pc_move_in_air(character)
-/// @param character
 // ---------------------------------------------------------------
 /*  
 **  Aerial movement code. Used for airborne states such as

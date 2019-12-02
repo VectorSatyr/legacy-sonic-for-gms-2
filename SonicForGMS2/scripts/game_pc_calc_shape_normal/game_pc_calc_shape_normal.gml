@@ -1,8 +1,3 @@
-/// @description  game_pc_calc_shape_normal(character, shape, orientation)
-/// @param character
-/// @param  shape
-/// @param  orientation
-
 var character = argument0;
 var shape = argument1;
 var orientation = argument2;

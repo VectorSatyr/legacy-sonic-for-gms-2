@@ -1,12 +1,6 @@
-/// @description  game_save_update_continues(amount, [index])
-/// @param amount
-/// @param  [index]
-/**
- * @description Updates the starting continues on the current save 'slot'
- * @argument {real} amount total continues to add
- * @argument {real} index (Optional) save 'slot' to update
- */
-
+/// @description Updates the starting continues on the current save 'slot'
+/// @argument {real} amount total continues to add
+/// @argument {real} index (Optional) save 'slot' to update
 var index = -1;
 switch (argument_count) {
 case 2: index = argument[1];

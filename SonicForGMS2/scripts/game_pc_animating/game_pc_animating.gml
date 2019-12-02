@@ -1,7 +1,3 @@
-/// @description  game_pc_animating(character, animation)
-/// @param character
-/// @param  animation
-
 var character = argument0;
 var animation = argument1;
 

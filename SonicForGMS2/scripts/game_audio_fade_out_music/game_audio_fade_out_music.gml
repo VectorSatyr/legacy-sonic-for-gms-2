@@ -1,12 +1,6 @@
-/// @description  game_audio_fade_out_music(steps, [music])
-/// @param steps
-/// @param  [music]
-/**
- * @description Fades out the given sound over the given number of steps
- * @argument {real} steps total steps to fade
- * @argument {real} music (optional) instance index of GameMusic
- */
-
+/// @description Fades out the given sound over the given number of steps
+/// @argument {real} steps total steps to fade
+/// @argument {real} music (optional) instance index of GameMusic
 var music = game_audio_current_music();
 switch (argument_count) {
 case 2: music = argument[1];

@@ -1,6 +1,3 @@
-/// @description  game_pc_exit_reactions(character)
-/// @param character
-
 var character = argument0;
 
 with (character) {

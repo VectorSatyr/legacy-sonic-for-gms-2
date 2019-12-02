@@ -1,7 +1,3 @@
-/// @description  game_pc_find_ceiling(character, radius)
-/// @param character
-/// @param  radius
-
 var character = argument0;
 var radius = argument1;
 

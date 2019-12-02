@@ -1,6 +1,3 @@
-/// @description  game_pc_redirect_gravity(character, angle)
-/// @param character
-/// @param  angle
 // ---------------------------------------------------------------
 /*  
 **  Redirects the player's gravity. (Does nothing if the player

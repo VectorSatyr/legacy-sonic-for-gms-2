@@ -1,6 +1,3 @@
-/// @description  game_pc_redirect(character, angle)
-/// @param character
-/// @param  angle
 // ---------------------------------------------------------------
 /*  
 **  Redirects the player's movement. (Does nothing if the player

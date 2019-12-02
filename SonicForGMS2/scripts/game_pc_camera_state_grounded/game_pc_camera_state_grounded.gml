@@ -1,6 +1,3 @@
-/// @description  game_pc_camera_state_grounded(vind)
-/// @param vind
-
 var vind = argument0;
 
 var cam = view_get_camera(vind);

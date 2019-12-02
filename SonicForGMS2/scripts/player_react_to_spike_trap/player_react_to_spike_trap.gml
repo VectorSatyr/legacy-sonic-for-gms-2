@@ -1,7 +1,3 @@
-/// @description  player_react_to_spike_trap(ind, phase)
-/// @param ind
-/// @param  phase
-
 var ind = argument0;
 var phase = argument1;
 

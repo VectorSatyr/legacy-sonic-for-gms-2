@@ -1,13 +1,7 @@
-/// @description  round_to(n, m)
-/// @param n
-/// @param  m
-/**
- * @description Returns 'n' rounded to the nearest multiple of 'm'
- * @argument {real} n number to round
- * @argument {real} m multiplier
- * @returns {real}
- */
-
+/// @description Returns 'n' rounded to the nearest multiple of 'm'
+/// @argument {real} n number to round
+/// @argument {real} m multiplier
+/// @returns {real}
 var n = argument0;
 var m = argument1;
 

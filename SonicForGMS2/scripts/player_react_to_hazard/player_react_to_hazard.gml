@@ -1,7 +1,3 @@
-/// @description  player_react_to_hazard(ind, phase)
-/// @param ind
-/// @param  phase
-
 var ind = argument0;
 var phase = argument1;
 

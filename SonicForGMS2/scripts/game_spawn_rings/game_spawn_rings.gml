@@ -1,14 +1,7 @@
-/// @description  game_spawn_rings(rings, ox, oy)
-/// @param rings
-/// @param  ox
-/// @param  oy
-/**
- * @description Spawns up to 32 dropped rings in circles of 16 at the given coordinates
- * @argument {real} rings number of dropped rings to create
- * @argument {real} ox centre spawn x-position
- * @argument {real} oy centre spawn y-position
- */
-
+/// @description Spawns up to 32 dropped rings in circles of 16 at the given coordinates
+/// @argument {real} rings number of dropped rings to create
+/// @argument {real} ox centre spawn x-position
+/// @argument {real} oy centre spawn y-position
 var rings = argument0;
 var ox = argument1;
 var oy = argument2;

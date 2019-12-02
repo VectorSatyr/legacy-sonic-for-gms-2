@@ -1,8 +1,3 @@
-/// @description  game_pc_in_shape(character, shape, xrad, yrad)
-/// @param character
-/// @param  shape
-/// @param  xrad
-/// @param  yrad
 // ---------------------------------------------------------------
 /*  
 **  Returns whether the player's virtual mask intersects the

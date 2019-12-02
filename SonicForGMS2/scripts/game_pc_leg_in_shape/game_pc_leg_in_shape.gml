@@ -1,8 +1,3 @@
-/// @description  game_pc_leg_in_shape(character, shape, xrad, yrad)
-/// @param character
-/// @param  shape
-/// @param  xrad
-/// @param  yrad
 // ---------------------------------------------------------------
 /*  
 **  Returns whether the mask of the given instance intersects

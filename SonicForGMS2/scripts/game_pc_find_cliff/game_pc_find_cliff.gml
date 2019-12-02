@@ -1,6 +1,3 @@
-/// @description  game_pc_find_cliff(character)
-/// @param character
-
 var character = argument0;
 
 with (character) {

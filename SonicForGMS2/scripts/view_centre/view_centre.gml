@@ -1,14 +1,7 @@
-/// @description  view_centre(vind, ox, oy)
-/// @param vind
-/// @param  ox
-/// @param  oy
-/**
- * @description Centers the given view at the given point, taking the room boundaries into consideration
- * @argument {real} vind view port
- * @argument {real} ox focal point x-position
- * @argument {real} oy focal point y-position
- */
-
+/// @description Centers the given view at the given point, taking the room boundaries into consideration
+/// @argument {real} vind view port
+/// @argument {real} ox focal point x-position
+/// @argument {real} oy focal point y-position
 var vind = argument0;
 var ox = argument1;
 var oy = argument2;

@@ -1,7 +1,3 @@
-/// @description  game_pc_arms_in_shape(character, shape, radius)
-/// @param character
-/// @param  shape
-/// @param  radius
 // ---------------------------------------------------------------
 /*  
 **  Returns whether the mask of the given instance intersects

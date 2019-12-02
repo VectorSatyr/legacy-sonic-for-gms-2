@@ -1,6 +1,3 @@
-/// @description  player_is_super_sonic_flying(phase)
-/// @param phase
-
 var phase = argument0;
 
 switch (phase) {

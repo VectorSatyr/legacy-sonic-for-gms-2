@@ -1,7 +1,3 @@
-/// @description  game_pc_align(character, dir)
-/// @param character
-/// @param  dir
-
 var character = argument0;
 var dir = argument1;
 

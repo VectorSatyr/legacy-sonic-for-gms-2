@@ -1,22 +1,12 @@
-/// @description  point_in_ellipse(px, py, cx, cy, xrad, yrad)
-/// @param px
-/// @param  py
-/// @param  cx
-/// @param  cy
-/// @param  xrad
-/// @param  yrad
-/**
- * @description Checks if the given point lines within the given ellipse
- * @argument {real} px point x-position
- * @argument {real} py point y-position
- * @argument {real} cx ellipse centre point x-position
- * @argument {real} cy ellipse centre point y-position
- * @argument {real} xrad ellipse x radius
- * @argument {real} yrad ellipse y radius
- * @returns {boolean}
- * @see {@link http://math.stackexchange.com/a/243525}
- */
-
+/// @description Checks if the given point lines within the given ellipse
+/// @argument {real} px point x-position
+/// @argument {real} py point y-position
+/// @argument {real} cx ellipse centre point x-position
+/// @argument {real} cy ellipse centre point y-position
+/// @argument {real} xrad ellipse x radius
+/// @argument {real} yrad ellipse y radius
+/// @returns {boolean}
+/// @see {@link http://math.stackexchange.com/a/243525}
 var px = argument0;
 var py = argument1;
 var cx = argument2;

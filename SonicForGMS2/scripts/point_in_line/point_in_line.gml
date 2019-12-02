@@ -1,23 +1,13 @@
-/// @description  point_in_line(px, py, x1, y1, x2, y2)
-/// @param px
-/// @param  py
-/// @param  x1
-/// @param  y1
-/// @param  x2
-/// @param  y2
-/**
- * @description Checks if the given point rests along the given line segment
- * @argument {real} px   point x-position
- * @argument {real} py   point y-position
- * @argument {real} x1   first line point x-position
- * @argument {real} y1   first line point y-position
- * @argument {real} x2   second line point x-position
- * @argument {real} y2   second line point y-position
- * @returns {boolean}
- * @copyright 2001 softSurfer, 2012 Dan Sunday
- * @see {@link http://geomalgorithms.com/a05-_intersect-1.html#inSegment()}
- */
-
+/// @description Checks if the given point rests along the given line segment
+/// @argument {real} px   point x-position
+/// @argument {real} py   point y-position
+/// @argument {real} x1   first line point x-position
+/// @argument {real} y1   first line point y-position
+/// @argument {real} x2   second line point x-position
+/// @argument {real} y2   second line point y-position
+/// @returns {boolean}
+/// @copyright 2001 softSurfer, 2012 Dan Sunday
+/// @see {@link http://geomalgorithms.com/a05-_intersect-1.html#inSegment()}
 var px = argument0;
 var py = argument1;
 var x1 = argument2;

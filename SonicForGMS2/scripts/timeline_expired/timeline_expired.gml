@@ -1,11 +1,6 @@
-/// @description  timeline_expired(obj)
-/// @param obj
-/**
- * @description Checks if any obj (or instance) has a timeline that has reached its last moment
- * @argument {real} obj object or instance index
- * @returns {boolean}
- */
-
+/// @description Checks if any obj (or instance) has a timeline that has reached its last moment
+/// @argument {real} obj object or instance index
+/// @returns {boolean}
 var obj = argument0;
 
 var result = false;

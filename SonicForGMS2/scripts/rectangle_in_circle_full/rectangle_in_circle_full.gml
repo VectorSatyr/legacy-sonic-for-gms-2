@@ -1,24 +1,13 @@
-/// @description  rectangle_in_circle_full(sx1, sy1, sx2, sy2, cx, cy, rad)
-/// @param sx1
-/// @param  sy1
-/// @param  sx2
-/// @param  sy2
-/// @param  cx
-/// @param  cy
-/// @param  rad
-/**
- * @description Checks if the given rectangle overlaps the given circle (handles more edge cases than rectangle_in_circle)
- * @argument {real} sx1  rectangle top-left point x-position
- * @argument {real} sy1  rectangle top-left point y-position
- * @argument {real} sx2  rectangle bottom-right point x-position
- * @argument {real} sy2  rectangle bottom-right point y-position
- * @argument {real} cx   circle centre point x-position
- * @argument {real} cy   circle centre point y-position
- * @argument {real} rad  circle radius
- * @returns {boolean}
- * @see {@link http://math.stackexchange.com/a/243525}
- */
-
+/// @description Checks if the given rectangle overlaps the given circle (handles more edge cases than rectangle_in_circle)
+/// @argument {real} sx1  rectangle top-left point x-position
+/// @argument {real} sy1  rectangle top-left point y-position
+/// @argument {real} sx2  rectangle bottom-right point x-position
+/// @argument {real} sy2  rectangle bottom-right point y-position
+/// @argument {real} cx   circle centre point x-position
+/// @argument {real} cy   circle centre point y-position
+/// @argument {real} rad  circle radius
+/// @returns {boolean}
+/// @see {@link http://math.stackexchange.com/a/243525}
 var sx1 = argument0;
 var sy1 = argument1;
 var sx2 = argument2;

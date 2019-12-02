@@ -1,6 +1,2 @@
-/// @description  game_save_refresh_all()
-/**
- * @description Reads information from disk and creates new GameSaveFiles
- */
-
+/// @description Reads information from disk and creates new GameSaveFiles
 instance_perform_user_event(GameSaveDirectory, 0); // create

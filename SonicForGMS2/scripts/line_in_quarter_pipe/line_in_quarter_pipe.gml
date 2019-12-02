@@ -1,25 +1,13 @@
-/// @description  line_in_quarter_pipe(sx1, sy1, sx2, sy2, cx, cy, xrad, yrad)
-/// @param sx1
-/// @param  sy1
-/// @param  sx2
-/// @param  sy2
-/// @param  cx
-/// @param  cy
-/// @param  xrad
-/// @param  yrad
-/**
- * @description Checks if the given line crosses the given ellipse pipe
- * @argument {real} sx1 first line first point x-position
- * @argument {real} sy1 first line first point y-position
- * @argument {real} sx2 first line second point x-position
- * @argument {real} sy2 first line second point y-position
- * @argument {real} cx pipe centre point x-position
- * @argument {real} cy pipe centre point y-position
- * @argument {real} xrad pipe x-radius
- * @argument {real} yrad pipe y-radius
- * @returns {real} INTERSECT_NONE, INTERSECT_INSIDE or INTERSECT_OVERLAP
- */
-
+/// @description Checks if the given line crosses the given ellipse pipe
+/// @argument {real} sx1 first line first point x-position
+/// @argument {real} sy1 first line first point y-position
+/// @argument {real} sx2 first line second point x-position
+/// @argument {real} sy2 first line second point y-position
+/// @argument {real} cx pipe centre point x-position
+/// @argument {real} cy pipe centre point y-position
+/// @argument {real} xrad pipe x-radius
+/// @argument {real} yrad pipe y-radius
+/// @returns {real} INTERSECT_NONE, INTERSECT_INSIDE or INTERSECT_OVERLAP
 var sx1 = argument0;
 var sy1 = argument1;
 var sx2 = argument2;

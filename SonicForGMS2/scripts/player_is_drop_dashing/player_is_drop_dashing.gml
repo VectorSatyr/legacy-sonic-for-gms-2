@@ -1,6 +1,3 @@
-/// @description  player_is_drop_dashing(step)
-/// @param step
-
 var phase = argument0;
 
 switch (phase) {

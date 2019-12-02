@@ -1,7 +1,3 @@
-/// @description  game_pc_calc_slope_friction(character, force, threshold)
-/// @param character
-/// @param  force
-/// @param  threshold
 // ---------------------------------------------------------------
 /*  
 **  Calculates the amount of force to apply in order to slide

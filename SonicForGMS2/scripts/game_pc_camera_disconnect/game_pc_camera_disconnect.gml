@@ -1,6 +1,3 @@
-/// @description  game_pc_camera_disconnect(character)
-/// @param character
-
 var character = argument0;
 
 with (character) {

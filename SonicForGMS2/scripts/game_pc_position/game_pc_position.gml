@@ -1,7 +1,3 @@
-/// @description  game_pc_position(character, nx, ny)
-/// @param character
-/// @param  nx
-/// @param  ny
 // ---------------------------------------------------------------
 /*  
 **  Changes the player's position in the room while staying

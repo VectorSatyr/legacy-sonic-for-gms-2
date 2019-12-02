@@ -1,26 +1,14 @@
-/// @description  line_in_ellipse(sx1, sy1, sx2, sy2, cx, cy, xrad, yrad)
-/// @param sx1
-/// @param  sy1
-/// @param  sx2
-/// @param  sy2
-/// @param  cx
-/// @param  cy
-/// @param  xrad
-/// @param  yrad
-/**
- * @description Checks if the given line crosses the given ellipse
- * @argument {real} sx1 first line first point x-position
- * @argument {real} sy1 first line first point y-position
- * @argument {real} sx2 first line second point x-position
- * @argument {real} sy2 first line second point y-position
- * @argument {real} cx ellipse centre point x-position
- * @argument {real} cy ellipse centre point y-position
- * @argument {real} xrad ellipse x-radius
- * @argument {real} yrad ellipse y-radius
- * @returns {real} INTERSECT_NONE, INTERSECT_INSIDE or INTERSECT_OVERLAP
- * @see {@link http://math.stackexchange.com/a/243525}
- */
-
+/// @description Checks if the given line crosses the given ellipse
+/// @argument {real} sx1 first line first point x-position
+/// @argument {real} sy1 first line first point y-position
+/// @argument {real} sx2 first line second point x-position
+/// @argument {real} sy2 first line second point y-position
+/// @argument {real} cx ellipse centre point x-position
+/// @argument {real} cy ellipse centre point y-position
+/// @argument {real} xrad ellipse x-radius
+/// @argument {real} yrad ellipse y-radius
+/// @returns {real} INTERSECT_NONE, INTERSECT_INSIDE or INTERSECT_OVERLAP
+/// @see {@link http://math.stackexchange.com/a/243525}
 var sx1 = argument0;
 var sy1 = argument1;
 var sx2 = argument2;

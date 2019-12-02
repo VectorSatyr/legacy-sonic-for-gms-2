@@ -1,6 +1,3 @@
-/// @description  game_pc_land(character, ind)
-/// @param character
-/// @param  ind
 // ---------------------------------------------------------------
 /*  
 **  Set the given object index as the terrain the given

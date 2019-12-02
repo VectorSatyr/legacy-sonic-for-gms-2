@@ -1,14 +1,7 @@
-/// @description  view_follow(vind, ox, oy)
-/// @param vind
-/// @param  ox
-/// @param  oy
-/**
- * @description Moves the specified view as if view_object[vind] were set to an instance at point {ox, oy}
- * @argument {real} vind view port
- * @argument {real} ox focal point x-position
- * @argument {real} oy focal point y-position
- */
-
+/// @description Moves the specified view as if view_object[vind] were set to an instance at point {ox, oy}
+/// @argument {real} vind view port
+/// @argument {real} ox focal point x-position
+/// @argument {real} oy focal point y-position
 var vind = argument0;
 var ox = argument1;
 var oy = argument2;

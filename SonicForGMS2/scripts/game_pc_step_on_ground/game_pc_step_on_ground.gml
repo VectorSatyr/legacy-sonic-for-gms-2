@@ -1,6 +1,3 @@
-/// @description  game_pc_step_on_ground(character, step)
-/// @param character
-/// @param  step
 // ---------------------------------------------------------------
 /*  
 **  Grounded movement step. Takes a sample of the player's

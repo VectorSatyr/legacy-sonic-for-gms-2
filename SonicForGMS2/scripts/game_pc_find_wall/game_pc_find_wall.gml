@@ -1,7 +1,3 @@
-/// @description  game_pc_find_wall(character, radius)
-/// @param character
-/// @param  radius
-
 var character = argument0;
 var radius = argument1;
 

@@ -1,5 +1,3 @@
-/// @description  game_pc_find_outlier(character)
-/// @param character
 // ---------------------------------------------------------------
 var character = argument0;
 // ---------------------------------------------------------------

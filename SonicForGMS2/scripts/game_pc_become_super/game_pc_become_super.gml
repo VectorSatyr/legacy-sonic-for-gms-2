@@ -1,5 +1,3 @@
-/// @description  game_pc_become_super(character)
-/// @param character
 // ---------------------------------------------------------------
 /*  
 **  Triggers a character's super form

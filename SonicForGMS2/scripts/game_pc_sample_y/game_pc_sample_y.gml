@@ -1,6 +1,3 @@
-/// @description  game_pc_sample_y(character, script)
-/// @param character
-/// @param  script
 // ---------------------------------------------------------------
 /*  
 **  Executes the given script a number of times equal to the

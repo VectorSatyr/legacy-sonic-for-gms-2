@@ -1,5 +1,3 @@
-/// @description  game_pc_refresh_physics(character)
-/// @param character
 // ---------------------------------------------------------------
 /*  
 **  Resets all physics values back to default, applying modifiers

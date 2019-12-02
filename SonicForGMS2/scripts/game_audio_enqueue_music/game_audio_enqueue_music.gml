@@ -1,15 +1,8 @@
-/// @description  game_audio_enqueue_music(soundid, [priority], [loops])
-/// @param soundid
-/// @param  [priority]
-/// @param  [loops]
-/**
- * @description Starts music playback and 'queues' it using an instance of GMSGameMusic; destroying this instance will automatically cause the last 'queued' music to start again
- * @argument {real} soundid sound index
- * @argument {real} priority (optional) channel priority; lower priority sounds may be cut off
- * @argument {boolean} loops (optional) whether or not the music repeats indefinitely
- * @returns {real} instance index of GMSGameMusic
- */
-
+/// @description Starts music playback and 'queues' it using an instance of GMSGameMusic; destroying this instance will automatically cause the last 'queued' music to start again
+/// @argument {real} soundid sound index
+/// @argument {real} priority (optional) channel priority; lower priority sounds may be cut off
+/// @argument {boolean} loops (optional) whether or not the music repeats indefinitely
+/// @returns {real} instance index of GMSGameMusic
 var priority = 0;
 var loops = false;
 switch (argument_count) {

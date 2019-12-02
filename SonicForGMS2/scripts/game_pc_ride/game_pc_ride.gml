@@ -1,6 +1,3 @@
-/// @description  game_pc_ride(character, ind)
-/// @param character
-/// @param  ind
 // ---------------------------------------------------------------
 /*  
 **  Adjust's the player character's position based on the given

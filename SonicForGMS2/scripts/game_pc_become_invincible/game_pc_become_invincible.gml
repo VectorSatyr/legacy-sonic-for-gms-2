@@ -1,6 +1,3 @@
-/// @description  game_pc_become_invincible(character, time)
-/// @param character
-/// @param  time
 // ---------------------------------------------------------------
 /*
 **  Activates the invincibility power-up for the calling player

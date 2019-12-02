@@ -1,11 +1,6 @@
-/// @description  game_save_all_emeralds_found([index])
-/// @param [index]
-/**
- * @description Checks if all emeralds have been collected on the current save 'slot'
- * @argument {real} index (Optional) save 'slot' to check
- * @returns {boolean} whether or not all emeralds were collected
- */
-
+/// @description Checks if all emeralds have been collected on the current save 'slot'
+/// @argument {real} index (Optional) save 'slot' to check
+/// @returns {boolean} whether or not all emeralds were collected
 var index = -1;
 switch (argument_count) {
 case 1: index = argument[0];

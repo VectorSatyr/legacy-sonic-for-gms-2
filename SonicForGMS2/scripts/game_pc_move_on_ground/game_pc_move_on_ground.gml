@@ -1,5 +1,3 @@
-/// @description  game_pc_move_on_ground(character)
-/// @param character
 // ---------------------------------------------------------------
 /*  
 **  Grounded movement code. Used for 'grounded' states such as

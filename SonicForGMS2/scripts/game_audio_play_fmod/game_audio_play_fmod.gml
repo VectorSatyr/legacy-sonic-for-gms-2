@@ -1,11 +1,6 @@
-/// @description  game_audio_play_fmod(soundid)
-/// @param soundid
-/**
- * @description Starts FMOD sound playback
- * @argument {real} soundid sound index
- * @returns {real} FMOD index of played audio (-1 on error)
- */
-
+/// @description Starts FMOD sound playback
+/// @argument {real} soundid sound index
+/// @returns {real} FMOD index of played audio (-1 on error)
 var soundid = argument0;
 
 var index = -1;

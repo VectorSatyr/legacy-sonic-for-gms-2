@@ -1,6 +1,3 @@
-/// @description  game_pc_camera_state_crouching(vind)
-/// @param vind
-
 var vind = argument0;
 
 if (look_time <= 0) {

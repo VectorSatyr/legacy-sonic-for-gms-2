@@ -1,13 +1,7 @@
-/// @description  object_is_family(obj, kind)
-/// @param obj
-/// @param  kind
-/**
- * @description Checks if the given object is of the given 'kind' or is a relative
- * @argument {real} obj object index to check
- * @argument {real} kind object index to match
- * @returns {boolean}
- */
-
+/// @description Checks if the given object is of the given 'kind' or is a relative
+/// @argument {real} obj object index to check
+/// @argument {real} kind object index to match
+/// @returns {boolean}
 var obj = argument0;
 var kind = argument1;
 

@@ -1,11 +1,6 @@
-/// @description  angle_wrap(ang)
-/// @param ang
-/**
- * @description Returns 'ang' wrapped between 0 and 359 degrees
- * @argument {real} ang angle to wrap
- * @returns {real}
- */
-
+/// @description Returns 'ang' wrapped between 0 and 359 degrees
+/// @argument {real} ang angle to wrap
+/// @returns {real}
 var ang = argument0;
 
 var result = ang mod 360;

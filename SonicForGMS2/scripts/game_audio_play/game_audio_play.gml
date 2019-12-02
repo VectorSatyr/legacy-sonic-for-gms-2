@@ -1,15 +1,8 @@
-/// @description  game_audio_play(soundid, [priority], [loops])
-/// @param soundid
-/// @param  [priority]
-/// @param  [loops]
-/**
- * @description Starts audio playback (Stops all previous instances of the audio before playing)
- * @argument {real} soundid sound index
- * @argument {real} priority (optional) channel priority; lower priority sounds may be cut off
- * @argument {boolean} loops (optional) whether or not the music repeats indefinitely
- * @returns {real} index of played audio (-1 on error)
- */
-
+/// @description Starts audio playback (Stops all previous instances of the audio before playing)
+/// @argument {real} soundid sound index
+/// @argument {real} priority (optional) channel priority; lower priority sounds may be cut off
+/// @argument {boolean} loops (optional) whether or not the music repeats indefinitely
+/// @returns {real} index of played audio (-1 on error)
 var priority = 0;
 var loops = false;
 switch (argument_count) {

@@ -1,8 +1,4 @@
-/// @description  game_audio_pause_all()
-/**
- * @description Pauses all audio (including FMOD)
- */
-
+/// @description Pauses all audio (including FMOD)
 with (GMSAudioSystem) {
     audio_pause_all();
 }

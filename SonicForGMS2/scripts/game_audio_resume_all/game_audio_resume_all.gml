@@ -1,8 +1,4 @@
-/// @description  game_audio_resume_all()
-/**
- * @description Resumes all audio (including FMOD)
- */
-
+/// @description Resumes all audio (including FMOD)
 with (GMSAudioSystem) {
     audio_resume_all();
 }

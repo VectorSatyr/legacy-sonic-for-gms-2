@@ -1,4 +1,3 @@
-/// @description  player_perform_thunder_jump()
 jump_action_available = false;
 
 y_speed = -thunder_jump_force;

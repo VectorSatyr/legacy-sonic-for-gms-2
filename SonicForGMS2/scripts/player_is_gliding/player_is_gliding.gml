@@ -1,6 +1,3 @@
-/// @description  player_is_gliding(phase)
-/// @param phase
-
 var phase = argument0;
 
 switch (phase) {

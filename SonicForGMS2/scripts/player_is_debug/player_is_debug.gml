@@ -1,6 +1,3 @@
-/// @description  player_is_debug(phase)
-/// @param phase
-
 var phase = argument0;
 
 switch (phase) {

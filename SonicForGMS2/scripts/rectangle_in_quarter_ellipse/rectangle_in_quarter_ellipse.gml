@@ -1,25 +1,13 @@
-/// @description  rectangle_in_quarter_ellipse(sx1, sy1, sx2, sy2, cx, cy, xrad, yrad)
-/// @param sx1
-/// @param  sy1
-/// @param  sx2
-/// @param  sy2
-/// @param  cx
-/// @param  cy
-/// @param  xrad
-/// @param  yrad
-/**
- * @description Checks if the given rectangle overlaps the given quarter ellipse
- * @argument {real} sx1 rectangle top-left point x-position
- * @argument {real} sy1 rectangle top-left point y-position
- * @argument {real} sx2 rectangle bottom-right point x-position
- * @argument {real} sy2 rectangle bottom-right point y-position
- * @argument {real} cx ellipse centre point x-position
- * @argument {real} cy ellipse centre point y-position
- * @argument {real} xrad ellipse x-radius
- * @argument {real} yrad ellipse y-radius
- * @returns {boolean}
- */
-
+/// @description Checks if the given rectangle overlaps the given quarter ellipse
+/// @argument {real} sx1 rectangle top-left point x-position
+/// @argument {real} sy1 rectangle top-left point y-position
+/// @argument {real} sx2 rectangle bottom-right point x-position
+/// @argument {real} sy2 rectangle bottom-right point y-position
+/// @argument {real} cx ellipse centre point x-position
+/// @argument {real} cy ellipse centre point y-position
+/// @argument {real} xrad ellipse x-radius
+/// @argument {real} yrad ellipse y-radius
+/// @returns {boolean}
 var sx1 = argument0;
 var sy1 = argument1;
 var sx2 = argument2;

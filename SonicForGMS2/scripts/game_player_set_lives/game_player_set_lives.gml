@@ -1,7 +1,3 @@
-/// @description  game_player_set_lives(player, amount)
-/// @param player
-/// @param  amount
-
 var player = argument0;
 var amount = argument1;
 

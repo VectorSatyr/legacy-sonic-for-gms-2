@@ -1,6 +1,3 @@
-/// @description  game_pc_upper_collision_solid(character, radius)
-/// @param character
-/// @param  radius
 // ---------------------------------------------------------------
 /*  
 **  Finds the first solid intersecting the upper half of the

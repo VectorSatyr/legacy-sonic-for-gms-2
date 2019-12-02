@@ -1,28 +1,14 @@
-/// @description  game_sign_add_moment(ind, duration, delay, xpos, ypos, xscale, yscale, rot, color, alpha)
-/// @param ind
-/// @param  duration
-/// @param  delay
-/// @param  xpos
-/// @param  ypos
-/// @param  xscale
-/// @param  yscale
-/// @param  rot
-/// @param  color
-/// @param  alpha
-/**
- * @description Adds a new animation to an existing AnimatedGameSign
- * @argument {real} ind instance index of AnimatedGameSign
- * @argument {real} duration amount of frames to animate
- * @argument {real} delay amount of frames to wait before animating
- * @argument {real} xpos x-position to move towards
- * @argument {real} ypos y-position to move towards
- * @argument {real} xscale horizontal scale to stretch the image towards
- * @argument {real} yscale vertical scale to stretch the image towards
- * @argument {real} rot angle to rotate towards
- * @argument {real} color color to blend towards
- * @argument {real} alpha transparency level to blend towards
- */
-
+/// @description Adds a new animation to an existing AnimatedGameSign
+/// @argument {real} ind instance index of AnimatedGameSign
+/// @argument {real} duration amount of frames to animate
+/// @argument {real} delay amount of frames to wait before animating
+/// @argument {real} xpos x-position to move towards
+/// @argument {real} ypos y-position to move towards
+/// @argument {real} xscale horizontal scale to stretch the image towards
+/// @argument {real} yscale vertical scale to stretch the image towards
+/// @argument {real} rot angle to rotate towards
+/// @argument {real} color color to blend towards
+/// @argument {real} alpha transparency level to blend towards
 var ind = argument0;
 var duration = argument1;
 var delay = argument2;

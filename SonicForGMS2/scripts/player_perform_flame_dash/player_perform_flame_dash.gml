@@ -1,4 +1,3 @@
-/// @description  player_perform_flame_dash()
 jump_action_available = false;
 
 x_speed = facing_sign * flame_dash_speed;

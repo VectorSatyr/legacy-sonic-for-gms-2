@@ -1,8 +1,3 @@
-/// @description  game_pc_in_shape_bounds(character, shape, orientation)
-/// @param character
-/// @param  shape
-/// @param  orientation
-
 var character = argument0;
 var shape = argument1;
 var orientation = argument2;

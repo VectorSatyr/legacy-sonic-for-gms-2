@@ -1,8 +1,3 @@
-/// @description  game_pc_play_sound(character, soundid, [loops])
-/// @param character
-/// @param  soundid
-/// @param  [loops]
-
 var loops = false;
 switch (argument_count) {
 case 3: loops = argument[2];

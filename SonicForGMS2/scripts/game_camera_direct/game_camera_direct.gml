@@ -1,14 +1,7 @@
-/// @description  game_camera_direct(vind, script, [caller])
-/// @param vind
-/// @param  script
-/// @param  [caller]
-/**
- * @description Binds the given script to the given viewport to be run every step
- * @argument {real} vind view index
- * @argument {real} script index to run (the script should accept a view index as its only argument)
- * @argument {real} [caller] (optional) instance or object index that will call the script (if unspecified, the Camera object is the caller)
- */
-
+/// @description Binds the given script to the given viewport to be run every step
+/// @argument {real} vind view index
+/// @argument {real} script index to run (the script should accept a view index as its only argument)
+/// @argument {real} [caller] (optional) instance or object index that will call the script (if unspecified, the Camera object is the caller)
 var caller = undefined;
 switch (argument_count) {
 case 3: caller = argument[2];

@@ -1,15 +1,8 @@
-/// @description  game_shape_in_point(shape, px, py)
-/// @param shape
-/// @param  px
-/// @param  py
-/**
- * @description Checks if the given point lines within the given terrain shape
- * @argument {real} shape instance index
- * @argument {real} px point x-position
- * @argument {real} py point y-position
- * @returns {boolean}
- */
-
+/// @description Checks if the given point lines within the given terrain shape
+/// @argument {real} shape instance index
+/// @argument {real} px point x-position
+/// @argument {real} py point y-position
+/// @returns {boolean}
 var shape = argument0;
 var px = argument1;
 var py = argument2;

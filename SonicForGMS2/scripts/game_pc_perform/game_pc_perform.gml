@@ -1,8 +1,3 @@
-/// @description  game_pc_perform(character, action, [reset?])
-/// @param character
-/// @param  action
-/// @param  [reset?]
-
 var reset = false;
 switch (argument_count) {
 case 3: reset = argument[2];

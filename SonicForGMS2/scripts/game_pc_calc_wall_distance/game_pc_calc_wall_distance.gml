@@ -1,7 +1,3 @@
-/// @description  game_pc_calc_wall_distance(character, ind, radius)
-/// @param character
-/// @param  ind
-/// @param  radius
 // ---------------------------------------------------------------
 /*  
 **  Calculates the distance needed to move the player's virtual

@@ -1,11 +1,6 @@
-/// @description  game_audio_enqueue_music_fmod(soundid)
-/// @param soundid
-/**
- * @description Starts music playback and 'queues' it using an instance of FMODGameMusic; destroying this instance will automatically cause the last 'queued' music to start again
- * @argument {real} soundid sound index
- * @returns {real} instance index of FMODGameMusic
- */
-
+/// @description Starts music playback and 'queues' it using an instance of FMODGameMusic; destroying this instance will automatically cause the last 'queued' music to start again
+/// @argument {real} soundid sound index
+/// @returns {real} instance index of FMODGameMusic
 var soundid = argument0;
 
 var music = instance_create_layer(0, 0, "general", FMODGameMusic);

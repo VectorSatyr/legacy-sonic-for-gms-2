@@ -1,13 +1,7 @@
-/// @description  game_input_event_pressed(event, [channel])
-/// @param event
-/// @param  [channel]
-/**
- * @description Checks if the given event was registered this frame and not last frame
- * @argument {string} event event name
- * @argument {real} channel (optional) input channel; if unused, polls all available channels
- * @returns {boolean} whether or not the event was registered
- */
-
+/// @description Checks if the given event was registered this frame and not last frame
+/// @argument {string} event event name
+/// @argument {real} channel (optional) input channel; if unused, polls all available channels
+/// @returns {boolean} whether or not the event was registered
 var channel = -1;
 switch (argument_count) {
 case 2: channel = argument[1];

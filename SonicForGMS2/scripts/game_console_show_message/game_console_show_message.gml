@@ -1,15 +1,8 @@
-/// @description  game_console_show_message(text, [duration], [separation])
-/// @param text
-/// @param  [duration]
-/// @param  [separation]
-/**
- * @description Shows a brief console message
- * @argument {string} text message to display
- * @argument {real} duration (optional) number of frames to show the message
- * @argument {real} separation (optional) space between separate messages in pixels
- * @returns {real} instance index of GameConsoleMessage
- */
-
+/// @description Shows a brief console message
+/// @argument {string} text message to display
+/// @argument {real} duration (optional) number of frames to show the message
+/// @argument {real} separation (optional) space between separate messages in pixels
+/// @returns {real} instance index of GameConsoleMessage
 var duration = 120;
 var separation = 2;
 switch (argument_count) {

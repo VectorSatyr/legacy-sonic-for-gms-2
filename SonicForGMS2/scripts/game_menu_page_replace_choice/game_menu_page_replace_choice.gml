@@ -1,14 +1,7 @@
-/// @description  game_menu_page_replace_choice(page, choice, index)
-/// @param page
-/// @param  choice
-/// @param  index
-/**
- * @description Updates the given menu choice at the given index on the given page into the new choice specified
- * @argument {real} page instance index of GameMenuPage
- * @argument {real} choice instance index of GameMenuChoice
- * @argument {real} index choice index to replace
- */
-
+/// @description Updates the given menu choice at the given index on the given page into the new choice specified
+/// @argument {real} page instance index of GameMenuPage
+/// @argument {real} choice instance index of GameMenuChoice
+/// @argument {real} index choice index to replace
 var page = argument0;
 var choice = argument1;
 var index = argument2;

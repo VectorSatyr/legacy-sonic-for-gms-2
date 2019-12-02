@@ -1,24 +1,13 @@
-/// @description  line_in_circle(sx1, sy1, sx2, sy2, cx, cy, rad)
-/// @param sx1
-/// @param  sy1
-/// @param  sx2
-/// @param  sy2
-/// @param  cx
-/// @param  cy
-/// @param  rad
-/**
- * @description Checks if the given line crosses the given circle
- * @argument {real} sx1  first line first point x-position
- * @argument {real} sy1  first line first point y-position
- * @argument {real} sx2  first line second point x-position
- * @argument {real} sy2  first line second point y-position
- * @argument {real} cx   circle centre point x-position
- * @argument {real} cy   circle centre point y-position
- * @argument {real} rad  circle radius
- * @returns {real} INTERSECT_NONE, INTERSECT_INSIDE or INTERSECT_OVERLAP
- * @see {@link http://paulbourke.net/geometry/pointlineplane/}
- */
-
+/// @description Checks if the given line crosses the given circle
+/// @argument {real} sx1  first line first point x-position
+/// @argument {real} sy1  first line first point y-position
+/// @argument {real} sx2  first line second point x-position
+/// @argument {real} sy2  first line second point y-position
+/// @argument {real} cx   circle centre point x-position
+/// @argument {real} cy   circle centre point y-position
+/// @argument {real} rad  circle radius
+/// @returns {real} INTERSECT_NONE, INTERSECT_INSIDE or INTERSECT_OVERLAP
+/// @see {@link http://paulbourke.net/geometry/pointlineplane/}
 var sx1 = argument0;
 var sy1 = argument1;
 var sx2 = argument2;

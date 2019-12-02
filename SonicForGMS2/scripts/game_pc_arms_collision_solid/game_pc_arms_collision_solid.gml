@@ -1,6 +1,3 @@
-/// @description  game_pc_arms_collision_solid(character, radius)
-/// @param character
-/// @param  radius
 // ---------------------------------------------------------------
 /*  
 **  Finds the first solid intersecting the arms (horizontal

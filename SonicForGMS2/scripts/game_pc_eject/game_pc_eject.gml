@@ -1,8 +1,3 @@
-/// @description  game_pc_eject(character, len, dir)
-/// @param character
-/// @param  len
-/// @param  dir
-
 var character = argument0;
 var len = argument1;
 var dir = argument2;

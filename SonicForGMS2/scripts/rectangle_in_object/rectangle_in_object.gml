@@ -1,23 +1,12 @@
-/// @description  rectangle_in_object(x1, y1, x2, y2, obj, prec, notme)
-/// @param x1
-/// @param  y1
-/// @param  x2
-/// @param  y2
-/// @param  obj
-/// @param  prec
-/// @param  notme
-/**
- * @description Checks if the given rectangle crosses the given object
- * @argument {real} x1 rectangle left-most x-position
- * @argument {real} y1 rectangle top-most y-position
- * @argument {real} x2 rectangle bottom-most x-position
- * @argument {real} y2 rectangle right-most y-position
- * @argument {real} obj object or instance index
- * @argument {boolean} prec   whether or not to use precise collision checking
- * @argument {boolean} notme  whether the calling instance is included in the search
- * @returns {real} INTERSECT_NONE, INTERSECT_INSIDE or INTERSECT_OVERLAP
- */
-
+/// @description Checks if the given rectangle crosses the given object
+/// @argument {real} x1 rectangle left-most x-position
+/// @argument {real} y1 rectangle top-most y-position
+/// @argument {real} x2 rectangle bottom-most x-position
+/// @argument {real} y2 rectangle right-most y-position
+/// @argument {real} obj object or instance index
+/// @argument {boolean} prec   whether or not to use precise collision checking
+/// @argument {boolean} notme  whether the calling instance is included in the search
+/// @returns {real} INTERSECT_NONE, INTERSECT_INSIDE or INTERSECT_OVERLAP
 var x1 = argument0;
 var y1 = argument1;
 var x2 = argument2;

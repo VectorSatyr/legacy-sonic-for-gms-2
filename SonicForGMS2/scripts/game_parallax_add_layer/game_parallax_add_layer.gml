@@ -1,39 +1,20 @@
-/// @description  game_parallax_add_layer(back, left, top, width, height, ox, oy, [x_tiled], [y_tiled], [x_ratio], [y_ratio], [x_separation], [y_separation], [x_speed], [y_speed]);
-/// @param back
-/// @param  left
-/// @param  top
-/// @param  width
-/// @param  height
-/// @param  ox
-/// @param  oy
-/// @param  [x_tiled]
-/// @param  [y_tiled]
-/// @param  [x_ratio]
-/// @param  [y_ratio]
-/// @param  [x_separation]
-/// @param  [y_separation]
-/// @param  [x_speed]
-/// @param  [y_speed]
-/**
- * @description Creates a new parallax background with the given properties
- * @argument {real} back background index
- * @argument {real} left background area top-left x-position
- * @argument {real} top background area top-left y-position
- * @argument {real} width background area width
- * @argument {real} height background area height
- * @argument {real} ox absolute screen x-position
- * @argument {real} oy absolute screen y-position
- * @argument {boolean} x_tiled (Optional) whether to tile the background horizontally 
- * @argument {boolean} y_tiled (Optional) whether to tile the background vertically
- * @argument {real} x_ratio (Optional) factor to scroll the x-position against the view's x-position
- * @argument {real} y_ratio (Optional) factor to scroll the y-position against the view's y-position
- * @argument {real} x_separation (Optional) amount of horizontal space between tiled images
- * @argument {real} y_separation (Optional) amount of vertical space between tiled images
- * @argument {real} x_speed (Optional) horizontal speed to automatically scroll
- * @argument {real} y_speed (Optional) vertical speed to automatically scroll
- * @returns {real} instance index of ParallaxLayer (or undefined on error)
- */
-
+/// @description Creates a new parallax background with the given properties
+/// @argument {real} back background index
+/// @argument {real} left background area top-left x-position
+/// @argument {real} top background area top-left y-position
+/// @argument {real} width background area width
+/// @argument {real} height background area height
+/// @argument {real} ox absolute screen x-position
+/// @argument {real} oy absolute screen y-position
+/// @argument {boolean} x_tiled (Optional) whether to tile the background horizontally 
+/// @argument {boolean} y_tiled (Optional) whether to tile the background vertically
+/// @argument {real} x_ratio (Optional) factor to scroll the x-position against the view's x-position
+/// @argument {real} y_ratio (Optional) factor to scroll the y-position against the view's y-position
+/// @argument {real} x_separation (Optional) amount of horizontal space between tiled images
+/// @argument {real} y_separation (Optional) amount of vertical space between tiled images
+/// @argument {real} x_speed (Optional) horizontal speed to automatically scroll
+/// @argument {real} y_speed (Optional) vertical speed to automatically scroll
+/// @returns {real} instance index of ParallaxLayer (or undefined on error)
 var x_tiled = false;
 var y_tiled = false;
 var x_ratio = 1;

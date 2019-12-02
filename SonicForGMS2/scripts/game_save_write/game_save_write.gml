@@ -1,10 +1,5 @@
-/// @description  game_save_write([index])
-/// @param [index]
-/**
- * @description Writes the information from the current save 'slot' to disk
- * @argument {real} index (Optional) save 'slot' to write
- */
-
+/// @description Writes the information from the current save 'slot' to disk
+/// @argument {real} index (Optional) save 'slot' to write
 var index = -1;
 switch (argument_count) {
 case 1: index = argument[0];

@@ -1,6 +1,3 @@
-/// @description  game_pc_refresh_local_index(character)
-/// @param character
-
 var character = argument0;
 
 with (character) {

@@ -1,13 +1,7 @@
-/// @description  instance_on_screen(ind, [padding])
-/// @param ind
-/// @param  [padding]
-/**
- * @description Checks if an instance is currently visible in any view (always returns true if views are not enabled)
- * @argument {real} ind instance index
- * @argument {real} [padding] (optional) pixels to extend the size of each view when checking the range
- * @returns {boolean}
- */
-
+/// @description Checks if an instance is currently visible in any view (always returns true if views are not enabled)
+/// @argument {real} ind instance index
+/// @argument {real} [padding] (optional) pixels to extend the size of each view when checking the range
+/// @returns {boolean}
 var padding = 0;
 switch (argument_count) {
 case 2: padding = argument[1];

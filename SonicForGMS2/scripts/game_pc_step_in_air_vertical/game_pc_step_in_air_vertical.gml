@@ -1,6 +1,3 @@
-/// @description  game_pc_step_in_air_vertical(character, step)
-/// @param character
-/// @param  step
 // ---------------------------------------------------------------
 /*  
 **  Vertical air movement step. Takes a sample of the player's
