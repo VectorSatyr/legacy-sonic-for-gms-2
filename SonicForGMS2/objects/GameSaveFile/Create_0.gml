@@ -11,7 +11,7 @@ player_character = Sonic;
 assist_character = noone;
 player_lives = STARTING_LIFE_COUNT;
 player_continues = 0;
-location = DemoZone1; //CustomMaskTestRoom; //
+location = DemoZone1;
 
 total_emeralds = 7;
 player_emeralds = 0;

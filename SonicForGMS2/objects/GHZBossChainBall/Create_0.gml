@@ -1,5 +1,5 @@
+/// @description  Initialize
 event_inherited();
-/// Initialize
 image_speed = 0;
 
 reaction_script = -1;

@@ -1,5 +1,7 @@
+/// @description  Draw
 draw_self();
-/// Draw Other Elements
+
+// other elements
 var color = draw_get_color();
 var sprite;
 
@@ -30,7 +32,7 @@ draw_text(x + 25, y + 134, string_hash_to_newline(lives_text));
 draw_text(x + 25, y + 158, string_hash_to_newline(continues_text));
 draw_set_color(color);
 
-/// Draw Text
+// text
 if (text != "") {
     var color = draw_get_color();
     draw_set_font(font);
@@ -41,7 +43,7 @@ if (text != "") {
     draw_set_color(color);
 }
 
-/// Draw Character Select
+// character select
 draw_sprite(FileSelectMenuFileCharacterSprite, character_index, select_ox, select_oy);
 if (arrows_visible) {
     draw_sprite(FileSelectMenuArrowsSprite, 0, select_ox, select_oy);

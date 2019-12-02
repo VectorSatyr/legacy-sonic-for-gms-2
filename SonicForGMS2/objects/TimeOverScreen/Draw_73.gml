@@ -7,13 +7,3 @@ var ox = 40 + text_screen_ox;
 draw_sprite(GameOverTimeTextBack, 0, cx - 31 - ox, cy);
 draw_sprite(GameOverOverTextBack, 0, cx - 31 + ox, cy);
 
-/*
-var x1 = view_xview[view_current] + view_wview[view_current] * 0.5;
-var y1 = view_yview[view_current] + view_hview[view_current] * 0.5;
-var ox = 40 + text_screen_ox;
-
-draw_sprite(GameOverTextSprite, 1, x1 - ox, y1);
-draw_sprite(GameOverTextSprite, 2, x1 + ox, y1);
-
-/* */
-/*  */

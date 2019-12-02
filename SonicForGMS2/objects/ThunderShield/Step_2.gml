@@ -1,5 +1,5 @@
+/// @description  Magnetize
 event_inherited();
-/// Magnetize
 var ring;
 with (WorldRing) {
     if (abs(point_distance(x, y, other.x, other.y)) <= other.attract_range) {

@@ -1,13 +1,12 @@
 /// @description  Restart (if applicable)
-/// @param if applicable
 if (next != noone) {
     with (previous) {
         position = 0;
     }
 }
 
+// fade in
 event_inherited();
-/// Fade in
 if (next == noone) {
     with (previous) {
         if (playing) {

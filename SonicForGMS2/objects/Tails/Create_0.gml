@@ -1,5 +1,5 @@
+/// @description  Initialize animations
 event_inherited();
-/// Iniitalize animations
 game_pc_define_animation(self, "stand", TailsStanceAnim);
 game_pc_define_animation(self, "stance_loop", TailsStanceLoopAnim);
 game_pc_define_animation(self, "walk", TailsWalkAnim);
@@ -25,7 +25,7 @@ game_pc_define_animation(self, "transform", TailsTransformAnim);
 game_pc_define_animation(self, "teeter_front", TailsTeeterAnim);
 game_pc_define_animation(self, "teeter_back", TailsTeeterAnim);
 
-/// Initialize shaders
+// shaders
 shader.normal_color[0] = make_color_rgb(148, 0, 0);
 shader.normal_color[1] = make_color_rgb(189, 106, 74);
 shader.normal_color[2] = make_color_rgb(255, 148, 0);
@@ -38,7 +38,7 @@ shader.super_color = shader.normal_color;
 shader.super_fade_color = shader.transform_color;
 shader.input_color = shader.normal_color;
 
-/// Initialize other values
+// other values
 flight_time = -1;
 flight_soundid = -1;
 

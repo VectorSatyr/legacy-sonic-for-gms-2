@@ -1,5 +1,5 @@
+/// @description  Attack
 event_inherited();
-/// Attack
 with (chain_base) {
     x = other.x;
     y = other.y + other.chain_base_distance;

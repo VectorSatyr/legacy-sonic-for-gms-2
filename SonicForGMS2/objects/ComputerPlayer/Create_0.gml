@@ -1,5 +1,5 @@
+/// @description  Initialize
 event_inherited();
-/// Initialize
 state = "following";
 target = noone;
 

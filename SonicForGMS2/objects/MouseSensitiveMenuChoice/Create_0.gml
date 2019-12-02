@@ -1,5 +1,5 @@
+/// @description  Initialize
 event_inherited();
-/// Initialize
 last_mouse_x = undefined;
 last_mouse_y = undefined;
 overlap = 0;

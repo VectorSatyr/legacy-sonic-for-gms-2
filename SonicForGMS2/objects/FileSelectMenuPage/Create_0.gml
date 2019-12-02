@@ -1,5 +1,5 @@
+/// @description  Initialize
 event_inherited();
-/// Initialize
 name = "select";
 event_descend = "left";
 event_ascend = "right";

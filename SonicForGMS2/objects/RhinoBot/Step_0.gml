@@ -16,22 +16,6 @@ if (game_is_running()) {
             }
         }
     }
-
-    /*
-    for (var n = 0; n < instance_number(PlayableCharacter); ++n) {
-        ind = instance_find(PlayableCharacter, n);
-        if (point_in_rectangle(ind.x_int, ind.y_int, x - patrol_range_x, y - patrol_range_y, x + patrol_range_x, y + patrol_range_y)) {
-            if (state != "charging") {
-                state = "charging";
-                x_speed = 0;
-                facing_sign = sign(ind.x - x);
-                timer = 60;
-                image_index = 0;
-            }
-            break;
-        }
-    }
-    */
     
     switch (state) {
     case "patrolling":

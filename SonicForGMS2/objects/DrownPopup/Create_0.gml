@@ -1,5 +1,5 @@
+/// @description  Initialize
 event_inherited();
-/// Initialize
 image_speed = 0;
 
 locked = false;
@@ -10,7 +10,7 @@ angle_speed = 3;
 size = 0;
 
 x_speed = 3;
-y_speed = -1; //-0.5;
+y_speed = -1;
 
 count = 0;
 

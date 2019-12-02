@@ -1,5 +1,5 @@
+/// @description  Initialize
 event_inherited();
-/// Initialize
 opened = false;
 waiting_for_animals = false;
 

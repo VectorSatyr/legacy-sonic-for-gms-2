@@ -1,5 +1,5 @@
+/// @description  Initialize
 event_inherited();
-/// Initialize
 image_speed = 0;
 
 text_screen_x = CAMERA_WIDTH * 0.5;

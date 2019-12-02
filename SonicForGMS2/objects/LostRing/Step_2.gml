@@ -1,6 +1,4 @@
 /// @description  Destroy off-screen (otherwise, animate)
-/// @param otherwise
-/// @param  animate
 if (not instance_on_screen(self, max(sprite_width, sprite_height))) {
     instance_destroy();
 }

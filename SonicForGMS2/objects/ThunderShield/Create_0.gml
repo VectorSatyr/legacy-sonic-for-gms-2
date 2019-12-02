@@ -1,5 +1,5 @@
+/// @description  Initialize
 event_inherited();
-/// Initialize
 timeline_index = ThunderShieldAnim;
 timeline_position = 0;
 timeline_running = true;

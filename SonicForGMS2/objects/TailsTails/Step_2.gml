@@ -1,5 +1,5 @@
+/// @description  Animate
 event_inherited();
-/// Animate
 if (game_is_running()) {
     visible = true;
     switch (source.current_animation) {

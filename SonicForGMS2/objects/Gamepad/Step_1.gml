@@ -1,5 +1,5 @@
+/// @description  Register
 event_inherited();
-/// Register
 if (device != -1) {
     var index;
 

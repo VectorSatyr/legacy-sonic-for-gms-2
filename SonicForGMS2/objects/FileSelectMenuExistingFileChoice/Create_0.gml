@@ -1,5 +1,5 @@
+/// @description  Initialize
 event_inherited();
-/// Initialize
 name = "save";
 text = "ZONE 1";
 text_ox = bbox_left + 21;

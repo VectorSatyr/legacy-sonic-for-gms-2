@@ -1,5 +1,5 @@
+/// @description  Initialize
 event_inherited();
-/// Initialize
 state = "patrolling";
 
 x_speed = 3;

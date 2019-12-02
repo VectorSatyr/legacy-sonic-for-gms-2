@@ -1,6 +1,7 @@
-/// @description  Initialize state machine
+/// @description  Initialize
 owner = noone;
 
+// state machine
 state = player_is_ready;
 state_previous = -1;
 state_changed = false;
@@ -29,7 +30,7 @@ input_action_pressed = false;
 
 horizontal_axis_value = 0;
 
-/// Initialize timers
+// timers
 control_lock_time = 0;
 remaining_air_time = 0;
 recovery_time = 0;
@@ -42,7 +43,7 @@ default_spring_lock_time = 16;
 default_remaining_air_time = 1800;
 default_recovery_time = 120;
 
-/// Initialize physics
+// physics
 x_int = xstart;
 y_int = ystart;
 
@@ -60,7 +61,7 @@ roll_threshold = 1.03125;
 unroll_threshold = 0.5;
 slide_threshold = 2.5;
 
-/// Initialize collision detection
+// collision detection
 mask_visible = false;
 
 x_radius = 8;
@@ -96,7 +97,7 @@ local_solids = ds_list_create();
 reaction_list = ds_list_create();
 previous_reaction_list = ds_list_create();
 
-/// Initialize regions and boundaries
+// regions and boundaries
 bound_left = 16;
 bound_top = 16;
 bound_right = room_width - 16;
@@ -105,7 +106,7 @@ bound_bottom = room_height - 16;
 bound_mask = 0;
 bound_ignore_mask = 8;
 
-/// Iniitalize animation
+// animation
 image_speed = 0;
 
 animations = ds_map_create();
@@ -113,7 +114,7 @@ current_animation = "";
 
 image_angle_resolution = 45;
 
-/// Initialize other values
+// other values
 camera = instance_create_layer(x, y, "general", PlayerCamera);
 camera.owner = self;
 

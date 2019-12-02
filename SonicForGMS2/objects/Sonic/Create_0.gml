@@ -1,5 +1,5 @@
+/// @description  Initialize animations
 event_inherited();
-/// Iniitalize animations
 game_pc_define_animation(self, "stand", SonicStanceAnim);
 game_pc_define_animation(self, "stance_loop", SonicStanceLoopAnim);
 game_pc_define_animation(self, "walk", SonicWalkAnim);
@@ -20,11 +20,11 @@ game_pc_define_animation(self, "transform", SonicTransformAnim);
 game_pc_define_animation(self, "teeter_front", SonicTeeterFrontAnim);
 game_pc_define_animation(self, "teeter_back", SonicTeeterBackAnim);
 
-/// Initialize shaders
-shader.normal_color[0] = make_color_rgb(106, 106, 255); //$ff6a6a; //
-shader.normal_color[1] = make_color_rgb(74, 74, 255); //$ff4a4a; //
-shader.normal_color[2] = make_color_rgb(32, 74, 222); //$de4a20; //
-shader.normal_color[3] = make_color_rgb(32, 32, 189); //$bd2020; //
+// shaders
+shader.normal_color[0] = make_color_rgb(106, 106, 255);
+shader.normal_color[1] = make_color_rgb(74, 74, 255);
+shader.normal_color[2] = make_color_rgb(32, 74, 222);
+shader.normal_color[3] = make_color_rgb(32, 32, 189);
 shader.transform_color[0] = $e0e0e0;
 shader.transform_color[1] = $e0e0e0;
 shader.transform_color[2] = $a0e0e0;

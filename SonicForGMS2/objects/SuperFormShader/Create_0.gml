@@ -1,5 +1,5 @@
+/// @description  Initialize
 event_inherited();
-/// Initialize
 shader = ColorReplaceShd;
 previous_shader = -1;
 
@@ -26,6 +26,6 @@ u_blend = shader_get_uniform(shader, "u_fBlendFactor");
 // inputs
 input_color = array_create(total_colors);
 output_color = array_create(total_colors);
-tolerance = $010101; //$030303; // tolerance color
-blend = 0; // blend factor
+tolerance = $010101;
+blend = 0;
 

@@ -1,5 +1,5 @@
+/// @description  Check mouse
 event_inherited();
-/// Check mouse
 if (owner.enabled) {
     if (last_mouse_x != mouse_x or last_mouse_y != mouse_y) {
         last_mouse_x = mouse_x;

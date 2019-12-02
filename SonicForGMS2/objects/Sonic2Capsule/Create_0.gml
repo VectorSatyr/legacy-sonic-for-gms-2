@@ -1,5 +1,5 @@
+/// @description  Initialize
 event_inherited();
-/// Initialize
 button.y -= 52;
 button.visible = true;
 button.sprite_index = CapsuleSwitchSprite;

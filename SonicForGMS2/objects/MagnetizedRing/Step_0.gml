@@ -24,26 +24,8 @@ if (game_is_running()) {
             }
             y_speed = clamp(y_speed + (move_y * oy), -speed_cap, speed_cap);
         }
-
-        /*
-        var ox = sign(target.x - x);
-        var move_x = follow_speed;
-        if (ox != sign(x_speed)) {
-            move_x += rebound_speed;
-        }
-        x_speed = clamp(x_speed + (move_x * ox), -speed_cap, speed_cap);
-        
-        var oy = sign(target.y - y);
-        var move_y = follow_speed;
-        if (oy != sign(y_speed)) {
-            move_y += rebound_speed;
-        }
-        y_speed = clamp(y_speed + (move_y * oy), -speed_cap, speed_cap);
-        */
     }
 }
 
 
 
-/* */
-/*  */

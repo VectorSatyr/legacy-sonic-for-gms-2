@@ -1,8 +1,8 @@
+/// @description  Animate
 event_inherited();
-/// Animate
 cycle_time = (game_clock_get_step() / room_speed) * cycle_speed;
 
-/// Check visibility
+// visibility
 visible = false;
 for (var n = 0; n < MAX_VIEW_COUNT; ++n) {
     view_render[n] = false;

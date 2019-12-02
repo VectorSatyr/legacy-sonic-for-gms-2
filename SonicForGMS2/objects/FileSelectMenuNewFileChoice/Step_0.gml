@@ -1,5 +1,5 @@
+/// @description  Update
 event_inherited();
-/// Update
 if (game_is_running()) {
     select_enabled = (selected and owner.mode == "select" and owner.cursor.hspeed == 0);
     if (select_enabled and owner.enabled and owner.alarm[0] <= 0) {

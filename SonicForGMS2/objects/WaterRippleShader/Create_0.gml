@@ -1,11 +1,11 @@
+/// @description  Initialize
 event_inherited();
-/// Initialize
 image_speed = 0;
 
-x_magnitude = 0; //0.00125;
-y_magnitude = 0.002; //0.00125;
-x_cycles = 0; //6.126;
-y_cycles = 0.1; //6.126;
+x_magnitude = 0;
+y_magnitude = 0.002;
+x_cycles = 0;
+y_cycles = 0.1;
 cycle_speed = 3;
 cycle_time = 0;
 

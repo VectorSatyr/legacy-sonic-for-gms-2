@@ -30,14 +30,14 @@ if (game_is_running()) {
         switch (remaining_air_time) {
         case 1500:
         case 1200:
-        case 900: // drown warning
-            if (owner.index == 0) { // player 1 only
+        case 900: // drown warning (player 1 only)
+            if (owner.index == 0) {
                 game_pc_play_sound(self, DrownWarningSound);
             }
             break;
 
-        case 720: // drown music
-            if (owner.index == 0) { // player 1 only
+        case 720: // drown music (player 1 only)
+            if (owner.index == 0) {
                 drowning_music = game_audio_enqueue_music(DrowningMusic, 2);
             }
             break;

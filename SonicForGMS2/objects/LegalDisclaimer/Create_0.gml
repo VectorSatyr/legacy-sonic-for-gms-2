@@ -4,7 +4,7 @@ image_alpha = 0;
 
 phase = 0;
 
-display_time = 1; // 120
+display_time = 1;
 
 fade_speed = 0.0455;
 fade_background_alpha = 0.75;
@@ -21,7 +21,7 @@ text_width = CAMERA_WIDTH * 0.875;
 
 press_start_text = "PRESS F1";
 press_start_ox = CAMERA_WIDTH * 0.5;
-press_start_oy = CAMERA_HEIGHT * 0.75; //0.875;
+press_start_oy = CAMERA_HEIGHT * 0.75;
 press_start_alpha = 0;
 press_start_sin = 0;
 press_start_blink_speed = 2;

@@ -1,5 +1,5 @@
+/// @description  Initialize
 event_inherited();
-/// Initialize
 name = "complete";
 text = "CLEAR";
 text_ox = bbox_left + 25;

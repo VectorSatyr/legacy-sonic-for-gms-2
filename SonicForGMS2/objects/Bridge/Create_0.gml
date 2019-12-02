@@ -1,5 +1,5 @@
+/// @description  Intialize
 event_inherited();
-/// Intialize
 bottom_solid = false;
 
 bridge_width = bbox_right - bbox_left;

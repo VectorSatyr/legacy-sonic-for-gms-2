@@ -1,5 +1,5 @@
+/// @description  Initalize animations
 event_inherited();
-/// Iniitalize animations
 game_pc_define_animation(self, "stand", KnucklesStanceAnim);
 game_pc_define_animation(self, "walk", KnucklesWalkAnim);
 game_pc_define_animation(self, "run", KnucklesRunAnim);
@@ -27,7 +27,7 @@ game_pc_define_animation(self, "teeter_front", KnucklesTeeterFrontAnim);
 game_pc_define_animation(self, "teeter_back", KnucklesTeeterBackAnim);
 game_pc_define_animation(self, "teeter_loop", KnucklesTeeterLoopAnim);
 
-/// Initialize shaders
+// shaders
 shader.normal_color[0] = $6a4aff;
 shader.normal_color[1] = $2000de;
 shader.normal_color[2] = $20006a;

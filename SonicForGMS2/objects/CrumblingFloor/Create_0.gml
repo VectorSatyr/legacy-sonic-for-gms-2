@@ -1,5 +1,5 @@
+/// @description  Initialize
 event_inherited();
-/// Initialize
 reaction_script = player_react_to_crumbling_floor;
 bottom_solid = false;
 normal = 0;

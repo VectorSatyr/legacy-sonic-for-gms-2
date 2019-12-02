@@ -1,7 +1,4 @@
 /// @description  Calculate normal
-
-/* Cost-saving measure */
-
 if (is_undefined(normal) and image_angle == 0) {
     var x1 = bbox_left;
     var y1 = bbox_bottom;
@@ -18,5 +15,3 @@ if (is_undefined(normal) and image_angle == 0) {
     normal = point_direction(x1, y1, x2, y2) div 1;
 }
 
-/* */
-/*  */

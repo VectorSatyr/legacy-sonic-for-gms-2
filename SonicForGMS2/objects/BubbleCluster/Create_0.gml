@@ -1,5 +1,5 @@
+/// @description  Initialize
 event_inherited();
-/// Initialize
 timeline_running = true;
 timeline_loop = false;
 

@@ -1,5 +1,5 @@
+/// @description  Adjust
 event_inherited();
-/// Adjust
 if (game_is_running()) {
     image_xscale = source.facing_sign;
     switch (source.current_animation) {

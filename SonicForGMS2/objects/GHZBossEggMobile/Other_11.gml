@@ -1,5 +1,5 @@
+/// @description  Destroy
 event_inherited();
-/// Destroy
 state = "destroyed";
 x_speed = 0;
 y_speed = 0;

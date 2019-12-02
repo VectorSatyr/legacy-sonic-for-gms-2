@@ -1,5 +1,5 @@
+/// @description  Initialize
 event_inherited();
-/// Initialize
 radius = 16;
 spacing = 2;
 outer_rotation = 0;

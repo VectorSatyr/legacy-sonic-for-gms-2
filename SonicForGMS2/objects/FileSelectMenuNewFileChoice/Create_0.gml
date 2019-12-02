@@ -1,4 +1,4 @@
+/// @description  Initialize
 event_inherited();
-/// Initialize
 name = "save";
 

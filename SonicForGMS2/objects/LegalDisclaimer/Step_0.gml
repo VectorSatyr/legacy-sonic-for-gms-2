@@ -15,7 +15,7 @@ case 1: // do nothing
 case 2: // press start
     press_start_sin += press_start_blink_speed;
     press_start_alpha = abs(dsin(press_start_sin));
-    if (keyboard_check_pressed(vk_f1)) { //game_input_event_pressed("start")) {
+    if (keyboard_check_pressed(vk_f1)) {
         phase = 3;
     }
     break;

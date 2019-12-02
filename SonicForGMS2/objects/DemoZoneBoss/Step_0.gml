@@ -26,7 +26,7 @@ if (game_is_running()) {
         if (finishing_time <= 0) {
             game_zone_play_music();
             with (PlayableCharacter) {
-                bound_right = room_width - 16; //3048
+                bound_right = room_width - 16;
                 with (camera) {
                     bound_right = other.bound_right;
                 }

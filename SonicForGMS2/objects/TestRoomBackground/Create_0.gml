@@ -1,5 +1,5 @@
+/// @description  Initialize
 event_inherited();
-/// Initialize
 image_speed = 0;
 
 total_lines = 20;

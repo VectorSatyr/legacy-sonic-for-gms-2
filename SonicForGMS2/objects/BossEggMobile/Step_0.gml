@@ -1,5 +1,5 @@
+/// @description  Hover
 event_inherited();
-/// Hover
 if (game_is_running()) {
     x += x_speed;
     base_y += y_speed;

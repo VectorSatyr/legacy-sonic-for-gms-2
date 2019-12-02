@@ -1,5 +1,4 @@
 /// @description  Release (and animate)
-/// @param and animate
 if (game_is_running()) {
     image_index = (game_clock_get_step() div 16) mod 2;
     if (game_clock_get_step() mod 240 == 0) {

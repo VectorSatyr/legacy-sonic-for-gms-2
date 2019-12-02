@@ -1,5 +1,5 @@
+/// @description  Update animation
 event_inherited();
-/// Update animation
 if (game_is_running() and not state_changed) {
     switch (state) {
     case player_is_standing:

@@ -1,5 +1,5 @@
+/// @description  Draw Text
 draw_self();
-/// Draw Text
 if (text != "") {
     var color = draw_get_color();
     draw_set_font(font);

@@ -1,5 +1,4 @@
 /// @description  Move on terrain (and animate)
-/// @param and animate
 if (game_is_running()) {
     var on_the_ground = false;
     

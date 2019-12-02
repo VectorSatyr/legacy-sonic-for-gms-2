@@ -1,5 +1,5 @@
+/// @description  Initialize
 event_inherited();
-/// Initialize
 label = "";
 font = global.CrackersFont;
 halign = fa_left;
