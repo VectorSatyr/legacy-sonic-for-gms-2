@@ -1,24 +1,11 @@
-// ---------------------------------------------------------------
-/*  
-**  Calculates the distance needed to move the player's virtual
-**  mask out of collision with the given instance, focusing only
-**  on the arms. (horizontal sensor)
-**
-**  Arguments:
-**      character   Real; player character instance index
-**      ind         Real; instance index
-**      radius      Real; distance in pixels to extend the mask
-**                  (extends horizontally at BOTH ends)
-**
-**  Returns:
-**      Real; distance in pixels to move outside, or undefined 
-**          on failure to relocate
-*/
-// ---------------------------------------------------------------
+/// @description Calculates the distance needed to move the player's virtual mask out of collision with the given instance, focusing only on the arms. (horizontal sensor)
+/// @param {Real} character player character instance index
+/// @param {Real} ind instance index
+/// @param {Real} radius distance in pixels to extend the mask extends horizontally at BOTH ends)
+/// @returns {Real} distance in pixels to move outside, or undefined on failure to relocate
 var character = argument0;
 var ind = argument1;
 var radius = argument2;
-// ---------------------------------------------------------------
 
 var distance = undefined;
 

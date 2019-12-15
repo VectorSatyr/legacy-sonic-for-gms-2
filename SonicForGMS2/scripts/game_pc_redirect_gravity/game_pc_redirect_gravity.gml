@@ -1,19 +1,8 @@
-// ---------------------------------------------------------------
-/*  
-**  Redirects the player's gravity. (Does nothing if the player
-**  is already moving at the given angle)
-**
-**  Arguments:
-**      character   Real; player character instance index
-**      angle       Real; direction of gravity to move
-**
-**  Returns:
-**      N/A
-*/
-// ---------------------------------------------------------------
+/// @description Redirects the player's gravity. (Does nothing if the player is already moving at the given angle)
+/// @param {Real} character player character instance index
+/// @param {Real} angle direction of gravity to move
 var character = argument0;
 var angle = argument1;
-// ---------------------------------------------------------------
 
 with (character) {
     if (gravity_direction != angle) {

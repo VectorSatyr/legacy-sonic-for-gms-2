@@ -1,17 +1,6 @@
-// ---------------------------------------------------------------
-/*  
-**  Resets all physics values back to default, applying modifiers
-**  when applicable.
-**
-**  Arguments:
-**      character   Real; player character instance index
-**
-**  Returns:
-**      N/A
-*/
-// ---------------------------------------------------------------
+/// @description Resets all physics values back to default, applying modifiers when applicable.
+/// @param {Real} character player character instance index
 var character = argument0;
-// ---------------------------------------------------------------
 
 with (character) {
     speed_cap = 6;

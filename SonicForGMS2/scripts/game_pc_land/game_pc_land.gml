@@ -1,19 +1,8 @@
-// ---------------------------------------------------------------
-/*  
-**  Set the given object index as the terrain the given
-**  player character is standing on.
-**
-**  Arguments:
-**      character   Real; player character instance index
-**      ind         Real; other instance index
-**
-**  Returns:
-**      N/A
-*/
-// ---------------------------------------------------------------
+/// @description Set the given object index as the terrain the given player character is standing on.
+/// @param {Real} character player character instance index
+/// @param {Real} ind other instance index
 var character = argument0;
 var ind = argument1;
-// ---------------------------------------------------------------
 
 with (character) {
     if (ground_id != ind) {

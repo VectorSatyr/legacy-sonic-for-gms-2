@@ -1,15 +1,8 @@
-// ---------------------------------------------------------------
-/*
-**  Activates the invincibility power-up for the calling player
-**  instance (or resets the timer if already active.)
-**
-**  Returns:
-**      N/A
-*/
-// ---------------------------------------------------------------
+/// @description Activates the invincibility power-up for the calling player instance (or resets the timer if already active.)
+/// @param {Real} character player character instance index
+/// @param {Real} time duration in frames
 var character = argument0;
 var time = argument1;
-// ---------------------------------------------------------------
 
 with (character) {
     if (not superform and invincibility_time < time and 

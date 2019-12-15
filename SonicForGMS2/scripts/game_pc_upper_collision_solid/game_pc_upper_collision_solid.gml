@@ -1,20 +1,9 @@
-// ---------------------------------------------------------------
-/*  
-**  Finds the first solid intersecting the upper half of the
-**  player's virtual mask.
-**
-**  Arguments:
-**      character   Real; character instance index
-**      radius      Real; distance in pixels to extend the mask
-**                  (upward)
-**
-**  Returns:
-**      Real; index of whichever instance was found, or noone
-*/
-// ---------------------------------------------------------------
+/// @description Finds the first solid intersecting the upper half of the player's virtual mask.
+/// @param {Real} character player character instance index
+/// @param {Real} radius distance in pixels to extend the mask (extends upward)
+/// @returns {Real} index of whichever instance was found, or noone
 var character = argument0;
 var radius = argument1;
-// ---------------------------------------------------------------
 
 var result = noone;
 

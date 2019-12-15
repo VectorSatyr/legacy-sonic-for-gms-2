@@ -1,6 +1,4 @@
-// ---------------------------------------------------------------
 var character = argument0;
-// ---------------------------------------------------------------
 
 with (character) {
     var diff = angle_difference(direction, mask_direction);

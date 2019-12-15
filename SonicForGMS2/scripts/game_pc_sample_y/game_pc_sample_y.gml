@@ -1,23 +1,8 @@
-// ---------------------------------------------------------------
-/*  
-**  Executes the given script a number of times equal to the
-**  player's current vertical speed divided by the vertical size
-**  of the virtual mask. Ensures the player does not 'miss'
-**  intersections at higher speeds.
-**
-**  Arguments:
-**      character   Real; player character instance index
-**      script      Real; index of movement script (must be
-**                  formatted to accept a single 'step' as an
-**                  argument)
-**
-**  Returns:
-**      N/A
-*/
-// ---------------------------------------------------------------
+/// @description Executes the given script a number of times equal to the player's current vertical speed divided by the vertical size of the virtual mask. Ensures the player does not 'miss' intersections at higher speeds.
+/// @param {Real} character player character instance index
+/// @param {Real} script index of movement script (must be formatted to accept a single 'step' as an argument)
 var character = argument0;
 var script = argument1;
-// ---------------------------------------------------------------
 
 with (character) {
     var total_steps = 1 + floor(abs(y_speed) / y_radius);

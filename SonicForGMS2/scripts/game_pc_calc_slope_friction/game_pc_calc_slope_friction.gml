@@ -1,21 +1,11 @@
-// ---------------------------------------------------------------
-/*  
-**  Calculates the amount of force to apply in order to slide
-**  down the current ground.
-**
-**  Arguments:
-**      character   Real; player character instance index
-**      force       Real; base friction value
-**      threshold   Real; value to beat before applying friction
-**
-**  Returns:
-**      Real; slope friction amount
-*/
-// ---------------------------------------------------------------
+/// @description Calculates the amount of force to apply in order to slide down the current ground.
+/// @param {Real} character player character instance index
+/// @param {Real} force base friction value
+/// @param {Real} threshold value to beat before applying friction
+/// @returns {Real} slope friction amount
 var character = argument0;
 var force = argument1;
 var threshold = argument2;
-// ---------------------------------------------------------------
 
 var value = 0;
 

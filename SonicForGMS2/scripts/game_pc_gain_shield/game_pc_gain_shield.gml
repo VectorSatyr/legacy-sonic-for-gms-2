@@ -1,17 +1,7 @@
-// ---------------------------------------------------------------
-/*
-**  Gives the calling player instance a shield of the given kind.
-**
-**  Arguments
-**      kind    Real; object index of shield type
-**
-**  Returns:
-**      N/A
-*/
-// ---------------------------------------------------------------
+/// @description Gives the calling player instance a shield of the given kind.
+/// @param {Real} kind object index of shield type
 var character = argument0;
 var kind = argument1;
-// ---------------------------------------------------------------
 
 with (character) {
     with (shield) {

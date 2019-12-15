@@ -1,19 +1,8 @@
-// ---------------------------------------------------------------
-/*  
-**  Vertical air movement step. Takes a sample of the player's
-**  current speed and checks for collisions.
-**
-**  Arguments:
-**      character   Real; player character instance index
-**      step        Real; movement step in pixels
-**
-**  Returns:
-**      N/A
-*/
-// ---------------------------------------------------------------
+/// @description Vertical air movement step. Takes a sample of the player's current speed and checks for collisions.
+/// @param {Real} character player character instance index
+/// @param {Real} step movement step in pixels
 var character = argument0;
 var step = argument1;
-// ---------------------------------------------------------------
 
 with (character) {
     game_pc_position(self, x + (dsin(direction) * step), y + (dcos(direction) * step));

@@ -1,21 +1,10 @@
-// ---------------------------------------------------------------
-/*  
-**  Changes the player's position in the room while staying
-**  within established boundaries.
-**
-**  Arguments:
-**      character   Real; player character instance index
-**      nx          Real; room x-position
-**      ny          Real; room y-position
-**
-**  Returns:
-**      N/A
-*/
-// ---------------------------------------------------------------
+/// @description Changes the player's position in the room while staying within established boundaries.
+/// @param {Real} character player character instance index
+/// @param {Real} nx room x-position
+/// @param {Real} ny room y-position
 var character = argument0;
 var nx = argument1;
 var ny = argument2;
-// ---------------------------------------------------------------
 
 with (character) {
     if (x != nx or y != ny) {

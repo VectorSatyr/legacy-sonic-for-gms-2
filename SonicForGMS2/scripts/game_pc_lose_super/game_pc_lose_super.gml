@@ -1,13 +1,6 @@
-// ---------------------------------------------------------------
-/*  
-**  Cancels a character's super form
-**
-**  Returns:
-**      N/A
-*/
-// ---------------------------------------------------------------
+/// @description Cancels a character's super form
+/// @param {Real} character player character instance index
 var character = argument0;
-// ---------------------------------------------------------------
 
 with (character) {
     if (superform) {

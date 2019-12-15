@@ -1,17 +1,6 @@
-// ---------------------------------------------------------------
-/*
-**  Evaluates the calling player instance's condition after taking
-**  a hit.
-**
-**  Arguments
-**      recoil_sign Real; horizontal sign of recoil
-**      soundid     Real (optional); sound index to play when a
-**                  shield is hit
-**
-**  Returns:
-**      N/A
-*/
-// ---------------------------------------------------------------
+/// @description Evaluates the calling player instance's condition after taking a hit.
+/// @param {Real} recoil_sign horizontal sign of recoil
+/// @param {Real} soundid (optional) sound index to play when a shield is hit
 var soundid = HurtSound;
 switch (argument_count) {
 case 3: soundid = argument[2];
@@ -19,7 +8,6 @@ default:
     var character = argument[0];
     var recoil_sign = argument[1];
 }
-// ---------------------------------------------------------------
 
 with (character) {
     if (recovery_time <= 0 and invincibility_time <= 0 and not superform and

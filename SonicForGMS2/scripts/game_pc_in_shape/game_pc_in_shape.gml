@@ -1,26 +1,13 @@
-// ---------------------------------------------------------------
-/*  
-**  Returns whether the player's virtual mask intersects the
-**  given terrain shape.
-**
-**  Arguments:
-**      character   Real; character instance index
-**      shape       Real; terrain shape instance index
-**      xrad        Real; distance in pixels to extend the mask
-**                  (extends horizontally at BOTH ends)
-**      yrad        Real; distance in pixels to extend the mask
-**                  (extends vertically at BOTH ends)
-**
-**  Returns:
-**      Real; 0: no intersect; 1: completely inside;
-**      2: overlapping
-*/
-// ---------------------------------------------------------------
+/// @description Returns whether the player's virtual mask intersects the given terrain shape.
+/// @param {Real} character player character instance index
+/// @param {Real} shape terrain shape instance index
+/// @param {Real} xrad distance in pixels to extend the mask (extends horizontally at BOTH ends)
+/// @param {Real} yrad distance in pixels to extend the mask (extends vertically at BOTH ends)
+/// @returns {Real} 0: no intersect; 1: completely inside; 2: overlapping
 var character = argument0;
 var shape = argument1;
 var xrad = argument2;
 var yrad = argument3;
-// ---------------------------------------------------------------
 
 var result = 0;
 

@@ -1,19 +1,8 @@
-// ---------------------------------------------------------------
-/*  
-**  Adjust's the player character's position based on the given
-**  instance's built-in movement variables.
-**
-**  Arguments:
-**      character   Real; player character instance index
-**      ind         Real; other instance index
-**
-**  Returns:
-**      N/A
-*/
-// ---------------------------------------------------------------
+/// @description Adjust's the player character's position based on the given instance's built-in movement variables.
+/// @param {Real} character player character instance index
+/// @param {Real} ind other instance index
 var character = argument0;
 var ind = argument1;
-// ---------------------------------------------------------------
 
 with (character) {
     if (instance_exists(ind)) {

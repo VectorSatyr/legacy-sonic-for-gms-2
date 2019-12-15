@@ -1,17 +1,6 @@
-// ---------------------------------------------------------------
-/*  
-**  Aerial movement code. Used for airborne states such as
-**  jumping and falling.
-**
-**  Arguments:
-**      character   Real; player character instance index
-**
-**  Returns:
-**      N/A
-*/
-// ---------------------------------------------------------------
+/// @description Aerial movement code. Used for airborne states such as jumping and falling.
+/// @param {Real} character player character instance index
 var character = argument0;
-// ---------------------------------------------------------------
 
 with (character) {
     game_pc_memorize_reactions(self);

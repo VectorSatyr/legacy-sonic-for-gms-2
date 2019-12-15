@@ -1,23 +1,11 @@
-// ---------------------------------------------------------------
-/*  
-**  Returns whether the mask of the given instance intersects
-**  the arms (horizontal sensor) of the player's virtual mask.
-**
-**  Arguments:
-**      character   Real; player character instance index
-**      shape       Real; terrain shape instance index
-**      radius      Real; distance in pixels to extend the mask
-**                  (extends horizontally at BOTH ends)
-**
-**  Returns:
-**      Real; 0: no intersect; 1: completely inside;
-**      2: overlapping
-*/
-// ---------------------------------------------------------------
+/// @description Returns whether the mask of the given instance intersects the arms (horizontal sensor) of the player's virtual mask.
+/// @param {Real} character player character instance index
+/// @param {Real} shape terrain shape instance index
+/// @param {Real} radius distance in pixels to extend the mask (extends horizontally at BOTH ends)
+/// @returns {Real} 0: no intersect; 1: completely inside; 2: overlapping
 var character = argument0;
 var shape = argument1;
 var radius = argument2;
-// ---------------------------------------------------------------
 
 var result = 0;
 
