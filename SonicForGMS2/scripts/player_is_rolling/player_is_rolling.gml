@@ -37,6 +37,9 @@ case "step":
     x_speed -= min(abs(x_speed), roll_friction) * sign(x_speed);
 
     game_pc_move_on_ground(self);
+	if (state_changed) {
+        return false;
+    }
 
     if (not on_the_ground) {
         return game_pc_perform(self, player_is_falling);
