@@ -1,5 +1,5 @@
 /// @description  Initialize
 event_inherited();
-back = ZoneTitleRedFoldBack
+back = ZoneTitleRedFoldSprite;
 height = sprite_get_height(back);
 

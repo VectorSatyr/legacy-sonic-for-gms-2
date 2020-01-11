@@ -31,14 +31,6 @@
     },
     "resources": [
         {
-            "Key": "0009224c-4bae-4b59-b09c-053251927f61",
-            "Value": {
-                "id": "938903b4-2151-4603-87c6-60f56073c53e",
-                "resourcePath": "views\\0009224c-4bae-4b59-b09c-053251927f61.yy",
-                "resourceType": "GMFolder"
-            }
-        },
-        {
             "Key": "0011aaf4-84a0-4245-9937-d88fc592a210",
             "Value": {
                 "id": "5f407a78-1eac-4e0e-b277-e507db30eea5",
@@ -1471,14 +1463,6 @@
             }
         },
         {
-            "Key": "271492dd-489c-4a10-b43f-633716cfd888",
-            "Value": {
-                "id": "d55294bd-263a-491b-8893-28a0e174faf3",
-                "resourcePath": "sprites\\ZoneTitleGameTextBack\\ZoneTitleGameTextBack.yy",
-                "resourceType": "GMSprite"
-            }
-        },
-        {
             "Key": "2720a7ab-b5fc-4859-9209-2fe6bdf32508",
             "Value": {
                 "id": "d5067972-9fdc-4548-8f6c-e431a78ff90c",
@@ -1699,14 +1683,6 @@
             "Value": {
                 "id": "b6fe2881-73c4-4c85-8acb-e4f9aa7ae823",
                 "resourcePath": "views\\2f612de3-b9ef-49b4-b691-14ba17d3bf0c.yy",
-                "resourceType": "GMFolder"
-            }
-        },
-        {
-            "Key": "2f64b66f-acd8-431c-b3ce-cd822b161ab3",
-            "Value": {
-                "id": "aa27a72d-0c1f-490f-8fd2-887cdf2497f7",
-                "resourcePath": "views\\2f64b66f-acd8-431c-b3ce-cd822b161ab3.yy",
                 "resourceType": "GMFolder"
             }
         },
@@ -2122,7 +2098,7 @@
             "Key": "39b7eaee-c0a1-40fd-8b9b-02b7b826e4b7",
             "Value": {
                 "id": "75230936-d01f-4e6d-8429-64837dbe6c76",
-                "resourcePath": "notes\\notes.yy",
+                "resourcePath": "notes\\CopyrightNotice.yy",
                 "resourceType": "GMNotes"
             }
         },
@@ -2583,14 +2559,6 @@
             }
         },
         {
-            "Key": "467c092d-128e-485f-a949-504d95272346",
-            "Value": {
-                "id": "294d8c24-0e91-4cae-9c4b-24e2095a62eb",
-                "resourcePath": "views\\467c092d-128e-485f-a949-504d95272346.yy",
-                "resourceType": "GMFolder"
-            }
-        },
-        {
             "Key": "46b7bf38-9891-472a-9800-4bd4fbd4dfdc",
             "Value": {
                 "id": "b461d205-eb25-4416-8ff7-d08b72f2c2bf",
@@ -2860,14 +2828,6 @@
                 "id": "3f06640d-04ab-4271-ae23-fe8765fcc94b",
                 "resourcePath": "timelines\\SonicRisingAnim\\SonicRisingAnim.yy",
                 "resourceType": "GMTimeline"
-            }
-        },
-        {
-            "Key": "4c4781fe-8434-4278-82fb-3c997879df6e",
-            "Value": {
-                "id": "bc01901e-e060-42a6-8f7c-3fc47f786653",
-                "resourcePath": "views\\4c4781fe-8434-4278-82fb-3c997879df6e.yy",
-                "resourceType": "GMFolder"
             }
         },
         {
@@ -3527,14 +3487,6 @@
             }
         },
         {
-            "Key": "5e78f1d6-acd7-4b8b-98a1-e4dc6a1669f3",
-            "Value": {
-                "id": "0fd3a680-3119-4e5f-a923-f9e0fa079330",
-                "resourcePath": "views\\5e78f1d6-acd7-4b8b-98a1-e4dc6a1669f3.yy",
-                "resourceType": "GMFolder"
-            }
-        },
-        {
             "Key": "5ecbde70-e3dd-4305-941d-8e313b700b71",
             "Value": {
                 "id": "ba992346-ff68-4431-9971-49e78135b620",
@@ -3700,6 +3652,14 @@
                 "id": "b5b34d98-0ba2-4d84-b562-0d8fc8bf5c77",
                 "resourcePath": "sprites\\SonicRunSprite\\SonicRunSprite.yy",
                 "resourceType": "GMSprite"
+            }
+        },
+        {
+            "Key": "624efc28-8838-490c-90e7-82e45dac7c91",
+            "Value": {
+                "id": "74fd0ac3-732d-476c-9be9-48c28b85e169",
+                "resourcePath": "notes\\Credits.yy",
+                "resourceType": "GMNotes"
             }
         },
         {
@@ -4818,7 +4778,7 @@
             "Key": "83ef1cc4-5920-4828-9a3b-a3b2400f7719",
             "Value": {
                 "id": "9a7aacf4-9914-426d-89bf-4a22ce97a4de",
-                "resourcePath": "sprites\\ZoneTitleRedFoldBack\\ZoneTitleRedFoldBack.yy",
+                "resourcePath": "sprites\\ZoneTitleRedFoldSprite\\ZoneTitleRedFoldSprite.yy",
                 "resourceType": "GMSprite"
             }
         },
@@ -5004,14 +4964,6 @@
                 "id": "ceac2ebd-32a3-4d1d-bd40-2f1e2525a170",
                 "resourcePath": "scripts\\game_audio_enqueue_music_timed\\game_audio_enqueue_music_timed.yy",
                 "resourceType": "GMScript"
-            }
-        },
-        {
-            "Key": "89a872a7-7347-4eaa-967c-36225dff662e",
-            "Value": {
-                "id": "fd4eaaa1-4661-442e-aae1-26db583ef238",
-                "resourcePath": "sprites\\ZoneTitleS2RedBorderSprite\\ZoneTitleS2RedBorderSprite.yy",
-                "resourceType": "GMSprite"
             }
         },
         {
@@ -5956,6 +5908,14 @@
                 "id": "011a0df1-a21a-4299-9410-98fd4b21e854",
                 "resourcePath": "shaders\\WhiteFadeShd\\WhiteFadeShd.yy",
                 "resourceType": "GMShader"
+            }
+        },
+        {
+            "Key": "a2fbad3b-bf62-4676-9a7d-75bee1f68687",
+            "Value": {
+                "id": "24f3d45c-55ba-49ce-aa4e-fde3ea0df6a7",
+                "resourcePath": "views\\a2fbad3b-bf62-4676-9a7d-75bee1f68687.yy",
+                "resourceType": "GMFolder"
             }
         },
         {
@@ -7311,14 +7271,6 @@
             }
         },
         {
-            "Key": "c9cb60b4-31a2-4c5a-8a02-ef9b9dc22244",
-            "Value": {
-                "id": "4c4b84a3-47ea-41bd-ab8e-1d25ad18615d",
-                "resourcePath": "views\\c9cb60b4-31a2-4c5a-8a02-ef9b9dc22244.yy",
-                "resourceType": "GMFolder"
-            }
-        },
-        {
             "Key": "c9ef5ef0-93a1-49d0-990a-c03bd72e2a34",
             "Value": {
                 "id": "7ee3d319-cc7d-4ff5-aefb-e4e09062be3e",
@@ -8159,14 +8111,6 @@
             }
         },
         {
-            "Key": "e30ab2ec-f34b-4f1d-9d2f-050f1ee2e931",
-            "Value": {
-                "id": "67b20349-55f4-4a31-87c8-b564c550ed3f",
-                "resourcePath": "notes\\compatibility_report_021119_90152152.yy",
-                "resourceType": "GMNotes"
-            }
-        },
-        {
             "Key": "e321f21f-37d9-4623-a466-4ccb99ed2a33",
             "Value": {
                 "id": "287d813a-a608-4e06-a797-ee19b6f39240",
@@ -8615,14 +8559,6 @@
             }
         },
         {
-            "Key": "f281afbe-e978-4706-a3f0-51a4c0ed188f",
-            "Value": {
-                "id": "8eed3d0f-6fa9-4f74-9210-fff093f98c78",
-                "resourcePath": "sprites\\AzureLakeTileSet\\AzureLakeTileSet.yy",
-                "resourceType": "GMSprite"
-            }
-        },
-        {
             "Key": "f3330d44-e70f-4919-a0d2-d88dc1b46bf6",
             "Value": {
                 "id": "6ad48cc2-859f-4622-82ba-6d2721ccd538",
@@ -8727,14 +8663,6 @@
             }
         },
         {
-            "Key": "f5e66f45-fbb2-49ce-a731-dc1f95dee889",
-            "Value": {
-                "id": "d6aae7a9-5b96-4f86-8686-a6619fff68cd",
-                "resourcePath": "views\\f5e66f45-fbb2-49ce-a731-dc1f95dee889.yy",
-                "resourceType": "GMFolder"
-            }
-        },
-        {
             "Key": "f5e7e9d4-039d-406c-8a02-cc01c6cca657",
             "Value": {
                 "id": "fbe75874-55df-4ad6-b76a-fb5ef21e449e",
@@ -8780,14 +8708,6 @@
                 "id": "cb80cacc-877a-43c0-bcde-485520ef4fd8",
                 "resourcePath": "scripts\\game_parallax_add_layer\\game_parallax_add_layer.yy",
                 "resourceType": "GMScript"
-            }
-        },
-        {
-            "Key": "f76346c5-08c5-4146-8559-56aad80723f2",
-            "Value": {
-                "id": "2f4e39f4-da36-47ba-88e2-94c266fdda8d",
-                "resourcePath": "tilesets\\AzureLakeTileSet_tileset\\AzureLakeTileSet_tileset.yy",
-                "resourceType": "GMTileSet"
             }
         },
         {
