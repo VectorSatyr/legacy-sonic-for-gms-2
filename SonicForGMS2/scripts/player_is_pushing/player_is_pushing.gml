@@ -31,7 +31,7 @@ case "step":
         } else {
             facing_sign = horizontal_axis_value;
             if (abs(x_speed) < speed_cap) {
-                x_speed += land_acceleration * horizontal_axis_value;
+                x_speed += wall_push_speed * horizontal_axis_value;
                 if (abs(x_speed) > speed_cap) {
                     x_speed = speed_cap * horizontal_axis_value;
                 }

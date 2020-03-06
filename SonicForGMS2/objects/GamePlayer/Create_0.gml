@@ -6,7 +6,6 @@ state = "normal";
 index = -1;
 input_channel = -1;
 
-input = noone;
 character_id = undefined;
 character = noone;
 camera = noone;

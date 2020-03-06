@@ -18,7 +18,7 @@ case "finish":
     break;
 
 case "step":
-    if (input_action_pressed and game_pc_upper_collision_solid(self, y_radius + 5) == noone) {
+    if (input_action_pressed) {
         x_speed = 0;
         return game_pc_perform(self, player_is_spindashing);
     }

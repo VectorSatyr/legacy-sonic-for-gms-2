@@ -16,7 +16,7 @@ with (character) {
     roll_slope_friction_up = 0.078125;
     roll_slope_friction_down = 0.3125;
 
-    wall_push_speed = 0.25;
+    wall_push_speed = land_acceleration;
     
     air_acceleration = 0.09375;
     air_friction = 0.96875;

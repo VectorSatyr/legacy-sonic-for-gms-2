@@ -14,9 +14,9 @@ var kind = shape.object_index;
 if (object_is_family(kind, Rectangle)) {
     var x1 = shape.bbox_left;
     var y1 = shape.bbox_top;
-    var x2 = shape.bbox_right + 1;
-    var y2 = shape.bbox_bottom + 1;
-    intersect = point_in_rectangle(px, py, shape.bbox_left, shape.bbox_top, shape.bbox_right, shape.bbox_bottom);
+    var x2 = shape.bbox_right;
+    var y2 = shape.bbox_bottom;
+    intersect = point_in_rectangle(px, py, x1, y1, x2, y2);
 } else if (object_is_family(kind, RightTriangle)) {
     var dx1 = shape.x;
     var dy1 = shape.y;

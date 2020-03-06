@@ -6,7 +6,7 @@ if (view_current < MAX_PLAYER_COUNT) {
     var y1 = camera_get_view_y(cam);
 
     if (scene_act > 0) {
-        draw_sprite(ZoneTitleS2ActSprite, scene_act - 1, x1 + act_screen_x + header_ox2, y1 + 62);
+        draw_sprite(ZoneTitleS2ActSprite, scene_act - 1, x1 + act_screen_x + header_ox2, y1 + act_screen_y);
     }
 
     draw_sprite(TimeBonusScoreBack, 0, x1 + time_score_screen_x + time_score_ox, y1 + time_score_screen_y);

@@ -4,8 +4,6 @@ var orientation = argument2;
 
 var result = true;
 
-var kind = shape.object_index;
-
 with (character) {
     if ((orientation == 0 and shape.image_yscale < 0) or 
         (orientation == 90 and shape.image_xscale < 0) or

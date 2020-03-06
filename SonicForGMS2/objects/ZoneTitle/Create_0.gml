@@ -2,8 +2,6 @@
 event_inherited();
 image_speed = 0;
 
-duration = 0;
-
 blueLayerEnterSpeed = 16;
 blueLayerExitSpeed = 32;
 blueLayerEnterDuration = CAMERA_HEIGHT / blueLayerEnterSpeed;
@@ -42,8 +40,6 @@ redLayerWait = 70 + labelEnterDuration + (labelWait1 - redLayerEnterDuration);
 yellowLayerWait = redLayerWait + redLayerExitDuration + (labelWait1 - yellowLayerEnterDuration);
 blueLayerWait = yellowLayerWait + yellowLayerExitDuration + (labelWait1 - blueLayerEnterDuration);
 labelWait2 = 45 + blueLayerWait + blueLayerExitDuration - labelEnterDuration;
-waitUntilHUD = yellowLayerWait + yellowLayerExitDuration;
-waitUntilMove = blueLayerWait + blueLayerExitDuration;
 
 colorBlue = make_color_rgb(27, 72, 221);
 colorYellow = make_color_rgb(255, 253, 0);
