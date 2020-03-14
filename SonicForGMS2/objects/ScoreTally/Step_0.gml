@@ -47,21 +47,25 @@ if (game_is_running()) {
         break;
     
     case 3: // apply scores
+		var decrement = bonus_decrement;
+		if (game_input_event("a", 0) or game_input_event("b", 0) or game_input_event("c")) {
+			decrement *= 2;
+		}
         var change;
         if (time_bonus) {
-            change = min(time_bonus, bonus_decrement);
+            change = min(time_bonus, decrement);
             time_bonus -= change;
             total_bonus += change;
             game_player_change_score(player, change);
         }
         if (rings_bonus) {
-            change = min(rings_bonus, bonus_decrement);
+            change = min(rings_bonus, decrement);
             rings_bonus -= change;
             total_bonus += change;
             game_player_change_score(player, change);
         }  
         if (perfect_bonus) {
-            change = min(perfect_bonus, bonus_decrement);
+            change = min(perfect_bonus, decrement);
             perfect_bonus -= change;
             total_bonus += change;
             game_player_change_score(player, change);

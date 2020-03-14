@@ -27,6 +27,10 @@ case "wait":
     if (display_time <= 0) {
         phase = "exit";
     }
+	if (game_input_event_pressed("start")) {
+		finished = true;
+		phase = "exit";
+	}
     break;
 
 case "exit":
