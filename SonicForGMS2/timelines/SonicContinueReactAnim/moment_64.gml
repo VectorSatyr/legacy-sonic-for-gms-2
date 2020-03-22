@@ -1,7 +1,4 @@
 /// @description  Change animation
 image_index = 3;
-timeline_index = SonicRunAnim;
-timeline_position = 0;
-timeline_loop = true;
+timeline_set(self, SonicRunAnim);
 state = "exiting";
-

@@ -1,5 +1,2 @@
 /// @description  Bounce
-timeline_index = AquaShieldBounceAnim;
-timeline_position = 0;
-timeline_loop = false;
-
+timeline_set(self, AquaShieldBounceAnim, 1, false);

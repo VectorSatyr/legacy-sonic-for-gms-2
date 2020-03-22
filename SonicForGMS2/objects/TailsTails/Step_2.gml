@@ -9,24 +9,15 @@ if (game_is_running()) {
     case "look_up":
     case "crouch":
     case "push":
-        if (timeline_index != TailsTailsStanceAnim) {
-            timeline_index = TailsTailsStanceAnim;
-            timeline_position = 0;
-        }
+		timeline_set(self, TailsTailsStanceAnim, 1, true, false);
         break;
 
     case "spin":
-        if (timeline_index != TailsTailsSpinAnim) {
-            timeline_index = TailsTailsSpinAnim;
-            timeline_position = 0;
-        }
+        timeline_set(self, TailsTailsSpinAnim, 1, true, false);
         break;
 
     case "spindash":
-        if (timeline_index != TailsTailsSpinDashAnim) {
-            timeline_index = TailsTailsSpinDashAnim;
-            timeline_position = 0;
-        }
+        timeline_set(self, TailsTailsSpinDashAnim, 1, true, false);
         break;
 
     default:

@@ -6,8 +6,7 @@ if (game_is_running()) {
         while (pattern == last_pattern) {
             pattern = irandom(3);
         }
-        timeline_index = asset_get_index("BubblePattern" + string(1 + pattern) + "Time");
-        timeline_position = 0;
+		var timeline = asset_get_index("BubblePattern" + string(1 + pattern) + "Time");
+		timeline_set(self, timeline);
     }
 }
-

@@ -1,9 +1,7 @@
 /// @description  Initialize
 image_speed = 0;
 
-timeline_index = SonicTheHedgehogTitleAnim;
-timeline_running = true;
-timeline_loop = false;
+timeline_set(self, SonicTheHedgehogTitleAnim, 1, false);
 
 phase = 0;
 display_time = 90;
@@ -29,4 +27,3 @@ build_version_oy = CAMERA_HEIGHT - 4;
 
 disclaimer_ox = 4;
 disclaimer_oy = CAMERA_HEIGHT - sprite_get_height(LegalDisclaimerInputBack) - 4;
-

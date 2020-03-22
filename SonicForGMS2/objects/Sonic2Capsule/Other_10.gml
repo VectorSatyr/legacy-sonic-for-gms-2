@@ -1,8 +1,6 @@
 /// @description  Open
 if (not opened) {
-    timeline_index = CapsuleTime;
-    timeline_running = true;
-    timeline_loop = false;
+	timeline_set(self, CapsuleTime, 1, false);
     opened = true;
     with (ZoneTimeLimit) {
         enabled = false;
@@ -12,4 +10,3 @@ if (not opened) {
         stage_end = true;
     }
 }
-

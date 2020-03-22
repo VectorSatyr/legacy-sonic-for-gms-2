@@ -2,10 +2,7 @@
 
 // background animation
 var back = game_parallax_add_sprite_layer(MenuBackgroundSprite, 0, 0, 0, 0, true, true);
-back.timeline_index = MenuBackgroundAnim;
-back.timeline_running = true;
-back.timeline_loop = true;
-back.timeline_speed = 1;
+timeline_set(back, MenuBackgroundAnim);
 
 var center_x = CAMERA_WIDTH * 0.5;
 
@@ -26,4 +23,3 @@ title_shadow.halign = fa_center;
 game_screen_fade_in(BlackFadeShd, 22);
 game_window_update_ports(1);
 game_audio_enqueue_music(MenuScreenMusic, 2, true);
-

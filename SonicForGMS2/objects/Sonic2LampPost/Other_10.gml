@@ -1,6 +1,3 @@
 /// @description  Activate
-timeline_index = LampPostHitAnim;
-timeline_position = 0;
-timeline_running = true;
+timeline_set(self, LampPostHitAnim);
 activated = true;
-

@@ -1,4 +1,2 @@
 /// @description  React
-timeline_index = KnucklesContinueReactAnim;
-timeline_position = 0;
-
+timeline_set(self, KnucklesContinueReactAnim);
