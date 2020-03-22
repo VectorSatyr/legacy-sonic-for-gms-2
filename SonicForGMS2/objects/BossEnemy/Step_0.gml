@@ -4,4 +4,3 @@ if (game_is_running()) {
         --invulnerable_time;
     }
 }
-

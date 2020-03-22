@@ -1,3 +1,3 @@
 /// @description  Change frame
-image_index = 5;
-
+sprite_index = EggMobileEggmanDefeatedSprite;
+image_index = 0;

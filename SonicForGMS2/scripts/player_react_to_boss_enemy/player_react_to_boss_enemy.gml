@@ -38,10 +38,8 @@ case "entering":
             spinning = true;
         }
 
-        if (ind.life_count > 0) {
-            if (not ind.indestructable) {
-                --ind.life_count;
-            }
+        if (ind.life_count > 0 and not ind.indestructable) {
+            --ind.life_count;
             if (ind.life_count > 0) {
                 game_pc_play_sound(self, BossHitSound);
                 instance_perform_user_event(ind, 0);

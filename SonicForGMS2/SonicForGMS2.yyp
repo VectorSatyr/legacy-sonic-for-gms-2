@@ -935,6 +935,14 @@
             }
         },
         {
+            "Key": "18363f87-4a81-4c30-a6af-8d528b7a6fe5",
+            "Value": {
+                "id": "017f6fa3-6ce7-445d-bc74-4391c9bbaee5",
+                "resourcePath": "views\\18363f87-4a81-4c30-a6af-8d528b7a6fe5.yy",
+                "resourceType": "GMFolder"
+            }
+        },
+        {
             "Key": "18b64862-8910-45da-a833-10434ae20bca",
             "Value": {
                 "id": "624f0cda-b3d7-4ed6-990b-6bb6aaf54e41",
@@ -1639,6 +1647,14 @@
             }
         },
         {
+            "Key": "2d299e53-c8e4-4f41-b4df-a714a8dbfb7e",
+            "Value": {
+                "id": "b11484ff-3f18-433f-adbf-1799779835e7",
+                "resourcePath": "timelines\\EggMobileFlameAnim\\EggMobileFlameAnim.yy",
+                "resourceType": "GMTimeline"
+            }
+        },
+        {
             "Key": "2dde3a69-be06-42aa-88bb-ad038d7d24a7",
             "Value": {
                 "id": "9944417f-6519-4d79-9dab-92654203e2a9",
@@ -1884,14 +1900,6 @@
                 "id": "c75f28d2-57d2-4ad9-b238-4f3411ff2cfd",
                 "resourcePath": "objects\\FMODGameMusic\\FMODGameMusic.yy",
                 "resourceType": "GMObject"
-            }
-        },
-        {
-            "Key": "35662490-82c8-4a0d-99c5-f50e1e38f3e1",
-            "Value": {
-                "id": "5e09e174-6f46-45f3-9e00-40a93047b0cd",
-                "resourcePath": "sprites\\SolidPixelBack\\SolidPixelBack.yy",
-                "resourceType": "GMSprite"
             }
         },
         {
@@ -2247,6 +2255,14 @@
             }
         },
         {
+            "Key": "3dd72bed-4008-42a5-ab35-afdb2c086678",
+            "Value": {
+                "id": "17e07776-244c-4b64-ab09-22ba6a5c2dd0",
+                "resourcePath": "views\\3dd72bed-4008-42a5-ab35-afdb2c086678.yy",
+                "resourceType": "GMFolder"
+            }
+        },
+        {
             "Key": "3e69be8d-288b-4b8e-b408-d566fe86ba7d",
             "Value": {
                 "id": "1af05473-cd7d-473b-a01f-784cd7bbe651",
@@ -2439,6 +2455,14 @@
             }
         },
         {
+            "Key": "44199103-86f6-4e00-83ff-5900fb2d7a54",
+            "Value": {
+                "id": "7cdd9c5e-b469-432e-bbb4-6af0feb4270a",
+                "resourcePath": "views\\44199103-86f6-4e00-83ff-5900fb2d7a54.yy",
+                "resourceType": "GMFolder"
+            }
+        },
+        {
             "Key": "445e8500-b3a0-4cdd-bac2-d9feff49e3f2",
             "Value": {
                 "id": "0ee4b09b-50e2-4278-81e0-151318970dc4",
@@ -2596,6 +2620,14 @@
                 "id": "21780439-b14a-474b-929b-6be9b9e01a29",
                 "resourcePath": "sprites\\RedSpringSprite\\RedSpringSprite.yy",
                 "resourceType": "GMSprite"
+            }
+        },
+        {
+            "Key": "478fb83e-3243-4749-8a1d-715858199673",
+            "Value": {
+                "id": "c0330a31-82cb-4197-b1fa-882c4b7c0110",
+                "resourcePath": "timelines\\EggMobileEggmanLosingAnim\\EggMobileEggmanLosingAnim.yy",
+                "resourceType": "GMTimeline"
             }
         },
         {
@@ -3503,6 +3535,14 @@
             }
         },
         {
+            "Key": "5ed736c0-9529-4d14-bf0a-d9e161955711",
+            "Value": {
+                "id": "a00860d0-e49e-49eb-8c0d-56a74e7e9da7",
+                "resourcePath": "scripts\\timeline_set\\timeline_set.yy",
+                "resourceType": "GMScript"
+            }
+        },
+        {
             "Key": "5f096ce3-3a74-4a3b-8f6a-910621513320",
             "Value": {
                 "id": "07d94977-cd85-440e-9fbd-38252fe79bd9",
@@ -3647,6 +3687,14 @@
             }
         },
         {
+            "Key": "61f452bd-03d5-40f0-a766-a026c3658b32",
+            "Value": {
+                "id": "c10e8b73-6fa7-4a9b-821c-052e837d8514",
+                "resourcePath": "sprites\\EggMobileFlameSprite\\EggMobileFlameSprite.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "6249ce1c-9ec8-4e38-b37f-39ec38c73db4",
             "Value": {
                 "id": "b5b34d98-0ba2-4d84-b562-0d8fc8bf5c77",
@@ -3724,6 +3772,14 @@
                 "id": "87893d0a-6688-46dd-9e73-5b4d6b6577ff",
                 "resourcePath": "sprites\\AquaShieldWaveSprite\\AquaShieldWaveSprite.yy",
                 "resourceType": "GMSprite"
+            }
+        },
+        {
+            "Key": "63cfd71e-f867-4b6a-8aa4-a7cff6faddaa",
+            "Value": {
+                "id": "67dba285-bb19-49c0-9896-34107602f8b8",
+                "resourcePath": "objects\\BossEggMobileComponent\\BossEggMobileComponent.yy",
+                "resourceType": "GMObject"
             }
         },
         {
@@ -3868,6 +3924,14 @@
                 "id": "8a250894-bbc3-4e8a-a087-200befd89e62",
                 "resourcePath": "views\\690c2fe2-e281-4aa9-8a28-ccb85bb7f4f6.yy",
                 "resourceType": "GMFolder"
+            }
+        },
+        {
+            "Key": "690cea09-ece8-49ba-a83a-60e9e879be87",
+            "Value": {
+                "id": "ae651cb2-babc-4d58-a804-a77e3ca57c8b",
+                "resourcePath": "sprites\\EggMobileEggmanStunnedSprite\\EggMobileEggmanStunnedSprite.yy",
+                "resourceType": "GMSprite"
             }
         },
         {
@@ -4463,6 +4527,14 @@
             }
         },
         {
+            "Key": "7d503882-762a-4a78-b483-40c60b18e4ba",
+            "Value": {
+                "id": "cdf1f11f-ff6d-44ed-95f5-e76a0cc055a3",
+                "resourcePath": "sprites\\EggMobileFlameBoostSprite\\EggMobileFlameBoostSprite.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "7d576b8a-3fe9-4681-ba3d-746d82c6aaf1",
             "Value": {
                 "id": "f9f4a221-7214-42a7-b82d-62800fdd25d3",
@@ -4588,6 +4660,14 @@
                 "id": "dd8d954a-94f9-4a77-a134-62a271e3c1dc",
                 "resourcePath": "views\\7e98a9dd-0e7e-41db-bb21-f01428063bd6.yy",
                 "resourceType": "GMFolder"
+            }
+        },
+        {
+            "Key": "7edb3618-0135-4dc6-a8d5-69e4f0ba2d8c",
+            "Value": {
+                "id": "f060fcc8-1862-4bdd-a6d5-d464c16dc695",
+                "resourcePath": "sprites\\EggMobileEggmanIdleSprite\\EggMobileEggmanIdleSprite.yy",
+                "resourceType": "GMSprite"
             }
         },
         {
@@ -4951,6 +5031,14 @@
             }
         },
         {
+            "Key": "8943c3c4-4668-4014-b1e4-b68620ce34e4",
+            "Value": {
+                "id": "2c48401f-8b30-4295-b6f7-dbac246b503e",
+                "resourcePath": "objects\\BossEggMobileFlame\\BossEggMobileFlame.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
             "Key": "89955e92-ef40-42c9-ab3e-91631f452f2b",
             "Value": {
                 "id": "9932184f-c024-490a-8c7b-be992d020848",
@@ -5044,14 +5132,6 @@
                 "id": "8b14455d-970c-425d-83fd-252b57b823ff",
                 "resourcePath": "objects\\CompetitionSignPost\\CompetitionSignPost.yy",
                 "resourceType": "GMObject"
-            }
-        },
-        {
-            "Key": "8c1d0092-31fa-4eec-96fe-048ef629af86",
-            "Value": {
-                "id": "8261ab02-9303-49b8-afc1-b38b08895dd2",
-                "resourcePath": "views\\8c1d0092-31fa-4eec-96fe-048ef629af86.yy",
-                "resourceType": "GMFolder"
             }
         },
         {
@@ -5236,6 +5316,14 @@
                 "id": "98c29376-94d4-4272-ab93-3c16d8a5dd8d",
                 "resourcePath": "scripts\\game_audio_fmod_add_sound\\game_audio_fmod_add_sound.yy",
                 "resourceType": "GMScript"
+            }
+        },
+        {
+            "Key": "9085d02b-49ad-42c7-a5ed-eb1e2abcaf94",
+            "Value": {
+                "id": "6db2365d-5322-40ca-a250-c66986383514",
+                "resourcePath": "sprites\\EggMobileEggmanDefeatedSprite\\EggMobileEggmanDefeatedSprite.yy",
+                "resourceType": "GMSprite"
             }
         },
         {
@@ -5439,6 +5527,14 @@
             }
         },
         {
+            "Key": "95833958-a0fb-4e32-a02b-e17481200f9e",
+            "Value": {
+                "id": "442ee10b-05d2-4626-8b3a-faa2585b3463",
+                "resourcePath": "timelines\\EggMobileFlameBoostAnim\\EggMobileFlameBoostAnim.yy",
+                "resourceType": "GMTimeline"
+            }
+        },
+        {
             "Key": "95b5376e-7d04-4e12-9208-e59c45b56317",
             "Value": {
                 "id": "95726a2b-4cac-4d37-a892-14e24d49a361",
@@ -5548,6 +5644,14 @@
                 "id": "10986fe4-0e7b-4379-bbeb-c50a6e222363",
                 "resourcePath": "scripts\\game_audio_fade_in_music\\game_audio_fade_in_music.yy",
                 "resourceType": "GMScript"
+            }
+        },
+        {
+            "Key": "983ac38a-c426-4b94-b9d8-0d07476d0383",
+            "Value": {
+                "id": "a4f6fb6e-63da-4b5f-9d21-4ae7522a9166",
+                "resourcePath": "timelines\\EggMobileEggmanPanicAnim\\EggMobileEggmanPanicAnim.yy",
+                "resourceType": "GMTimeline"
             }
         },
         {
@@ -5831,6 +5935,14 @@
             }
         },
         {
+            "Key": "a10957e7-c695-4523-b8bb-09361f2eb618",
+            "Value": {
+                "id": "7228d0f4-8b2d-4323-a9ba-c642e37c8afd",
+                "resourcePath": "sprites\\EggMobileEggmanLaughSprite\\EggMobileEggmanLaughSprite.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "a11f60d6-fb74-44f9-9cc0-ad9c4de4478d",
             "Value": {
                 "id": "0e1b4e55-01e0-4db4-99b3-8cc806b475e2",
@@ -6031,6 +6143,14 @@
             }
         },
         {
+            "Key": "a6b5141d-96d8-4f20-a953-0df7f34fd036",
+            "Value": {
+                "id": "31cfb284-f7a5-49f2-9686-ed8ae2f3dedc",
+                "resourcePath": "views\\a6b5141d-96d8-4f20-a953-0df7f34fd036.yy",
+                "resourceType": "GMFolder"
+            }
+        },
+        {
             "Key": "a701df85-59f9-4ea2-a2a2-19dea9ef8544",
             "Value": {
                 "id": "463e603f-0bbf-4856-8897-703036002455",
@@ -6079,6 +6199,14 @@
             }
         },
         {
+            "Key": "a87f7975-acee-4c1b-be50-3ab035854e75",
+            "Value": {
+                "id": "84b8697d-ae85-408a-bd18-01c70bafd868",
+                "resourcePath": "timelines\\EggMobileEggmanLaughAnim\\EggMobileEggmanLaughAnim.yy",
+                "resourceType": "GMTimeline"
+            }
+        },
+        {
             "Key": "a901c4e8-7d09-455f-a0b9-d4a0a0e666e7",
             "Value": {
                 "id": "92ecd42c-3795-4089-beac-8e1d1202b51e",
@@ -6116,14 +6244,6 @@
                 "id": "ea662e3b-f558-4a1a-a7e2-225586b90763",
                 "resourcePath": "scripts\\game_pc_step_in_air_horizontal\\game_pc_step_in_air_horizontal.yy",
                 "resourceType": "GMScript"
-            }
-        },
-        {
-            "Key": "a9d1a727-c3a6-4823-b51c-c249a0c2c217",
-            "Value": {
-                "id": "1951037b-da27-4b48-aef4-7b1147169758",
-                "resourcePath": "views\\a9d1a727-c3a6-4823-b51c-c249a0c2c217.yy",
-                "resourceType": "GMFolder"
             }
         },
         {
@@ -6911,14 +7031,6 @@
             }
         },
         {
-            "Key": "bf86505a-dfad-402c-85aa-db92692e209b",
-            "Value": {
-                "id": "f5d99d89-e4f0-43bb-adc3-79bbaca24f97",
-                "resourcePath": "views\\bf86505a-dfad-402c-85aa-db92692e209b.yy",
-                "resourceType": "GMFolder"
-            }
-        },
-        {
             "Key": "bf9b0f78-401e-489d-a5a1-b56f57ab30a0",
             "Value": {
                 "id": "e1c56f5e-e498-406e-a16f-9e78d01ed5c6",
@@ -7407,6 +7519,14 @@
             }
         },
         {
+            "Key": "cd317e38-7c23-4698-97a1-05c769f9d5c9",
+            "Value": {
+                "id": "40b9e7cd-4b56-4eb9-bf6a-c3402ce4f09c",
+                "resourcePath": "sprites\\EggMobileEggmanPanicSprite\\EggMobileEggmanPanicSprite.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "cd70360a-05b3-4795-a4f4-062e54b45162",
             "Value": {
                 "id": "308d9f59-fe22-41a8-a116-671793ad1df8",
@@ -7740,14 +7860,6 @@
                 "id": "9cc90d98-20da-41f7-ace8-218456d70e47",
                 "resourcePath": "sprites\\KnucklesTransformSprite\\KnucklesTransformSprite.yy",
                 "resourceType": "GMSprite"
-            }
-        },
-        {
-            "Key": "d69505c8-f8e0-476a-939a-163eb13e22cf",
-            "Value": {
-                "id": "e12bf75c-0e7b-468e-b8b8-5de94bac6841",
-                "resourcePath": "views\\d69505c8-f8e0-476a-939a-163eb13e22cf.yy",
-                "resourceType": "GMFolder"
             }
         },
         {
@@ -8982,6 +9094,7 @@
         "0be8d2c7-77e4-40bb-858d-d4ff548e7dd8",
         "50bdc726-c265-418f-8e4c-57f0a5095a84",
         "3f97f30f-6fa9-403a-8d41-28e4f78ab2cc",
+        "5ed736c0-9529-4d14-bf0a-d9e161955711",
         "61a92771-bcb3-4e1c-a291-bb3e95703aa5",
         "8d36e937-ebb0-4922-9c25-d98fc2faca35",
         "01a3b6d2-8ed0-4710-b97b-8988a951c759",

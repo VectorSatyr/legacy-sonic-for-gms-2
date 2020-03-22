@@ -23,6 +23,8 @@ if (game_is_running()) {
         y_speed = 1;
         if (base_y >= camera_top + 54) {
             state = "centering";
+			timeline_set(flame, EggMobileFlameAnim);
+			flame.visible = true;
         }
         break;
     
@@ -42,6 +44,10 @@ if (game_is_running()) {
             chain_ball = instance_create_depth(x, y, depth + 1, GHZBossChainBall);
     
             state = "deploying";
+
+			timeline_set(eggman, EggMobileEggmanLaughAnim);
+			timeline_set(flame, -1);
+			flame.visible = false;
         }
         break;
     
@@ -59,6 +65,8 @@ if (game_is_running()) {
             chain_ball.reaction_script = player_react_to_hazard;
 
             state = "swinging";
+
+			timeline_set(eggman, EggMobileEggmanIdleAnim);
         }
         break;
     
@@ -85,6 +93,14 @@ if (game_is_running()) {
             x = camera_left + move_limit_right;
             x_speed = 0;
         }
+		
+		if (x_speed != 0) {
+			timeline_set(flame, EggMobileFlameAnim, 1, true, false);
+			flame.visible = true;
+		} else {
+			timeline_set(flame, -1);
+			flame.visible = false;
+		}
         break;
     
     case "destroyed":
@@ -100,6 +116,7 @@ if (game_is_running()) {
         if (destroy_time <= 0) {
             y_speed = 3.7;
             state = "rising";
+			timeline_set(eggman, EggMobileEggmanDefeatedAnim);
         }
         break;
     
@@ -111,6 +128,9 @@ if (game_is_running()) {
                 state = "finished";
             }
             state = "escaping";
+			timeline_set(eggman, EggMobileEggmanPanicAnim);
+			timeline_set(flame, EggMobileFlameBoostAnim, 1, false, true);
+			flame.visible = true;
         }
         break;
     
@@ -123,4 +143,3 @@ if (game_is_running()) {
         break;
     }
 }
-

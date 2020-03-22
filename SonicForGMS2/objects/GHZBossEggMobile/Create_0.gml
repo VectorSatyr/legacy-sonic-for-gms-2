@@ -1,6 +1,7 @@
 /// @description  Initialize
 event_inherited();
-image_speed = 0;
+
+timeline_set(eggman, EggMobileEggmanIdleAnim);
 
 owner = noone;
 
@@ -35,4 +36,3 @@ chain_ball = noone;
 chain_ball_separation = 32;
 chain_ball_max_distance = chain_link_max_distance[total_chain_links - 1] + chain_ball_separation;
 chain_ball_distance = 0;
-

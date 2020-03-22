@@ -1,9 +1,10 @@
 /// @description  Initialize
 event_inherited();
-image_speed = 0;
 
 eggman = instance_create_layer(x, y, "objects", BossEggMobileEggman);
-eggman.constant = true;
+eggman.owner = self;
+flame = instance_create_layer(x, y, "objects", BossEggMobileFlame);
+flame.owner = self;
 
 base_y = ystart;
 
@@ -15,4 +16,3 @@ hover_step = 4;
 hover_height = 3;
 
 facing_sign = -1;
-

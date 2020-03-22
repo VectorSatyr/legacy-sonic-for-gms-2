@@ -14,3 +14,6 @@ with (chain_ball) {
     destroy_time = 110;
 }
 
+timeline_set(eggman, EggMobileEggmanLosingAnim);
+timeline_set(flame, -1);
+flame.visible = false;
