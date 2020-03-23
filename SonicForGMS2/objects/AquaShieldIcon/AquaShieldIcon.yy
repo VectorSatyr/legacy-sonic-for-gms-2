@@ -5,16 +5,6 @@
     "name": "AquaShieldIcon",
     "eventList": [
         {
-            "id": "5b76260d-9d90-49cf-888a-3aa5eba82e71",
-            "modelName": "GMEvent",
-            "mvc": "1.0",
-            "IsDnD": false,
-            "collisionObjectId": "00000000-0000-0000-0000-000000000000",
-            "enumb": 0,
-            "eventtype": 0,
-            "m_owner": "4a773ef7-194e-49d7-abcf-2a4e0e72d6ba"
-        },
-        {
             "id": "cfc6a5fe-589a-4357-93df-c5b31dcbe3d5",
             "modelName": "GMEvent",
             "mvc": "1.0",
@@ -45,6 +35,6 @@
     "physicsStartAwake": true,
     "properties": null,
     "solid": false,
-    "spriteId": "ac1adc7d-950c-4f2c-aef6-8df75ba32517",
+    "spriteId": "b62a9004-c0eb-4c3e-b045-bd2ccecea979",
     "visible": true
 }

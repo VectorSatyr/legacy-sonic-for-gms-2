@@ -5,16 +5,6 @@
     "name": "ThunderShieldIcon",
     "eventList": [
         {
-            "id": "22b75211-1736-4f61-b6a7-536c901039a0",
-            "modelName": "GMEvent",
-            "mvc": "1.0",
-            "IsDnD": false,
-            "collisionObjectId": "00000000-0000-0000-0000-000000000000",
-            "enumb": 0,
-            "eventtype": 0,
-            "m_owner": "c62036e4-445f-4fac-b83d-62b334d84650"
-        },
-        {
             "id": "ec7282c5-37c2-4e44-a46f-00dad9f8a19f",
             "modelName": "GMEvent",
             "mvc": "1.0",
@@ -45,6 +35,6 @@
     "physicsStartAwake": true,
     "properties": null,
     "solid": false,
-    "spriteId": "ac1adc7d-950c-4f2c-aef6-8df75ba32517",
+    "spriteId": "1424b1c6-1ace-4a42-b9d4-53d6913d2835",
     "visible": true
 }

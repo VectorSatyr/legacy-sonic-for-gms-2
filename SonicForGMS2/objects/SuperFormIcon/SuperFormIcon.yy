@@ -5,16 +5,6 @@
     "name": "SuperFormIcon",
     "eventList": [
         {
-            "id": "7b83864e-cf55-4fc2-81ff-d811e031c614",
-            "modelName": "GMEvent",
-            "mvc": "1.0",
-            "IsDnD": false,
-            "collisionObjectId": "00000000-0000-0000-0000-000000000000",
-            "enumb": 0,
-            "eventtype": 0,
-            "m_owner": "0aa5499f-c5b0-45ee-a191-d6f1d3d88bd0"
-        },
-        {
             "id": "53d39e0a-c01d-4ba5-8b42-db3730094054",
             "modelName": "GMEvent",
             "mvc": "1.0",
@@ -45,6 +35,6 @@
     "physicsStartAwake": true,
     "properties": null,
     "solid": false,
-    "spriteId": "ac1adc7d-950c-4f2c-aef6-8df75ba32517",
+    "spriteId": "6bdba08e-bb32-4385-9476-a33b3ae98980",
     "visible": true
 }

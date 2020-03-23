@@ -5,16 +5,6 @@
     "name": "InvincibilityIcon",
     "eventList": [
         {
-            "id": "1614f0da-9ef6-4f9b-8fb7-117a6dd2b4be",
-            "modelName": "GMEvent",
-            "mvc": "1.0",
-            "IsDnD": false,
-            "collisionObjectId": "00000000-0000-0000-0000-000000000000",
-            "enumb": 0,
-            "eventtype": 0,
-            "m_owner": "7889e130-1ee2-4a17-8d61-a9aae96a8308"
-        },
-        {
             "id": "0a8206ee-184e-474f-a261-680dcc7e9fb2",
             "modelName": "GMEvent",
             "mvc": "1.0",
@@ -45,6 +35,6 @@
     "physicsStartAwake": true,
     "properties": null,
     "solid": false,
-    "spriteId": "ac1adc7d-950c-4f2c-aef6-8df75ba32517",
+    "spriteId": "c43a099e-7851-45e3-aa13-19c497e69f98",
     "visible": true
 }

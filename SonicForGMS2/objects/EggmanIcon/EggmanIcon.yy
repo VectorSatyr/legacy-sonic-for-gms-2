@@ -5,16 +5,6 @@
     "name": "EggmanIcon",
     "eventList": [
         {
-            "id": "5fcee453-09aa-4f95-8e8b-39b398a5e968",
-            "modelName": "GMEvent",
-            "mvc": "1.0",
-            "IsDnD": false,
-            "collisionObjectId": "00000000-0000-0000-0000-000000000000",
-            "enumb": 0,
-            "eventtype": 0,
-            "m_owner": "8c8755b8-5ee8-4856-be25-f8ea14a93617"
-        },
-        {
             "id": "9ec0fca1-1f2e-43c0-8d90-fb58e0595265",
             "modelName": "GMEvent",
             "mvc": "1.0",
@@ -45,6 +35,6 @@
     "physicsStartAwake": true,
     "properties": null,
     "solid": false,
-    "spriteId": "ac1adc7d-950c-4f2c-aef6-8df75ba32517",
+    "spriteId": "9a759f74-b32d-4748-b03c-c06d54fc4265",
     "visible": true
 }

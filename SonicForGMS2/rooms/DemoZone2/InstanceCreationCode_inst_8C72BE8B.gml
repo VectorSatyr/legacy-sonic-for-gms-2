@@ -1,1 +1,1 @@
-icon = ExtraLifeIcon;
+icon = LifeUpIcon;

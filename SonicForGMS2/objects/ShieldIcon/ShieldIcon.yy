@@ -5,16 +5,6 @@
     "name": "ShieldIcon",
     "eventList": [
         {
-            "id": "053af342-977e-40d3-b23b-af27af640af1",
-            "modelName": "GMEvent",
-            "mvc": "1.0",
-            "IsDnD": false,
-            "collisionObjectId": "00000000-0000-0000-0000-000000000000",
-            "enumb": 0,
-            "eventtype": 0,
-            "m_owner": "9646c872-5dfb-40cc-bd53-896183dc1c27"
-        },
-        {
             "id": "52b78b1a-bdd3-404a-b8d8-dafa15742e7f",
             "modelName": "GMEvent",
             "mvc": "1.0",
@@ -45,6 +35,6 @@
     "physicsStartAwake": true,
     "properties": null,
     "solid": false,
-    "spriteId": "ac1adc7d-950c-4f2c-aef6-8df75ba32517",
+    "spriteId": "b2dc55d4-1cc9-4e87-b1f4-b1f1bc93a275",
     "visible": true
 }

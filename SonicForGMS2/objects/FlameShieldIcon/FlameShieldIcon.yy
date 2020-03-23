@@ -5,16 +5,6 @@
     "name": "FlameShieldIcon",
     "eventList": [
         {
-            "id": "b6987f05-d91e-43e3-9e57-728d4892c457",
-            "modelName": "GMEvent",
-            "mvc": "1.0",
-            "IsDnD": false,
-            "collisionObjectId": "00000000-0000-0000-0000-000000000000",
-            "enumb": 0,
-            "eventtype": 0,
-            "m_owner": "f93d0b8a-087b-47c1-878d-2850da3394b9"
-        },
-        {
             "id": "51905e02-9a56-4f4b-85c7-3cf6b1852e15",
             "modelName": "GMEvent",
             "mvc": "1.0",
@@ -45,6 +35,6 @@
     "physicsStartAwake": true,
     "properties": null,
     "solid": false,
-    "spriteId": "ac1adc7d-950c-4f2c-aef6-8df75ba32517",
+    "spriteId": "54cf9a50-66a6-4fc3-ab49-dfb2bfe9cdbd",
     "visible": true
 }
