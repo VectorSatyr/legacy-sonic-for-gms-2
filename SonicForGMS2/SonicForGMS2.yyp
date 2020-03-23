@@ -8111,14 +8111,6 @@
             }
         },
         {
-            "Key": "de3830ef-2ab9-47db-85fb-fadd7a42ef19",
-            "Value": {
-                "id": "5e6ddf40-d7f9-4730-930f-357ce56eb81b",
-                "resourcePath": "sprites\\EggMobileEggmanSprite\\EggMobileEggmanSprite.yy",
-                "resourceType": "GMSprite"
-            }
-        },
-        {
             "Key": "de55282f-683c-4a86-a7ad-5522704d9989",
             "Value": {
                 "id": "387e1983-0226-4c6a-869f-4fde6a232615",
