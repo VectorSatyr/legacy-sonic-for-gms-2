@@ -5655,6 +5655,14 @@
             }
         },
         {
+            "Key": "96d528bd-1da3-4986-817d-e5e7ecd34a98",
+            "Value": {
+                "id": "fb20a927-774b-425a-a8e7-82e333dbbcd4",
+                "resourcePath": "timelines\\BubbleClusterAnim\\BubbleClusterAnim.yy",
+                "resourceType": "GMTimeline"
+            }
+        },
+        {
             "Key": "96db1427-3bca-4ac8-9724-e958f2368cea",
             "Value": {
                 "id": "8e0fcc48-a030-4f88-b5ef-a76099d4b768",
@@ -6764,6 +6772,14 @@
                 "id": "60fdae24-1f89-4f10-a5ad-cd5c58af0b1c",
                 "resourcePath": "sprites\\MonitorIconAquaSprite\\MonitorIconAquaSprite.yy",
                 "resourceType": "GMSprite"
+            }
+        },
+        {
+            "Key": "b64840a3-fa00-4b0e-8d82-65847a2bbfab",
+            "Value": {
+                "id": "b7ca949d-6c47-415d-be71-1f415764dde5",
+                "resourcePath": "objects\\BubblePattern\\BubblePattern.yy",
+                "resourceType": "GMObject"
             }
         },
         {
@@ -9076,6 +9092,14 @@
                 "id": "945871f0-5ec5-4ef8-aa7f-4e1e7173414b",
                 "resourcePath": "timelines\\TailsStanceAnim\\TailsStanceAnim.yy",
                 "resourceType": "GMTimeline"
+            }
+        },
+        {
+            "Key": "fcd2ef15-b833-4f4f-b602-926bb67fdde3",
+            "Value": {
+                "id": "3077e212-ad64-41c1-bcc6-dfad830893f3",
+                "resourcePath": "views\\fcd2ef15-b833-4f4f-b602-926bb67fdde3.yy",
+                "resourceType": "GMFolder"
             }
         },
         {

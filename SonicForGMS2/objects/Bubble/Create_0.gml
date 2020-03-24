@@ -5,7 +5,8 @@ constant = true;
 angle = 0;
 angle_speed = 3;
 size = 0;
+maximum_size = 0;
+growth_rate = 0.0625;
 
-x_speed = 3;
-y_speed = -0.5;
-
+x_speed = 4;
+y_speed = -0.5417;

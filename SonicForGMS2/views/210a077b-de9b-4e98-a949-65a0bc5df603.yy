@@ -10,7 +10,7 @@
         "cce4a253-73e9-4fe0-b459-6530a5eb982f"
     ],
     "filterType": "GMTimeline",
-    "folderName": "Bubble Cluster",
+    "folderName": "Bubble Pattern Spawn",
     "isDefaultView": false,
     "localisedFolderName": ""
 }

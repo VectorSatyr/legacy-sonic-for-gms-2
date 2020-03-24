@@ -3,7 +3,7 @@ var phase = argument1;
 
 switch (phase) {
 case "checking":
-    if (ind.image_index >= ind.size and collision_point(x_int, y_int, ind, false, false)) {
+    if (ind.size >= 6 and collision_point(x_int, y_int, ind, false, false) and not on_the_ground) {
         game_pc_react_to(self, ind);
     }
     break;

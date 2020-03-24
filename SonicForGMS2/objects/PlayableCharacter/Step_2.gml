@@ -12,8 +12,7 @@ if (game_is_running()) {
             }
         } else if (remaining_air_time mod 60 == 0) {
             with (instance_create_layer(x_int + facing_sign * 4, y_int - 2, "effects", Bubble)) {
-                size = 1;
-                y_speed = -1;
+                maximum_size = 2;
                 if (other.facing_sign == -1) {
                     angle = 180;
                 }

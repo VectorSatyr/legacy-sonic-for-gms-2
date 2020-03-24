@@ -1,20 +1,12 @@
 /// @description  Initialize
 event_inherited();
-image_speed = 0;
-
-locked = false;
-wait_time = 0;
-
-angle = 0;
-angle_speed = 3;
-size = 0;
-
-x_speed = 3;
-y_speed = -1;
+maximum_size = 4;
 
 count = 0;
+timer = 0;
+duration = 60;
 
+locked = false;
 vind = -1;
 view_offset_x = 0;
 view_offset_y = 0;
-
