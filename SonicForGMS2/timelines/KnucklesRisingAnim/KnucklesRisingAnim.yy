@@ -32,11 +32,11 @@
                 "mvc": "1.0",
                 "IsDnD": false,
                 "collisionObjectId": "00000000-0000-0000-0000-000000000000",
-                "enumb": 50,
+                "enumb": 48,
                 "eventtype": 0,
                 "m_owner": "0efe9f86-ad30-4ad3-b5dc-de815be6e7bc"
             },
-            "moment": 50
+            "moment": 48
         }
     ]
 }

@@ -1,3 +1,2 @@
 /// @description  Change frame
-image_index = 2;
-
+image_index = 1;
