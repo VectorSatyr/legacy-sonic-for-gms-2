@@ -59,7 +59,7 @@ case "step":
         }
     }
 
-    if (abs(x_speed) < unroll_threshold) {
+    if (abs(x_speed) < unroll_threshold and mask_direction == gravity_direction) {
         return game_pc_perform(self, player_is_running);
     }
 

@@ -17,7 +17,7 @@ case "finish":
 
 case "step":
     if (input_down) {
-        if (abs(x_speed) >= roll_threshold) {
+        if (abs(x_speed) >= roll_threshold or mask_direction != gravity_direction) {
             game_pc_play_sound(self, SpinSound);
             return game_pc_perform(self, player_is_rolling);
         } else {
@@ -39,7 +39,7 @@ case "step":
         return game_pc_perform(self, player_is_glide_falling);
     }
 
-    if (local_direction >= 45 and local_direction <= 315) {
+    if (mask_direction != gravity_direction) {
         control_lock_time = default_slide_lock_time;
         return game_pc_perform(self, player_is_running);
     }

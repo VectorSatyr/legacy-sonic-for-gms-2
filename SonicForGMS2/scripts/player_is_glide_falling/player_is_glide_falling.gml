@@ -35,13 +35,10 @@ case "step":
         return false;
     }
 
-    if (on_the_ground) {
-        if (local_direction >= 45 and local_direction <= 315) {
-            if (x_speed != 0) {
-                return game_pc_perform(self, player_is_running);
-            } else {
-                return game_pc_perform(self, player_is_standing);
-            }
+	if (on_the_ground) {
+        if (mask_direction != gravity_direction) {
+			control_lock_time = default_slide_lock_time;
+			return game_pc_perform(self, player_is_running);
         } else {
             game_pc_play_sound(self, LandingSound);
             return game_pc_perform(self, player_is_glide_landing);

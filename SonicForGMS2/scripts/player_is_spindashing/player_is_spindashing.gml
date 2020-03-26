@@ -25,12 +25,15 @@ case "finish":
 
 case "step":
     game_pc_move_on_ground(self);
+    if (state_changed) {
+        return false;
+    }
 
     if (not on_the_ground or (local_direction >= 90 and local_direction <= 270)) {
         return game_pc_perform(self, player_is_falling);
     }
 
-    if (local_direction >= 45 and local_direction <= 315) {
+    if (mask_direction != gravity_direction) {
         control_lock_time = default_slide_lock_time;
         game_pc_play_sound(self, SpinSound);
         return game_pc_perform(self, player_is_rolling);

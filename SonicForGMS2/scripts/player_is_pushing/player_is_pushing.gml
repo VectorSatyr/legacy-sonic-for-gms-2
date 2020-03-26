@@ -56,10 +56,10 @@ case "step":
 
     x_speed -= game_pc_calc_slope_friction(self, slope_friction, land_friction);
 
-    if (abs(x_speed) < slide_threshold) {
-        if ((local_direction >= 90 and local_direction <= 270)) {
+	if (abs(x_speed) < slide_threshold and mask_direction != gravity_direction) {
+        if (local_direction >= 90 and local_direction <= 270) {
             return game_pc_perform(self, player_is_falling);
-        } else if (local_direction >= 45 and local_direction <= 315) {
+        } else {
             control_lock_time = default_slide_lock_time;
             return game_pc_perform(self, player_is_running);
         }

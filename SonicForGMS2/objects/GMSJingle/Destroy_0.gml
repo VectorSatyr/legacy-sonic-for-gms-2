@@ -1,8 +1,10 @@
 /// @description  Restart (if applicable)
 if (next != noone) {
-    with (previous) {
-        position = 0;
-    }
+	if (next.object_index != object_index) {
+	    with (previous) {
+	        position = 0;
+	    }
+	}
 }
 
 // fade in

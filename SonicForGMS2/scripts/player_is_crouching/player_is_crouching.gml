@@ -34,7 +34,7 @@ case "step":
         return game_pc_perform(self, player_is_falling);
     }
 
-    if (local_direction >= 45 and local_direction <= 315) {
+    if (mask_direction != gravity_direction) {
         control_lock_time = default_slide_lock_time;
         return game_pc_perform(self, player_is_running);
     }
