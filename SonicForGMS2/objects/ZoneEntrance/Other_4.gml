@@ -1,4 +1,4 @@
-/// @description  Spawn
+/// @description  Enter
 with (GamePlayer) {
     game_player_spawn_character(self, other.x, other.y);
 }
@@ -10,3 +10,6 @@ if (instance_exists(player1)) {
     }
 }
 
+with (instance_position(x, y, LampPost)) {
+    event_user(2); // activate nearby lamp posts
+}

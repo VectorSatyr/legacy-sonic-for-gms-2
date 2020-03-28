@@ -13,8 +13,13 @@ default:
     var ox = argument[0];
 }
 
-instance_destroy(PlayerEntrance);
-with (instance_create_layer(ox, oy, "general", PlayerEntrance)) {
-    self.location = location;
-    self.epoch = epoch;
+if (not instance_exists(ZoneCheckPoint)) {
+	instance_create_layer(ox, oy, "general", ZoneCheckPoint);
+}
+
+with (ZoneCheckPoint) {
+	self.x = ox;
+	self.y = oy;
+	self.location = location;
+	self.epoch = epoch;
 }

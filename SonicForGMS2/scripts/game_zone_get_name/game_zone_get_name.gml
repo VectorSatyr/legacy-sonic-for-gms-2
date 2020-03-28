@@ -2,7 +2,7 @@
 /// @returns {string} zone name
 var name = "";
 
-with (GameZone) {
+with (ZoneConfiguration) {
     name = self.name;
 }
 

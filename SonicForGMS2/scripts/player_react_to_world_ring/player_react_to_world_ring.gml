@@ -3,7 +3,7 @@ var phase = argument1;
 
 switch (phase) {
 case "entering":
-    with (GameZone) {
+    with (ZoneConfiguration) {
         --total_ring_count;
     }
     break;

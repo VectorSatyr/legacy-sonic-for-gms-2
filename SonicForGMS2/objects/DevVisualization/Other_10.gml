@@ -2,6 +2,9 @@
 with (PlayableCharacter) {
     mask_visible = other.visible;
 }
+with (ZoneEntrance) {
+	visible = other.visible;
+}
 with (RectangleTerrain) {
     visible = other.visible;
 }

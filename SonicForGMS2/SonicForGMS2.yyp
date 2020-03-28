@@ -351,6 +351,14 @@
             }
         },
         {
+            "Key": "09654efb-0662-49b5-814e-50150441a57b",
+            "Value": {
+                "id": "5712d3df-ff06-474f-88a6-d3a1848011ac",
+                "resourcePath": "views\\09654efb-0662-49b5-814e-50150441a57b.yy",
+                "resourceType": "GMFolder"
+            }
+        },
+        {
             "Key": "0981ad86-b9d6-450e-8c01-7d25bfa810c8",
             "Value": {
                 "id": "ef892020-7038-4921-9a28-6aa362560002",
@@ -735,6 +743,14 @@
             }
         },
         {
+            "Key": "11ec04e9-48e7-4aaf-997c-61ea1ee63e39",
+            "Value": {
+                "id": "31121937-b858-4e9d-ac9d-33cec26a9517",
+                "resourcePath": "views\\11ec04e9-48e7-4aaf-997c-61ea1ee63e39.yy",
+                "resourceType": "GMFolder"
+            }
+        },
+        {
             "Key": "124bc4d1-5c6a-424a-9a72-fc17e5c51d33",
             "Value": {
                 "id": "3433c559-752d-4925-85bd-9fff5634bd6b",
@@ -1050,7 +1066,7 @@
             "Key": "1cb394f3-3ae0-487a-b610-725eba3f9885",
             "Value": {
                 "id": "908eb63b-bd32-433d-ad00-b4041048673b",
-                "resourcePath": "scripts\\game_start_location_record\\game_start_location_record.yy",
+                "resourcePath": "scripts\\game_zone_check_point_record\\game_zone_check_point_record.yy",
                 "resourceType": "GMScript"
             }
         },
@@ -2108,14 +2124,6 @@
                 "id": "42a9bdba-f749-4c6a-a5ef-147e56754d44",
                 "resourcePath": "scripts\\rectangle_in_triangle_full\\rectangle_in_triangle_full.yy",
                 "resourceType": "GMScript"
-            }
-        },
-        {
-            "Key": "3997b0e8-23f5-4caf-ad14-d18d05b41a91",
-            "Value": {
-                "id": "34ce4cf6-afad-4c6d-8200-fabb20133be9",
-                "resourcePath": "views\\3997b0e8-23f5-4caf-ad14-d18d05b41a91.yy",
-                "resourceType": "GMFolder"
             }
         },
         {
@@ -3482,7 +3490,7 @@
             "Key": "5da37344-c560-4f61-8485-d24b393a580b",
             "Value": {
                 "id": "f97c98b3-32da-440b-9baa-f13d889da3e4",
-                "resourcePath": "objects\\GameZone\\GameZone.yy",
+                "resourcePath": "objects\\ZoneConfiguration\\ZoneConfiguration.yy",
                 "resourceType": "GMObject"
             }
         },
@@ -6338,7 +6346,7 @@
             "Key": "a9f8b287-5733-412d-867b-7776ce2240cc",
             "Value": {
                 "id": "a6a5cbc8-2311-4508-bc5d-7338f6ed47c4",
-                "resourcePath": "scripts\\game_start_location_reset\\game_start_location_reset.yy",
+                "resourcePath": "scripts\\game_zone_check_point_clear\\game_zone_check_point_clear.yy",
                 "resourceType": "GMScript"
             }
         },
@@ -6578,7 +6586,7 @@
             "Key": "b0b3d385-7719-4628-88ae-47adae1c7ceb",
             "Value": {
                 "id": "8903bd99-41be-46ce-b3c3-722b211fa660",
-                "resourcePath": "objects\\PlayerEntrance\\PlayerEntrance.yy",
+                "resourcePath": "objects\\ZoneCheckPoint\\ZoneCheckPoint.yy",
                 "resourceType": "GMObject"
             }
         },
@@ -6794,7 +6802,7 @@
             "Key": "b78b37c8-ce0a-4506-ae00-eb7d35acff74",
             "Value": {
                 "id": "3e29ad95-b0ed-4334-9480-4da1575e2d8c",
-                "resourcePath": "objects\\DefaultPlayerEntrance\\DefaultPlayerEntrance.yy",
+                "resourcePath": "objects\\ZoneEntrance\\ZoneEntrance.yy",
                 "resourceType": "GMObject"
             }
         },
@@ -7452,6 +7460,14 @@
                 "id": "7a0c63a2-3aeb-4e44-88b2-362c107e376a",
                 "resourcePath": "scripts\\game_clock_get_step\\game_clock_get_step.yy",
                 "resourceType": "GMScript"
+            }
+        },
+        {
+            "Key": "c8e55c73-afbb-4344-8b47-5833244536cd",
+            "Value": {
+                "id": "ef3e1661-3c07-46e4-ab60-949e48f597da",
+                "resourcePath": "views\\c8e55c73-afbb-4344-8b47-5833244536cd.yy",
+                "resourceType": "GMFolder"
             }
         },
         {
@@ -9422,9 +9438,9 @@
         "53c93fbb-b271-491d-ad24-fd66174ca0ee",
         "5d0ff840-091e-48a2-8670-3c974ebd2995",
         "da656b6f-572d-4b52-9d6a-8d7665147168",
-        "1cb394f3-3ae0-487a-b610-725eba3f9885",
-        "a9f8b287-5733-412d-867b-7776ce2240cc",
         "80d96f41-f392-4e76-8b72-a34cb26d82a3",
+        "a9f8b287-5733-412d-867b-7776ce2240cc",
+        "1cb394f3-3ae0-487a-b610-725eba3f9885",
         "4b47c985-7e62-4c6f-b0ad-03d0db22dec3",
         "5dd030b5-0db7-422b-a02d-89b4173b637a",
         "dd3d3d28-4e5f-4ef2-ae23-8f79709cd249",

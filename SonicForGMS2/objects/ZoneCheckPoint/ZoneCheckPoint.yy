@@ -1,44 +1,24 @@
 {
-    "id": "5da37344-c560-4f61-8485-d24b393a580b",
+    "id": "b0b3d385-7719-4628-88ae-47adae1c7ceb",
     "modelName": "GMObject",
     "mvc": "1.0",
-    "name": "GameZone",
+    "name": "ZoneCheckPoint",
     "eventList": [
         {
-            "id": "be115d44-39da-4fcb-a503-fdef2021f6a1",
+            "id": "2e8bec81-f3b5-45de-83d7-1d0bfaf1ebc6",
             "modelName": "GMEvent",
             "mvc": "1.0",
             "IsDnD": false,
             "collisionObjectId": "00000000-0000-0000-0000-000000000000",
             "enumb": 0,
             "eventtype": 0,
-            "m_owner": "5da37344-c560-4f61-8485-d24b393a580b"
-        },
-        {
-            "id": "570d4d17-4817-4be9-b23b-7b32d34d3cc5",
-            "modelName": "GMEvent",
-            "mvc": "1.0",
-            "IsDnD": false,
-            "collisionObjectId": "00000000-0000-0000-0000-000000000000",
-            "enumb": 10,
-            "eventtype": 7,
-            "m_owner": "5da37344-c560-4f61-8485-d24b393a580b"
-        },
-        {
-            "id": "6e92ef25-a4e7-44e0-85ce-f53f74b18fac",
-            "modelName": "GMEvent",
-            "mvc": "1.0",
-            "IsDnD": false,
-            "collisionObjectId": "00000000-0000-0000-0000-000000000000",
-            "enumb": 4,
-            "eventtype": 7,
-            "m_owner": "5da37344-c560-4f61-8485-d24b393a580b"
+            "m_owner": "b0b3d385-7719-4628-88ae-47adae1c7ceb"
         }
     ],
     "maskSpriteId": "00000000-0000-0000-0000-000000000000",
     "overriddenProperties": null,
     "parentObjectId": "00000000-0000-0000-0000-000000000000",
-    "persistent": false,
+    "persistent": true,
     "physicsAngularDamping": 0.1,
     "physicsDensity": 0.5,
     "physicsFriction": 0.2,

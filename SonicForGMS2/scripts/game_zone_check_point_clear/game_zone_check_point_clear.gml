@@ -1,2 +1,2 @@
 /// @description Erases all custom spawn points
-instance_destroy(PlayerEntrance);
+instance_destroy(ZoneCheckPoint);

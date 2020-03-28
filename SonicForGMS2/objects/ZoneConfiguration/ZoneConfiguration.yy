@@ -1,24 +1,44 @@
 {
-    "id": "2b1f72a9-3e59-481e-b285-9b1c0d311935",
+    "id": "5da37344-c560-4f61-8485-d24b393a580b",
     "modelName": "GMObject",
     "mvc": "1.0",
-    "name": "GamePlayer",
+    "name": "ZoneConfiguration",
     "eventList": [
         {
-            "id": "2306469f-22b9-4396-9a97-52b11e2407bb",
+            "id": "be115d44-39da-4fcb-a503-fdef2021f6a1",
             "modelName": "GMEvent",
             "mvc": "1.0",
             "IsDnD": false,
             "collisionObjectId": "00000000-0000-0000-0000-000000000000",
             "enumb": 0,
             "eventtype": 0,
-            "m_owner": "2b1f72a9-3e59-481e-b285-9b1c0d311935"
+            "m_owner": "5da37344-c560-4f61-8485-d24b393a580b"
+        },
+        {
+            "id": "570d4d17-4817-4be9-b23b-7b32d34d3cc5",
+            "modelName": "GMEvent",
+            "mvc": "1.0",
+            "IsDnD": false,
+            "collisionObjectId": "00000000-0000-0000-0000-000000000000",
+            "enumb": 10,
+            "eventtype": 7,
+            "m_owner": "5da37344-c560-4f61-8485-d24b393a580b"
+        },
+        {
+            "id": "6e92ef25-a4e7-44e0-85ce-f53f74b18fac",
+            "modelName": "GMEvent",
+            "mvc": "1.0",
+            "IsDnD": false,
+            "collisionObjectId": "00000000-0000-0000-0000-000000000000",
+            "enumb": 4,
+            "eventtype": 7,
+            "m_owner": "5da37344-c560-4f61-8485-d24b393a580b"
         }
     ],
     "maskSpriteId": "00000000-0000-0000-0000-000000000000",
     "overriddenProperties": null,
     "parentObjectId": "00000000-0000-0000-0000-000000000000",
-    "persistent": true,
+    "persistent": false,
     "physicsAngularDamping": 0.1,
     "physicsDensity": 0.5,
     "physicsFriction": 0.2,

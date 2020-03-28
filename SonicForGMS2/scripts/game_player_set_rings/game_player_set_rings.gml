@@ -6,8 +6,10 @@ with (player) {
     rings = clamp(amount, 0, MAX_RINGS_COUNT);
     if (rings != count) {
         with (display) {
-            post_rings.label = string(other.rings);
             rings_warning = (other.rings <= 0);
+			if (instance_exists(post_rings)) {
+				post_rings.label = string(other.rings);
+			}
         }
     }
 }

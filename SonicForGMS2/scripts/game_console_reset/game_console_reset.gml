@@ -4,7 +4,7 @@ game_save_write_all();
 game_console_show_message("GAME SAVED");
 
 // reset stats
-game_start_location_reset();
+game_zone_check_point_clear();
 with (GamePlayer) {
     game_player_set_score(self, 0);
     game_player_set_rings(self, 0);
