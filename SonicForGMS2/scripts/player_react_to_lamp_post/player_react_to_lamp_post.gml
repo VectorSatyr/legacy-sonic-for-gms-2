@@ -12,6 +12,9 @@ case "entering":
 	game_zone_check_point_record(ind.x, ind.y);
     instance_perform_user_event(ind, 0);
     game_pc_play_sound(self, LampPostSound);
+	if (owner.rings >= ind.bonus_stage_threshold) {
+		instance_create_layer(ind.x, ind.y - 56, "general", BonusStagePortal);
+	}
     break;
 
 case "exiting":

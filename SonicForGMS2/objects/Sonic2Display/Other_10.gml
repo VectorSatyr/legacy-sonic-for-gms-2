@@ -1,5 +1,8 @@
 /// @description  Setup
 
+// rings warning
+rings_warning = (other.rings <= 0);
+
 // lives icon
 post_life_icon = instance_create_layer(CAMERA_WIDTH - 64, 8, "hud", GameSign);
 post_life_icon.vind = index;

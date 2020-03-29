@@ -10,7 +10,8 @@
         "a48bede3-da31-4366-a856-a291c4f53214",
         "ab04542f-e81e-4c99-94b6-fedf152182a3",
         "dc4fb64f-7295-4241-b131-2dcf58f64968",
-        "ac97aa11-5851-439f-bc37-1d6af5843984"
+        "ac97aa11-5851-439f-bc37-1d6af5843984",
+        "20d9fdc3-5d40-4644-8e3e-394ae5b6c6e0"
     ],
     "filterType": "GMSprite",
     "folderName": "General",

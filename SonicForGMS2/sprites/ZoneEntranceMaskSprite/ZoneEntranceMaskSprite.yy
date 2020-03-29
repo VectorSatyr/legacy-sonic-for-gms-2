@@ -2,7 +2,7 @@
     "id": "20d9fdc3-5d40-4644-8e3e-394ae5b6c6e0",
     "modelName": "GMSprite",
     "mvc": "1.12",
-    "name": "PlayerEntranceMaskSprite",
+    "name": "ZoneEntranceMaskSprite",
     "For3D": false,
     "HTile": false,
     "VTile": false,

@@ -4,13 +4,10 @@
     "mvc": "1.1",
     "name": "7ff67b61-f727-4b83-a213-614c565942c9",
     "children": [
-        "a9f8b287-5733-412d-867b-7776ce2240cc",
-        "1cb394f3-3ae0-487a-b610-725eba3f9885",
-        "4b47c985-7e62-4c6f-b0ad-03d0db22dec3",
-        "5dd030b5-0db7-422b-a02d-89b4173b637a",
-        "dd3d3d28-4e5f-4ef2-ae23-8f79709cd249",
-        "04910f36-049a-4403-8d80-c77f8a7cc635",
-        "087f9894-6d64-4506-a898-d3f543b5365a"
+        "18613867-40b6-47a4-98b6-499557d839db",
+        "f30c0d72-1381-46e6-98ad-8059aa10c1a7",
+        "ba1fde8c-11ec-4475-83ed-cc4fff752b82",
+        "2e895251-cb0e-436c-894f-a651a0f1fe6f"
     ],
     "filterType": "GMScript",
     "folderName": "Zone",
