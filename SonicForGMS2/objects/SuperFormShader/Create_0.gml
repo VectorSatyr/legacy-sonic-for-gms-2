@@ -18,6 +18,7 @@ blend_speed = 0.045;
 blend_pulse_speed = 0.08;
 
 // shader uniforms
+u_color_count = shader_get_uniform(shader, "u_iTotalColors");
 u_color_in = shader_get_uniform(shader, "u_vInputColor");
 u_color_out = shader_get_uniform(shader, "u_vOutputColor");
 u_tolerance = shader_get_uniform(shader, "u_vTolerance");
@@ -28,4 +29,3 @@ input_color = array_create(total_colors);
 output_color = array_create(total_colors);
 tolerance = $010101;
 blend = 0;
-

@@ -55,6 +55,22 @@
             }
         },
         {
+            "Key": "00b84b50-fccb-405f-ac5a-0983b873f2f5",
+            "Value": {
+                "id": "c721e511-1b94-44ec-b8dc-383e66c49027",
+                "resourcePath": "sounds\\SphereOrbitSound\\SphereOrbitSound.yy",
+                "resourceType": "GMSound"
+            }
+        },
+        {
+            "Key": "0126a815-db4d-4449-a59a-b65ca7039c43",
+            "Value": {
+                "id": "daa84dd1-7e04-4c7b-befc-0498dbd58fd7",
+                "resourcePath": "views\\0126a815-db4d-4449-a59a-b65ca7039c43.yy",
+                "resourceType": "GMFolder"
+            }
+        },
+        {
             "Key": "0141e908-418c-4d2a-8420-1d82372df4f3",
             "Value": {
                 "id": "34b53702-244b-4a81-8006-416490f5f996",
@@ -1039,6 +1055,14 @@
             }
         },
         {
+            "Key": "1a1175d3-59a1-4cac-a43b-bf3177114477",
+            "Value": {
+                "id": "6d22bced-c60a-423c-9904-09955f081cb7",
+                "resourcePath": "views\\1a1175d3-59a1-4cac-a43b-bf3177114477.yy",
+                "resourceType": "GMFolder"
+            }
+        },
+        {
             "Key": "1a2f781d-16ba-448e-b85c-778f7b61fa2b",
             "Value": {
                 "id": "bd5d8265-d07c-4137-85dd-25b94d5a37a0",
@@ -1108,6 +1132,14 @@
                 "id": "908eb63b-bd32-433d-ad00-b4041048673b",
                 "resourcePath": "scripts\\game_zone_check_point_record\\game_zone_check_point_record.yy",
                 "resourceType": "GMScript"
+            }
+        },
+        {
+            "Key": "1cd51993-2eb2-4ff7-8062-fafa9d85342a",
+            "Value": {
+                "id": "545b1d80-7cc5-499f-8b50-268f72067035",
+                "resourcePath": "sprites\\GlowingSpheresLargeSphereSprite\\GlowingSpheresLargeSphereSprite.yy",
+                "resourceType": "GMSprite"
             }
         },
         {
@@ -2599,6 +2631,14 @@
             }
         },
         {
+            "Key": "45c63af0-bbe5-47b0-b21c-ac514ece883a",
+            "Value": {
+                "id": "e7f96915-d460-4402-940d-25b0b770ed63",
+                "resourcePath": "objects\\GlowingSpheresLargeSphere\\GlowingSpheresLargeSphere.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
             "Key": "45cacf55-bda7-4296-b822-a9a01dc040bc",
             "Value": {
                 "id": "fe1a3230-9189-413d-a905-20a52520e68a",
@@ -3079,6 +3119,14 @@
             }
         },
         {
+            "Key": "50145902-ee29-4360-be5e-39039bfb8778",
+            "Value": {
+                "id": "64150993-cb15-4896-be2f-dc55f735fc75",
+                "resourcePath": "scripts\\player_react_to_glowing_spheres_large_sphere\\player_react_to_glowing_spheres_large_sphere.yy",
+                "resourceType": "GMScript"
+            }
+        },
+        {
             "Key": "5035687c-6b37-422c-9fff-a53bfb61d613",
             "Value": {
                 "id": "8264e976-a324-40bc-b5f5-c48bd00ff8e7",
@@ -3252,6 +3300,14 @@
                 "id": "79988cdf-b624-44db-9f9e-f75b7c0331cd",
                 "resourcePath": "objects\\PushBlock\\PushBlock.yy",
                 "resourceType": "GMObject"
+            }
+        },
+        {
+            "Key": "5462b419-e9a1-4f78-ae45-e3a81ca79f12",
+            "Value": {
+                "id": "12bc5147-07bf-4bd8-96b9-3bd7bb8dceb2",
+                "resourcePath": "views\\5462b419-e9a1-4f78-ae45-e3a81ca79f12.yy",
+                "resourceType": "GMFolder"
             }
         },
         {
@@ -4887,6 +4943,14 @@
             }
         },
         {
+            "Key": "800bbb66-caf6-4eb9-9517-82f4f6abed20",
+            "Value": {
+                "id": "d0711516-20ca-4278-8244-2b082b3a72a6",
+                "resourcePath": "sprites\\GlowingSpheresWallBumperSprite\\GlowingSpheresWallBumperSprite.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "80424722-f1bf-4e9d-bad5-08aac5750f7c",
             "Value": {
                 "id": "d6f47b15-ddc4-4f0d-a901-a17e5432ad8d",
@@ -5231,6 +5295,14 @@
             }
         },
         {
+            "Key": "89ffbd2f-752e-4090-80f0-caeaa955e08c",
+            "Value": {
+                "id": "85e704ae-8731-49c6-a685-77b18ee8e552",
+                "resourcePath": "scripts\\player_react_to_glowing_spheres_wall_bumper\\player_react_to_glowing_spheres_wall_bumper.yy",
+                "resourceType": "GMScript"
+            }
+        },
+        {
             "Key": "8a048eab-3321-4c96-873e-d7974737824f",
             "Value": {
                 "id": "be405847-f7cc-492c-bd4c-255218f623f4",
@@ -5532,6 +5604,14 @@
                 "id": "5afe37f1-8f83-4086-a048-1b5c41299afa",
                 "resourcePath": "scripts\\player_react_to_enemy\\player_react_to_enemy.yy",
                 "resourceType": "GMScript"
+            }
+        },
+        {
+            "Key": "917f4a0e-fb01-4605-8dcc-37b1ac5c6eb2",
+            "Value": {
+                "id": "4d87f082-3b66-48f8-babd-0842c1c04fcb",
+                "resourcePath": "views\\917f4a0e-fb01-4605-8dcc-37b1ac5c6eb2.yy",
+                "resourceType": "GMFolder"
             }
         },
         {
@@ -6311,6 +6391,14 @@
             }
         },
         {
+            "Key": "a4dc0eb1-ae74-4be0-8f88-7844eb5fd580",
+            "Value": {
+                "id": "a2e77f0d-90e8-4765-9061-6b8ba18ef9cc",
+                "resourcePath": "objects\\GlowingSpheresWallBumper\\GlowingSpheresWallBumper.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
             "Key": "a50dccc9-7075-4a38-abf1-2969f41fec37",
             "Value": {
                 "id": "6e9cb90e-c8c5-471f-a424-c543cfc65225",
@@ -6623,6 +6711,14 @@
             }
         },
         {
+            "Key": "ad9c8a5e-0e82-49be-8e41-71091698ce94",
+            "Value": {
+                "id": "a0fdae9c-bc4d-405b-a6ce-7f83e0e4d792",
+                "resourcePath": "views\\ad9c8a5e-0e82-49be-8e41-71091698ce94.yy",
+                "resourceType": "GMFolder"
+            }
+        },
+        {
             "Key": "adc40c94-b7d0-4f57-b3e5-be46ef5ed2cc",
             "Value": {
                 "id": "77989461-6fc6-4af5-9f9f-aae9025d8b19",
@@ -6915,6 +7011,14 @@
             "Value": {
                 "id": "b3dbd553-e42e-4e62-aee4-c01b3d06efc5",
                 "resourcePath": "views\\b6041da0-d3ba-46a9-be23-38b7f6d23e80.yy",
+                "resourceType": "GMFolder"
+            }
+        },
+        {
+            "Key": "b6124ea4-f86a-4b6a-bd39-37443e1601c5",
+            "Value": {
+                "id": "0f17235c-65e5-465d-b80f-38c7d6b3624d",
+                "resourcePath": "views\\b6124ea4-f86a-4b6a-bd39-37443e1601c5.yy",
                 "resourceType": "GMFolder"
             }
         },
@@ -8439,6 +8543,14 @@
             }
         },
         {
+            "Key": "dfc7c5d6-b1fb-4510-962c-e29b6592f0d0",
+            "Value": {
+                "id": "936f20e1-e496-48b8-ad50-40a3d75bb368",
+                "resourcePath": "sprites\\GlowingSpheresWallSprite\\GlowingSpheresWallSprite.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "e0501aa3-7789-4de6-b89b-0c981150d762",
             "Value": {
                 "id": "f4e73758-169a-4d2f-b859-271493ab9b00",
@@ -8596,6 +8708,14 @@
                 "id": "6f60be0c-fdb7-4459-b1cf-e79a35ceecb2",
                 "resourcePath": "timelines\\TailsBreatheAnim\\TailsBreatheAnim.yy",
                 "resourceType": "GMTimeline"
+            }
+        },
+        {
+            "Key": "e4817d33-f419-43ec-8782-4c0cf14b9512",
+            "Value": {
+                "id": "c9cc882a-bb8c-4948-b492-f8e5a412884f",
+                "resourcePath": "objects\\GlowingSpheresEntrance\\GlowingSpheresEntrance.yy",
+                "resourceType": "GMObject"
             }
         },
         {
@@ -9555,6 +9675,8 @@
         "3f39df6a-01ea-4190-86ae-3f0c2096cc1f",
         "6e142b64-0cc8-4710-aa3b-4986ae27ff68",
         "b1d2675b-de6b-458b-8dbd-9fc6933e9a7f",
+        "50145902-ee29-4360-be5e-39039bfb8778",
+        "89ffbd2f-752e-4090-80f0-caeaa955e08c",
         "63acbc53-821d-4057-8757-4147aeac94b6",
         "3f82242e-5a7c-40fb-9fb3-bf43cd88efef",
         "a6752d3a-2ae1-49fb-9328-89afdb0eb4f3",
