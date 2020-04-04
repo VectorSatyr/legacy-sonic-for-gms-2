@@ -1,33 +1,43 @@
 {
-    "id": "dc39f68c-e4f4-4463-a7af-7369be89ffdc",
+    "id": "168565d3-1d75-4e95-9e51-64fab90d5a84",
     "modelName": "GMObject",
     "mvc": "1.0",
-    "name": "ScreenTransition",
+    "name": "GlowingSpheresObjectShader",
     "eventList": [
         {
-            "id": "080c4fc3-c600-4acb-89de-6b8f4a94af94",
+            "id": "a3acf6c6-60d4-4f91-8e22-f69923d23267",
             "modelName": "GMEvent",
             "mvc": "1.0",
             "IsDnD": false,
             "collisionObjectId": "00000000-0000-0000-0000-000000000000",
             "enumb": 0,
             "eventtype": 0,
-            "m_owner": "dc39f68c-e4f4-4463-a7af-7369be89ffdc"
+            "m_owner": "168565d3-1d75-4e95-9e51-64fab90d5a84"
         },
         {
-            "id": "2d49f5af-3438-43ac-93b6-9eb68dc73f15",
+            "id": "cf33e021-5dcd-4208-a485-30441324ab61",
             "modelName": "GMEvent",
             "mvc": "1.0",
             "IsDnD": false,
             "collisionObjectId": "00000000-0000-0000-0000-000000000000",
-            "enumb": 73,
+            "enumb": 0,
             "eventtype": 8,
-            "m_owner": "dc39f68c-e4f4-4463-a7af-7369be89ffdc"
+            "m_owner": "168565d3-1d75-4e95-9e51-64fab90d5a84"
+        },
+        {
+            "id": "defeaf17-e7ec-469c-aa2c-2159434cb7be",
+            "modelName": "GMEvent",
+            "mvc": "1.0",
+            "IsDnD": false,
+            "collisionObjectId": "00000000-0000-0000-0000-000000000000",
+            "enumb": 2,
+            "eventtype": 3,
+            "m_owner": "168565d3-1d75-4e95-9e51-64fab90d5a84"
         }
     ],
     "maskSpriteId": "00000000-0000-0000-0000-000000000000",
     "overriddenProperties": null,
-    "parentObjectId": "22b0d6e4-033c-4361-85f8-44cfeb131db3",
+    "parentObjectId": "00000000-0000-0000-0000-000000000000",
     "persistent": false,
     "physicsAngularDamping": 0.1,
     "physicsDensity": 0.5,
@@ -38,10 +48,8 @@
     "physicsObject": false,
     "physicsRestitution": 0.1,
     "physicsSensor": false,
-    "physicsShape": 0,
-    "physicsShapePoints": [
-        
-    ],
+    "physicsShape": 1,
+    "physicsShapePoints": null,
     "physicsStartAwake": true,
     "properties": null,
     "solid": false,

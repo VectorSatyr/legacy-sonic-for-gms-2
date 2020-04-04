@@ -943,6 +943,14 @@
             }
         },
         {
+            "Key": "168565d3-1d75-4e95-9e51-64fab90d5a84",
+            "Value": {
+                "id": "0641663a-8c05-44e1-831c-0709814ad931",
+                "resourcePath": "objects\\GlowingSpheresObjectShader\\GlowingSpheresObjectShader.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
             "Key": "17053746-24cf-4a26-b8e3-3354fb29e78d",
             "Value": {
                 "id": "1420998f-065a-4d56-8cac-73b2c89e56a0",
