@@ -36,6 +36,8 @@ RANDOM TALKING BUSH");
 
 ds_queue_enqueue(headers, "MUSIC BY");
 ds_queue_enqueue(text, @"MASATO NAKAMURA#
+JUNKO SHIRATSU#
+MARIKO NANBA#
 TEE LOPES#
 SEAN EVANS");
 
@@ -50,7 +52,8 @@ ds_queue_enqueue(headers, "SPECIAL THANKS TO");
 ds_queue_enqueue(text, @"JONATHAN LAM#
 JAVIER MORA#
 NOAH COPELAND#
-POLAR EXELION");
+POLAR EXELION#
+PIXELATED_POPE");
 
 ds_queue_enqueue(headers, "DEVELOPED BY");
 ds_queue_enqueue(text, "VECTORSATYR");

@@ -151,6 +151,14 @@
             }
         },
         {
+            "Key": "02eeca80-e5cf-48ad-97c0-cc0eaf828c2c",
+            "Value": {
+                "id": "761eff48-2272-498e-9be9-53dbffc11c89",
+                "resourcePath": "sprites\\GlowingSpheresBack\\GlowingSpheresBack.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "039b9517-f8ad-4967-bb14-dbc5645ad10b",
             "Value": {
                 "id": "aa8d39b6-92fb-4d23-8b83-ffcf8d5fec8b",
@@ -620,6 +628,14 @@
                 "id": "c52fa3a4-27e4-4743-a8e0-d336231eb44f",
                 "resourcePath": "views\\0dd4831a-2f62-4edf-9aa2-a86c3cccc833.yy",
                 "resourceType": "GMFolder"
+            }
+        },
+        {
+            "Key": "0e031093-f16a-43ee-ba93-2f2fc783267b",
+            "Value": {
+                "id": "76f07376-7142-4846-9393-da5401604fe1",
+                "resourcePath": "sprites\\GlowingSpheresObjectPaletteSprite\\GlowingSpheresObjectPaletteSprite.yy",
+                "resourceType": "GMSprite"
             }
         },
         {
@@ -1124,6 +1140,14 @@
                 "id": "e211e467-a425-4f97-9d3e-28b35819be78",
                 "resourcePath": "views\\1c31b396-418b-4057-b8e9-032534aa73fd.yy",
                 "resourceType": "GMFolder"
+            }
+        },
+        {
+            "Key": "1c88bc8e-feee-4943-b9d2-275b81e18537",
+            "Value": {
+                "id": "5bef1b91-0734-493c-bf40-aa07e392b94b",
+                "resourcePath": "shaders\\PaletteShd\\PaletteShd.yy",
+                "resourceType": "GMShader"
             }
         },
         {
@@ -2476,6 +2500,14 @@
                 "id": "cd7c68fb-13bc-4105-b1b6-0ff3bfab5648",
                 "resourcePath": "sprites\\TailsStanceLoopSprite\\TailsStanceLoopSprite.yy",
                 "resourceType": "GMSprite"
+            }
+        },
+        {
+            "Key": "409b85ed-c9c7-4c95-bc0b-fc9534f76f49",
+            "Value": {
+                "id": "4d966822-ba73-4755-a4f2-9541e7ac7b23",
+                "resourcePath": "objects\\GlowingSpheresBackground\\GlowingSpheresBackground.yy",
+                "resourceType": "GMObject"
             }
         },
         {
@@ -4588,6 +4620,14 @@
                 "id": "655c2fb5-c5bc-4510-b6fa-f7ffbd2dd0a9",
                 "resourcePath": "objects\\InvincibilityIcon\\InvincibilityIcon.yy",
                 "resourceType": "GMObject"
+            }
+        },
+        {
+            "Key": "78a45a92-5ed8-4664-bbb8-33602d620a15",
+            "Value": {
+                "id": "e0ae0b81-b817-46e4-9040-c38bcbafc600",
+                "resourcePath": "sprites\\GlowingSpheresBackgroundPaletteSprie\\GlowingSpheresBackgroundPaletteSprie.yy",
+                "resourceType": "GMSprite"
             }
         },
         {
