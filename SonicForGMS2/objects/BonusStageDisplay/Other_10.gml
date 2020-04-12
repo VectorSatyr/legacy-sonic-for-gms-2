@@ -30,3 +30,6 @@ post_rings.vind = index;
 post_rings.font = global.HUDFont;
 post_rings.halign = fa_right;
 post_rings.label = string(owner.rings);
+
+// score label (unused)
+post_score = noone;

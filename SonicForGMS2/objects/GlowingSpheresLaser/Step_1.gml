@@ -1,7 +1,9 @@
 /// @description  Activate
-if (timer > 0) {
-	--timer;
-	if (timer <= 0) {
-		y_speed = -1;
+if (game_is_running()) {
+	if (timer > 0) {
+		--timer;
+		if (timer <= 0) {
+			y_speed = -1;
+		}
 	}
 }

@@ -2,7 +2,7 @@
 image_speed = 0;
 length = room_width - 224;
 y_speed = 0;
-timer = 300;
+timer = 240;
 warning_step = 60;
 
 audio_emitter = audio_emitter_create();

@@ -8391,6 +8391,14 @@
             }
         },
         {
+            "Key": "d6d418c9-6058-49ec-bcf0-03d42c62cd85",
+            "Value": {
+                "id": "bd62ed83-734e-4e42-989e-fb09f4dfd91e",
+                "resourcePath": "objects\\GlowingSpheresBumper\\GlowingSpheresBumper.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
             "Key": "d723d2db-b702-4754-8756-b0285a742bf7",
             "Value": {
                 "id": "064b1b7b-8b90-4b34-ac95-2fa4bcf243da",
@@ -8419,6 +8427,14 @@
             "Value": {
                 "id": "8adc1aad-79fa-4190-98e7-c40d8c56db78",
                 "resourcePath": "sprites\\SuperSonicPushSprite\\SuperSonicPushSprite.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
+            "Key": "d7ea0b2e-955b-4483-aff3-31b326fb1658",
+            "Value": {
+                "id": "2a9f996a-fdc0-414a-8039-68a6e3d96d8b",
+                "resourcePath": "sprites\\GlowingSpheresBumperSprite\\GlowingSpheresBumperSprite.yy",
                 "resourceType": "GMSprite"
             }
         },
