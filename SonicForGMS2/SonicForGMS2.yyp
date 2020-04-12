@@ -3015,6 +3015,14 @@
             }
         },
         {
+            "Key": "4bf54ebb-fa9a-4c05-be37-9abb48fff076",
+            "Value": {
+                "id": "53d486e0-8853-48b7-8efd-128c75308182",
+                "resourcePath": "sounds\\LaserCaptureSound\\LaserCaptureSound.yy",
+                "resourceType": "GMSound"
+            }
+        },
+        {
             "Key": "4c18edf2-df20-47d2-8a4e-32f419387558",
             "Value": {
                 "id": "6857f159-d9c6-4752-80af-d5dfb098fa1c",
@@ -3484,6 +3492,14 @@
                 "id": "60408888-cdbe-4f03-97d2-681e1241c566",
                 "resourcePath": "views\\583e36d8-2e57-4f71-8b81-fc0427ed369a.yy",
                 "resourceType": "GMFolder"
+            }
+        },
+        {
+            "Key": "5885ed21-7af0-4abb-b7e9-5d5c49156d71",
+            "Value": {
+                "id": "eff6c544-5541-4acc-bf4f-c8af71ac5c5b",
+                "resourcePath": "timelines\\GlowingSpheresSmallSphere\\GlowingSpheresSmallSphere.yy",
+                "resourceType": "GMTimeline"
             }
         },
         {
@@ -4183,6 +4199,14 @@
             }
         },
         {
+            "Key": "6a76d3f6-926b-4526-98eb-7bb5ca487b99",
+            "Value": {
+                "id": "4a95e1aa-e9b1-40a5-95bc-6580be442fc1",
+                "resourcePath": "sprites\\GlowingSpheresLaserPanelSprite\\GlowingSpheresLaserPanelSprite.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "6a8b50c4-4848-4f2d-9682-3030c312b40e",
             "Value": {
                 "id": "8588218f-7dac-46a9-990f-1155e09db799",
@@ -4379,6 +4403,14 @@
             "Value": {
                 "id": "bc80bb39-765d-4745-a012-a23273451c79",
                 "resourcePath": "objects\\DevVisualization\\DevVisualization.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
+            "Key": "712b96fd-3a1f-4922-b300-d326bb36c397",
+            "Value": {
+                "id": "5df1865d-30a3-4259-bfe1-e2d418be61c6",
+                "resourcePath": "objects\\GlowingSpheresForcedExit\\GlowingSpheresForcedExit.yy",
                 "resourceType": "GMObject"
             }
         },
@@ -5359,6 +5391,14 @@
             }
         },
         {
+            "Key": "8a09187b-a2d9-4dbc-8a38-8b0c8a859a8f",
+            "Value": {
+                "id": "b37a9e78-e3cf-4d0b-96f2-2735d33ac310",
+                "resourcePath": "views\\8a09187b-a2d9-4dbc-8a38-8b0c8a859a8f.yy",
+                "resourceType": "GMFolder"
+            }
+        },
+        {
             "Key": "8a1f212a-d09d-4c96-b155-602648990598",
             "Value": {
                 "id": "f171c3f2-5759-4ed1-8195-5842f4c3e80f",
@@ -5396,6 +5436,14 @@
                 "id": "15fc649a-8aa8-459c-b025-64379b5e657a",
                 "resourcePath": "objects\\SignPost\\SignPost.yy",
                 "resourceType": "GMObject"
+            }
+        },
+        {
+            "Key": "8b5db4eb-c9e2-4302-861d-bdab01e45ddb",
+            "Value": {
+                "id": "9137cfcc-821a-4dd9-bbda-d1174f0e86d1",
+                "resourcePath": "sprites\\GlowingSpheresSmallSphereSprite\\GlowingSpheresSmallSphereSprite.yy",
+                "resourceType": "GMSprite"
             }
         },
         {
@@ -7591,6 +7639,14 @@
             }
         },
         {
+            "Key": "c3e5092f-7f37-4b7d-9f3e-537dfe0697c4",
+            "Value": {
+                "id": "52a16ca0-d80b-4513-9975-39150ac94e24",
+                "resourcePath": "views\\c3e5092f-7f37-4b7d-9f3e-537dfe0697c4.yy",
+                "resourceType": "GMFolder"
+            }
+        },
+        {
             "Key": "c3eebdb3-d921-4e2f-a61a-4630a2c2f6f2",
             "Value": {
                 "id": "ab878aea-3816-4286-a2e3-ba8483c2afe9",
@@ -7940,6 +7996,14 @@
                 "id": "41aa4370-336d-4eaa-8edc-ebc06733e873",
                 "resourcePath": "options\\windows\\options_windows.yy",
                 "resourceType": "GMWindowsOptions"
+            }
+        },
+        {
+            "Key": "cca2b20c-cea8-48cb-ae3f-89cbbba57063",
+            "Value": {
+                "id": "b5059f48-cf8c-4af3-8a8e-55b1d9e9b7a2",
+                "resourcePath": "objects\\GlowingSpheresLaserSphere\\GlowingSpheresLaserSphere.yy",
+                "resourceType": "GMObject"
             }
         },
         {
@@ -9143,6 +9207,14 @@
             }
         },
         {
+            "Key": "f24adefd-7082-4af9-9ac2-2aab90e1b04b",
+            "Value": {
+                "id": "7c5f273c-1425-4325-9bcf-ec6317d79e3a",
+                "resourcePath": "sounds\\TeleportSound\\TeleportSound.yy",
+                "resourceType": "GMSound"
+            }
+        },
+        {
             "Key": "f30c0d72-1381-46e6-98ad-8059aa10c1a7",
             "Value": {
                 "id": "a5324b94-bb69-4117-83cf-58db3ab5d7f4",
@@ -9516,6 +9588,14 @@
                 "id": "a0c2ebc3-e1aa-456f-b378-ee7bf6a66bff",
                 "resourcePath": "views\\fe46c04a-5df3-4a58-81fe-c7d4428f043b.yy",
                 "resourceType": "GMFolder"
+            }
+        },
+        {
+            "Key": "fe493345-cd5b-44c7-8640-67c222569f7c",
+            "Value": {
+                "id": "79281e8a-644d-462b-961f-5c06db07713f",
+                "resourcePath": "objects\\GlowingSpheresLaser\\GlowingSpheresLaser.yy",
+                "resourceType": "GMObject"
             }
         },
         {

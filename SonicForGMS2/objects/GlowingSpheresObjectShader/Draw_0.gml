@@ -7,6 +7,9 @@ if (index != 0) {
 	shader_set_uniform_f(u_size, size[0], size[1]);
 	shader_set_uniform_f(u_index, index);
 	shader_set_uniform_f(u_tolerance, tolerance);
+	with (GlowingSpheresLaserSphere) {
+		draw_self();
+	}
 	with (GlowingSpheresLargeSphere) {
 		draw_self();
 	}
