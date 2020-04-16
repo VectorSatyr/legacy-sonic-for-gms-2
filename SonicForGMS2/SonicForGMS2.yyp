@@ -2783,6 +2783,14 @@
             }
         },
         {
+            "Key": "470b15c0-f30a-46ba-b7ac-4b5087f0dfd5",
+            "Value": {
+                "id": "ceaefecd-3980-41ef-8508-8a218ab933e4",
+                "resourcePath": "sprites\\GlowingSpheresFlipperSprite\\GlowingSpheresFlipperSprite.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "4728120f-4cb5-4ddd-9bc8-2253e08d477c",
             "Value": {
                 "id": "81fc722b-8740-45bb-b34d-1d0871822632",
@@ -3351,6 +3359,14 @@
             }
         },
         {
+            "Key": "542005a2-9224-4a4c-a0cc-157dde78aaf5",
+            "Value": {
+                "id": "c1fa71e2-d5a1-420d-adf8-70befecb29b9",
+                "resourcePath": "objects\\GlowingSpheresFlipper\\GlowingSpheresFlipper.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
             "Key": "5462b419-e9a1-4f78-ae45-e3a81ca79f12",
             "Value": {
                 "id": "12bc5147-07bf-4bd8-96b9-3bd7bb8dceb2",
@@ -3498,7 +3514,7 @@
             "Key": "5885ed21-7af0-4abb-b7e9-5d5c49156d71",
             "Value": {
                 "id": "eff6c544-5541-4acc-bf4f-c8af71ac5c5b",
-                "resourcePath": "timelines\\GlowingSpheresSmallSphere\\GlowingSpheresSmallSphere.yy",
+                "resourcePath": "timelines\\GlowingSpheresSmallSphereAnim\\GlowingSpheresSmallSphereAnim.yy",
                 "resourceType": "GMTimeline"
             }
         },
@@ -3995,6 +4011,14 @@
             "Value": {
                 "id": "95159be4-591b-42f4-923e-65e3401dce58",
                 "resourcePath": "sounds\\SpinRevSound\\SpinRevSound.yy",
+                "resourceType": "GMSound"
+            }
+        },
+        {
+            "Key": "638a4788-6145-4a07-aa38-33e5e68c3927",
+            "Value": {
+                "id": "e344918f-d872-46f8-98de-7cbddd083d16",
+                "resourcePath": "sounds\\FlipperSound\\FlipperSound.yy",
                 "resourceType": "GMSound"
             }
         },
@@ -5420,6 +5444,14 @@
                 "id": "e0a00817-30fe-4c7f-9d6b-99ac9f7b652c",
                 "resourcePath": "scripts\\game_save_read_all\\game_save_read_all.yy",
                 "resourceType": "GMScript"
+            }
+        },
+        {
+            "Key": "8a5ab568-dd33-4fa6-b1cb-53d5a61e8000",
+            "Value": {
+                "id": "cf5152dd-f44d-49a0-9836-da5b5b27f135",
+                "resourcePath": "sprites\\GlowingSpheresFlipperMaskSprite\\GlowingSpheresFlipperMaskSprite.yy",
+                "resourceType": "GMSprite"
             }
         },
         {
@@ -8535,6 +8567,14 @@
             }
         },
         {
+            "Key": "dc05715e-01e9-463e-b6a9-d784cd818b9b",
+            "Value": {
+                "id": "3cab639f-114c-4f7c-aee4-7e1066c15295",
+                "resourcePath": "timelines\\GlowingSpheresFlipperAnim\\GlowingSpheresFlipperAnim.yy",
+                "resourceType": "GMTimeline"
+            }
+        },
+        {
             "Key": "dc2414ff-5a74-4625-a3de-aa4d4cbeb738",
             "Value": {
                 "id": "3c3eefcb-7769-48fa-8d3d-9f0f5b9098b1",
@@ -8900,6 +8940,14 @@
                 "id": "8ee1a1bf-8232-41fd-b3aa-a4164b5da1bb",
                 "resourcePath": "views\\e60a11c3-e7a5-4416-badc-3aa8d9154020.yy",
                 "resourceType": "GMFolder"
+            }
+        },
+        {
+            "Key": "e657e4c3-224e-406e-a409-b30130882ede",
+            "Value": {
+                "id": "5a8ad066-7511-4f4f-920b-3429f51b6ace",
+                "resourcePath": "scripts\\player_react_to_glowing_spheres_flipper\\player_react_to_glowing_spheres_flipper.yy",
+                "resourceType": "GMScript"
             }
         },
         {
@@ -9819,6 +9867,7 @@
         "3f39df6a-01ea-4190-86ae-3f0c2096cc1f",
         "6e142b64-0cc8-4710-aa3b-4986ae27ff68",
         "b1d2675b-de6b-458b-8dbd-9fc6933e9a7f",
+        "e657e4c3-224e-406e-a409-b30130882ede",
         "50145902-ee29-4360-be5e-39039bfb8778",
         "89ffbd2f-752e-4090-80f0-caeaa955e08c",
         "63acbc53-821d-4057-8757-4147aeac94b6",
