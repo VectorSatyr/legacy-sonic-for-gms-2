@@ -6,7 +6,7 @@ if (game_is_running()) {
 				game_pc_perform(self, player_is_falling, true);
 				game_pc_lift(self, other.force, -(x_int - other.x) * other.x_friction);
 				game_pc_play_sound(self, FlipperSound);
-				timeline_set(other, GlowingSpheresFlipperAnim, 2, false, true);
+				timeline_set(other, GSFlipperAnim, 2, false, true);
 		        continue;
 		    }
 

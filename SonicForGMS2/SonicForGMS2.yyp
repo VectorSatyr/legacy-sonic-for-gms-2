@@ -191,6 +191,14 @@
             }
         },
         {
+            "Key": "049b6be6-5aa4-4d6e-a87f-f8b763a88631",
+            "Value": {
+                "id": "860beab1-eb89-45d1-afc9-56b7cc06ff0e",
+                "resourcePath": "sprites\\ThunderGumballSprite\\ThunderGumballSprite.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "050cad80-774e-450a-bdbb-518972831aa5",
             "Value": {
                 "id": "d535f2e3-043f-427e-b5d0-84b0a2e86135",
@@ -535,6 +543,14 @@
             }
         },
         {
+            "Key": "0b9510ff-7fa6-4b35-8055-c71c4e8cdbf7",
+            "Value": {
+                "id": "587900fd-9b30-4fb6-afb5-7b93432a4443",
+                "resourcePath": "sprites\\ClearGumballSprite\\ClearGumballSprite.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "0be8d2c7-77e4-40bb-858d-d4ff548e7dd8",
             "Value": {
                 "id": "941b7bd3-cdeb-4a01-81ec-10d71e4e0986",
@@ -634,7 +650,7 @@
             "Key": "0e031093-f16a-43ee-ba93-2f2fc783267b",
             "Value": {
                 "id": "76f07376-7142-4846-9393-da5401604fe1",
-                "resourcePath": "sprites\\GlowingSpheresObjectPaletteSprite\\GlowingSpheresObjectPaletteSprite.yy",
+                "resourcePath": "sprites\\GSObjectPaletteSprite\\GSObjectPaletteSprite.yy",
                 "resourceType": "GMSprite"
             }
         },
@@ -1170,7 +1186,7 @@
             "Key": "1cd51993-2eb2-4ff7-8062-fafa9d85342a",
             "Value": {
                 "id": "545b1d80-7cc5-499f-8b50-268f72067035",
-                "resourcePath": "sprites\\GlowingSpheresLargeSphereSprite\\GlowingSpheresLargeSphereSprite.yy",
+                "resourcePath": "sprites\\GSLargeSphereSprite\\GSLargeSphereSprite.yy",
                 "resourceType": "GMSprite"
             }
         },
@@ -1532,6 +1548,14 @@
                 "id": "9147058e-a944-409d-8a69-14a209ff8b32",
                 "resourcePath": "scripts\\game_input_event_pressed\\game_input_event_pressed.yy",
                 "resourceType": "GMScript"
+            }
+        },
+        {
+            "Key": "25688b1f-2ca5-4402-9b2a-63c298acb987",
+            "Value": {
+                "id": "e1c5ee00-c68d-49ae-b1fb-312e1fc6da71",
+                "resourcePath": "views\\25688b1f-2ca5-4402-9b2a-63c298acb987.yy",
+                "resourceType": "GMFolder"
             }
         },
         {
@@ -1983,6 +2007,14 @@
             }
         },
         {
+            "Key": "340a92e8-356e-47cc-b718-550799b436e2",
+            "Value": {
+                "id": "593b7de0-926b-4193-a564-97032685a55e",
+                "resourcePath": "sounds\\GumballSound\\GumballSound.yy",
+                "resourceType": "GMSound"
+            }
+        },
+        {
             "Key": "3473a56e-faae-48cf-8176-363215dbe715",
             "Value": {
                 "id": "7d4f79a6-0248-407f-9d34-a3903729b0e0",
@@ -2076,6 +2108,14 @@
                 "id": "c79328dc-2901-44e7-9cda-4bfc82f6a446",
                 "resourcePath": "objects\\ZoneMemory\\ZoneMemory.yy",
                 "resourceType": "GMObject"
+            }
+        },
+        {
+            "Key": "36368f70-bb41-41d2-9bfb-26cc148f9996",
+            "Value": {
+                "id": "bfa3b467-9cef-4ba8-8519-cedcd29b757c",
+                "resourcePath": "scripts\\player_react_to_glowing_spheres_gumball\\player_react_to_glowing_spheres_gumball.yy",
+                "resourceType": "GMScript"
             }
         },
         {
@@ -2268,6 +2308,14 @@
                 "id": "da665dc1-0280-4a46-9a4e-2c2cc4e8c48f",
                 "resourcePath": "views\\3a396ce9-936b-4bbc-85d4-ba93e68f6301.yy",
                 "resourceType": "GMFolder"
+            }
+        },
+        {
+            "Key": "3a5f9fb0-f428-407e-964e-fc053bd67f1c",
+            "Value": {
+                "id": "5fe0f826-033c-4397-93c1-c862dee0b8e8",
+                "resourcePath": "sprites\\LifeUpGumballSprite\\LifeUpGumballSprite.yy",
+                "resourceType": "GMSprite"
             }
         },
         {
@@ -2575,6 +2623,14 @@
             }
         },
         {
+            "Key": "42a2f6b0-5544-4036-be16-385a4505e204",
+            "Value": {
+                "id": "e0f5b1a2-b14d-4eb6-b550-01a0e4fa87da",
+                "resourcePath": "objects\\ThunderGumball\\ThunderGumball.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
             "Key": "42b5dd6b-6fb9-438d-9e7a-1bbf1045f45c",
             "Value": {
                 "id": "0d5d9704-54d8-4efb-ad2c-381ed7c1de7e",
@@ -2786,7 +2842,7 @@
             "Key": "470b15c0-f30a-46ba-b7ac-4b5087f0dfd5",
             "Value": {
                 "id": "ceaefecd-3980-41ef-8508-8a218ab933e4",
-                "resourcePath": "sprites\\GlowingSpheresFlipperSprite\\GlowingSpheresFlipperSprite.yy",
+                "resourcePath": "sprites\\GSFlipperSprite\\GSFlipperSprite.yy",
                 "resourceType": "GMSprite"
             }
         },
@@ -3514,7 +3570,7 @@
             "Key": "5885ed21-7af0-4abb-b7e9-5d5c49156d71",
             "Value": {
                 "id": "eff6c544-5541-4acc-bf4f-c8af71ac5c5b",
-                "resourcePath": "timelines\\GlowingSpheresSmallSphereAnim\\GlowingSpheresSmallSphereAnim.yy",
+                "resourcePath": "timelines\\GSSmallSphereAnim\\GSSmallSphereAnim.yy",
                 "resourceType": "GMTimeline"
             }
         },
@@ -3599,6 +3655,14 @@
             }
         },
         {
+            "Key": "5b34dcd0-5b80-4821-a5ac-11841fa554c4",
+            "Value": {
+                "id": "cbe93962-ff29-4998-83d7-19f1c6fd3c5d",
+                "resourcePath": "sprites\\BumperGumballSprite\\BumperGumballSprite.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "5b61715d-ac60-47a2-b003-154375684113",
             "Value": {
                 "id": "9666603a-4211-4d34-a336-e083373eb774",
@@ -3636,6 +3700,14 @@
                 "id": "b1b182ab-b1a3-4ee1-8326-2b1439e97d20",
                 "resourcePath": "sprites\\RickyFallSprite\\RickyFallSprite.yy",
                 "resourceType": "GMSprite"
+            }
+        },
+        {
+            "Key": "5be7658d-5ee5-412d-8977-b37c376ec5bd",
+            "Value": {
+                "id": "0bf768f2-052a-4d17-9c8f-19004c238838",
+                "resourcePath": "objects\\Gumball\\Gumball.yy",
+                "resourceType": "GMObject"
             }
         },
         {
@@ -3751,6 +3823,14 @@
             }
         },
         {
+            "Key": "5e71eef1-0027-430e-9809-268b9d5d9354",
+            "Value": {
+                "id": "9fdb7943-510a-497b-b45a-8f115d83d9df",
+                "resourcePath": "objects\\FlameGumball\\FlameGumball.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
             "Key": "5e72faf6-9c27-49e0-aa22-4c10b2ce5fde",
             "Value": {
                 "id": "fb2822d9-6aab-49a2-8a82-de4256415907",
@@ -3835,6 +3915,14 @@
             "Value": {
                 "id": "beb37171-9f1f-493e-8059-a2f810a24f70",
                 "resourcePath": "objects\\BonusStageDisplay\\BonusStageDisplay.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
+            "Key": "5ff23614-0755-4f2d-b729-1b2b353fb624",
+            "Value": {
+                "id": "45893b04-00fd-458c-8bab-8b5143d2270d",
+                "resourcePath": "objects\\AquaGumball\\AquaGumball.yy",
                 "resourceType": "GMObject"
             }
         },
@@ -4226,7 +4314,7 @@
             "Key": "6a76d3f6-926b-4526-98eb-7bb5ca487b99",
             "Value": {
                 "id": "4a95e1aa-e9b1-40a5-95bc-6580be442fc1",
-                "resourcePath": "sprites\\GlowingSpheresLaserPanelSprite\\GlowingSpheresLaserPanelSprite.yy",
+                "resourcePath": "sprites\\GSLaserPanelSprite\\GSLaserPanelSprite.yy",
                 "resourceType": "GMSprite"
             }
         },
@@ -4682,7 +4770,7 @@
             "Key": "78a45a92-5ed8-4664-bbb8-33602d620a15",
             "Value": {
                 "id": "e0ae0b81-b817-46e4-9040-c38bcbafc600",
-                "resourcePath": "sprites\\GlowingSpheresBackgroundPaletteSprie\\GlowingSpheresBackgroundPaletteSprie.yy",
+                "resourcePath": "sprites\\GSBackgroundPaletteSprie\\GSBackgroundPaletteSprie.yy",
                 "resourceType": "GMSprite"
             }
         },
@@ -4959,6 +5047,14 @@
             }
         },
         {
+            "Key": "7e884915-ffa8-4c20-aa94-0783b41fd6a0",
+            "Value": {
+                "id": "2fbccc14-b57b-462a-b071-c72132866260",
+                "resourcePath": "sprites\\RingGumballSprite\\RingGumballSprite.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "7e8eadce-33da-42d0-a880-b552bff41f49",
             "Value": {
                 "id": "45d7b90a-1a68-4885-a1e3-1047620e0a87",
@@ -5050,7 +5146,7 @@
             "Key": "800bbb66-caf6-4eb9-9517-82f4f6abed20",
             "Value": {
                 "id": "d0711516-20ca-4278-8244-2b082b3a72a6",
-                "resourcePath": "sprites\\GlowingSpheresWallBumperSprite\\GlowingSpheresWallBumperSprite.yy",
+                "resourcePath": "sprites\\GSWallBumperSprite\\GSWallBumperSprite.yy",
                 "resourceType": "GMSprite"
             }
         },
@@ -5263,6 +5359,14 @@
             }
         },
         {
+            "Key": "85b233b3-4cd3-4a04-9088-0ca8192ea447",
+            "Value": {
+                "id": "10224b00-58ec-4790-af69-e7e28d87d73e",
+                "resourcePath": "objects\\GlowingSpheresPrizeSphere\\GlowingSpheresPrizeSphere.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
             "Key": "85c32f0b-c52b-412e-b353-96854616de89",
             "Value": {
                 "id": "a8c3e0d2-fab0-4f7c-bdad-1e24a95ff6bc",
@@ -5279,6 +5383,14 @@
             }
         },
         {
+            "Key": "86514524-50b0-4b82-a91b-0fb08a3a7e4e",
+            "Value": {
+                "id": "6f5e0340-48b9-43e4-b294-5b621c49ea08",
+                "resourcePath": "views\\86514524-50b0-4b82-a91b-0fb08a3a7e4e.yy",
+                "resourceType": "GMFolder"
+            }
+        },
+        {
             "Key": "86586aca-a84f-4d21-b7e6-4b75f7adf14e",
             "Value": {
                 "id": "6b016848-d50b-4de9-9f93-ee05b6552ce7",
@@ -5292,6 +5404,14 @@
                 "id": "3f30475b-0f63-48b4-a967-5d58b366f7dc",
                 "resourcePath": "views\\866d1e27-b7e8-4365-9c7d-d528eb90b6c3.yy",
                 "resourceType": "GMFolder"
+            }
+        },
+        {
+            "Key": "86dcca2b-c0f5-43a0-87db-99b8baa15c53",
+            "Value": {
+                "id": "12aa611e-9623-42e4-af04-7c3619dfd6bd",
+                "resourcePath": "objects\\RingGumball\\RingGumball.yy",
+                "resourceType": "GMObject"
             }
         },
         {
@@ -5450,7 +5570,7 @@
             "Key": "8a5ab568-dd33-4fa6-b1cb-53d5a61e8000",
             "Value": {
                 "id": "cf5152dd-f44d-49a0-9836-da5b5b27f135",
-                "resourcePath": "sprites\\GlowingSpheresFlipperMaskSprite\\GlowingSpheresFlipperMaskSprite.yy",
+                "resourcePath": "sprites\\GSFlipperMaskSprite\\GSFlipperMaskSprite.yy",
                 "resourceType": "GMSprite"
             }
         },
@@ -5474,7 +5594,7 @@
             "Key": "8b5db4eb-c9e2-4302-861d-bdab01e45ddb",
             "Value": {
                 "id": "9137cfcc-821a-4dd9-bbda-d1174f0e86d1",
-                "resourcePath": "sprites\\GlowingSpheresSmallSphereSprite\\GlowingSpheresSmallSphereSprite.yy",
+                "resourcePath": "sprites\\GSSmallSphereSprite\\GSSmallSphereSprite.yy",
                 "resourceType": "GMSprite"
             }
         },
@@ -7071,6 +7191,14 @@
             }
         },
         {
+            "Key": "b44bd49d-e447-47ca-9d33-1d3e4f085afd",
+            "Value": {
+                "id": "2f66bfb4-a4b0-43de-9fb7-e24603921b7c",
+                "resourcePath": "views\\b44bd49d-e447-47ca-9d33-1d3e4f085afd.yy",
+                "resourceType": "GMFolder"
+            }
+        },
+        {
             "Key": "b4832160-231f-4620-aa64-b55af519e114",
             "Value": {
                 "id": "5d4dc969-6d65-472c-b8e3-928c5b02df13",
@@ -7207,11 +7335,27 @@
             }
         },
         {
+            "Key": "b92a5531-f0d5-4c17-a93f-6f11cf1eb9b8",
+            "Value": {
+                "id": "8d6e8e96-d5e2-443e-95f8-c9f5c33af0ee",
+                "resourcePath": "sprites\\AquaGumballSprite\\AquaGumballSprite.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "b936ac4d-009e-489d-82d0-23bfb0c61e2b",
             "Value": {
                 "id": "48aa0976-3f3a-431f-a3e9-9412b0381cf2",
                 "resourcePath": "views\\b936ac4d-009e-489d-82d0-23bfb0c61e2b.yy",
                 "resourceType": "GMFolder"
+            }
+        },
+        {
+            "Key": "b94243a1-6ac0-4b32-877d-b36de203563a",
+            "Value": {
+                "id": "ff27b387-8489-4e11-9bc2-23c6fd9a64f5",
+                "resourcePath": "sprites\\FlameGumbalSprite\\FlameGumbalSprite.yy",
+                "resourceType": "GMSprite"
             }
         },
         {
@@ -8239,6 +8383,14 @@
             }
         },
         {
+            "Key": "d3118e6c-666e-4304-9cf9-9ec69d993c0f",
+            "Value": {
+                "id": "6d0b2171-09cf-41a8-b9ce-c7a2c57da3cf",
+                "resourcePath": "views\\d3118e6c-666e-4304-9cf9-9ec69d993c0f.yy",
+                "resourceType": "GMFolder"
+            }
+        },
+        {
             "Key": "d31f4b58-6564-427c-9c21-14c44c3984be",
             "Value": {
                 "id": "855672a1-4157-4c6c-a296-026d2ef4966b",
@@ -8466,7 +8618,7 @@
             "Key": "d7ea0b2e-955b-4483-aff3-31b326fb1658",
             "Value": {
                 "id": "2a9f996a-fdc0-414a-8039-68a6e3d96d8b",
-                "resourcePath": "sprites\\GlowingSpheresBumperSprite\\GlowingSpheresBumperSprite.yy",
+                "resourcePath": "sprites\\GSBumperSprite\\GSBumperSprite.yy",
                 "resourceType": "GMSprite"
             }
         },
@@ -8551,6 +8703,14 @@
             }
         },
         {
+            "Key": "dabf9b0e-986b-49b4-868d-eb4ca05b2aff",
+            "Value": {
+                "id": "bc20799a-a9d7-4b77-9e90-e6de9283e5bd",
+                "resourcePath": "objects\\BumperGumball\\BumperGumball.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
             "Key": "dba40bbc-f80a-4b7e-8434-3cfcdfe07e41",
             "Value": {
                 "id": "39f2938d-06ee-489f-b65e-ce7afab6657d",
@@ -8570,7 +8730,7 @@
             "Key": "dc05715e-01e9-463e-b6a9-d784cd818b9b",
             "Value": {
                 "id": "3cab639f-114c-4f7c-aee4-7e1066c15295",
-                "resourcePath": "timelines\\GlowingSpheresFlipperAnim\\GlowingSpheresFlipperAnim.yy",
+                "resourcePath": "timelines\\GSFlipperAnim\\GSFlipperAnim.yy",
                 "resourceType": "GMTimeline"
             }
         },
@@ -8604,6 +8764,14 @@
                 "id": "2087cced-30bc-4edb-9a27-6d7aa5d4ba7e",
                 "resourcePath": "sprites\\PathSwapMaskSprite\\PathSwapMaskSprite.yy",
                 "resourceType": "GMSprite"
+            }
+        },
+        {
+            "Key": "dcebb9d3-65f6-4cf2-9086-0e714ad159fc",
+            "Value": {
+                "id": "7d570f62-8165-4988-9b72-24416bc8f6a9",
+                "resourcePath": "objects\\LifeUpGumball\\LifeUpGumball.yy",
+                "resourceType": "GMObject"
             }
         },
         {
@@ -8687,6 +8855,22 @@
             }
         },
         {
+            "Key": "deae6aed-cd34-47ca-a66b-0963c9ca1648",
+            "Value": {
+                "id": "b91f0a94-4426-4489-a35d-e456707ac88f",
+                "resourcePath": "objects\\ClearGumball\\ClearGumball.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
+            "Key": "debf2121-a8d2-4d57-a7ab-e179963a780d",
+            "Value": {
+                "id": "8c70d647-fcb7-4c46-8a8d-d07baa2b0432",
+                "resourcePath": "scripts\\player_react_to_glowing_spheres_prize_sphere\\player_react_to_glowing_spheres_prize_sphere.yy",
+                "resourceType": "GMScript"
+            }
+        },
+        {
             "Key": "df5e8969-2d56-45c4-a5de-b2f6ba7fe635",
             "Value": {
                 "id": "48c8946f-40df-40f0-adf1-a3d1b904eb9b",
@@ -8714,7 +8898,7 @@
             "Key": "dfc7c5d6-b1fb-4510-962c-e29b6592f0d0",
             "Value": {
                 "id": "936f20e1-e496-48b8-ad50-40a3d75bb368",
-                "resourcePath": "sprites\\GlowingSpheresWallSprite\\GlowingSpheresWallSprite.yy",
+                "resourcePath": "sprites\\GSWallSprite\\GSWallSprite.yy",
                 "resourceType": "GMSprite"
             }
         },
@@ -9868,7 +10052,9 @@
         "6e142b64-0cc8-4710-aa3b-4986ae27ff68",
         "b1d2675b-de6b-458b-8dbd-9fc6933e9a7f",
         "e657e4c3-224e-406e-a409-b30130882ede",
+        "36368f70-bb41-41d2-9bfb-26cc148f9996",
         "50145902-ee29-4360-be5e-39039bfb8778",
+        "debf2121-a8d2-4d57-a7ab-e179963a780d",
         "89ffbd2f-752e-4090-80f0-caeaa955e08c",
         "63acbc53-821d-4057-8757-4147aeac94b6",
         "3f82242e-5a7c-40fb-9fb3-bf43cd88efef",

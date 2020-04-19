@@ -1,6 +1,6 @@
 /// @description  Initialize
 image_speed = 0;
-timeline_set(self, GlowingSpheresSmallSphereAnim);
+timeline_set(self, GSSmallSphereAnim);
 owner = noone;
 node = 0;
 separation = 0;
