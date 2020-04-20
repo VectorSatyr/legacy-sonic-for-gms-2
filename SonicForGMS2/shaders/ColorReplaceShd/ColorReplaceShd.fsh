@@ -15,12 +15,13 @@
 varying vec2 v_vTexcoord;
 varying vec4 v_vColour;
 
-const int TotalColors = 4;
+const int TotalColors = 16;
 
 uniform vec3 u_vInputColor[TotalColors]; //colorIn;
 uniform vec3 u_vOutputColor[TotalColors]; //colorOut;
 uniform vec3 u_vTolerance; //colorTolerance;
 uniform float u_fBlendFactor; //blend;
+uniform int u_iTotalColors;
 
 vec3 rgb_to_hsv(vec3 col)
 {
@@ -71,15 +72,11 @@ vec3 hsv_to_rgb(vec3 col)
     return vColor;
 }
 
-void main()
-{
+void main() {
     vec4 vPixelColor = texture2D( gm_BaseTexture, v_vTexcoord );
-
     vec3 vHSVColor, vHSVInputColor, vHSVOutputColor, vColorDelta, vFinalColor;
-    
     float fHue, fSat, fVal;
-
-    for ( int n = 0; n < TotalColors; ++n ) {
+    for ( int n = 0; n < u_iTotalColors; ++n ) {
         if ( any( greaterThan( u_vInputColor[n], vec3(0.0) ) ) &&
              any( greaterThan( u_vOutputColor[n], vec3(0.0) ) ) ) {
             vHSVColor = rgb_to_hsv( vPixelColor.rgb );

@@ -6,7 +6,9 @@ with (player) {
     score_count = clamp(amount, 0, MAX_SCORE_COUNT);
     if (score_count != count) {
         with (display) {
-            post_score.label = string(other.score_count);
+			if (instance_exists(post_score)) {
+				post_score.label = string(other.score_count);
+			}
         }
     }
 }

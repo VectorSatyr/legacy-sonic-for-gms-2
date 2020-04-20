@@ -2,7 +2,7 @@
 /// @returns {real} total zone rings (or undefined on error)
 var rings = undefined;
 
-with (GameZone) {
+with (ZoneConfiguration) {
     if (not is_undefined(total_ring_count)) {
         rings = total_ring_count;
     }

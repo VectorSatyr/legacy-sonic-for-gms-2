@@ -13,7 +13,7 @@
         "aaaa46c2-7850-447c-b9b8-eb80b0bb0833"
     ],
     "filterType": "GMScript",
-    "folderName": "O",
+    "folderName": "File",
     "isDefaultView": false,
     "localisedFolderName": ""
 }

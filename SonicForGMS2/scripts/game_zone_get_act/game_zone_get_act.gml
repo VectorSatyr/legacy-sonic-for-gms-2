@@ -2,7 +2,7 @@
 /// @returns {real} zone act number
 var act = -1;
 
-with (GameZone) {
+with (ZoneConfiguration) {
     act = self.act;
 }
 

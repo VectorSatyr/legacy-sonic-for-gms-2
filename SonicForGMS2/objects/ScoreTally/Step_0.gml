@@ -102,10 +102,9 @@ if (game_is_running()) {
                 game_player_set_rings(self, 0);
                 lives_via_rings = 0;
             }
-            game_start_location_reset();
+			game_zone_check_point_clear();
             game_zone_goto_next();
         }
         break;
     }
 }
-

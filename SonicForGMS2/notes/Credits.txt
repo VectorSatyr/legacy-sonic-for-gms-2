@@ -20,6 +20,13 @@ Sound provided by:
 Mr. Lange
 Random Talking Bush
 
+Music provided by:
+Masato Nakamura
+Junko Shiratsu
+Mariko Nanba
+Tee Lopes
+Sean Evans
+
 Special thanks goes to:
 Damizean
 RogueYoshi
@@ -30,3 +37,4 @@ Jonathan Lam
 Javier Mora
 Noah Copeland
 Polar Exelion
+Pixelated_Pope
