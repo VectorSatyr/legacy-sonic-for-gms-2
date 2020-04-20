@@ -9,7 +9,7 @@ if (game_is_running()) {
 	with (PlayableCharacter) {
 		if (linked_object_id == other) {
 			depth = sign(other.z_depth[owner.index]) * other.depth;
-			if (step mod 30 == 0) {
+			if (owner.index == 0 and step mod 30 == 0) {
 				audio_play_sound_on(audio_emitter, SphereOrbitSound, false, 0);
 			}
 		}
