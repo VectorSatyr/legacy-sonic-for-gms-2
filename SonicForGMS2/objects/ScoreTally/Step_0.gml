@@ -1,110 +1,78 @@
-/// @description  Handle state
+/// @description  Tally
 if (game_is_running()) {
-    --wait_time;
-    
     switch (state) {
-    case 0: // wait a moment
-        if (wait_time <= 0) {
-            ++state;
-            if (header_ox1 > header_ox2) {
-                wait_time = (header_ox1 / header_enter_speed) + 1;
-            } else {
-                wait_time = (header_ox2 / header_enter_speed) + 1;
-            }
-        }
-        break;
-    
-    case 1: // move header text
-        if (header_ox1 > 0) {
-            header_ox1 -= header_enter_speed;
-        }
-        if (header_ox2 > 0) {
-            header_ox2 -= header_enter_speed;
-        }
-        if (wait_time <= 0) {
-            ++state;
-            wait_time = delay_before_tally;
-        }
-        break;
-    
-    case 2: // move score value text
-        if (time_score_ox > 0) {
-            time_score_ox -= score_value_enter_speed;
-        }
-        if (ring_score_ox > 0) {
-            ring_score_ox -= score_value_enter_speed;
-        }
-        if (perfect_score_ox > 0) {
-            perfect_score_ox -= score_value_enter_speed;
-        }
-        if (total_score_ox > 0) {
-            total_score_ox -= score_value_enter_speed;
-        }
-        if (wait_time <= 0) {
+    case "entering":
+		--timer;
+        if (timer <= 0) {
             game_audio_play_sound(BeepSound, 0, true);
-            ++state;
+            state = "tallying";
         }
         break;
     
-    case 3: // apply scores
+    case "tallying":
 		var decrement = bonus_decrement;
-		if (game_input_event("a", 0) or game_input_event("b", 0) or game_input_event("c")) {
+		if (game_input_event("a", 0) or game_input_event("b", 0) or game_input_event("c", 0)) {
 			decrement *= 2;
 		}
         var change;
-        if (time_bonus) {
+        if (time_bonus > 0) {
             change = min(time_bonus, decrement);
             time_bonus -= change;
             total_bonus += change;
             game_player_change_score(player, change);
+			post_time_score.label = string(time_bonus);
+			post_total_score.label = string(total_bonus);
         }
-        if (rings_bonus) {
+        if (rings_bonus > 0) {
             change = min(rings_bonus, decrement);
             rings_bonus -= change;
             total_bonus += change;
             game_player_change_score(player, change);
+			post_rings_score.label = string(rings_bonus);
+			post_total_score.label = string(total_bonus);
         }  
-        if (perfect_bonus) {
+        if (perfect_bonus > 0) {
             change = min(perfect_bonus, decrement);
             perfect_bonus -= change;
             total_bonus += change;
             game_player_change_score(player, change);
+			post_perfect_score.label = string(perfect_bonus);
+			post_total_score.label = string(total_bonus);
         }
-        if (not (time_bonus or rings_bonus or perfect_bonus)) {
-            if (continues_count > 0) {
-                wait_time = delay_before_continue;
-                ++state;
-            } else {
-                wait_time = delay_before_closing;
-                state = 5;
-            }
+        if (not (time_bonus > 0 or rings_bonus > 0 or perfect_bonus > 0)) {
             audio_stop_sound(BeepSound);
             game_audio_play_sound(ChingSound);
+            if (continues_count > 0) {
+                timer = delay_before_continue;
+                state = "delaying";
+            } else {
+                timer = delay_before_closing;
+				state = "exiting";
+            }
         }
         break;
     
-    case 4: // continues
-        if (wait_time <= 0) {
+    case "delaying":
+		--timer;
+        if (timer <= 0) {
             game_audio_play_sound(ContinueSound);
             game_save_update_continues(1, game_save_current());
-            wait_time = delay_before_closing;
-            ++state;
+            timer = delay_before_closing;
+			state = "exiting";
         }
         break;
-    
-    case 5: // move on
-        if (continues_count > 0) {
-            continues_flash++;
-        }    
-        if (wait_time <= 0) {
-            ++state;
-            with (GamePlayer) {
-                game_player_set_rings(self, 0);
-                lives_via_rings = 0;
-            }
+
+	case "exiting":
+		--timer;
+        if (timer <= 0) {
+			with (GamePlayer) {
+	            game_player_set_rings(self, 0);
+	            lives_via_rings = 0;
+	        }
 			game_zone_check_point_clear();
-            game_zone_goto_next();
-        }
-        break;
+	        game_zone_goto_next();
+			instance_destroy();
+		}
+		break;
     }
 }

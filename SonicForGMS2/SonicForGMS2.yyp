@@ -287,14 +287,6 @@
             }
         },
         {
-            "Key": "07928c69-496e-4c27-8eb5-56017be505ab",
-            "Value": {
-                "id": "3c7e3eaf-0618-42d0-a47e-3ea088d5e880",
-                "resourcePath": "sprites\\ClockMaskSprite\\ClockMaskSprite.yy",
-                "resourceType": "GMSprite"
-            }
-        },
-        {
             "Key": "07cb0687-d470-4f28-9607-d59d26abe5ab",
             "Value": {
                 "id": "d23aa8c5-09e7-438c-8723-b8dda34d31f5",
@@ -500,14 +492,6 @@
                 "id": "d1f858b4-0ff6-4ff5-986a-bb07f2b1b725",
                 "resourcePath": "views\\0aa5b07a-f123-4834-a159-0febd8d78e27.yy",
                 "resourceType": "GMFolder"
-            }
-        },
-        {
-            "Key": "0ab77ac0-a9dc-45ab-b014-b02026e5b5f8",
-            "Value": {
-                "id": "163ed802-0a70-4a9b-a0e7-ffb29f725859",
-                "resourcePath": "sprites\\CameraMaskSprite\\CameraMaskSprite.yy",
-                "resourceType": "GMSprite"
             }
         },
         {
@@ -1948,14 +1932,6 @@
                 "id": "7c5cd7a3-43f3-4a75-a18d-0125673adffc",
                 "resourcePath": "objects\\QuarterEllipseTerrain\\QuarterEllipseTerrain.yy",
                 "resourceType": "GMObject"
-            }
-        },
-        {
-            "Key": "31fa145d-c2b6-4117-9af9-416c8dabee9d",
-            "Value": {
-                "id": "466cef01-2e4a-4592-9374-5764e846ae69",
-                "resourcePath": "views\\31fa145d-c2b6-4117-9af9-416c8dabee9d.yy",
-                "resourceType": "GMFolder"
             }
         },
         {
@@ -5066,7 +5042,7 @@
             "Key": "7e8eadce-33da-42d0-a880-b552bff41f49",
             "Value": {
                 "id": "45d7b90a-1a68-4885-a1e3-1047620e0a87",
-                "resourcePath": "sprites\\GameOverOverTextBack\\GameOverOverTextBack.yy",
+                "resourcePath": "sprites\\GameOverOverTextSprite\\GameOverOverTextSprite.yy",
                 "resourceType": "GMSprite"
             }
         },
@@ -6631,14 +6607,6 @@
             }
         },
         {
-            "Key": "a48bede3-da31-4366-a856-a291c4f53214",
-            "Value": {
-                "id": "ae2924b2-0881-47ff-ab53-7d7a1156e091",
-                "resourcePath": "sprites\\DisplayMaskSprite\\DisplayMaskSprite.yy",
-                "resourceType": "GMSprite"
-            }
-        },
-        {
             "Key": "a4a0f8dd-20c6-4886-8882-c7e32c843407",
             "Value": {
                 "id": "6c2d391b-3ab7-42e0-b412-15b639b3f6e1",
@@ -6876,14 +6844,6 @@
                 "id": "e9db864e-beb6-4d2c-bafb-beebc49ff865",
                 "resourcePath": "sounds\\MirageSaloon2Music\\MirageSaloon2Music.yy",
                 "resourceType": "GMSound"
-            }
-        },
-        {
-            "Key": "ab04542f-e81e-4c99-94b6-fedf152182a3",
-            "Value": {
-                "id": "e5a5e8f8-4e99-4ab1-84d3-e4daceca10c4",
-                "resourcePath": "sprites\\GamePadMaskSprite\\GamePadMaskSprite.yy",
-                "resourceType": "GMSprite"
             }
         },
         {
@@ -8834,7 +8794,7 @@
             "Key": "dd8ceb87-1cfc-4ec1-8b74-ebfa72d99c5e",
             "Value": {
                 "id": "f9665251-0b66-4fc7-b618-41a23b24d05e",
-                "resourcePath": "sprites\\GameOverGameTextBack\\GameOverGameTextBack.yy",
+                "resourcePath": "sprites\\GameOverGameTextSprite\\GameOverGameTextSprite.yy",
                 "resourceType": "GMSprite"
             }
         },
@@ -9338,7 +9298,7 @@
             "Key": "ed83c770-38f6-43a9-9588-8ae1c0c985c3",
             "Value": {
                 "id": "e5aa1287-dcee-4d59-9633-b48075069d2a",
-                "resourcePath": "sprites\\GameOverTimeTextBack\\GameOverTimeTextBack.yy",
+                "resourcePath": "sprites\\GameOverTimeTextSprite\\GameOverTimeTextSprite.yy",
                 "resourceType": "GMSprite"
             }
         },
