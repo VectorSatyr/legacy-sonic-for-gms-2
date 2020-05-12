@@ -1,4 +1,4 @@
-/// @description  Setup
+/// @description Setup
 splash = part_type_create();
 part_type_sprite(splash, SplashSprite, 1, 1, 0);
 part_type_life(splash, 32, 32);
@@ -37,4 +37,3 @@ part_type_life(capsule_lock, 100, 100);
 part_type_speed(capsule_lock, 9, 9, 0, 0);
 part_type_direction(capsule_lock, 45, 45, 0, 0);
 part_type_gravity(capsule_lock, 0.21875, 270);
-

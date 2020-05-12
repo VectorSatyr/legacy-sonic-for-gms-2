@@ -5,26 +5,33 @@
 /// @returns {real} instance index of GameConsoleMessage
 var duration = 120;
 var separation = 2;
-switch (argument_count) {
+switch (argument_count)
+{
 case 3: separation = argument[2];
 case 2: duration = argument[1];
 default:
-    var text = argument[0];
+	var text = argument[0];
 }
 
-var message = instance_create_layer(display_get_gui_width() - 4, display_get_gui_height() - 14, "screen", GameConsoleMessage);
+var w = surface_get_width(application_surface);
+var h = surface_get_height(application_surface);
+
+var message = instance_create_layer(w - 4, h - 14, "screen", GameConsoleMessage);
 message.text = text;
 message.alarm[0] = duration;
 
-with (GameConsoleMessage) {
-    draw_set_font(font);
-    if (id != message) {
-        y -= (string_height(string_hash_to_newline(self.text)) + self.separation);
-        if (next == -1) {
-            next = message;
-            message.previous = id;
-        }
-    }
+with (GameConsoleMessage)
+{
+	draw_set_font(font);
+	if (id != message)
+	{
+		y -= (string_height(self.text) + self.separation);
+		if (next == -1)
+		{
+			next = message;
+			message.previous = id;
+		}
+	}
 }
 
 show_debug_message(text);

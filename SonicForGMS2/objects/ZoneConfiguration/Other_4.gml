@@ -1,6 +1,6 @@
 /// @description  Setup scene
 game_save_update_location(room, game_save_current());
-game_window_update_ports();
+game_window_update_ports(1);
 
 with (GamePlayer) {
 	game_save_update_lives(self, game_save_current());

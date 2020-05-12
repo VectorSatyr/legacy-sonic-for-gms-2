@@ -25,7 +25,7 @@
     "androidsourcedir": "",
     "author": "",
     "classname": "",
-    "copyToTargets": 202375362,
+    "copyToTargets": 206,
     "date": "2019-01-02 09:11:51",
     "description": "",
     "exportToGame": true,

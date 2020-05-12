@@ -11,7 +11,7 @@
     "option_windows_description_info": "Sonic For GMS is a GameMaker: Studio project acting as a template for constructing video games based on the Sonic the Hedgehog titles for the Sega Genesis \/ Mega Drive.",
     "option_windows_disable_sandbox": false,
     "option_windows_display_cursor": true,
-    "option_windows_display_name": "Sonic for Game Maker Studio",
+    "option_windows_display_name": "Sonic for GMS",
     "option_windows_enable_steam": false,
     "option_windows_executable_name": "${project_name}",
     "option_windows_icon": "${options_dir}\\windows\\runner_icon.ico",
