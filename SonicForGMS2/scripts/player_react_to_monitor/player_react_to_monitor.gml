@@ -26,10 +26,7 @@ case "entering":
     }
 
     game_pc_play_sound(self, PopSound);
-
-    with (SpriteParticles) {
-        part_particles_create(system, ind.x, ind.y, explosion, 1);
-    }
+	game_particles_spawn("explosion", ind.x, ind.y);
 
     ind.icon_instance.player = id;
     instance_perform_user_event(ind.icon_instance, 0);

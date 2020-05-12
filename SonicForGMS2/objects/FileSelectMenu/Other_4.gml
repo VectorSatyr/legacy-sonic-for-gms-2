@@ -1,7 +1,7 @@
 /// @description  Setup
 
 // background animation
-var back = game_parallax_add_sprite_layer(MenuBackgroundSprite, 0, 0, 0, 0, true, true);
+var back = game_parallax_add_sprite(MenuBackgroundSprite, 0, 0, 0, 0, true, true);
 timeline_set(back, MenuBackgroundAnim);
 
 var center_x = CAMERA_WIDTH * 0.5;
