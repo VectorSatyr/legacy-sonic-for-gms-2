@@ -7055,6 +7055,14 @@
             }
         },
         {
+            "Key": "b2d69eed-4c94-4c39-8c54-b3a2aade930b",
+            "Value": {
+                "id": "01683f16-1057-453d-89fc-175fc9cfff93",
+                "resourcePath": "objects\\DrownPopupBubble\\DrownPopupBubble.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
             "Key": "b2dc55d4-1cc9-4e87-b1f4-b1f1bc93a275",
             "Value": {
                 "id": "2490ec4f-6cd6-4526-aebc-25b0c9eaa012",
@@ -7660,14 +7668,6 @@
                 "id": "c926182e-62c7-4e74-a078-16457abb4748",
                 "resourcePath": "scripts\\game_pc_find_ground\\game_pc_find_ground.yy",
                 "resourceType": "GMScript"
-            }
-        },
-        {
-            "Key": "c3215676-bf60-422a-ac6f-3160a7b2787b",
-            "Value": {
-                "id": "f4916ee7-d5a6-46c7-97e3-94963429bc4c",
-                "resourcePath": "views\\c3215676-bf60-422a-ac6f-3160a7b2787b.yy",
-                "resourceType": "GMFolder"
             }
         },
         {
@@ -8983,6 +8983,14 @@
             }
         },
         {
+            "Key": "e5983923-ccbc-4a4e-962e-7fb1fc5d534f",
+            "Value": {
+                "id": "fc666d54-5098-4b63-883f-ad200fc388eb",
+                "resourcePath": "objects\\PlayerBoundingMask\\PlayerBoundingMask.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
             "Key": "e5e167a4-2a33-4056-8d21-62917a6660f6",
             "Value": {
                 "id": "af205762-665b-4475-8e8c-daa3ab246874",
@@ -9572,14 +9580,6 @@
                 "id": "7a210472-c19f-4b8f-9262-f6b995355684",
                 "resourcePath": "objects\\QuarterPipeTerrain\\QuarterPipeTerrain.yy",
                 "resourceType": "GMObject"
-            }
-        },
-        {
-            "Key": "f81aa7e0-bb32-4d02-a9d6-aea022bc1c8a",
-            "Value": {
-                "id": "2aa55fba-54f2-44c6-a21e-873d97b13a8c",
-                "resourcePath": "views\\f81aa7e0-bb32-4d02-a9d6-aea022bc1c8a.yy",
-                "resourceType": "GMFolder"
             }
         },
         {

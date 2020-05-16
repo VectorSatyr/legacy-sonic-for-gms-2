@@ -11,8 +11,6 @@
         "b3eac094-21a6-47bf-978e-0524280158d9",
         "b4c5f4e0-8f04-43d6-86f2-954739e80a40",
         "40922625-c65f-4147-be22-627b93d2ee9a",
-        "8728b8f2-6e2d-46de-adfa-adfabfc16cfa",
-        "0da2b937-f7c0-4c37-97db-2062569dc4c1",
         "a9ae21a4-55d8-4eb0-b9b0-e945d2c82a06",
         "4ef0e28d-5999-4bea-83fb-815a3b3a9a25",
         "f84e2ec4-6d6a-441c-88f9-3a1c52154359",
@@ -200,7 +198,9 @@
         "9039d0e6-d6d5-46b3-a184-2422e159681c",
         "c9a205af-1ce6-4750-89da-3b39403a8ee0",
         "33840ad9-5e5d-4480-b920-f84ea3f004fb",
-        "4b814a43-16cf-41cd-9a98-fa88c0a36852"
+        "4b814a43-16cf-41cd-9a98-fa88c0a36852",
+        "8728b8f2-6e2d-46de-adfa-adfabfc16cfa",
+        "0da2b937-f7c0-4c37-97db-2062569dc4c1"
     ],
     "IsDnD": false,
     "layers": [

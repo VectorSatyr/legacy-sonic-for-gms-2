@@ -41,11 +41,14 @@ case "step":
 
             x_speed = drop_dash_speed * facing_sign;
 
-            //camera_freeze_time = floor(24 - abs(x_speed));
+	        with (camera)
+			{
+	            freeze_time = floor(24 - abs(other.x_speed));
+	        }
 
             audio_stop_sound(rev_soundid);        
             game_pc_play_sound(self, SpinDashSound);
-			game_particles_spawn("drop_dust_dust", x_int, y_int);
+			game_particles_spawn("drop_dash_dust", x_int, y_int);
 
             return game_pc_perform(self, player_is_rolling);
 

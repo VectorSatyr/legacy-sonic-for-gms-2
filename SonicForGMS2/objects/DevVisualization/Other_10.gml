@@ -1,24 +1,34 @@
-/// @description  Reveal
-with (PlayableCharacter) {
-    mask_visible = other.visible;
+/// @description Reveal
+instance_activate_object(Solid);
+with (PlayerBoundingMask)
+{
+    visible = other.visible;
 }
-with (ZoneEntrance) {
+with (ZoneEntrance)
+{
 	visible = other.visible;
 }
-with (RectangleTerrain) {
+with (RectangleTerrain)
+{
     visible = other.visible;
 }
-with (RightTriangleTerrain) {
+with (RightTriangleTerrain)
+{
     visible = other.visible;
 }
-with (QuarterEllipseTerrain) {
+with (QuarterEllipseTerrain)
+{
+	visible = other.visible;
+}
+with (QuarterPipeTerrain)
+{
     visible = other.visible;
 }
-with (QuarterPipeTerrain) {
-    visible = other.visible;
-}
-with (Corkscrew) {
-	if (instance_exists(mask)) {
+with (Corkscrew)
+{
+	if (instance_exists(mask))
+	{
 		mask.visible = other.visible;
 	}
 }
+//instance_perform_user_event(ZoneCleanup, 0);
