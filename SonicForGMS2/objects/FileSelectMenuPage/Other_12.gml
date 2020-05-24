@@ -25,6 +25,7 @@ case "delete":
         mode = "select";
         with (delete_icon) {
             target = other.choice_delete;
+			y = ystart;
             hspeed = 8;
             event_user(1);
         }
@@ -72,4 +73,3 @@ default:
         }
     }
 }
-
