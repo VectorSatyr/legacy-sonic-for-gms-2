@@ -3,7 +3,6 @@
 //
 varying vec2 v_vTexcoord;
 varying vec4 v_vColour;
-
 uniform sampler2D u_sPalette;
 uniform vec4 u_vPalcoords;
 uniform vec2 u_vSize;
@@ -24,6 +23,5 @@ void main()
             break;
         }
     }
-
     gl_FragColor = v_vColour * vOutputColour;
 }

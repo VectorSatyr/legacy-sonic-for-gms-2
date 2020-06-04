@@ -31,4 +31,3 @@ with (Corkscrew)
 		mask.visible = other.visible;
 	}
 }
-//instance_perform_user_event(ZoneCleanup, 0);

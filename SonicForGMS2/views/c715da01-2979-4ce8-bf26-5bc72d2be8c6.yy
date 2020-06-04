@@ -4,8 +4,8 @@
     "mvc": "1.1",
     "name": "c715da01-2979-4ce8-bf26-5bc72d2be8c6",
     "children": [
-        "5fe950d4-8ad2-4e3a-81f2-b73c555fbb71",
-        "64843c7e-a687-4ca6-bc35-a308a899868a"
+        "edf05e8b-42cf-45a8-90bd-28aaa9d0fcc5",
+        "3ba1c8ea-ce57-4f1a-a4b8-948234ab5dcc"
     ],
     "filterType": "GMObject",
     "folderName": "HUD",

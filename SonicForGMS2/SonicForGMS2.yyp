@@ -903,11 +903,27 @@
             }
         },
         {
+            "Key": "14a641c2-cb7a-41b2-a1a7-afb4392d6df2",
+            "Value": {
+                "id": "3924a873-4fb2-4ab0-adff-b0a6a9d12f78",
+                "resourcePath": "objects\\Sonic2KnucklesLifeIcon\\Sonic2KnucklesLifeIcon.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
             "Key": "1591bd34-fdee-4cfe-9138-7b8413e7c02c",
             "Value": {
                 "id": "4739e5d9-71e8-43b4-8121-2d5d4c0a688a",
                 "resourcePath": "objects\\LifeUpIcon\\LifeUpIcon.yy",
                 "resourceType": "GMObject"
+            }
+        },
+        {
+            "Key": "159b69ad-d102-4c36-9d6e-df4e417da9d2",
+            "Value": {
+                "id": "65799438-2ac8-4c35-8161-9b53d21b521d",
+                "resourcePath": "sprites\\HUDKnucklesLifeIconSprite\\HUDKnucklesLifeIconSprite.yy",
+                "resourceType": "GMSprite"
             }
         },
         {
@@ -2364,6 +2380,14 @@
                 "id": "dd6e511c-98a2-4e8a-bd19-fe444e08d1cf",
                 "resourcePath": "objects\\FileSelectMenuNewFileChoice\\FileSelectMenuNewFileChoice.yy",
                 "resourceType": "GMObject"
+            }
+        },
+        {
+            "Key": "3ba1c8ea-ce57-4f1a-a4b8-948234ab5dcc",
+            "Value": {
+                "id": "4711ac7c-e1e0-4c19-b0a1-d930571cc432",
+                "resourcePath": "views\\3ba1c8ea-ce57-4f1a-a4b8-948234ab5dcc.yy",
+                "resourceType": "GMFolder"
             }
         },
         {
@@ -5295,6 +5319,14 @@
             }
         },
         {
+            "Key": "84f8b17b-d3e3-45ce-835a-8aed1d51bee4",
+            "Value": {
+                "id": "22c07385-f5ad-434e-b93c-23215341e447",
+                "resourcePath": "views\\84f8b17b-d3e3-45ce-835a-8aed1d51bee4.yy",
+                "resourceType": "GMFolder"
+            }
+        },
+        {
             "Key": "8546dc13-0baa-412e-8ff1-4b0008cc306d",
             "Value": {
                 "id": "ba3c10d9-ec7f-4480-8eeb-34b23c78a1be",
@@ -5844,6 +5876,14 @@
                 "id": "fa6ac428-1824-414d-8f96-864a174942bb",
                 "resourcePath": "scripts\\game_pc_camera_state_looking\\game_pc_camera_state_looking.yy",
                 "resourceType": "GMScript"
+            }
+        },
+        {
+            "Key": "9252eaa3-06eb-428a-b92b-63351c81c6c6",
+            "Value": {
+                "id": "1e617269-8191-4769-aee0-32f72ef2d539",
+                "resourcePath": "sprites\\HUDTailsLifeIconSprite\\HUDTailsLifeIconSprite.yy",
+                "resourceType": "GMSprite"
             }
         },
         {
@@ -6519,6 +6559,14 @@
             }
         },
         {
+            "Key": "a3005694-39de-4539-b558-a22b2b74e97c",
+            "Value": {
+                "id": "03c61630-fc96-4d0b-bcef-6e9b45dd299d",
+                "resourcePath": "views\\a3005694-39de-4539-b558-a22b2b74e97c.yy",
+                "resourceType": "GMFolder"
+            }
+        },
+        {
             "Key": "a361171b-af48-4e6f-b251-5059dc687df1",
             "Value": {
                 "id": "009efd94-00a1-480a-b830-f7dfe25ed134",
@@ -6799,6 +6847,14 @@
             }
         },
         {
+            "Key": "aaea7392-98d4-4ab1-98e4-2fc399a892bb",
+            "Value": {
+                "id": "9d51e902-2481-499b-9354-c0a6d86e3d28",
+                "resourcePath": "objects\\Sonic2LifeIcon\\Sonic2LifeIcon.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
             "Key": "ab444a70-ac4e-4ca3-8286-8fa05f7f7188",
             "Value": {
                 "id": "92fdc88e-891c-45d6-8e47-9fe36abc1fe1",
@@ -6971,6 +7027,14 @@
             "Value": {
                 "id": "7128c6b0-478b-4476-a9df-6e40a3e100e4",
                 "resourcePath": "views\\af7a2253-f3ae-4bce-ac46-4af61fc13671.yy",
+                "resourceType": "GMFolder"
+            }
+        },
+        {
+            "Key": "af7b1b35-6bb1-449e-b697-a6b460dc27b6",
+            "Value": {
+                "id": "ea8f9ad0-adf1-42cf-b189-82c0336fe227",
+                "resourcePath": "views\\af7b1b35-6bb1-449e-b697-a6b460dc27b6.yy",
                 "resourceType": "GMFolder"
             }
         },
@@ -7492,6 +7556,14 @@
                 "id": "c9e1eac1-89fb-40b7-abb3-5fed6b647510",
                 "resourcePath": "datafiles_yy\\Audio\\Studiopolis1Music.ogg.yy",
                 "resourceType": "GMIncludedFile"
+            }
+        },
+        {
+            "Key": "bd931a49-f202-49be-859d-eb63e082d367",
+            "Value": {
+                "id": "f73b4588-42ce-48e4-9ffe-f0ee93488459",
+                "resourcePath": "objects\\Sonic2TailsLifeIcon\\Sonic2TailsLifeIcon.yy",
+                "resourceType": "GMObject"
             }
         },
         {
@@ -8479,6 +8551,14 @@
             }
         },
         {
+            "Key": "d74226b3-1943-4fb4-9246-102784dfe41e",
+            "Value": {
+                "id": "6a8461d0-0b26-4672-8f0f-9841d44eaeb6",
+                "resourcePath": "objects\\Sonic2SonicLifeIcon\\Sonic2SonicLifeIcon.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
             "Key": "d764de59-4c9d-47d4-970e-b49893e97487",
             "Value": {
                 "id": "586cf325-7069-4b1a-ae0b-5beaf6d2529b",
@@ -9082,7 +9162,7 @@
             "Key": "e8453152-f4ce-4893-9110-374ab265f3b1",
             "Value": {
                 "id": "c29dd475-e27d-48cb-9732-9ba438fb9f41",
-                "resourcePath": "sprites\\HUDLifeIconSprite\\HUDLifeIconSprite.yy",
+                "resourcePath": "sprites\\HUDSonicLifeIconSprite\\HUDSonicLifeIconSprite.yy",
                 "resourceType": "GMSprite"
             }
         },
@@ -9244,6 +9324,14 @@
                 "id": "e5aa1287-dcee-4d59-9633-b48075069d2a",
                 "resourcePath": "sprites\\GameOverTimeTextSprite\\GameOverTimeTextSprite.yy",
                 "resourceType": "GMSprite"
+            }
+        },
+        {
+            "Key": "edf05e8b-42cf-45a8-90bd-28aaa9d0fcc5",
+            "Value": {
+                "id": "a36b81f0-f88b-4c93-b540-2e5429796a46",
+                "resourcePath": "views\\edf05e8b-42cf-45a8-90bd-28aaa9d0fcc5.yy",
+                "resourceType": "GMFolder"
             }
         },
         {

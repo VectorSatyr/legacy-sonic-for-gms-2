@@ -28,9 +28,9 @@ uniform vec2 u_vMagnitude;
     2 * PI = you see a complete sine wave from top..bottom */
 uniform vec2 u_vCycles;
 
-void main() {
+void main()
+{
     vec2 vCycle = u_fTime + vec2( v_vPosition.yx * u_vCycles.yx );
-    vec2 vPosition = v_vPosition.xy / u_vResolution.xy;
-    vPosition += sin( vCycle ) * u_vMagnitude.yx;
+    vec2 vPosition = ( v_vPosition.xy / u_vResolution.xy ) + ( sin( vCycle ) * u_vMagnitude.yx );
     gl_FragColor = v_vColour * texture2D( u_sTexture, vPosition );
 }

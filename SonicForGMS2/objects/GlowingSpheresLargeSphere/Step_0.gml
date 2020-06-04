@@ -1,19 +1,24 @@
- /// @description  Control
-if (game_is_running()) {
+ /// @description Control
+if (game_is_running())
+{
 	var index, z_radius, ox, oy;
-	with (PlayableCharacter) {
-		if (linked_object_id == other) {
+	with (PlayableCharacter)
+	{
+		if (linked_object_id == other)
+		{
 			index = owner.index;
 
 			// launch
-			if (input_action_pressed) {
+			if (input_action_pressed)
+			{
 				game_pc_perform(self, player_is_falling, true);
 				game_pc_lift(self, other.force * other.z_depth[index], other.angle[index] + 90);
 		        continue;
 			}
 
 			// shift
-			if (horizontal_axis_value != 0) {
+			if (horizontal_axis_value != 0)
+			{
 				other.angle[index] = angle_wrap(other.angle[index] - (other.shift_speed * horizontal_axis_value));
 			} 
 
