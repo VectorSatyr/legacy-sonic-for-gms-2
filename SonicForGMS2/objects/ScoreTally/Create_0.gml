@@ -177,27 +177,27 @@ game_sign_add_moment(post_header_shadow2, header_enter_duration, wait_before_sta
 game_sign_add_moment(post_header_shadow2, 0, 0, header_shadow_x2, header_shadow_y2, image_xscale, image_yscale, image_angle, c_black, image_alpha);
 
 post_time_header = instance_create_layer(time_label_screen_x + time_score_ox, time_label_screen_y, "gui", AnimatedGameSign);
-post_time_header.sprite_index = TimeBonusScoreBack;
+post_time_header.sprite_index = TimeBonusScoreSprite;
 post_time_header.destroy = false;
 game_sign_add_moment(post_time_header, time_score_enter_duration, wait_before_score_text, time_label_screen_x + time_score_ox, time_label_screen_y, image_xscale, image_yscale, image_angle, image_blend, image_alpha);
 game_sign_add_moment(post_time_header, 0, 0, time_label_screen_x, time_label_screen_y, image_xscale, image_yscale, image_angle, image_blend, image_alpha);
 
 post_ring_header = instance_create_layer(ring_label_screen_x + ring_score_ox, ring_label_screen_y, "gui", AnimatedGameSign);
-post_ring_header.sprite_index = RingBonusScoreBack;
+post_ring_header.sprite_index = RingBonusScoreSprite;
 post_ring_header.destroy = false;
 game_sign_add_moment(post_ring_header, ring_score_enter_duration, wait_before_score_text, ring_label_screen_x + ring_score_ox, ring_label_screen_y, image_xscale, image_yscale, image_angle, image_blend, image_alpha);
 game_sign_add_moment(post_ring_header, 0, 0, ring_label_screen_x, ring_label_screen_y, image_xscale, image_yscale, image_angle, image_blend, image_alpha);
 
 if (perfect_bonus >= 0) {
 	post_perfect_header = instance_create_layer(perfect_label_screen_x + perfect_score_ox, perfect_label_screen_y, "gui", AnimatedGameSign);
-	post_perfect_header.sprite_index = PerfectBonusScoreBack;
+	post_perfect_header.sprite_index = PerfectBonusScoreSprite;
 	post_perfect_header.destroy = false;
 	game_sign_add_moment(post_perfect_header, perfect_score_enter_duration, wait_before_score_text, perfect_label_screen_x + perfect_score_ox, perfect_label_screen_y, image_xscale, image_yscale, image_angle, image_blend, image_alpha);
 	game_sign_add_moment(post_perfect_header, 0, 0, perfect_label_screen_x, perfect_label_screen_y, image_xscale, image_yscale, image_angle, image_blend, image_alpha);
 }
 
 post_score_header = instance_create_layer(total_label_screen_x + total_score_ox, total_label_screen_y, "gui", AnimatedGameSign);
-post_score_header.sprite_index = TotalBonusScoreBack;
+post_score_header.sprite_index = TotalBonusScoreSprite;
 post_score_header.destroy = false;
 game_sign_add_moment(post_score_header, total_score_enter_duration, wait_before_score_text, total_label_screen_x + total_score_ox, total_label_screen_y, image_xscale, image_yscale, image_angle, image_blend, image_alpha);
 game_sign_add_moment(post_score_header, 0, 0, total_label_screen_x, total_label_screen_y, image_xscale, image_yscale, image_angle, image_blend, image_alpha);

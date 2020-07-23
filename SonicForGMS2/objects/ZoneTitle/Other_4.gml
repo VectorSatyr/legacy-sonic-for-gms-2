@@ -8,13 +8,13 @@ labelNameX = (CAMERA_WIDTH - 32) - string_width(string_hash_to_newline(name));
 
 
 postBlack = instance_create_layer(0, 0, "gui", AnimatedGameSign);
-postBlack.sprite_index = ZoneTitleS2PixelSprite;
+postBlack.sprite_index = SolidPixelSprite;
 postBlack.depth = depth;
 game_sign_add_moment(postBlack, yellowLayerWait, 0, 0, 0, CAMERA_WIDTH, CAMERA_HEIGHT, 0, c_black, 1);
 
 
 postBlueLayer = instance_create_layer(0, 0, "gui", AnimatedGameSign);
-postBlueLayer.sprite_index = ZoneTitleS2PixelSprite;
+postBlueLayer.sprite_index = SolidPixelSprite;
 postBlueLayer.depth = depth - 1;
 game_sign_add_moment(postBlueLayer, blueLayerEnterDuration, 0, 0, 0, CAMERA_WIDTH, 0, 0, colorBlue, 1);
 game_sign_add_moment(postBlueLayer, blueLayerExitDuration, blueLayerWait, 0, 0, CAMERA_WIDTH, CAMERA_HEIGHT, 0, colorBlue, 1);
@@ -22,7 +22,7 @@ game_sign_add_moment(postBlueLayer, 0, 0, 0, 0, CAMERA_WIDTH, 0, 0, colorBlue, 1
 
 
 postYellowLayer = instance_create_layer(0, 0, "gui", AnimatedGameSign);
-postYellowLayer.sprite_index = ZoneTitleS2PixelSprite;
+postYellowLayer.sprite_index = SolidPixelSprite;
 postYellowLayer.depth = depth - 2;
 game_sign_add_moment(postYellowLayer, yellowLayerEnterDuration, 0, CAMERA_WIDTH + (yellowLayerEnterSpeed * 4), CAMERA_HEIGHT - yellowLayerHeight, 0, yellowLayerHeight, 0, colorYellow, 1);
 game_sign_add_moment(postYellowLayer, yellowLayerExitDuration, yellowLayerWait, 0, CAMERA_HEIGHT - yellowLayerHeight, CAMERA_WIDTH, yellowLayerHeight, 0, colorYellow, 1);
@@ -38,7 +38,7 @@ game_sign_add_moment(postGameName, 0, 0, gameNameX + CAMERA_WIDTH, gameNameY, 1,
 
 
 postRedLayer = instance_create_layer(0, 0, "gui", AnimatedGameSign);
-postRedLayer.sprite_index = ZoneTitleS2PixelSprite;
+postRedLayer.sprite_index = SolidPixelSprite;
 postRedLayer.depth = depth - 4;
 game_sign_add_moment(postRedLayer, redLayerEnterDuration, 0, 0, 0, redLayerX - (CAMERA_WIDTH + (redLayerEnterSpeed * 4)), CAMERA_HEIGHT, 0, colorRed, 1);
 game_sign_add_moment(postRedLayer, redLayerExitDuration, redLayerWait, 0, 0, redLayerX, CAMERA_HEIGHT, 0, colorRed, 1);
@@ -95,4 +95,3 @@ postLabelAct.depth = depth - 8;
 game_sign_add_moment(postLabelAct, labelEnterDuration, labelWait1, labelActX - (CAMERA_WIDTH - 32), labelActY, 1, 1, 0, c_white, 1);
 game_sign_add_moment(postLabelAct, labelExitDuration, labelWait2, labelActX, labelActY, 1, 1, 0, c_white, 1);
 game_sign_add_moment(postLabelAct, 0, 0, labelActX - (CAMERA_WIDTH - 32), labelActY, 1, 1, 0, c_white, 1);
-
