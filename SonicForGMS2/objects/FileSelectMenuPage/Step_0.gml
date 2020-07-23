@@ -1,7 +1,7 @@
 /// @description  Update
 if (game_is_running()) {
     if (enabled and not ds_list_empty(choices) and alarm[0] <= 0) {
-        if (game_input_event_pressed(event_select)) {
+        if (cursor.hspeed == 0 and game_input_event_pressed(event_select)) {
             if (selection != noone) {
                 show_debug_message(name + " [" + string(index) + "] : " + selection.name);
                 event_user(2);
@@ -13,4 +13,3 @@ if (game_is_running()) {
         }
     }
 }
-
