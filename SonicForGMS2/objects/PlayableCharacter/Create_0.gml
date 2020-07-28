@@ -1,4 +1,4 @@
-/// @description  Initialize
+/// @description Initialize
 owner = noone;
 
 // state machine
@@ -143,6 +143,8 @@ rev_soundid = -1;
 rev_audio_pitch = audio_sound_get_pitch(SpinRevSound);
 
 drowning_music = noone;
+
+invincibility_music = noone;
 
 chain_multiplier = 0;
 
