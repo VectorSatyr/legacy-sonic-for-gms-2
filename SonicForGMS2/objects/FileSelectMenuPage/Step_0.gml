@@ -1,4 +1,3 @@
-                event_user(2);
 /// @description Navigate (Desktop)
 if (game_is_running())
 {
