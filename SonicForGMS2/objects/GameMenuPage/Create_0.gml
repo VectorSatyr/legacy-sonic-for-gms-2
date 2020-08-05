@@ -1,6 +1,5 @@
-/// @description  Initialize
+/// @description Initialize
 image_speed = 0;
-
 owner = noone;
 name = "";
 choices = ds_list_create();
@@ -13,4 +12,4 @@ wrap = false;
 event_select = "start";
 event_descend = "up";
 event_ascend = "down";
-
+flick_size = 32;

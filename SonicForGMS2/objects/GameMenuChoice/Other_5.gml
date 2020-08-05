@@ -1,5 +1,5 @@
-/// @description  Destroy if no owner
-if (owner == -1) {
+/// @description Destroy (if not owned)
+if (owner < 0)
+{
     instance_destroy();
 }
-
