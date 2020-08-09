@@ -1,5 +1,5 @@
 /// @description Animate
-var selected = (owner.selected and owner.owner.mode == "select" and owner.owner.cursor.xspeed == 0);
+var selected = (owner.selected and owner.owner.cursor.xspeed == 0);
 if (not selected)
 {
 	sprite_index = FileSelectMenuFileLocationStaticSprite;

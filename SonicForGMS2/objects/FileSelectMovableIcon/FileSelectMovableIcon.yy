@@ -2,7 +2,7 @@
     "id": "d922ae94-6e6d-450d-861f-c7cc4160bbca",
     "modelName": "GMObject",
     "mvc": "1.0",
-    "name": "GameMenuCursor",
+    "name": "FileSelectMovableIcon",
     "eventList": [
         {
             "id": "d1248aae-dcd3-4ce9-aff8-9358d5275b2b",

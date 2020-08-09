@@ -8698,7 +8698,7 @@
             "Key": "d922ae94-6e6d-450d-861f-c7cc4160bbca",
             "Value": {
                 "id": "ddf51338-fc4f-46f8-930b-2fa0cba206c8",
-                "resourcePath": "objects\\GameMenuCursor\\GameMenuCursor.yy",
+                "resourcePath": "objects\\FileSelectMovableIcon\\FileSelectMovableIcon.yy",
                 "resourceType": "GMObject"
             }
         },

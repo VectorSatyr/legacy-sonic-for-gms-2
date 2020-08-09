@@ -1,8 +1,7 @@
 /// @description Navigate (Desktop)
 if (game_is_running())
 {
-	if (selected and owner.enabled and owner.alarm[0] <= 0 and 
-		owner.mode == "select" and owner.cursor.xspeed == 0)
+	if (selected and owner.enabled and owner.alarm[0] <= 0)
 	{
 		if (event_shortcut != "" and game_input_event_pressed(event_shortcut))
 		{

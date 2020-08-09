@@ -12,4 +12,3 @@ wrap = false;
 event_select = "start";
 event_descend = "up";
 event_ascend = "down";
-flick_size = 32;

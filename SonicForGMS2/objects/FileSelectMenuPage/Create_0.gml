@@ -4,16 +4,21 @@ name = "select";
 event_descend = "left";
 event_ascend = "right";
 mode = "select";
-cursor = noone;
-delete_icon = noone;
 
-var start_x = 11;
-var start_y = 11;
+cursor_base_speed = 8;
+flick_size = 64;
+flicked = false;
+
+var camera_center_x = CAMERA_WIDTH * 0.5;
+var start_x = camera_center_x + 12;
+var start_y = 12;
 var separation = 8;
 var nosave_ox = 38;
 var nosave_w = 88 + separation;
 var save_ox = 44;
 var save_w = 96 + separation;
+
+room_width = start_x + nosave_w + (MAX_GAME_SAVES * save_w) + nosave_w + start_x;
 
 // no save option
 choice_nosave = instance_create_layer(start_x + nosave_ox, start_y, "gui", FSNoSaveChoice);
@@ -60,7 +65,7 @@ delete_icon = instance_create_layer(choice_delete.x, choice_delete.y, "cursor", 
 cursor = instance_create_layer(starting_slot.x, starting_slot.y, "cursor", FileSelectMenuCursor);
 game_camera_direct(0, game_camera_default_behavior, cursor);
 var cam = view_get_camera(0);
-camera_set_view_border(cam, CAMERA_WIDTH * 0.5, camera_get_view_border_y(cam));
+camera_set_view_border(cam, camera_center_x, camera_get_view_border_y(cam));
 with (cursor)
 {
     game_camera_default_behavior(0);

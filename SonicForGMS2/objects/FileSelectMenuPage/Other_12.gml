@@ -22,13 +22,9 @@ case "delete":
 	
 	default: // cancel deletion
 		mode = "select";
-		with (delete_icon)
-		{
-			y = ystart;
-			target = other.choice_delete;
-			xspeed = base_speed;
-			event_user(1);
-		}
+		delete_icon.target = choice_delete;
+		delete_icon.xspeed = cursor_base_speed;
+		instance_perform_user_event(delete_icon, 1);
 	}
 	break;
 

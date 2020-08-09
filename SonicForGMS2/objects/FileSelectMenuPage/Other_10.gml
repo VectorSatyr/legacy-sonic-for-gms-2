@@ -3,13 +3,9 @@ switch (mode)
 {
 case "confirm": // cancel deletion
 	mode = "select";
-	with (delete_icon)
-	{
-		y = ystart;
-		target = other.choice_delete;
-		xspeed = base_speed;
-		event_user(1);
-	}
+	delete_icon.target = choice_delete;
+	delete_icon.xspeed = cursor_base_speed;
+	instance_perform_user_event(delete_icon, 1);
 	break;
 
 default: // cursor movement
@@ -17,40 +13,12 @@ default: // cursor movement
 	if (not is_undefined(previous_index) and index != previous_index)
 	{
 		game_audio_play_sound((mode == "delete") ? BumperSound2 : ReelSound);
-		var last = ds_list_size(choices) - 1;
-		with (cursor)
-		{
-			target = other.selection;
-			xspeed = base_speed;
-			image_index = (other.index == last) ? 1 : 0;
-			if (other.index == 1)
-			{
-				x -= 2;
-				y++;
-			}
-			else if (other.index == last)
-			{
-				x += 2;
-				y--;
-			}
-		}
+		cursor.target = selection;
+		cursor.xspeed = cursor_base_speed * sign(selection.x - cursor.x);
 		if (mode == "delete")
 		{
-			with (delete_icon)
-			{
-				target = other.selection;
-				xspeed = base_speed;
-				if (other.index == 1)
-				{
-					x -= 2;
-					y++;
-				}
-				else if (other.index == last)
-				{
-					x += 2;
-					y--;
-				}
-			}
+			delete_icon.target = selection;
+			delete_icon.xspeed = cursor.xspeed;
 		}
 	}
 }

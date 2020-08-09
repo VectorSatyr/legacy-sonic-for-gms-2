@@ -1,7 +1,7 @@
 /// @description Navigate (Desktop)
 if (game_is_running())
 {
-	if (enabled and not ds_list_empty(choices) and alarm[0] <= 0 and cursor.xspeed == 0)
+	if (enabled and not ds_list_empty(choices) and alarm[0] <= 0)
 	{
 		if (selection != noone and game_input_event_pressed(event_select))
 		{
