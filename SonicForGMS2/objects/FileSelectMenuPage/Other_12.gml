@@ -65,7 +65,8 @@ default:
 				file.player_character = Sonic;
 				file.assist_character = Tails;
 			}
-			instance_perform_user_event(file, 0);
+			instance_perform_user_event(file, 3); // save
+			instance_perform_user_event(file, 0); // start
 		}
 	}
 }

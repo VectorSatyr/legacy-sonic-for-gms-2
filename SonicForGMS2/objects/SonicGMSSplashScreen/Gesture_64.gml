@@ -1,11 +1,6 @@
-/// @description Skip (Mobile)
-switch (os_type)
+/// @description Skip
+if (game_is_running() and duration > 0)
 {
-case os_android:
-case os_ios:
-	if (game_is_running() and display_time > 0)
-	{
-		display_time = 0;
-		game_screen_fade_out(BlackFadeShd, 22, TitleScreenRoom);
-	}
+	duration = 0;
+	game_screen_fade_out(BlackFadeShd, 22, TitleScreenRoom);
 }
