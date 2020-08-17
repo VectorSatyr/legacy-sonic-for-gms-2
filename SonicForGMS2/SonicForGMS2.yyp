@@ -455,6 +455,14 @@
             }
         },
         {
+            "Key": "09aee283-3de3-4f79-8b79-18addb801531",
+            "Value": {
+                "id": "1da11da8-dad4-4af2-aeed-9035fe24a321",
+                "resourcePath": "views\\09aee283-3de3-4f79-8b79-18addb801531.yy",
+                "resourceType": "GMFolder"
+            }
+        },
+        {
             "Key": "09ebd4ab-f90a-4d69-bc9f-88751b494158",
             "Value": {
                 "id": "8f67912f-9f04-4d93-9c95-b12faa8f2517",
@@ -1895,6 +1903,14 @@
             }
         },
         {
+            "Key": "2f5abc52-9cd3-443d-add2-758d72a30d98",
+            "Value": {
+                "id": "034be227-6ce6-49d6-a598-49ce5e115b5a",
+                "resourcePath": "objects\\TouchButton\\TouchButton.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
             "Key": "2f612de3-b9ef-49b4-b691-14ba17d3bf0c",
             "Value": {
                 "id": "b6fe2881-73c4-4c85-8acb-e4f9aa7ae823",
@@ -2711,6 +2727,14 @@
             }
         },
         {
+            "Key": "43677c50-1a1d-47dc-88b3-906e27ea9380",
+            "Value": {
+                "id": "678a5c9e-ca55-48d5-9c12-c73e11004e16",
+                "resourcePath": "sprites\\TouchAnalogStickSprite\\TouchAnalogStickSprite.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "44199103-86f6-4e00-83ff-5900fb2d7a54",
             "Value": {
                 "id": "7cdd9c5e-b469-432e-bbb4-6af0feb4270a",
@@ -2927,6 +2951,14 @@
             }
         },
         {
+            "Key": "481b2c7e-0e66-46bd-8617-f321e899a376",
+            "Value": {
+                "id": "2695f4ba-fdf2-4d0d-940b-6bed8debb7b6",
+                "resourcePath": "sprites\\TouchStickFrameLeftMaskSprite\\TouchStickFrameLeftMaskSprite.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "483bfe6c-df02-4c66-92bb-c63faaaca63e",
             "Value": {
                 "id": "326cd3be-6c6f-4dd5-9791-f9eae725f780",
@@ -3028,6 +3060,14 @@
                 "id": "ba27272a-8703-4364-8bca-830ccaf74723",
                 "resourcePath": "objects\\AquaShieldIcon\\AquaShieldIcon.yy",
                 "resourceType": "GMObject"
+            }
+        },
+        {
+            "Key": "4a88cc7d-7be0-4a70-86d3-b7e853a1c7cf",
+            "Value": {
+                "id": "5a429dff-71a5-4ea8-bb27-9617ed7f0f7f",
+                "resourcePath": "sprites\\TouchStickFrameDownMaskSprite\\TouchStickFrameDownMaskSprite.yy",
+                "resourceType": "GMSprite"
             }
         },
         {
@@ -3436,6 +3476,14 @@
                 "id": "01da8f86-73e0-41f8-9000-61ec1909398d",
                 "resourcePath": "scripts\\game_save_update_location\\game_save_update_location.yy",
                 "resourceType": "GMScript"
+            }
+        },
+        {
+            "Key": "53d8ef5a-cb2a-42d9-8024-9527f9936d2f",
+            "Value": {
+                "id": "a71c9560-d644-45ee-a5dc-cc454ac1e52e",
+                "resourcePath": "sprites\\TouchStickFrameUpMaskSprite\\TouchStickFrameUpMaskSprite.yy",
+                "resourceType": "GMSprite"
             }
         },
         {
@@ -4055,6 +4103,14 @@
             }
         },
         {
+            "Key": "6184f569-79ca-4977-a836-db3860c9f1c3",
+            "Value": {
+                "id": "60e41393-494c-42a5-a603-d16066d39f02",
+                "resourcePath": "sprites\\TouchStickFrameLeftSprite\\TouchStickFrameLeftSprite.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "61a92771-bcb3-4e1c-a291-bb3e95703aa5",
             "Value": {
                 "id": "2b6dea87-f5b6-4e77-b2ae-3948ce192f80",
@@ -4148,6 +4204,14 @@
                 "id": "95159be4-591b-42f4-923e-65e3401dce58",
                 "resourcePath": "sounds\\SpinRevSound\\SpinRevSound.yy",
                 "resourceType": "GMSound"
+            }
+        },
+        {
+            "Key": "637a4147-d324-4792-b899-99a035ba9855",
+            "Value": {
+                "id": "adada089-4bbb-4149-865c-b8ec997ec8cf",
+                "resourcePath": "objects\\GameTouchConfiguration\\GameTouchConfiguration.yy",
+                "resourceType": "GMObject"
             }
         },
         {
@@ -4663,6 +4727,14 @@
             }
         },
         {
+            "Key": "73b7aef7-6b23-4ee7-b40f-233969f401be",
+            "Value": {
+                "id": "2b5c6085-5d15-4d51-99ea-559dce4277b2",
+                "resourcePath": "objects\\DeviceTouch\\DeviceTouch.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
             "Key": "743208e6-80df-4348-81af-2166b364f498",
             "Value": {
                 "id": "4ea65aa0-743b-47f8-9123-ffbcff80890a",
@@ -5055,6 +5127,14 @@
             }
         },
         {
+            "Key": "7e6ede66-4c16-4766-960a-6a61a31bbfab",
+            "Value": {
+                "id": "989fc375-f333-478c-8ca5-ce6b6ce8ceb9",
+                "resourcePath": "objects\\TouchPauseButton\\TouchPauseButton.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
             "Key": "7e729401-eedc-4499-8350-bf1ce7c5be2f",
             "Value": {
                 "id": "3291bd0f-4622-47cf-90b7-dd7c383c732d",
@@ -5180,6 +5260,14 @@
                 "id": "d6f47b15-ddc4-4f0d-a901-a17e5432ad8d",
                 "resourcePath": "views\\80424722-f1bf-4e9d-bad5-08aac5750f7c.yy",
                 "resourceType": "GMFolder"
+            }
+        },
+        {
+            "Key": "804a4f25-3c67-45f5-b697-b709979f287d",
+            "Value": {
+                "id": "7588735c-8d0e-41d9-94f3-d16540a12d9b",
+                "resourcePath": "sprites\\TouchButtonFrameSprite\\TouchButtonFrameSprite.yy",
+                "resourceType": "GMSprite"
             }
         },
         {
@@ -5663,6 +5751,14 @@
             }
         },
         {
+            "Key": "8bc83310-5200-4971-ac9c-2e538992c17b",
+            "Value": {
+                "id": "7dfd9ec4-b109-49a7-8f62-c09631ef36e0",
+                "resourcePath": "views\\8bc83310-5200-4971-ac9c-2e538992c17b.yy",
+                "resourceType": "GMFolder"
+            }
+        },
+        {
             "Key": "8c564282-978f-4c1d-bbf1-87404e0793e3",
             "Value": {
                 "id": "8cef9978-0413-4c0f-88e2-3423ee92bf18",
@@ -5684,6 +5780,14 @@
                 "id": "b0bdb6a4-2fa7-4c8f-b236-5c294483bd0f",
                 "resourcePath": "scripts\\player_is_spindashing\\player_is_spindashing.yy",
                 "resourceType": "GMScript"
+            }
+        },
+        {
+            "Key": "8ca009ec-93fa-439d-a62e-11376aaacf7f",
+            "Value": {
+                "id": "70927d8c-9651-432a-bf4f-62fb72bd3c33",
+                "resourcePath": "views\\8ca009ec-93fa-439d-a62e-11376aaacf7f.yy",
+                "resourceType": "GMFolder"
             }
         },
         {
@@ -6271,6 +6375,14 @@
             }
         },
         {
+            "Key": "9964c31a-77d0-474b-a543-d6ee006ede33",
+            "Value": {
+                "id": "ba75baaf-cdd6-4ba0-adde-6892eecb85ff",
+                "resourcePath": "sprites\\TouchStickFrameSprite\\TouchStickFrameSprite.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "998bab7a-53e1-4e76-b46b-72cc96859bd2",
             "Value": {
                 "id": "8774e957-5180-4c0a-acb6-a4401de916f0",
@@ -6588,6 +6700,14 @@
                 "id": "27c32a4f-a70f-490c-970e-a8ad150abc58",
                 "resourcePath": "scripts\\game_pc_camera_state_crouching\\game_pc_camera_state_crouching.yy",
                 "resourceType": "GMScript"
+            }
+        },
+        {
+            "Key": "a1d9ba76-cfe1-476d-b12c-027e2a2c7f58",
+            "Value": {
+                "id": "cf12679c-77b7-4f99-85e0-d060bc8f0e64",
+                "resourcePath": "sprites\\TouchStickFrameRightSprite\\TouchStickFrameRightSprite.yy",
+                "resourceType": "GMSprite"
             }
         },
         {
@@ -7559,6 +7679,14 @@
             }
         },
         {
+            "Key": "bc0d7727-032c-418f-a368-4569aa08a79d",
+            "Value": {
+                "id": "9babaef2-19c5-4153-9c98-0f2ed903e2e2",
+                "resourcePath": "sprites\\TouchStickFrameUpSprite\\TouchStickFrameUpSprite.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "bc1b28de-0e58-41eb-9d90-da20d611ee7d",
             "Value": {
                 "id": "e5a6c6a8-0cf9-4bc8-bbbc-21987ab739ab",
@@ -8135,6 +8263,14 @@
             }
         },
         {
+            "Key": "cb0b05e4-de67-4a8f-8cfa-4fd7d28f2587",
+            "Value": {
+                "id": "87c7f2ca-8e9e-4d06-9bdf-806810b36701",
+                "resourcePath": "objects\\TouchAnalogStick\\TouchAnalogStick.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
             "Key": "cb4cc744-a447-43ca-87f7-cb128ae94079",
             "Value": {
                 "id": "785e20ec-1716-4000-bc2e-54f11e51ba98",
@@ -8591,6 +8727,14 @@
             }
         },
         {
+            "Key": "d66fd640-00b1-4001-b6d1-df22037e8d40",
+            "Value": {
+                "id": "737b7dda-7306-4c2f-9efc-ed6fe308bb41",
+                "resourcePath": "sprites\\TouchPauseSprite\\TouchPauseSprite.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "d699282e-e0d6-4fc9-8957-86d076af4fa6",
             "Value": {
                 "id": "8cbde38c-0995-4223-8caf-ca2faf0b84cf",
@@ -8612,6 +8756,14 @@
                 "id": "bd62ed83-734e-4e42-989e-fb09f4dfd91e",
                 "resourcePath": "objects\\GlowingSpheresBumper\\GlowingSpheresBumper.yy",
                 "resourceType": "GMObject"
+            }
+        },
+        {
+            "Key": "d6e2bdb3-35d9-4ccc-a3ed-db66075c5c90",
+            "Value": {
+                "id": "cda9b4a5-d8cc-4297-9fab-d1adc3410dc3",
+                "resourcePath": "views\\d6e2bdb3-35d9-4ccc-a3ed-db66075c5c90.yy",
+                "resourceType": "GMFolder"
             }
         },
         {
@@ -9135,6 +9287,14 @@
             }
         },
         {
+            "Key": "e48a2d6c-08ae-4197-8d6d-78ea62382f6e",
+            "Value": {
+                "id": "5a272fe0-f110-4c21-b2ba-8b863ba80ced",
+                "resourcePath": "sprites\\TouchStickFrameDownSprite\\TouchStickFrameDownSprite.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "e49cd8f5-5229-4645-8f4a-4bb99a5ce84c",
             "Value": {
                 "id": "6416e46b-6c4d-4a6a-8ff4-d254903d42ff",
@@ -9163,6 +9323,14 @@
             "Value": {
                 "id": "7747b71d-f03d-4428-92a4-42efe8ec0d41",
                 "resourcePath": "objects\\SuperSpeedIcon\\SuperSpeedIcon.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
+            "Key": "e588a5ae-97ee-405c-91d0-2054edc3a3c0",
+            "Value": {
+                "id": "cb892302-bad9-4423-966c-684b497f4f65",
+                "resourcePath": "objects\\TouchUISign\\TouchUISign.yy",
                 "resourceType": "GMObject"
             }
         },
@@ -9716,6 +9884,14 @@
                 "id": "46cb141f-10e9-47e3-8292-a2b895f38404",
                 "resourcePath": "views\\f6701cbf-9561-43e0-bca3-2ea69004e442.yy",
                 "resourceType": "GMFolder"
+            }
+        },
+        {
+            "Key": "f6ab14a0-57fe-4ff3-9f8e-013fe716a13a",
+            "Value": {
+                "id": "d1b2d185-db4c-4cec-a243-c13973a5a654",
+                "resourcePath": "sprites\\TouchStickFrameRightMaskSprite\\TouchStickFrameRightMaskSprite.yy",
+                "resourceType": "GMSprite"
             }
         },
         {

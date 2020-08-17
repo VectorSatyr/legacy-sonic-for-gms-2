@@ -1,4 +1,4 @@
-/// @description  Setup
+/// @description Setup
 game_window_update_ports(1);
 game_screen_fade_in(BlackFadeShd, 22);
 game_audio_enqueue_music(CreditsMusic, 0, false);
@@ -23,6 +23,7 @@ MARIOMADNESS734");
 ds_queue_enqueue(headers, "SPRITES RIPS BY");
 ds_queue_enqueue(text, @"MERCURY#
 PAVELDECHEV0604#
+PORTEWEEKER#
 RANDOM TALKING BUSH");
 
 ds_queue_enqueue(headers, "SPRITES RIPS BY");
@@ -35,33 +36,35 @@ ds_queue_enqueue(text, @"MR. LANGE#
 RANDOM TALKING BUSH");
 
 ds_queue_enqueue(headers, "MUSIC BY");
-ds_queue_enqueue(text, @"MASATO NAKAMURA#
-JUNKO SHIRATSU#
+ds_queue_enqueue(text, @"JUNKO SHIRATSU#
 MARIKO NANBA#
-TEE LOPES#
-SEAN EVANS");
+MASATO NAKAMURA#
+SEAN EVANS#
+TEE LOPES");
 
 ds_queue_enqueue(headers, "SPECIAL THANKS TO");
-ds_queue_enqueue(text, @"DAMIZEAN#
-ROGUEYOSHI#
-KAIN#
-MERCURY#
-XOT");
-
-ds_queue_enqueue(headers, "SPECIAL THANKS TO");
-ds_queue_enqueue(text, @"JONATHAN LAM#
+ds_queue_enqueue(text, @"CARLOS USHIROMIYA#
+DAMIZEAN#
 JAVIER MORA#
+JONATHAN LAM");
+
+ds_queue_enqueue(headers, "SPECIAL THANKS TO");
+ds_queue_enqueue(text, @"KAIN#
+MERCURY#
 NOAH COPELAND#
-POLAR EXELION#
 PIXELATED_POPE");
+
+ds_queue_enqueue(headers, "SPECIAL THANKS TO");
+ds_queue_enqueue(text, @"POLAR EXELION#
+ROGUEYOSHI#
+XOT");
 
 ds_queue_enqueue(headers, "DEVELOPED BY");
 ds_queue_enqueue(text, "VECTORSATYR");
 
 ds_queue_enqueue(headers, "CONTENT BELONGS TO");
 ds_queue_enqueue(text, @"SEGA#
-SONIC TEAM#");
+SONIC TEAM");
 
 ds_queue_enqueue(headers, "THANK YOU FOR PLAYING");
 ds_queue_enqueue(text, "SEE YOU NEXT TIME");
-
