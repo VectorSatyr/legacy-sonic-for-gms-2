@@ -1,4 +1,4 @@
-/// @description Proceed (Mobile)
+/// @description Proceed
 if (game_is_running())
 {
     switch (state)
