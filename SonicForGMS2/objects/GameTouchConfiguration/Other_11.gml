@@ -17,7 +17,7 @@ with (TouchButton)
 {
 	image_xscale *= 0.86;
 	image_yscale *= 0.86;
-	button_scale = other.scale;
+	button_resting_scale = other.scale;
 	button_touched_scale = button_scale * 0.9;
 }
 with (TouchAnalogStick)

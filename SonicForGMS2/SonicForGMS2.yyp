@@ -7511,6 +7511,14 @@
             }
         },
         {
+            "Key": "b8e23202-df87-49ec-9c8c-7dd2a939b2a5",
+            "Value": {
+                "id": "a5d51a87-58ac-4153-89ce-4246b2211b43",
+                "resourcePath": "sprites\\TouchButtonFrameMaskSprite\\TouchButtonFrameMaskSprite.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "b8ec08e7-00bc-49ad-a553-5a7a1e4c6087",
             "Value": {
                 "id": "28f31a8b-9992-4e27-b0da-e338d04bf016",
@@ -8323,6 +8331,14 @@
             "Value": {
                 "id": "9d124193-2a3a-466b-8c45-7d200ed5a556",
                 "resourcePath": "sprites\\TailsBrakeSprite\\TailsBrakeSprite.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
+            "Key": "cc616aaf-d627-402a-8870-eae93a6d869f",
+            "Value": {
+                "id": "ad0d7047-b1cd-4a16-9ac5-a1dea4140f92",
+                "resourcePath": "sprites\\TouchStickFrameMaskSprite\\TouchStickFrameMaskSprite.yy",
                 "resourceType": "GMSprite"
             }
         },
