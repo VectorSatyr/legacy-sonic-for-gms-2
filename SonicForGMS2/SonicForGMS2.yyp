@@ -8351,6 +8351,14 @@
             }
         },
         {
+            "Key": "d3094b21-c82f-4bb1-b403-1e32e96886c1",
+            "Value": {
+                "id": "058f8c1b-7eee-48de-9a8a-65de458cd131",
+                "resourcePath": "scripts\\game_zone_time_over\\game_zone_time_over.yy",
+                "resourceType": "GMScript"
+            }
+        },
+        {
             "Key": "d3118e6c-666e-4304-9cf9-9ec69d993c0f",
             "Value": {
                 "id": "6d0b2171-09cf-41a8-b9ce-c7a2c57da3cf",
@@ -10115,6 +10123,7 @@
         "1cb394f3-3ae0-487a-b610-725eba3f9885",
         "04910f36-049a-4403-8d80-c77f8a7cc635",
         "087f9894-6d64-4506-a898-d3f543b5365a",
+        "d3094b21-c82f-4bb1-b403-1e32e96886c1",
         "bf67b326-6032-44d5-9beb-a14afaf1c4b9",
         "fe4e2e17-2e96-434c-822a-2c3ccad54117",
         "0876171c-e507-4faf-bf8a-69274fc9ee05",

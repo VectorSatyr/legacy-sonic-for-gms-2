@@ -11,6 +11,9 @@ if (game_is_running()) {
                 if (life_count <= 0) {
                     instance_create_layer(0, 0, "gui", GameOverScreen);
                     instance_destroy(other);
+                } else if (game_zone_time_over()) {
+                    instance_create_layer(0, 0, "gui", TimeOverScreen);
+                    instance_destroy(other);
                 }
             }
         }

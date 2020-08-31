@@ -1,6 +1,12 @@
 /// @description Count
 if (game_is_running())
 {
+	if (game_zone_time_over() and not instance_exists(ZoneRestart))
+	{
+		game_pc_perform(self, player_is_defeated);
+		game_pc_play_sound(self, HurtSound);
+	}
+	
     if (on_the_ground and control_lock_time > 0)
 	{
         --control_lock_time;
@@ -58,8 +64,11 @@ if (game_is_running())
             break;
 
         case 0: // drown
-            game_pc_perform(self, player_is_drowning);
-            game_pc_play_sound(self, DrownSound);
+			if (state != player_is_defeated and state != player_is_drowning)
+			{
+                game_pc_perform(self, player_is_drowning);
+                game_pc_play_sound(self, DrownSound);
+			}
             break;
         }
     }
