@@ -5455,6 +5455,14 @@
             }
         },
         {
+            "Key": "892cf5f2-1143-4201-bd38-da184b8d1166",
+            "Value": {
+                "id": "5918ff4c-329e-46d6-9940-1d758e1af9d4",
+                "resourcePath": "scripts\\game_pc_right_collision_solid\\game_pc_right_collision_solid.yy",
+                "resourceType": "GMScript"
+            }
+        },
+        {
             "Key": "893114e9-910d-47bd-ba0d-b9c4934f3fce",
             "Value": {
                 "id": "cd8c7520-4370-4bde-8799-6008355731a1",
@@ -8087,6 +8095,14 @@
             }
         },
         {
+            "Key": "cb7c51a7-ab0e-406c-802e-0bfbfd085756",
+            "Value": {
+                "id": "24ce0e17-5a62-42e2-9bfb-f1d78c47d2a3",
+                "resourcePath": "scripts\\game_pc_arm_in_shape\\game_pc_arm_in_shape.yy",
+                "resourceType": "GMScript"
+            }
+        },
+        {
             "Key": "cbd3b9d8-a70d-4019-8a0c-e3f99acdbb7b",
             "Value": {
                 "id": "093f4422-8681-41c2-bccb-2c8fec5a7ebb",
@@ -8260,6 +8276,14 @@
                 "id": "110d465d-e6f2-4d2d-877c-116a9c79fb18",
                 "resourcePath": "rooms\\DemoZone1\\DemoZone1.yy",
                 "resourceType": "GMRoom"
+            }
+        },
+        {
+            "Key": "d0f269c8-e40b-4684-a567-79ef6aac0ec5",
+            "Value": {
+                "id": "298c51ce-57ba-419d-b329-eeeef48d65f0",
+                "resourcePath": "scripts\\player_react_to_crush_block\\player_react_to_crush_block.yy",
+                "resourceType": "GMScript"
             }
         },
         {
@@ -9199,6 +9223,14 @@
             }
         },
         {
+            "Key": "e941e3b9-40c7-4a61-bb00-4e847ff3e4ca",
+            "Value": {
+                "id": "c953dd2d-3282-4821-b402-03edc99e5b5d",
+                "resourcePath": "scripts\\game_pc_left_collision_solid\\game_pc_left_collision_solid.yy",
+                "resourceType": "GMScript"
+            }
+        },
+        {
             "Key": "ea0a2215-3d85-4104-ab8a-cc5d2c9f5a48",
             "Value": {
                 "id": "f1f42eda-ac07-42f3-a2f7-ac1deda622ab",
@@ -10028,6 +10060,7 @@
         "b9688c2c-148e-4584-aaa5-947cc372943a",
         "c3643dab-d627-4495-aebf-1da14ea02a7e",
         "fd4df64e-c1d7-47f9-9a1b-255566f25356",
+        "cb7c51a7-ab0e-406c-802e-0bfbfd085756",
         "125ef1c5-5178-420d-bdff-1dffde947e1c",
         "7e23b4a6-b7fd-45a9-844b-f7d2942eb0f8",
         "de0aba20-dd30-4906-9310-3ee5082e68ad",
@@ -10048,6 +10081,7 @@
         "0f014aab-3976-461f-91dd-9a8fcd806afb",
         "4889e5b6-5f68-4564-97c0-1e9e73f4b683",
         "3c0d717a-6a5d-488b-a336-2e0fc2f94954",
+        "d0f269c8-e40b-4684-a567-79ef6aac0ec5",
         "7279ec4f-790f-4d60-84fe-15a83f0200ed",
         "9166ce3d-4d96-4acc-9f63-207236c357d3",
         "20ac2afd-add0-4de2-9d00-49012f3cdc99",
@@ -10071,7 +10105,9 @@
         "ec9272f2-ed61-4a44-a164-a8831ff534f0",
         "3ae30f1c-a502-46c6-ae7a-0e457f68cc33",
         "f5e7e9d4-039d-406c-8a02-cc01c6cca657",
+        "e941e3b9-40c7-4a61-bb00-4e847ff3e4ca",
         "c61954d5-164e-4fab-9c45-a911535dd318",
+        "892cf5f2-1143-4201-bd38-da184b8d1166",
         "200173aa-fdee-48dc-b9ae-5119e387dbda",
         "0cb584ae-7691-4faa-872c-2a7db6e3453e",
         "425a3aba-d3f6-4761-80ec-723ddc306d7c",
