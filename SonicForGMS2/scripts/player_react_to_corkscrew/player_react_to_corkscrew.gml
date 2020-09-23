@@ -1,30 +1,28 @@
 var ind = argument0;
 var phase = argument1;
 
-switch (phase) {
+switch (phase)
+{
 case "checking":
-    if (ground_id == ind.mask) {
-        game_pc_react_to(self, ind);
-    }
-    if (state == player_is_running_in_corkscrew) {
-        timeline_speed = 0;
-        var ratio = (x_int - ind.bbox_left) / ind.sprite_width;
-        if (facing_sign < 0) {
-            ratio = 1 - ratio;
-        }
-        image_index = floor(12 * ratio);
-    }
-    break;
+	if (ground_id == ind.mask)
+	{
+		game_pc_react_to(self, ind);
+	}
+	break;
 
 case "entering":
-    if (state == player_is_running) {
-        game_pc_perform(self, player_is_running_in_corkscrew);
-    }
-    break;
+	if (state != player_is_rolling)
+	{
+		game_pc_perform(self, player_is_linked);
+		game_pc_animate(self, "flip", true);
+		linked_object_id = ind;
+	}
+	break;
 
 case "exiting":
-    if (state == player_is_running_in_corkscrew) {
-        game_pc_perform(self, player_is_running);
-    }
-    break;
+	if (linked_object_id = ind)
+	{
+		game_pc_perform(self, player_is_running);
+	}
+	break;
 }
