@@ -48,10 +48,7 @@ case "entering":
 
         game_player_change_score(owner, bonus);
         game_pc_play_sound(self, PopSound);
-    
-        with (SpriteParticles) {
-            part_particles_create(system, ind.x, ind.y, explosion, 1);
-        }
+		game_particles_spawn("explosion", ind.x, ind.y);
 
         with (instance_create_layer(ind.x, ind.y, "effects", ScorePopup)) {
             if (bonus >= 200) {

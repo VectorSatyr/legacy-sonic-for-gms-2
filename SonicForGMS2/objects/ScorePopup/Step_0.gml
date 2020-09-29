@@ -1,12 +1,14 @@
-/// @description  Rise
-if (game_is_running()) {
-    y = ystart - dcos(life * 2.8125) * 48;
-    
-    if (life > 0) {
+/// @description Rise
+if (game_is_running())
+{
+    y = ystart - dcos(life * y_speed) * y_offset;
+
+    if (life > 0)
+	{
         --life
-        if (life <= 0) {
+        if (life <= 0)
+		{
             instance_destroy();
         }
     }
 }
-

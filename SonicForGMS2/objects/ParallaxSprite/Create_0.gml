@@ -1,0 +1,17 @@
+/// @description Initialize
+image_speed = 0;
+frame_speed = 0;
+left = 0;
+top = 0;
+width = 0;
+height = 0;
+tile_horizontal = false;
+tile_vertical = false;
+x_absolute = 0;
+y_absolute = 0;
+x_scroll = 1;
+y_scroll = 1;
+x_separation = 0;
+y_separation = 0;
+x_speed = 0;
+y_speed = 0;

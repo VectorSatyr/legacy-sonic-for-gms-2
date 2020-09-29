@@ -1,8 +1,10 @@
-/// @description  Change face
+/// @description Change face
 sprite_index = MonitorIconSonicSprite;
-var player = game_player_find(view_current);
-if (instance_exists(player)) {
-	switch (player.character_id) {
+var owner = game_player_find(view_current);
+if (instance_exists(owner))
+{
+	switch (owner.character_id)
+	{
 	case Tails:
 		sprite_index = MonitorIconTailsSprite;
 		break;

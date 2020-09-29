@@ -62,8 +62,6 @@ unroll_threshold = 0.5;
 slide_threshold = 2.5;
 
 // collision detection
-mask_visible = false;
-
 x_radius = 8;
 x_wall_radius = 10;
 
@@ -97,6 +95,9 @@ local_solids = ds_list_create();
 reaction_list = ds_list_create();
 previous_reaction_list = ds_list_create();
 
+mask = instance_create_depth(x, y, depth - 1, PlayerBoundingMask);
+mask.source = self;
+
 // regions and boundaries
 bound_left = 16;
 bound_top = 16;
@@ -127,7 +128,8 @@ invincibility_effect = noone;
 
 audio_emitter = audio_emitter_create();
 audio_emitter_position(audio_emitter, x, y, 0);
-with (GameAudioConfiguration) {
+with (GameAudioConfiguration)
+{
     audio_emitter_gain(other.audio_emitter, volume_sound);
 }
 
@@ -147,4 +149,3 @@ invincibility_music = noone;
 chain_multiplier = 0;
 
 stage_end = false;
-

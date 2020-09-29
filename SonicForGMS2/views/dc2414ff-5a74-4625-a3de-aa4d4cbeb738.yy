@@ -4,8 +4,10 @@
     "mvc": "1.1",
     "name": "dc2414ff-5a74-4625-a3de-aa4d4cbeb738",
     "children": [
-        "d5e36f7b-82de-499c-8cd2-19f3c759e1af",
-        "a30211be-c6d0-4692-ae33-870cd9869f7c"
+        "a4a0f8dd-20c6-4886-8882-c7e32c843407",
+        "a4162592-e3f9-4b10-97af-de0c96eada8d",
+        "410fe01a-8038-4c01-bc48-8bdc3cb1f89b",
+        "845c42f1-4f52-429e-91d1-24f8df36e456"
     ],
     "filterType": "GMScript",
     "folderName": "Point",

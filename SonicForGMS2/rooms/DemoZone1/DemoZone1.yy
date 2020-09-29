@@ -118,7 +118,6 @@
         "58e37e3a-c337-451b-9865-acebf5f90e53",
         "c811b7ea-8984-4c75-9c22-0e126c3a5425",
         "1b573edf-0a03-4954-91b4-b063476f24ad",
-        "89062bd6-fb25-4eb5-949e-fb9060b666d9",
         "f1a59fbb-4fa1-430d-9c3b-9bfc4f24dc8b",
         "0bbd6d8c-14fb-4d4e-8ce5-059ac9a0bfa8",
         "27b0f8a2-0fcf-46e0-ae89-6edf194f54f4",
@@ -132,6 +131,7 @@
         "30d9b7cd-8953-4428-b660-c722b36cb01d",
         "f9118420-df18-46c1-bb06-cab8586ff609",
         "5b6a9042-df72-4d1a-a94f-c11f7a452403",
+        "89062bd6-fb25-4eb5-949e-fb9060b666d9",
         "bc51eee6-86dc-453c-8059-fe8442d5b26c"
     ],
     "IsDnD": false,
@@ -186,6 +186,32 @@
             "modelName": "GMRInstanceLayer",
             "mvc": "1.0",
             "userdefined_depth": true,
+            "visible": true
+        },
+        {
+            "__type": "GMRInstanceLayer_Model:#YoYoStudio.MVCFormat",
+            "name": "touch",
+            "id": "41160cec-d371-43c7-a2ee-1baf40314ab3",
+            "depth": -924,
+            "grid_x": 32,
+            "grid_y": 32,
+            "hierarchyFrozen": false,
+            "hierarchyVisible": true,
+            "inheritLayerDepth": false,
+            "inheritLayerSettings": false,
+            "inheritSubLayers": false,
+            "inheritVisibility": false,
+            "instances": [
+
+            ],
+            "layers": [
+
+            ],
+            "m_parentID": "00000000-0000-0000-0000-000000000000",
+            "m_serialiseFrozen": false,
+            "modelName": "GMRInstanceLayer",
+            "mvc": "1.0",
+            "userdefined_depth": false,
             "visible": true
         },
         {

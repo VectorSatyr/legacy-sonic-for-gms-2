@@ -5,16 +5,6 @@
     "name": "TimeOverScreen",
     "eventList": [
         {
-            "id": "d021bf42-5387-4a24-835f-d65f34032ecb",
-            "modelName": "GMEvent",
-            "mvc": "1.0",
-            "IsDnD": false,
-            "collisionObjectId": "00000000-0000-0000-0000-000000000000",
-            "enumb": 0,
-            "eventtype": 3,
-            "m_owner": "beadcc18-94fc-4069-a84a-933f50ed89d9"
-        },
-        {
             "id": "0612d58b-5904-44ed-8441-37defec144db",
             "modelName": "GMEvent",
             "mvc": "1.0",
@@ -22,6 +12,16 @@
             "collisionObjectId": "00000000-0000-0000-0000-000000000000",
             "enumb": 0,
             "eventtype": 0,
+            "m_owner": "beadcc18-94fc-4069-a84a-933f50ed89d9"
+        },
+        {
+            "id": "8b2113f6-20d9-4414-93f9-ce968cbf16f7",
+            "modelName": "GMEvent",
+            "mvc": "1.0",
+            "IsDnD": false,
+            "collisionObjectId": "00000000-0000-0000-0000-000000000000",
+            "enumb": 10,
+            "eventtype": 7,
             "m_owner": "beadcc18-94fc-4069-a84a-933f50ed89d9"
         }
     ],

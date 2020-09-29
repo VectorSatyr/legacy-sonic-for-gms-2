@@ -18,11 +18,8 @@ case "entering":
 
     game_pc_animate(self, "breathe", true);
 
-    with (SpriteParticles) {
-        part_particles_create(system, ind.x, ind.y, bubble_pop, 1);
-    }
-
     game_pc_play_sound(self, BreatheSound);
+	game_particles_spawn("bubble_pop", ind.x, ind.y);
 
     if (instance_exists(drowning_music)) {
         instance_destroy(drowning_music);

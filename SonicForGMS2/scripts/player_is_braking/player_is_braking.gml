@@ -81,9 +81,7 @@ case "step":
         var distance = y_radius - 6;
         var x_offset = x_int + dsin(direction) * distance;
         var y_offset = y_int + dcos(direction) * distance;
-        with (SpriteParticles) {
-            part_particles_create(system, x_offset, y_offset, brake_dust, 1);
-        }
+		game_particles_spawn("brake_dust", x_offset, y_offset);
     }
     break;
 }

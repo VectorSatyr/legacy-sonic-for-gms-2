@@ -1,29 +1,29 @@
 /// @description  Initialize
 image_speed = 0;
 
-timeline_set(self, SonicTheHedgehogTitleAnim, 1, false);
+state = "appearing";
+delay = 90;
 
-phase = 0;
-display_time = 90;
+switch (os_type)
+{
+case os_android:
+case os_ios:
+	disclaimer_sprite = LegalDisclaimerTouchSprite;
+	start_sprite = SonicTitleTouchStartSprite;
+	break;
+default:
+	disclaimer_sprite = LegalDisclaimerInputSprite;
+	start_sprite = SonicTitlePressStartSprite;
+}
 
-logo_ox = CAMERA_WIDTH * 0.5;
-logo_oy = CAMERA_HEIGHT * 0.5;
-
-font = global.CrackersFont;
-font_color = c_white;
-
-press_start_back = SonicTitlePressStartBack;
-var w = sprite_get_width(press_start_back);
-var h = sprite_get_height(press_start_back);
-press_start_ox = (CAMERA_WIDTH * 0.5) - (w * 0.5);
-press_start_oy = (CAMERA_HEIGHT * 0.875) - (h * 0.5);
-press_start_alpha = 0;
-press_start_sin = 0;
-press_start_blink_speed = 2;
-
+splash_x = CAMERA_WIDTH * 0.5;
+splash_y = CAMERA_HEIGHT * 0.5;
 build_version_text = "v" + string(GM_version);
-build_version_ox = CAMERA_WIDTH - 4;
-build_version_oy = CAMERA_HEIGHT - 4;
-
-disclaimer_ox = 4;
-disclaimer_oy = CAMERA_HEIGHT - sprite_get_height(LegalDisclaimerInputBack) - 4;
+build_version_x = CAMERA_WIDTH - 4;
+build_version_y = CAMERA_HEIGHT - 4;
+disclaimer_x = 4;
+disclaimer_y = CAMERA_HEIGHT - sprite_get_height(disclaimer_sprite) - 4;
+start_x = CAMERA_WIDTH * 0.5;
+start_y = CAMERA_HEIGHT * 0.875;
+start_sin = 0;
+start_blink_speed = 2;

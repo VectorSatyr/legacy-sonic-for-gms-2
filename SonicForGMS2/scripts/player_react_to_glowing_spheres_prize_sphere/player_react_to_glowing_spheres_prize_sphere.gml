@@ -1,9 +1,11 @@
 var ind = argument0;
 var phase = argument1;
 
-switch (phase) {
+switch (phase)
+{
 case "checking":
-    if (game_pc_in_shape(self, ind, x_radius, y_radius)) {
+    if (game_pc_in_shape(self, ind, x_radius, y_radius))
+	{
         game_pc_react_to(self, ind);
     }
     break;
@@ -19,6 +21,7 @@ case "exiting":
 	ind.sprite_index = -1;
 	timeline_set(ind, -1);
 	ind.reaction_script = -1;
+	ind.constant = true;
 	ind.used = true;
 
 	game_pc_play_sound(self, GumballSound);

@@ -1,4 +1,3 @@
-/// @description  Initialize
-image_speed = 0;
-target = noone;
-
+/// @description Initialize
+event_inherited();
+flicker_frames = 4;

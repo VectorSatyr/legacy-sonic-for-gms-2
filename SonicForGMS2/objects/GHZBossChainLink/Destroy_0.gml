@@ -1,5 +1,2 @@
-/// @description  Explode
-with (SpriteParticles) {
-    part_particles_create(system, other.x, other.y, heavy_explosion, 1);
-}
-
+/// @description Explode
+game_particles_spawn("heavy_explosion", x, y);

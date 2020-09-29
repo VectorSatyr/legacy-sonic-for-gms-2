@@ -11,6 +11,7 @@ GameMaster12
 MarioMadness734
 Mercury
 Paveldechev0604
+PorteWeeker
 Random Talking Bush
 Sid Starkiller
 SupaChao
@@ -21,20 +22,21 @@ Mr. Lange
 Random Talking Bush
 
 Music provided by:
-Masato Nakamura
 Junko Shiratsu
 Mariko Nanba
-Tee Lopes
+Masato Nakamura
 Sean Evans
+Tee Lopes
 
 Special thanks goes to:
+Carlos Ushiromiya
 Damizean
-RogueYoshi
+Javier Mora
+Jonathan Lam
 Kain
 Mercury
-Xot
-Jonathan Lam
-Javier Mora
 Noah Copeland
-Polar Exelion
 Pixelated_Pope
+Polar Exelion
+RogueYoshi
+Xot

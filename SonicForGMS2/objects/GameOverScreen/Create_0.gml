@@ -1,4 +1,4 @@
-/// @description  Initialize
+/// @description Initialize
 event_inherited();
 image_speed = 0;
 
@@ -27,6 +27,7 @@ timer = text_enter_duration + 660;
 
 game_audio_enqueue_music(GameOverMusic);
 
-with (ZoneTimeLimit) {
-    enabled = false;
+with (ZoneTimeLimit)
+{
+	enabled = false;
 }

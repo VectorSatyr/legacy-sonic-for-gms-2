@@ -1,28 +1,19 @@
-/// @description  Initialize
-image_speed = 0;
-image_alpha = 0;
+/// @description Initialize
+event_inherited();
+state = "entering";
+duration = 45;
 
-phase = 0;
+fadeDuration = 22;
+fadeColor = c_black;
+fadeAlpha = 0.75;
 
-display_time = 1;
+font = global.CrackersFont;
+fontColor = c_white;
 
-fade_speed = 0.0455;
-fade_background_alpha = 0.75;
-fade_background_color = c_black;
+warningText = "THIS IS A NON-PROFIT FAN-BASED PROJECT FOR FREEWARE DISTRIBUTION ONLY. ALL COPYRIGHTS AND REGISTERED TRADEMARKS OF 'SONIC THE HEDGEHOG' AND ALL ASSOCIATED CHARACTERS, ART, NAMES, TERMS AND MUSIC BELONG TO SEGA® AND ARE NOT SUBJECT TO THE LICENSE ASSOCIATED WITH THIS PROJECT. THE CONTRIBUTORS TO THIS SOFTWARE ARE IN NO WAY AFFILIATED WITH SEGA® OR SONIC TEAM®, NOR IS ANY INTENT MADE TO GAIN FINANCIALLY FROM OR INFRINGE UPON SAID COPYRIGHTS OR REGISTERED TRADEMARKS."
+warningX = CAMERA_WIDTH * 0.5;
+warningY = CAMERA_HEIGHT * 0.5;
 
-font = global.CrackersFont
-font_color = c_white;
-
-text = "THIS IS A NON-PROFIT FAN-BASED PROJECT FOR FREEWARE DISTRIBUTION ONLY. ALL COPYRIGHTS AND REGISTERED TRADEMARKS OF 'SONIC THE HEDGEHOG' AND ALL ASSOCIATED CHARACTERS, ART, NAMES, TERMS AND MUSIC BELONG TO SEGA®. THE CONTRIBUTORS TO THIS SOFTWARE ARE IN NO WAY AFFILIATED WITH SEGA® OR SONIC TEAM®, NOR IS ANY INTENT MADE TO GAIN FINANCIALLY FROM OR INFRINGE UPON SAID COPYRIGHTS OR REGISTERED TRADEMARKS."
-text_ox = CAMERA_WIDTH * 0.5;
-text_oy = CAMERA_HEIGHT * 0.5;
-text_separation = 8;
-text_width = CAMERA_WIDTH * 0.875;
-
-press_start_text = "PRESS F1";
-press_start_ox = CAMERA_WIDTH * 0.5;
-press_start_oy = CAMERA_HEIGHT * 0.75;
-press_start_alpha = 0;
-press_start_sin = 0;
-press_start_blink_speed = 2;
-
+startText = "";
+startX = CAMERA_WIDTH * 0.5;
+startY = CAMERA_HEIGHT * 0.75;

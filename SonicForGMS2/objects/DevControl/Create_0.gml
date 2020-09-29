@@ -1,5 +1,3 @@
-/// @description  Initialize
-image_speed = 0;
+/// @description Initialize
 ports = 0;
-emeraldIndex = 0;
-
+emeralds = 0;

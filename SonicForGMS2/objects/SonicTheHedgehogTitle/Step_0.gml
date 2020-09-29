@@ -1,25 +1,25 @@
-/// @description  Display
-if (game_is_running()) {
-    switch (phase) {
-    case 0: // wait
-        --display_time;
-        if (display_time <= 0) {
-            phase = 1;
+/// @description Display
+if (game_is_running())
+{
+    switch (state)
+	{
+    case "appearing":
+        --delay;
+        if (delay <= 0)
+		{
+            state = "waiting";
         }
         break;
     
-    case 1: // press start
-        press_start_sin += press_start_blink_speed;
-        press_start_alpha = abs(dsin(press_start_sin));
-        if (game_input_event_pressed("start")) {
+    case "waiting":
+        start_sin = (start_sin + start_blink_speed) mod 360;
+		postStartInput.image_alpha = image_alpha * abs(dsin(start_sin));
+        if (game_input_event_pressed("start"))
+		{
             game_screen_fade_out(BlackFadeShd, 22, FileSelectRoom);
             game_audio_fade_out_music(22);
-            phase = 2;
+			state = "";
         }
-        break;
-
-    case 2: // do nothing
         break;
     }
 }
-

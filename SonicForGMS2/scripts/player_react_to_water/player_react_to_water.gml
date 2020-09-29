@@ -34,9 +34,7 @@ case "entering":
         }
 
         if (not point_in_rectangle(floor(xprevious), floor(yprevious), ind.bbox_left, ind.bbox_top, ind.bbox_right, ind.bbox_bottom)) {
-            with (SpriteParticles) {
-                part_particles_create(system, other.x_int, ind.bbox_top, splash, 1);
-            }
+            game_particles_spawn("splash", x_int, ind.bbox_top);
             game_pc_play_sound(self, SplashSound);
         }
     }
@@ -61,11 +59,8 @@ case "exiting":
         game_pc_refresh_physics(self);
         y_speed *= 2;
 
-        with (SpriteParticles) {
-            part_particles_create(system, other.x_int, ind.bbox_top, splash, 1);
-        }
-
         game_pc_play_sound(self, SplashSound);
+		game_particles_spawn("splash", x_int, ind.bbox_top);
 
         if (instance_exists(drowning_music)) {
             instance_destroy(drowning_music);

@@ -4,13 +4,16 @@
 rings_warning = (other.rings <= 0);
 
 // lives icon
-post_life_icon = instance_create_layer(CAMERA_WIDTH - 64, 8, "hud", GameSign);
-post_life_icon.vind = index;
-post_life_icon.sprite_index = HUDLifeIconSprite;
-switch (owner.character_id) {
-case Knuckles: post_life_icon.image_index = 2; break;
-case Tails: post_life_icon.image_index = 1; break;
+var obj;
+switch (owner.character_id)
+{
+case Tails: obj = Sonic2TailsLifeIcon; break;
+case Knuckles: obj = Sonic2KnucklesLifeIcon; break;
+default: obj = Sonic2SonicLifeIcon;
 }
+post_life_icon = instance_create_layer(CAMERA_WIDTH - 64, 8, "hud", obj);
+post_life_icon.vind = index;
+post_life_icon.owner = owner;
 
 // rings header
 post_rings_header = instance_create_layer(16, 8, "hud", GameSign);

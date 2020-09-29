@@ -14,11 +14,9 @@
         "3ccf559d-0057-4d5f-aecf-11eb4e933071",
         "418ec3d0-96dd-4454-880e-78e89138bb65",
         "4f19fbcb-bdc7-4724-b783-5d0e0ab429f9",
-        "6da4bf5f-0960-4085-8f0d-0bc71bccb3a9",
         "54f9f117-da94-432b-98bd-fade6730347c",
         "1b1d1602-543e-4388-a60c-b6d906f8ad13",
         "91503b86-8ed6-4db0-97d3-8814cb2a3642",
-        "ba7c4d75-9de2-40ee-ab0d-82fa4b14215f",
         "e18a759a-03b6-4097-a489-bb0f8f706769",
         "fad81f68-b8a8-4a80-961c-26c7f7cca413",
         "e5ccbc0d-47a2-43eb-8585-20bebfd5dfd9",
@@ -27,7 +25,9 @@
         "292a1ba7-2f45-4485-8c82-c9af2a394db4",
         "f627c996-6293-4474-8d0b-72da8077d051",
         "7b2db766-e219-4261-96db-3e493f8bff33",
-        "304faaa9-32e5-4028-9d1f-0db80cd80b2d"
+        "304faaa9-32e5-4028-9d1f-0db80cd80b2d",
+        "6da4bf5f-0960-4085-8f0d-0bc71bccb3a9",
+        "ba7c4d75-9de2-40ee-ab0d-82fa4b14215f"
     ],
     "IsDnD": false,
     "layers": [
@@ -81,6 +81,32 @@
             "modelName": "GMRInstanceLayer",
             "mvc": "1.0",
             "userdefined_depth": true,
+            "visible": true
+        },
+        {
+            "__type": "GMRInstanceLayer_Model:#YoYoStudio.MVCFormat",
+            "name": "touch",
+            "id": "92bfedfd-8bb3-4613-b4df-0d6d5bd12755",
+            "depth": -924,
+            "grid_x": 32,
+            "grid_y": 32,
+            "hierarchyFrozen": false,
+            "hierarchyVisible": true,
+            "inheritLayerDepth": false,
+            "inheritLayerSettings": false,
+            "inheritSubLayers": false,
+            "inheritVisibility": false,
+            "instances": [
+
+            ],
+            "layers": [
+
+            ],
+            "m_parentID": "00000000-0000-0000-0000-000000000000",
+            "m_serialiseFrozen": false,
+            "modelName": "GMRInstanceLayer",
+            "mvc": "1.0",
+            "userdefined_depth": false,
             "visible": true
         },
         {

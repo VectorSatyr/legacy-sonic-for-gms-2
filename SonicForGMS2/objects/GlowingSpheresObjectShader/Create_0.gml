@@ -1,6 +1,4 @@
-/// @description  Initialize
-image_speed = 0;
-
+/// @description Initialize
 shader = PaletteShd;
 previous_shader = -1;
 
@@ -18,3 +16,6 @@ size[0] = texture_get_texel_width(texture);
 size[1] = texture_get_texel_height(texture);
 index = 0;
 tolerance = 0.004;
+
+total_colors = sprite_height - 1;
+flicker_rate = 2;

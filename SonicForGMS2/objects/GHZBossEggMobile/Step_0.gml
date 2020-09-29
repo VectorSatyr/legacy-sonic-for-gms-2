@@ -108,9 +108,7 @@ if (game_is_running()) {
         if (destroy_time mod 6 == 0) {
             var ox = x + irandom_range(-24, 24);
             var oy = y + irandom_range(-24, 24);
-            with (SpriteParticles) {
-                part_particles_create(system, ox, oy, heavy_explosion, 1);
-            }
+			game_particles_spawn("heavy_explosion", ox, oy);
             game_audio_play_sound(BossExplosionSound);
         }
         if (destroy_time <= 0) {

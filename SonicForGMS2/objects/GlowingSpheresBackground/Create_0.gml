@@ -23,9 +23,9 @@ tolerance = 0.004;
 var back = GlowingSpheresBack;
 var width = sprite_get_width(back);
 
-hscroll = ((room_width - width) / (room_width - CAMERA_WIDTH));
+hscroll = (room_width - width) / (room_width - CAMERA_WIDTH);
 
-parallax = game_parallax_add_sprite_layer(back, 0, 0.25, 0, 0, false, true, hscroll, 1);
+parallax = game_parallax_add_sprite(back, 0, 0.25, 0, 0, false, true, hscroll, 1);
 parallax.visible = false;
 
 anim_frame = 0;

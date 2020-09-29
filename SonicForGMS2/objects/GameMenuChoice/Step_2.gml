@@ -1,3 +1,2 @@
-/// @description  Reveal on correct page
+/// @description  Reveal (on correct page)
 visible = (owner.enabled);
-

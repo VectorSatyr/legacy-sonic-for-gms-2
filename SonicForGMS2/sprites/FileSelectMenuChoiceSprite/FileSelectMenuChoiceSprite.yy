@@ -16,24 +16,31 @@
     "edgeFiltering": false,
     "frames": [
         {
-            "id": "0312a31b-4ceb-4115-acaa-0adb69b74ddc",
+            "id": "ed587b60-8385-4d36-9580-957ee5714c36",
             "modelName": "GMSpriteFrame",
             "mvc": "1.0",
             "SpriteId": "cd2cf999-7695-4293-9306-0eca63d9b86c",
             "compositeImage": {
-                "id": "3809a4e5-6732-45a2-8a3a-b8a50deb0cff",
+                "id": "a9d89d11-8c0d-4aa7-ae16-90fd21971451",
                 "modelName": "GMSpriteImage",
                 "mvc": "1.0",
-                "FrameId": "0312a31b-4ceb-4115-acaa-0adb69b74ddc",
+                "FrameId": "ed587b60-8385-4d36-9580-957ee5714c36",
                 "LayerId": "00000000-0000-0000-0000-000000000000"
             },
             "images": [
                 {
-                    "id": "418c8a9b-d8a7-487f-9327-ee9c2eb88778",
+                    "id": "475ce8ef-b76a-4e2f-909d-a110912340f4",
                     "modelName": "GMSpriteImage",
                     "mvc": "1.0",
-                    "FrameId": "0312a31b-4ceb-4115-acaa-0adb69b74ddc",
+                    "FrameId": "ed587b60-8385-4d36-9580-957ee5714c36",
                     "LayerId": "15d53c7b-c07d-4f7d-9879-0cc20cef459a"
+                },
+                {
+                    "id": "02bb0a1c-80f7-41f0-9939-48aaad8e0a45",
+                    "modelName": "GMSpriteImage",
+                    "mvc": "1.0",
+                    "FrameId": "ed587b60-8385-4d36-9580-957ee5714c36",
+                    "LayerId": "e74b495b-ff17-409b-8154-bb83bacf6640"
                 }
             ]
         }
@@ -51,6 +58,17 @@
             "isLocked": false,
             "name": "default",
             "opacity": 100,
+            "visible": true
+        },
+        {
+            "id": "e74b495b-ff17-409b-8154-bb83bacf6640",
+            "modelName": "GMImageLayer",
+            "mvc": "1.0",
+            "SpriteId": "cd2cf999-7695-4293-9306-0eca63d9b86c",
+            "blendMode": 0,
+            "isLocked": false,
+            "name": "shadow",
+            "opacity": 50,
             "visible": true
         }
     ],

@@ -11,9 +11,7 @@ case "checking":
 
 case "entering":
     game_player_change_rings(owner, 1);
-    with (SpriteParticles) {
-        part_particles_create(system, ind.x, ind.y, ring_sparkle, 1);
-    }
+	game_particles_spawn("ring_sparkle", ind.x, ind.y);
     instance_destroy(ind);
     break;
 

@@ -1,7 +1,7 @@
 /// @description  Setup
 
 postBlack = instance_create_layer(0, 0, "gui", AnimatedGameSign);
-postBlack.sprite_index = ZoneTitleS2PixelSprite;
+postBlack.sprite_index = SolidPixelSprite;
 game_sign_add_moment(postBlack, blackDuration, 0, 0, 0, CAMERA_WIDTH, CAMERA_HEIGHT, 0, c_black, 1);
 
 

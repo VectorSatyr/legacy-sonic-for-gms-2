@@ -1,2 +1,5 @@
-/// @description  Reveal
-event_user(0);
+/// @description Reveal
+if (visible)
+{
+	event_user(0);
+}

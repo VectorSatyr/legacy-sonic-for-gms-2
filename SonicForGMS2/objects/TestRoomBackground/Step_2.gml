@@ -1,5 +1,5 @@
-/// @description  Update water height
-if (game_is_running()) {
+/// @description Position
+if (game_is_running())
+{
     event_user(0);
 }
-

@@ -1,12 +1,9 @@
-/// @description  Setup
-
-// background animation
-var back = game_parallax_add_sprite_layer(MenuBackgroundSprite, 0, 0, 0, 0, true, true);
+/// @description Setup
+var back = game_parallax_add_sprite(MenuBackgroundSprite, 0, 0, 0, 0, true, true);
 timeline_set(back, MenuBackgroundAnim);
 
 var center_x = CAMERA_WIDTH * 0.5;
 
-// title
 var title = instance_create_layer(center_x, CAMERA_HEIGHT - 24, "gui", LabeledGameSign);
 title.label = "FILE SELECT";
 title.font = global.GaslightFont;
@@ -19,7 +16,6 @@ title_shadow.label = "FILE SELECT";
 title_shadow.font = global.GaslightFont;
 title_shadow.halign = fa_center;
 
-// finished
 game_screen_fade_in(BlackFadeShd, 22);
 game_window_update_ports(1);
 game_audio_enqueue_music(MenuScreenMusic, 2, true);

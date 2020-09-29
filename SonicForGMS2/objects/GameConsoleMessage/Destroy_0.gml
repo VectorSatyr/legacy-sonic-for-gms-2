@@ -1,10 +1,10 @@
 /// @description  Dequeue
-with (next) {
+with (next)
+{
     previous = other.previous;
 }
-
-with (previous) {
+with (previous)
+{
     next = other.next;
-    y += (string_height(string_hash_to_newline(text)) + separation);
+    y += (string_height(text) + separation);
 }
-
