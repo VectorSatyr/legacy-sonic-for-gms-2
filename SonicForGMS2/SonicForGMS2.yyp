@@ -2343,6 +2343,14 @@
             }
         },
         {
+            "Key": "39d6e7bd-b618-4d0a-9440-2c21e76d2a9e",
+            "Value": {
+                "id": "fe83ce1c-5bdf-415a-a744-dbba6b549fb5",
+                "resourcePath": "sounds\\InvincibilityMusic\\InvincibilityMusic.yy",
+                "resourceType": "GMSound"
+            }
+        },
+        {
             "Key": "39f4bea1-6b4c-485a-9a82-d2aedcaa3acb",
             "Value": {
                 "id": "47436d29-e245-4f9f-80d1-90a875c1119b",
@@ -3236,14 +3244,6 @@
                 "id": "5a1619b6-6d3b-43f9-83b5-8588b844af4b",
                 "resourcePath": "timelines\\TailsSpinDashAnim\\TailsSpinDashAnim.yy",
                 "resourceType": "GMTimeline"
-            }
-        },
-        {
-            "Key": "4d77d45b-bdd2-497f-94db-5a32323a7120",
-            "Value": {
-                "id": "27bc94c8-2d0b-40b1-a830-bca459f8e031",
-                "resourcePath": "datafiles_yy\\Audio\\InvincibilityMusic.ogg.yy",
-                "resourceType": "GMIncludedFile"
             }
         },
         {

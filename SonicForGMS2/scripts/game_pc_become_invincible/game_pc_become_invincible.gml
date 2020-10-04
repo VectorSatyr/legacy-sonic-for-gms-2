@@ -22,7 +22,7 @@ with (character)
         }
         if (owner.index == 0) // player 1 only
 		{
-            invincibility_music = game_audio_enqueue_music_timed_fmod("InvincibilityMusic", time);
+            invincibility_music = game_audio_enqueue_music_timed(InvincibilityMusic, time);
         }
     }
 }
