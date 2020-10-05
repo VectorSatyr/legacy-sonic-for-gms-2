@@ -2479,6 +2479,14 @@
             }
         },
         {
+            "Key": "3c9ed05e-0ed5-4f6b-9964-0be17cdd4f70",
+            "Value": {
+                "id": "4aeb1c43-b896-4c1b-b2ca-875853e0e541",
+                "resourcePath": "sounds\\BonusStageMusic\\BonusStageMusic.yy",
+                "resourceType": "GMSound"
+            }
+        },
+        {
             "Key": "3d17007a-157b-4901-a0af-6d2b88c896e9",
             "Value": {
                 "id": "5a0541dc-ef47-4b15-bc03-8cefb70952ba",
@@ -9204,14 +9212,6 @@
                 "id": "aff44a4f-738d-424e-bbe7-7940580d3c04",
                 "resourcePath": "objects\\AppViewports\\AppViewports.yy",
                 "resourceType": "GMObject"
-            }
-        },
-        {
-            "Key": "e1cd819a-7a19-4702-ad68-d7cf51efca50",
-            "Value": {
-                "id": "ce69dca0-2436-4e6e-80e6-b5928770c1fd",
-                "resourcePath": "datafiles_yy\\Audio\\BonusStageMusic.ogg.yy",
-                "resourceType": "GMIncludedFile"
             }
         },
         {

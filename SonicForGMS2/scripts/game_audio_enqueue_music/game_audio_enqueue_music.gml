@@ -5,7 +5,8 @@
 /// @returns {real} instance index of GMSGameMusic
 var priority = 0;
 var loops = false;
-switch (argument_count) {
+switch (argument_count)
+{
 case 3: var loops = argument[2];
 case 2: var priority = argument[1];
 default:
@@ -17,8 +18,16 @@ music.soundid = soundid;
 music.priority = priority;
 music.loops = loops;
 
-with (GameMusic) {
-    if (id != music and next == noone) {
+with (GMSAudioSystem)
+{
+	if (ds_map_exists(intro_length, soundid)) music.intro_length = intro_length[? soundid];
+	if (ds_map_exists(loop_length, soundid)) music.loop_length = loop_length[? soundid];
+}
+
+with (GameMusic)
+{
+    if (id != music and next == noone)
+	{
         event_user(1);
         next = music;
         music.previous = id;
