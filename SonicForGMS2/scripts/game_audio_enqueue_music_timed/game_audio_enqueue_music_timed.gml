@@ -1,9 +1,9 @@
-/// @description Starts music playback and 'queues' it using an instance of GMSTimedGameMusic; destroying this instance will automatically cause the last 'queued' music to start again (it will automatically destroy itself after it has finished playing)
+/// @description Starts music playback and 'queues' it using an instance of TimedGameMusic; destroying this instance will automatically cause the last 'queued' music to start again (it will automatically destroy itself after it has finished playing)
 /// @argument {real} soundid sound index
 /// @argument {real} time (optional) playback duration in steps
 /// @argument {real} priority (optional) channel priority; lower priority sounds may be cut off
 /// @argument {boolean} loops (optional) whether or not the music repeats indefinitely
-/// @returns {real} instance index of GMSTimedGameMusic
+/// @returns {real} instance index of TimedGameMusic
 var time = undefined;
 var priority = 0;
 var loops = false;
@@ -16,13 +16,14 @@ default:
     var soundid = argument[0];
 }
 
-var music = instance_create_layer(0, 0, "general", GMSTimedGameMusic);
+var music = instance_create_layer(0, 0, "general", TimedGameMusic);
+
 music.soundid = soundid;
 music.priority = priority;
 music.loops = loops;
 music.time = (is_undefined(time)) ? audio_sound_length(soundid) * room_speed : time;
 
-with (GMSAudioSystem)
+with (GameAudioSystem)
 {
 	if (ds_map_exists(intro_length, soundid)) music.intro_length = intro_length[? soundid];
 	if (ds_map_exists(loop_length, soundid)) music.loop_length = loop_length[? soundid];

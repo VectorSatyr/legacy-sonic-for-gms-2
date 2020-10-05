@@ -1,4 +1,4 @@
-/// @description  Initialize
+/// @description Initialize
 image_speed = 0;
 soundid = -1;
 priority = 0;
@@ -9,4 +9,5 @@ index = -1;
 position = 0;
 next = noone;
 previous = noone;
-
+intro_length = 0;
+loop_length = 0;

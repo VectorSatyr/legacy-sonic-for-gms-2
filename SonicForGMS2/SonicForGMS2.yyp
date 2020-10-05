@@ -474,7 +474,7 @@
             "Key": "0a358b63-ebf5-41db-9b9e-21d0d623d6c4",
             "Value": {
                 "id": "3218d35d-ae5f-4998-908e-63d6ff366b17",
-                "resourcePath": "objects\\GMSTimedGameMusic\\GMSTimedGameMusic.yy",
+                "resourcePath": "objects\\TimedGameMusic\\TimedGameMusic.yy",
                 "resourceType": "GMObject"
             }
         },
@@ -492,14 +492,6 @@
                 "id": "999a79c4-b8b3-4da1-b6ed-4a63ee95b29d",
                 "resourcePath": "views\\0a5ecb31-a4c7-4866-bb9c-4231273c9d9a.yy",
                 "resourceType": "GMFolder"
-            }
-        },
-        {
-            "Key": "0a92d1a4-13ad-4631-aed5-87ac6a00aa2b",
-            "Value": {
-                "id": "da229e2a-b93d-4664-bc28-ae3c037147c3",
-                "resourcePath": "extensions\\FMODGMS\\FMODGMS.yy",
-                "resourceType": "GMExtension"
             }
         },
         {
@@ -1431,22 +1423,6 @@
             }
         },
         {
-            "Key": "211ab6ca-37c2-4d19-9c77-1d421f28d301",
-            "Value": {
-                "id": "3cff1e69-f90c-44be-8521-cc3127904234",
-                "resourcePath": "views\\211ab6ca-37c2-4d19-9c77-1d421f28d301.yy",
-                "resourceType": "GMFolder"
-            }
-        },
-        {
-            "Key": "214f4c73-948d-42e0-8d3a-2224b5f160a2",
-            "Value": {
-                "id": "c234a1f2-57bb-4197-96cf-af666260d537",
-                "resourcePath": "scripts\\game_audio_resume_all\\game_audio_resume_all.yy",
-                "resourceType": "GMScript"
-            }
-        },
-        {
             "Key": "21ae0102-98cb-43a7-a1f7-354db1d0164c",
             "Value": {
                 "id": "a1517049-5287-408c-bd2e-da186e44b533",
@@ -1799,14 +1775,6 @@
             }
         },
         {
-            "Key": "2c7925ae-ece0-46ed-ad16-8ce10f9bf534",
-            "Value": {
-                "id": "3b480d5e-8d41-4d9d-ba23-2b3bfa51c6fd",
-                "resourcePath": "objects\\GameMusic\\GameMusic.yy",
-                "resourceType": "GMObject"
-            }
-        },
-        {
             "Key": "2c850950-5d6e-42ae-bfcf-29143f42a935",
             "Value": {
                 "id": "f72b1f63-38a5-4580-99d5-78ff1dbdf20d",
@@ -2095,14 +2063,6 @@
             }
         },
         {
-            "Key": "350fb3fb-a184-4061-b5a2-b327844756ba",
-            "Value": {
-                "id": "51880c57-fa92-4f0f-9369-0e278d0e8ecf",
-                "resourcePath": "views\\350fb3fb-a184-4061-b5a2-b327844756ba.yy",
-                "resourceType": "GMFolder"
-            }
-        },
-        {
             "Key": "3517c50c-2fc6-4df0-832e-b648572f46ab",
             "Value": {
                 "id": "68e0cd35-60d4-4c49-a3d9-e31d220a43ae",
@@ -2116,14 +2076,6 @@
                 "id": "dbfd7160-c085-45d0-a524-6cbfb0807b2c",
                 "resourcePath": "timelines\\AquaShieldBounceAnim\\AquaShieldBounceAnim.yy",
                 "resourceType": "GMTimeline"
-            }
-        },
-        {
-            "Key": "35644b63-1fc0-46a5-b362-deaeeab542c9",
-            "Value": {
-                "id": "c75f28d2-57d2-4ad9-b238-4f3411ff2cfd",
-                "resourcePath": "objects\\FMODGameMusic\\FMODGameMusic.yy",
-                "resourceType": "GMObject"
             }
         },
         {
@@ -2458,7 +2410,7 @@
             "Key": "3bd2059d-d32d-4476-9e5b-a3ec77296d78",
             "Value": {
                 "id": "773a7885-8c99-437d-be24-03bccc4997b0",
-                "resourcePath": "objects\\GMSJingle\\GMSJingle.yy",
+                "resourcePath": "objects\\GameMusicJingle\\GameMusicJingle.yy",
                 "resourceType": "GMObject"
             }
         },
@@ -3911,14 +3863,6 @@
             }
         },
         {
-            "Key": "5e5e4aa3-aa2d-4386-b691-e176c856ef55",
-            "Value": {
-                "id": "1d212e7b-4610-4ec2-b260-3e7b7959ecd2",
-                "resourcePath": "views\\5e5e4aa3-aa2d-4386-b691-e176c856ef55.yy",
-                "resourceType": "GMFolder"
-            }
-        },
-        {
             "Key": "5e71eef1-0027-430e-9809-268b9d5d9354",
             "Value": {
                 "id": "9fdb7943-510a-497b-b45a-8f115d83d9df",
@@ -4090,7 +4034,7 @@
             "Key": "6117d2cf-4071-44e5-8ef8-6cba17a34c6e",
             "Value": {
                 "id": "c34a7be0-3f94-4306-baa2-2815aab969f5",
-                "resourcePath": "objects\\GMSGameMusic\\GMSGameMusic.yy",
+                "resourcePath": "objects\\GameMusic\\GameMusic.yy",
                 "resourceType": "GMObject"
             }
         },
@@ -4612,14 +4556,6 @@
                 "id": "e75bf87a-e442-45bb-a13d-92593f818fe2",
                 "resourcePath": "objects\\HorizontalMovingBlock\\HorizontalMovingBlock.yy",
                 "resourceType": "GMObject"
-            }
-        },
-        {
-            "Key": "70d2f3c7-4572-44bf-b7af-91b99279b86e",
-            "Value": {
-                "id": "65799478-72f4-48b3-b6f9-2cd60200ddad",
-                "resourcePath": "views\\70d2f3c7-4572-44bf-b7af-91b99279b86e.yy",
-                "resourceType": "GMFolder"
             }
         },
         {
@@ -5551,14 +5487,6 @@
             }
         },
         {
-            "Key": "87dc3da1-1023-41c6-9589-fd772ac25d7e",
-            "Value": {
-                "id": "e62de3c9-2183-452c-8ee8-0016d98e39dd",
-                "resourcePath": "scripts\\game_audio_enqueue_music_timed_fmod\\game_audio_enqueue_music_timed_fmod.yy",
-                "resourceType": "GMScript"
-            }
-        },
-        {
             "Key": "8830078e-33a3-434f-a7f7-0d50fb84ad83",
             "Value": {
                 "id": "e06b8c37-f0a7-461b-8eee-a1c0172f93b4",
@@ -5586,7 +5514,7 @@
             "Key": "88bfa4d3-4480-4178-85d1-72edf9fe39be",
             "Value": {
                 "id": "903987e6-2215-4bfb-9414-2992fd9e05ae",
-                "resourcePath": "objects\\GMSAudioSystem\\GMSAudioSystem.yy",
+                "resourcePath": "objects\\GameAudioSystem\\GameAudioSystem.yy",
                 "resourceType": "GMObject"
             }
         },
@@ -5871,14 +5799,6 @@
             }
         },
         {
-            "Key": "8ef93135-8547-4bbd-a54b-b040bea75550",
-            "Value": {
-                "id": "c4f848a3-8469-460b-b957-1570f7ebd736",
-                "resourcePath": "scripts\\game_audio_enqueue_music_fmod\\game_audio_enqueue_music_fmod.yy",
-                "resourceType": "GMScript"
-            }
-        },
-        {
             "Key": "8efb63a8-fa45-4609-9e12-86774489dc84",
             "Value": {
                 "id": "779ff748-9765-4dbf-bffb-ed1aeb8dbb27",
@@ -5948,14 +5868,6 @@
                 "id": "74a9fd78-1439-4723-a495-a61a5ab7a2be",
                 "resourcePath": "timelines\\KnucklesStunnedAnim\\KnucklesStunnedAnim.yy",
                 "resourceType": "GMTimeline"
-            }
-        },
-        {
-            "Key": "90850c1e-018d-4d47-8987-4e0a3daf9c95",
-            "Value": {
-                "id": "98c29376-94d4-4272-ab93-3c16d8a5dd8d",
-                "resourcePath": "scripts\\game_audio_fmod_add_sound\\game_audio_fmod_add_sound.yy",
-                "resourceType": "GMScript"
             }
         },
         {
@@ -6271,14 +6183,6 @@
             }
         },
         {
-            "Key": "96c39bb3-4985-49e8-add7-5da5eab52666",
-            "Value": {
-                "id": "9d1b50fd-c37f-43e5-a908-3db428c1490a",
-                "resourcePath": "views\\96c39bb3-4985-49e8-add7-5da5eab52666.yy",
-                "resourceType": "GMFolder"
-            }
-        },
-        {
             "Key": "96d528bd-1da3-4986-817d-e5e7ecd34a98",
             "Value": {
                 "id": "fb20a927-774b-425a-a8e7-82e333dbbcd4",
@@ -6548,14 +6452,6 @@
                 "id": "5ec1487a-26e1-4dc1-ba02-12accc06b641",
                 "resourcePath": "scripts\\player_is_defeated\\player_is_defeated.yy",
                 "resourceType": "GMScript"
-            }
-        },
-        {
-            "Key": "9da1ae85-68b6-422f-9280-fefbb7c5f889",
-            "Value": {
-                "id": "20515dd1-b64a-4f86-9ddd-5d1bd741394b",
-                "resourcePath": "objects\\FMODAudioSystem\\FMODAudioSystem.yy",
-                "resourceType": "GMObject"
             }
         },
         {
@@ -7679,14 +7575,6 @@
             }
         },
         {
-            "Key": "bb98ab02-4e61-4824-a679-0df7db4077c0",
-            "Value": {
-                "id": "8de14311-78e6-49f1-b538-8384c59ac2ff",
-                "resourcePath": "objects\\FMODTimedGameMusic\\FMODTimedGameMusic.yy",
-                "resourceType": "GMObject"
-            }
-        },
-        {
             "Key": "bb9e61cb-ddd2-4aeb-a693-1898174eb6bf",
             "Value": {
                 "id": "a8cb0ff8-be7d-4d55-b654-cd1e3bb93ea7",
@@ -7724,14 +7612,6 @@
                 "id": "b447a74a-0bad-4aa1-8b25-5754f1074bf8",
                 "resourcePath": "sprites\\SolidPixelSprite\\SolidPixelSprite.yy",
                 "resourceType": "GMSprite"
-            }
-        },
-        {
-            "Key": "bc7d5b55-8e17-44c1-86b3-cb72dea5edfe",
-            "Value": {
-                "id": "1700e633-0d34-4e2a-bd1e-f94379a56118",
-                "resourcePath": "scripts\\game_audio_play_fmod\\game_audio_play_fmod.yy",
-                "resourceType": "GMScript"
             }
         },
         {
@@ -8567,14 +8447,6 @@
             }
         },
         {
-            "Key": "d1e4ac9e-362b-4faf-bd15-537b2fe54cc2",
-            "Value": {
-                "id": "4c03a885-5b8c-45c6-bede-3da19e136498",
-                "resourcePath": "views\\d1e4ac9e-362b-4faf-bd15-537b2fe54cc2.yy",
-                "resourceType": "GMFolder"
-            }
-        },
-        {
             "Key": "d215b39e-a568-4997-9c19-ea9bc8834441",
             "Value": {
                 "id": "4f4c28da-311e-4cb1-b0b8-85924ddea2c9",
@@ -8812,14 +8684,6 @@
                 "id": "cda9b4a5-d8cc-4297-9fab-d1adc3410dc3",
                 "resourcePath": "views\\d6e2bdb3-35d9-4ccc-a3ed-db66075c5c90.yy",
                 "resourceType": "GMFolder"
-            }
-        },
-        {
-            "Key": "d723d2db-b702-4754-8756-b0285a742bf7",
-            "Value": {
-                "id": "064b1b7b-8b90-4b34-ac95-2fa4bcf243da",
-                "resourcePath": "objects\\GameAudioSystem\\GameAudioSystem.yy",
-                "resourceType": "GMObject"
             }
         },
         {
@@ -9252,14 +9116,6 @@
                 "id": "c63d808e-8a81-4c15-84f7-229fdaa781c3",
                 "resourcePath": "views\\e301da1d-fe96-4ee0-9d02-38bb595fe873.yy",
                 "resourceType": "GMFolder"
-            }
-        },
-        {
-            "Key": "e33799da-7e10-4446-8abc-f01036a92f7f",
-            "Value": {
-                "id": "5830956d-f3f2-4a49-a200-e65b2aeeccda",
-                "resourcePath": "scripts\\game_audio_pause_all\\game_audio_pause_all.yy",
-                "resourceType": "GMScript"
             }
         },
         {
@@ -10263,18 +10119,12 @@
         "97c3c612-7cab-450f-bebb-bbdcc98c8792",
         "19df8ef4-2cee-49db-a133-630b336ba7f5",
         "285b96a7-a7fb-480e-9358-b173898321ff",
-        "bc7d5b55-8e17-44c1-86b3-cb72dea5edfe",
         "d1b72fa6-9f5b-4b85-99a8-4da64f2a2086",
         "d215b39e-a568-4997-9c19-ea9bc8834441",
+        "fbdbbc3f-8d12-489d-988d-2ca443fdbb5d",
         "1c90e3d7-5737-4f2f-b577-fc7490f968dd",
         "d771fe07-8ddd-4077-af02-234f52dedc2a",
-        "8ef93135-8547-4bbd-a54b-b040bea75550",
         "89a0bc94-5f93-494e-b270-b3b04cd1fdcc",
-        "87dc3da1-1023-41c6-9589-fd772ac25d7e",
-        "fbdbbc3f-8d12-489d-988d-2ca443fdbb5d",
-        "90850c1e-018d-4d47-8987-4e0a3daf9c95",
-        "e33799da-7e10-4446-8abc-f01036a92f7f",
-        "214f4c73-948d-42e0-8d3a-2224b5f160a2",
         "b4c0dc38-eeaf-4d8d-84f2-015f6d92e6b7",
         "7d576b8a-3fe9-4681-ba3d-746d82c6aaf1",
         "c8bcdf06-3d14-4151-98db-042935a2788f",

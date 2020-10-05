@@ -2,7 +2,7 @@
     "id": "3bd2059d-d32d-4476-9e5b-a3ec77296d78",
     "modelName": "GMObject",
     "mvc": "1.0",
-    "name": "GMSJingle",
+    "name": "GameMusicJingle",
     "eventList": [
         {
             "id": "09676792-4a4e-40ca-88c0-83e776941fdf",
