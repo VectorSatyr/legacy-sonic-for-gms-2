@@ -3239,14 +3239,6 @@
             }
         },
         {
-            "Key": "4d43b10a-9ea3-40bc-9239-89492cf0b340",
-            "Value": {
-                "id": "916c18a4-4047-43c5-bc66-08c3e9f4caec",
-                "resourcePath": "views\\4d43b10a-9ea3-40bc-9239-89492cf0b340.yy",
-                "resourceType": "GMFolder"
-            }
-        },
-        {
             "Key": "4d6ac0c4-ab13-495b-85f1-fdf661bed914",
             "Value": {
                 "id": "5a1619b6-6d3b-43f9-83b5-8588b844af4b",
@@ -5348,6 +5340,14 @@
                 "id": "d5800c7f-930d-4b3d-afba-ca3d38dab81f",
                 "resourcePath": "scripts\\game_pc_gain_shield\\game_pc_gain_shield.yy",
                 "resourceType": "GMScript"
+            }
+        },
+        {
+            "Key": "823793d9-b7f5-42eb-bafb-cc7385766e8f",
+            "Value": {
+                "id": "3d492529-0590-4942-8cd1-49731503304c",
+                "resourcePath": "sounds\\Studiopolis1Music\\Studiopolis1Music.yy",
+                "resourceType": "GMSound"
             }
         },
         {
@@ -7772,14 +7772,6 @@
                 "id": "88af6424-e855-46ad-be7b-0d8517981f8a",
                 "resourcePath": "sprites\\FlameShieldDashSprite\\FlameShieldDashSprite.yy",
                 "resourceType": "GMSprite"
-            }
-        },
-        {
-            "Key": "bd7a3ea8-fa35-46da-afac-b91532de3c7b",
-            "Value": {
-                "id": "c9e1eac1-89fb-40b7-abb3-5fed6b647510",
-                "resourcePath": "datafiles_yy\\Audio\\Studiopolis1Music.ogg.yy",
-                "resourceType": "GMIncludedFile"
             }
         },
         {
