@@ -4,10 +4,11 @@
     "mvc": "1.1",
     "name": "6674b374-a72e-4292-b256-e41f42624669",
     "children": [
-        "96c39bb3-4985-49e8-add7-5da5eab52666",
-        "211ab6ca-37c2-4d19-9c77-1d421f28d301",
-        "d1e4ac9e-362b-4faf-bd15-537b2fe54cc2",
-        "350fb3fb-a184-4061-b5a2-b327844756ba"
+        "9435d0f0-0a0e-4f97-a5d9-df1519e9df15",
+        "88bfa4d3-4480-4178-85d1-72edf9fe39be",
+        "6117d2cf-4071-44e5-8ef8-6cba17a34c6e",
+        "3bd2059d-d32d-4476-9e5b-a3ec77296d78",
+        "0a358b63-ebf5-41db-9b9e-21d0d623d6c4"
     ],
     "filterType": "GMObject",
     "folderName": "Audio",

@@ -1,2 +1,2 @@
-music = "BonusStageMusic";
+music = BonusStageMusic;
 display = BonusStageDisplay;
