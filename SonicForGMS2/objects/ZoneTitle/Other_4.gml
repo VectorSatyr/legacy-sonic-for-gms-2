@@ -16,33 +16,33 @@ game_sign_add_moment(postBlack, yellowLayerWait, 0, 0, 0, CAMERA_WIDTH, CAMERA_H
 postBlueLayer = instance_create_layer(0, 0, "gui", AnimatedGameSign);
 postBlueLayer.sprite_index = SolidPixelSprite;
 postBlueLayer.depth = depth - 1;
-game_sign_add_moment(postBlueLayer, blueLayerEnterDuration, 0, 0, 0, CAMERA_WIDTH, 0, 0, colorBlue, 1);
-game_sign_add_moment(postBlueLayer, blueLayerExitDuration, blueLayerWait, 0, 0, CAMERA_WIDTH, CAMERA_HEIGHT, 0, colorBlue, 1);
-game_sign_add_moment(postBlueLayer, 0, 0, 0, 0, CAMERA_WIDTH, 0, 0, colorBlue, 1);
+game_sign_add_moment(postBlueLayer, blueLayerEnterDuration, 0, 0, 0, CAMERA_WIDTH, 0, 0, characterColor, 1);
+game_sign_add_moment(postBlueLayer, blueLayerExitDuration, blueLayerWait, 0, 0, CAMERA_WIDTH, CAMERA_HEIGHT, 0, characterColor, 1);
+game_sign_add_moment(postBlueLayer, 0, 0, 0, 0, CAMERA_WIDTH, 0, 0, characterColor, 1);
 
 
 postYellowLayer = instance_create_layer(0, 0, "gui", AnimatedGameSign);
 postYellowLayer.sprite_index = SolidPixelSprite;
 postYellowLayer.depth = depth - 2;
-game_sign_add_moment(postYellowLayer, yellowLayerEnterDuration, 0, CAMERA_WIDTH + (yellowLayerEnterSpeed * 4), CAMERA_HEIGHT - yellowLayerHeight, 0, yellowLayerHeight, 0, colorYellow, 1);
-game_sign_add_moment(postYellowLayer, yellowLayerExitDuration, yellowLayerWait, 0, CAMERA_HEIGHT - yellowLayerHeight, CAMERA_WIDTH, yellowLayerHeight, 0, colorYellow, 1);
-game_sign_add_moment(postYellowLayer, 0, 0, CAMERA_WIDTH, CAMERA_HEIGHT - yellowLayerHeight, 0, yellowLayerHeight, 0, colorYellow, 1);
+game_sign_add_moment(postYellowLayer, yellowLayerEnterDuration, 0, CAMERA_WIDTH + (yellowLayerEnterSpeed * 4), CAMERA_HEIGHT - yellowLayerHeight, 0, yellowLayerHeight, 0, yellowLayerColor, 1);
+game_sign_add_moment(postYellowLayer, yellowLayerExitDuration, yellowLayerWait, 0, CAMERA_HEIGHT - yellowLayerHeight, CAMERA_WIDTH, yellowLayerHeight, 0, yellowLayerColor, 1);
+game_sign_add_moment(postYellowLayer, 0, 0, CAMERA_WIDTH, CAMERA_HEIGHT - yellowLayerHeight, 0, yellowLayerHeight, 0, yellowLayerColor, 1);
 
 
 postGameName = instance_create_layer(0, 0, "gui", AnimatedGameSign);
-postGameName.sprite_index = ZoneTitleS2GameNameSprite;
+postGameName.sprite_index = characterNameSprite;
 postGameName.depth = depth - 3;
-game_sign_add_moment(postGameName, yellowLayerEnterDuration, 0, gameNameX + CAMERA_WIDTH + (yellowLayerEnterSpeed * 4), gameNameY, 1, 1, 0, c_white, 1);
-game_sign_add_moment(postGameName, yellowLayerExitDuration, yellowLayerWait, gameNameX, gameNameY, 1, 1, 0, c_white, 1);
-game_sign_add_moment(postGameName, 0, 0, gameNameX + CAMERA_WIDTH, gameNameY, 1, 1, 0, c_white, 1);
+game_sign_add_moment(postGameName, yellowLayerEnterDuration, 0, characterNameX + CAMERA_WIDTH + (yellowLayerEnterSpeed * 4), characterNameY, 1, 1, 0, c_white, 1);
+game_sign_add_moment(postGameName, yellowLayerExitDuration, yellowLayerWait, characterNameX, characterNameY, 1, 1, 0, c_white, 1);
+game_sign_add_moment(postGameName, 0, 0, characterNameX + CAMERA_WIDTH, characterNameY, 1, 1, 0, c_white, 1);
 
 
 postRedLayer = instance_create_layer(0, 0, "gui", AnimatedGameSign);
 postRedLayer.sprite_index = SolidPixelSprite;
 postRedLayer.depth = depth - 4;
-game_sign_add_moment(postRedLayer, redLayerEnterDuration, 0, 0, 0, redLayerX - (CAMERA_WIDTH + (redLayerEnterSpeed * 4)), CAMERA_HEIGHT, 0, colorRed, 1);
-game_sign_add_moment(postRedLayer, redLayerExitDuration, redLayerWait, 0, 0, redLayerX, CAMERA_HEIGHT, 0, colorRed, 1);
-game_sign_add_moment(postRedLayer, 0, 0, 0, 0, 0, CAMERA_HEIGHT, 0, colorRed, 1);
+game_sign_add_moment(postRedLayer, redLayerEnterDuration, 0, 0, 0, redLayerX - (CAMERA_WIDTH + (redLayerEnterSpeed * 4)), CAMERA_HEIGHT, 0, redLayerColor, 1);
+game_sign_add_moment(postRedLayer, redLayerExitDuration, redLayerWait, 0, 0, redLayerX, CAMERA_HEIGHT, 0, redLayerColor, 1);
+game_sign_add_moment(postRedLayer, 0, 0, 0, 0, 0, CAMERA_HEIGHT, 0, redLayerColor, 1);
 
 
 postRedBorder = instance_create_layer(0, 0, "gui", ZoneTitleRedFold);

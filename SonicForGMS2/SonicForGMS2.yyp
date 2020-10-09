@@ -2223,6 +2223,14 @@
             }
         },
         {
+            "Key": "38101e27-1a20-4e50-9cef-b7d507cb57bb",
+            "Value": {
+                "id": "8934ec03-26cc-4183-80a5-9763ec855394",
+                "resourcePath": "sprites\\ZoneTitleS2TailsNameSprite\\ZoneTitleS2TailsNameSprite.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "38103325-f77d-4d19-b55e-8d6b5c390e58",
             "Value": {
                 "id": "0784a260-bfb6-4c31-8d31-c34ee6461de1",
@@ -5887,6 +5895,14 @@
             }
         },
         {
+            "Key": "90a2ff4d-4c09-4b26-a550-cf7414b2b3bb",
+            "Value": {
+                "id": "f286993e-d28a-4b35-b302-f8e49c5ceaba",
+                "resourcePath": "sprites\\ZoneTitleS2KnucklesNameSprite\\ZoneTitleS2KnucklesNameSprite.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "90ab4437-cea4-4e8d-a65b-960745912149",
             "Value": {
                 "id": "be923607-3026-4a72-b4dc-ad5f8538b8e8",
@@ -9530,7 +9546,7 @@
             "Key": "ee9e13e3-6db6-41ca-86e1-8055435421e5",
             "Value": {
                 "id": "ced648d2-1157-4c02-b6d0-d5a68ff09501",
-                "resourcePath": "sprites\\ZoneTitleS2GameNameSprite\\ZoneTitleS2GameNameSprite.yy",
+                "resourcePath": "sprites\\ZoneTitleS2SonicNameSprite\\ZoneTitleS2SonicNameSprite.yy",
                 "resourceType": "GMSprite"
             }
         },

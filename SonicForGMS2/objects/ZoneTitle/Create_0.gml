@@ -1,4 +1,4 @@
-/// @description  Initialize
+/// @description Initialize
 event_inherited();
 image_speed = 0;
 
@@ -12,15 +12,14 @@ yellowLayerExitSpeed = 32;
 yellowLayerEnterDuration = (CAMERA_WIDTH / yellowLayerEnterSpeed) + 4;
 yellowLayerExitDuration = CAMERA_WIDTH / yellowLayerExitSpeed;
 yellowLayerHeight = 64;
-gameNameWidth = sprite_get_width(ZoneTitleS2GameNameSprite);
-gameNameX = CAMERA_WIDTH - gameNameWidth - 20;
-gameNameY = CAMERA_HEIGHT - yellowLayerHeight + 8;
+yellowLayerColor = make_color_rgb(255, 253, 0);
 
 redLayerEnterSpeed = 16;
 redLayerExitSpeed = 32;
 redLayerX = 112;
 redLayerEnterDuration = (CAMERA_WIDTH / redLayerEnterSpeed) + 4;
 redLayerExitDuration = redLayerX / redLayerExitSpeed;
+redLayerColor = make_color_rgb(255, 0, 0);
 
 labelEnterSpeed = 16;
 labelExitSpeed = 32;
@@ -41,15 +40,25 @@ yellowLayerWait = redLayerWait + redLayerExitDuration + (labelWait1 - yellowLaye
 blueLayerWait = yellowLayerWait + yellowLayerExitDuration + (labelWait1 - blueLayerEnterDuration);
 labelWait2 = 45 + blueLayerWait + blueLayerExitDuration - labelEnterDuration;
 
-colorBlue = make_color_rgb(27, 72, 221);
-colorYellow = make_color_rgb(255, 253, 0);
-colorRed = make_color_rgb(255, 0, 0);
+characterNameSprite = ZoneTitleS2SonicNameSprite;
+characterColor = make_color_rgb(27, 72, 221);
 
 var player = game_player_find(0);
-if (instance_exists(player)) {
-    switch (player.character_id) {
-    case Knuckles: colorBlue = make_color_rgb(0, 145, 0); break;
-    case Tails: colorBlue = make_color_rgb(224, 144, 0); break;
+if (instance_exists(player))
+{
+	switch (player.character_id)
+	{
+    case Knuckles:
+		characterNameSprite = ZoneTitleS2KnucklesNameSprite;
+		characterColor = make_color_rgb(0, 145, 0);
+		break;
+    case Tails:
+		characterNameSprite = ZoneTitleS2TailsNameSprite;
+		characterColor = make_color_rgb(224, 144, 0);
+		break;
     }
 }
 
+characterNameWidth = sprite_get_width(characterNameSprite);
+characterNameX = CAMERA_WIDTH - characterNameWidth - 20;
+characterNameY = CAMERA_HEIGHT - yellowLayerHeight + 8;
