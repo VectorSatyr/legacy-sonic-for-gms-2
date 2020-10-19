@@ -23,7 +23,7 @@ postText.width = text_width;
 ds_queue_enqueue(headers, "SONIC FOR GMS");
 ds_queue_enqueue(text, "CAST OF CHARACTERS");
 
-ds_queue_enqueue(headers, "SPRITE RIPS BY");
+ds_queue_enqueue(headers, "SPRITE RIPPERS");
 ds_queue_enqueue(text, @"1001\n
 \n
 CHAOFANATIC\n
@@ -32,73 +32,98 @@ DIVINE INSECT\n
 \n
 DOC MELONHEAD");
 
-ds_queue_enqueue(headers, "SPRITE RIPS BY");
+ds_queue_enqueue(headers, "SPRITE RIPPERS");
 ds_queue_enqueue(text, @"DOLPHMAN\n
 \n
 FLARE\n
 \n
 GAMEMASTER12\n
 \n
-MARIOMADNESS734");
+JIGGLYPUFFGIRL");
 
-ds_queue_enqueue(headers, "SPRITES RIPS BY");
-ds_queue_enqueue(text, @"MERCURY\n
-\n
-PAVELDECHEV0604\n
-\n
-PORTEWEEKER\n
-\n
-RANDOM TALKING BUSH");
-
-ds_queue_enqueue(headers, "SPRITES RIPS BY");
-ds_queue_enqueue(text, @"SID STARKILLER\n
-\n
-SUPACHAO\n
-\n
-TECHOKAMI");
-
-ds_queue_enqueue(headers, "SOUND RIPS BY");
-ds_queue_enqueue(text, @"MR. LANGE\n
-\n
-RANDOM TALKING BUSH");
-
-ds_queue_enqueue(headers, "MUSIC BY");
-ds_queue_enqueue(text, @"JUNKO SHIRATSU\n
-\n
-MARIKO NANBA\n
-\n
-MASATO NAKAMURA\n
-\n
-SEAN EVANS\n
-\n
-TEE LOPES");
-
-ds_queue_enqueue(headers, "SPECIAL THANKS TO");
-ds_queue_enqueue(text, @"CARLOS USHIROMIYA\n
-\n
-DAMIZEAN\n
-\n
-JAVIER MORA\n
-\n
-JONATHAN LAM");
-
-ds_queue_enqueue(headers, "SPECIAL THANKS TO");
-ds_queue_enqueue(text, @"KAIN\n
+ds_queue_enqueue(headers, "SPRITE RIPPERS");
+ds_queue_enqueue(text, @"MARIOMADNESS734\n
 \n
 MERCURY\n
 \n
-NOAH COPELAND\n
+THE OBSERVER\n
 \n
-PIXELATED_POPE");
+PAVELDECHEV0604");
 
-ds_queue_enqueue(headers, "SPECIAL THANKS TO");
-ds_queue_enqueue(text, @"POLAR EXELION\n
+ds_queue_enqueue(headers, "SPRITE RIPPERS");
+ds_queue_enqueue(text, @"PORTEWEEKER\n
 \n
-ROGUEYOSHI\n
+RANDOM TALKING BUSH\n
+\n
+SID STARKILLER\n
+\n
+SUPACHAO");
+
+ds_queue_enqueue(headers, "SPRITE RIPPERS");
+ds_queue_enqueue(text, @"TECHOKAMI\n
+\n
+TRIANGLY\n
+\n
+VOID-THE-BAT");
+
+ds_queue_enqueue(headers, "SPRITE EDITORS");
+ds_queue_enqueue(text, @"TECHOKAMI\n
+\n
+VECTORSATYR");
+
+ds_queue_enqueue(headers, "SOUND RIPPERS");
+ds_queue_enqueue(text, @"MR LANGE\n
+\n
+RANDOM TALKING BUSH");
+
+ds_queue_enqueue(headers, "MUSIC RIPPERS");
+ds_queue_enqueue(text, @"VALLEY BELL");
+
+ds_queue_enqueue(headers, "MUSIC COMPOSERS");
+ds_queue_enqueue(text, @"SEAN EVANS\n
+\n
+TEE LOPES");
+
+ds_queue_enqueue(headers, "PROGRAMMERS");
+ds_queue_enqueue(text, @"BLUECOREG\n
+\n
+CARLOS USHIROMIYA\n
+\n
+VECTORSATYR");
+
+ds_queue_enqueue(headers, "ADDITIONAL PROGRAMMING");
+ds_queue_enqueue(text, @"JASON ALLEN DOUCETTE\n
+\n
+MERCURY\n
+\n
+PIXELATED_POPE\n
 \n
 XOT");
 
-ds_queue_enqueue(headers, "DEVELOPED BY");
+ds_queue_enqueue(headers, "SPECIAL THANKS");
+ds_queue_enqueue(text, @"BLUECOREG\n
+\n
+CARLOS USHIROMIYA\n
+\n
+DAMIZEAN");
+
+ds_queue_enqueue(headers, "SPECIAL THANKS");
+ds_queue_enqueue(text, @"JAVIER MORA\n
+\n
+JONATHAN LAM\n
+\n
+KAIN");
+
+ds_queue_enqueue(headers, "SPECIAL THANKS");
+ds_queue_enqueue(text, @"MERCURY\n
+\n
+NOAH COPELAND\n
+\n
+POLAR EXELION\n
+\n
+ROGUEYOSHI");
+
+ds_queue_enqueue(headers, "PRESENTED BY");
 ds_queue_enqueue(text, "VECTORSATYR");
 
 ds_queue_enqueue(headers, "CONTENT BELONGS TO");
