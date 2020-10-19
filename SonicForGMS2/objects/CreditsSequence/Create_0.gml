@@ -11,7 +11,7 @@ postHeader = noone;
 postText = noone;
 fade = noone;
 
-total_display_time = 330;
+total_display_time = 225;
 display_time = 0;
 
 font = global.CreditsFont;
