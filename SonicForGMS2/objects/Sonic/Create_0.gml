@@ -1,5 +1,10 @@
-/// @description  Initialize animations
+/// @description Initialize
 event_inherited();
+
+// physics
+drop_dash_time = 0;
+
+// animations
 game_pc_define_animation(self, "stand", SonicStanceAnim);
 game_pc_define_animation(self, "stance_loop", SonicStanceLoopAnim);
 game_pc_define_animation(self, "walk", SonicWalkAnim);
@@ -38,4 +43,3 @@ shader.super_fade_color[1] = $e0e0e0;
 shader.super_fade_color[2] = $e0e0e0;
 shader.super_fade_color[3] = $80e0e0;
 shader.input_color = shader.normal_color;
-

@@ -1,5 +1,10 @@
-/// @description  Initialize animations
+/// @description Initialize
 event_inherited();
+
+// physics
+flight_force = flight_base_force;
+
+// animations
 game_pc_define_animation(self, "stand", TailsStanceAnim);
 game_pc_define_animation(self, "stance_loop", TailsStanceLoopAnim);
 game_pc_define_animation(self, "walk", TailsWalkAnim);
@@ -45,4 +50,3 @@ flight_soundid = -1;
 // tails' tails
 tails = instance_create_depth(x, y, depth + 1, TailsTails);
 tails.source = self;
-

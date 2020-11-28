@@ -1,5 +1,12 @@
-/// @description  Initalize animations
+/// @description Initalize
 event_inherited();
+
+// physics
+glide_speed = 0;
+glide_angle = 0;
+glide_direction = 1;
+
+// animations
 game_pc_define_animation(self, "stand", KnucklesStanceAnim);
 game_pc_define_animation(self, "walk", KnucklesWalkAnim);
 game_pc_define_animation(self, "run", KnucklesRunAnim);
@@ -37,4 +44,3 @@ shader.transform_color[2] = $deb6ff;
 shader.super_color = shader.normal_color;
 shader.super_fade_color = shader.transform_color;
 shader.input_color = shader.normal_color;
-

@@ -54,6 +54,8 @@ facing_sign = 1;
 
 game_pc_refresh_physics(self);
 
+wall_push_speed = land_acceleration;
+
 air_friction_threshold = 0.125;
 brake_threshold = 4;
 ceiling_land_threshold = -4;
@@ -130,7 +132,7 @@ audio_emitter = audio_emitter_create();
 audio_emitter_position(audio_emitter, x, y, 0);
 with (GameAudioConfiguration)
 {
-    audio_emitter_gain(other.audio_emitter, volume_sound);
+	audio_emitter_gain(other.audio_emitter, volume_sound);
 }
 
 var dist = point_distance(0, 0, CAMERA_WIDTH * 0.5, CAMERA_HEIGHT * 0.5);
