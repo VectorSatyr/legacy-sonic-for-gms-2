@@ -1487,6 +1487,14 @@
             }
         },
         {
+            "Key": "22705f1d-9097-44e7-9774-bf9c12215dba",
+            "Value": {
+                "id": "edb7f8ed-941c-4bc1-bff5-1280a9624292",
+                "resourcePath": "sprites\\SuperFormSparkSprite\\SuperFormSparkSprite.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "22b0d6e4-033c-4361-85f8-44cfeb131db3",
             "Value": {
                 "id": "876bd7af-54c3-4255-b189-fb6dcae6e87c",
@@ -1651,6 +1659,14 @@
             "Value": {
                 "id": "d2a10447-051b-448c-8cf8-565259fdb870",
                 "resourcePath": "objects\\MobileDisclaimerInput\\MobileDisclaimerInput.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
+            "Key": "27242fe3-9a18-44c8-a381-ff07d8c991fb",
+            "Value": {
+                "id": "e11d832d-6892-4058-911e-9513c87f5246",
+                "resourcePath": "objects\\SuperFormSpark\\SuperFormSpark.yy",
                 "resourceType": "GMObject"
             }
         },
@@ -9540,6 +9556,14 @@
                 "id": "a857a73f-1bbe-4549-8f72-15aaf9023543",
                 "resourcePath": "sounds\\AquaShieldSound\\AquaShieldSound.yy",
                 "resourceType": "GMSound"
+            }
+        },
+        {
+            "Key": "ee6397b1-bb51-4c13-816f-85521cf409cd",
+            "Value": {
+                "id": "879ff06b-d0e2-46b9-96b8-40e40efc4c4d",
+                "resourcePath": "timelines\\SuperFormSparkAnim\\SuperFormSparkAnim.yy",
+                "resourceType": "GMTimeline"
             }
         },
         {

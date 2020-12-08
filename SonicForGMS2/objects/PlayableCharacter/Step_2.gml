@@ -24,4 +24,14 @@ if (game_is_running())
 			}
 		}
 	}
+
+	// super spark
+	super_sparks = superform and (
+		game_pc_animating(self, "run") or game_pc_animating(self, "sprint") or
+		(super_sparks and abs(x_speed) >= 6)
+	);
+	if (super_sparks and superform_time mod 12 == 0)
+	{
+		instance_create_depth(x_int, y_int, depth - 1, SuperFormSpark);
+	}
 }

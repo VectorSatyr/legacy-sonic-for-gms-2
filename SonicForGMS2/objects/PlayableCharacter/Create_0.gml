@@ -128,6 +128,8 @@ shield = noone;
 
 invincibility_effect = noone;
 
+super_sparks = false;
+
 audio_emitter = audio_emitter_create();
 audio_emitter_position(audio_emitter, x, y, 0);
 with (GameAudioConfiguration)
