@@ -1,0 +1,25 @@
+{
+  "momentList": [
+    {"moment":0,"evnt":{"isDnD":false,"eventNum":0,"eventType":0,"collisionObjectId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},"parent":{"name":"KnucklesFlipAnim","path":"timelines/KnucklesFlipAnim/KnucklesFlipAnim.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMMoment",},
+    {"moment":5,"evnt":{"isDnD":false,"eventNum":5,"eventType":0,"collisionObjectId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},"parent":{"name":"KnucklesFlipAnim","path":"timelines/KnucklesFlipAnim/KnucklesFlipAnim.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMMoment",},
+    {"moment":10,"evnt":{"isDnD":false,"eventNum":10,"eventType":0,"collisionObjectId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},"parent":{"name":"KnucklesFlipAnim","path":"timelines/KnucklesFlipAnim/KnucklesFlipAnim.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMMoment",},
+    {"moment":15,"evnt":{"isDnD":false,"eventNum":15,"eventType":0,"collisionObjectId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},"parent":{"name":"KnucklesFlipAnim","path":"timelines/KnucklesFlipAnim/KnucklesFlipAnim.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMMoment",},
+    {"moment":20,"evnt":{"isDnD":false,"eventNum":20,"eventType":0,"collisionObjectId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},"parent":{"name":"KnucklesFlipAnim","path":"timelines/KnucklesFlipAnim/KnucklesFlipAnim.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMMoment",},
+    {"moment":25,"evnt":{"isDnD":false,"eventNum":25,"eventType":0,"collisionObjectId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},"parent":{"name":"KnucklesFlipAnim","path":"timelines/KnucklesFlipAnim/KnucklesFlipAnim.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMMoment",},
+    {"moment":30,"evnt":{"isDnD":false,"eventNum":30,"eventType":0,"collisionObjectId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},"parent":{"name":"KnucklesFlipAnim","path":"timelines/KnucklesFlipAnim/KnucklesFlipAnim.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMMoment",},
+    {"moment":35,"evnt":{"isDnD":false,"eventNum":35,"eventType":0,"collisionObjectId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},"parent":{"name":"KnucklesFlipAnim","path":"timelines/KnucklesFlipAnim/KnucklesFlipAnim.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMMoment",},
+    {"moment":40,"evnt":{"isDnD":false,"eventNum":40,"eventType":0,"collisionObjectId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},"parent":{"name":"KnucklesFlipAnim","path":"timelines/KnucklesFlipAnim/KnucklesFlipAnim.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMMoment",},
+    {"moment":45,"evnt":{"isDnD":false,"eventNum":45,"eventType":0,"collisionObjectId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},"parent":{"name":"KnucklesFlipAnim","path":"timelines/KnucklesFlipAnim/KnucklesFlipAnim.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMMoment",},
+    {"moment":50,"evnt":{"isDnD":false,"eventNum":50,"eventType":0,"collisionObjectId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},"parent":{"name":"KnucklesFlipAnim","path":"timelines/KnucklesFlipAnim/KnucklesFlipAnim.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMMoment",},
+    {"moment":55,"evnt":{"isDnD":false,"eventNum":55,"eventType":0,"collisionObjectId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},"parent":{"name":"KnucklesFlipAnim","path":"timelines/KnucklesFlipAnim/KnucklesFlipAnim.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMMoment",},
+    {"moment":60,"evnt":{"isDnD":false,"eventNum":60,"eventType":0,"collisionObjectId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},"parent":{"name":"KnucklesFlipAnim","path":"timelines/KnucklesFlipAnim/KnucklesFlipAnim.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMMoment",},
+  ],
+  "parent": {
+    "name": "General",
+    "path": "folders/Timelines/Animations/Level Elements/Player/Characters/Knuckles/General.yy",
+  },
+  "resourceVersion": "1.0",
+  "name": "KnucklesFlipAnim",
+  "tags": [],
+  "resourceType": "GMTimeline",
+}

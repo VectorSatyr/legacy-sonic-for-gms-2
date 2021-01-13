@@ -1,0 +1,42 @@
+{
+  "spriteId": {
+    "name": "ZoneEntranceMaskSprite",
+    "path": "sprites/ZoneEntranceMaskSprite/ZoneEntranceMaskSprite.yy",
+  },
+  "solid": false,
+  "visible": false,
+  "spriteMaskId": null,
+  "persistent": false,
+  "parentObjectId": {
+    "name": "ZoneEntrance",
+    "path": "objects/ZoneEntrance/ZoneEntrance.yy",
+  },
+  "physicsObject": false,
+  "physicsSensor": false,
+  "physicsShape": 0,
+  "physicsGroup": 0,
+  "physicsDensity": 0.5,
+  "physicsRestitution": 0.1,
+  "physicsLinearDamping": 0.1,
+  "physicsAngularDamping": 0.1,
+  "physicsFriction": 0.2,
+  "physicsStartAwake": true,
+  "physicsKinematic": false,
+  "physicsShapePoints": [
+    {"x":16.0,"y":16.0,},
+    {"x":16.0,"y":16.0,},
+  ],
+  "eventList": [
+    {"isDnD":false,"eventNum":4,"eventType":7,"collisionObjectId":null,"parent":{"name":"GlowingSpheresEntrance","path":"objects/GlowingSpheresEntrance/GlowingSpheresEntrance.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
+  ],
+  "properties": [],
+  "overriddenProperties": [],
+  "parent": {
+    "name": "Objects",
+    "path": "folders/Objects/Level Elements/Common/Bonus Stage/Glowing Spheres/Objects.yy",
+  },
+  "resourceVersion": "1.0",
+  "name": "GlowingSpheresEntrance",
+  "tags": [],
+  "resourceType": "GMObject",
+}

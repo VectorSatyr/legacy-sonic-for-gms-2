@@ -1,0 +1,26 @@
+{
+  "momentList": [
+    {"moment":0,"evnt":{"isDnD":false,"eventNum":0,"eventType":0,"collisionObjectId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},"parent":{"name":"TailsStanceLoopAnim","path":"timelines/TailsStanceLoopAnim/TailsStanceLoopAnim.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMMoment",},
+    {"moment":160,"evnt":{"isDnD":false,"eventNum":160,"eventType":0,"collisionObjectId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},"parent":{"name":"TailsStanceLoopAnim","path":"timelines/TailsStanceLoopAnim/TailsStanceLoopAnim.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMMoment",},
+    {"moment":168,"evnt":{"isDnD":false,"eventNum":168,"eventType":0,"collisionObjectId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},"parent":{"name":"TailsStanceLoopAnim","path":"timelines/TailsStanceLoopAnim/TailsStanceLoopAnim.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMMoment",},
+    {"moment":176,"evnt":{"isDnD":false,"eventNum":176,"eventType":0,"collisionObjectId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},"parent":{"name":"TailsStanceLoopAnim","path":"timelines/TailsStanceLoopAnim/TailsStanceLoopAnim.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMMoment",},
+    {"moment":184,"evnt":{"isDnD":false,"eventNum":184,"eventType":0,"collisionObjectId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},"parent":{"name":"TailsStanceLoopAnim","path":"timelines/TailsStanceLoopAnim/TailsStanceLoopAnim.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMMoment",},
+    {"moment":192,"evnt":{"isDnD":false,"eventNum":192,"eventType":0,"collisionObjectId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},"parent":{"name":"TailsStanceLoopAnim","path":"timelines/TailsStanceLoopAnim/TailsStanceLoopAnim.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMMoment",},
+    {"moment":200,"evnt":{"isDnD":false,"eventNum":200,"eventType":0,"collisionObjectId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},"parent":{"name":"TailsStanceLoopAnim","path":"timelines/TailsStanceLoopAnim/TailsStanceLoopAnim.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMMoment",},
+    {"moment":208,"evnt":{"isDnD":false,"eventNum":208,"eventType":0,"collisionObjectId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},"parent":{"name":"TailsStanceLoopAnim","path":"timelines/TailsStanceLoopAnim/TailsStanceLoopAnim.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMMoment",},
+    {"moment":216,"evnt":{"isDnD":false,"eventNum":216,"eventType":0,"collisionObjectId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},"parent":{"name":"TailsStanceLoopAnim","path":"timelines/TailsStanceLoopAnim/TailsStanceLoopAnim.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMMoment",},
+    {"moment":224,"evnt":{"isDnD":false,"eventNum":224,"eventType":0,"collisionObjectId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},"parent":{"name":"TailsStanceLoopAnim","path":"timelines/TailsStanceLoopAnim/TailsStanceLoopAnim.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMMoment",},
+    {"moment":232,"evnt":{"isDnD":false,"eventNum":232,"eventType":0,"collisionObjectId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},"parent":{"name":"TailsStanceLoopAnim","path":"timelines/TailsStanceLoopAnim/TailsStanceLoopAnim.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMMoment",},
+    {"moment":240,"evnt":{"isDnD":false,"eventNum":240,"eventType":0,"collisionObjectId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},"parent":{"name":"TailsStanceLoopAnim","path":"timelines/TailsStanceLoopAnim/TailsStanceLoopAnim.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMMoment",},
+    {"moment":248,"evnt":{"isDnD":false,"eventNum":248,"eventType":0,"collisionObjectId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},"parent":{"name":"TailsStanceLoopAnim","path":"timelines/TailsStanceLoopAnim/TailsStanceLoopAnim.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMMoment",},
+    {"moment":251,"evnt":{"isDnD":false,"eventNum":251,"eventType":0,"collisionObjectId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},"parent":{"name":"TailsStanceLoopAnim","path":"timelines/TailsStanceLoopAnim/TailsStanceLoopAnim.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMMoment",},
+  ],
+  "parent": {
+    "name": "General",
+    "path": "folders/Timelines/Animations/Level Elements/Player/Characters/Tails/General.yy",
+  },
+  "resourceVersion": "1.0",
+  "name": "TailsStanceLoopAnim",
+  "tags": [],
+  "resourceType": "GMTimeline",
+}

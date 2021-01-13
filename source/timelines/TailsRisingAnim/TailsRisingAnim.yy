@@ -1,0 +1,25 @@
+{
+  "momentList": [
+    {"moment":0,"evnt":{"isDnD":false,"eventNum":0,"eventType":0,"collisionObjectId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},"parent":{"name":"TailsRisingAnim","path":"timelines/TailsRisingAnim/TailsRisingAnim.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMMoment",},
+    {"moment":4,"evnt":{"isDnD":false,"eventNum":4,"eventType":0,"collisionObjectId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},"parent":{"name":"TailsRisingAnim","path":"timelines/TailsRisingAnim/TailsRisingAnim.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMMoment",},
+    {"moment":8,"evnt":{"isDnD":false,"eventNum":8,"eventType":0,"collisionObjectId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},"parent":{"name":"TailsRisingAnim","path":"timelines/TailsRisingAnim/TailsRisingAnim.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMMoment",},
+    {"moment":12,"evnt":{"isDnD":false,"eventNum":12,"eventType":0,"collisionObjectId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},"parent":{"name":"TailsRisingAnim","path":"timelines/TailsRisingAnim/TailsRisingAnim.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMMoment",},
+    {"moment":16,"evnt":{"isDnD":false,"eventNum":16,"eventType":0,"collisionObjectId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},"parent":{"name":"TailsRisingAnim","path":"timelines/TailsRisingAnim/TailsRisingAnim.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMMoment",},
+    {"moment":20,"evnt":{"isDnD":false,"eventNum":20,"eventType":0,"collisionObjectId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},"parent":{"name":"TailsRisingAnim","path":"timelines/TailsRisingAnim/TailsRisingAnim.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMMoment",},
+    {"moment":24,"evnt":{"isDnD":false,"eventNum":24,"eventType":0,"collisionObjectId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},"parent":{"name":"TailsRisingAnim","path":"timelines/TailsRisingAnim/TailsRisingAnim.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMMoment",},
+    {"moment":28,"evnt":{"isDnD":false,"eventNum":28,"eventType":0,"collisionObjectId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},"parent":{"name":"TailsRisingAnim","path":"timelines/TailsRisingAnim/TailsRisingAnim.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMMoment",},
+    {"moment":32,"evnt":{"isDnD":false,"eventNum":32,"eventType":0,"collisionObjectId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},"parent":{"name":"TailsRisingAnim","path":"timelines/TailsRisingAnim/TailsRisingAnim.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMMoment",},
+    {"moment":36,"evnt":{"isDnD":false,"eventNum":36,"eventType":0,"collisionObjectId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},"parent":{"name":"TailsRisingAnim","path":"timelines/TailsRisingAnim/TailsRisingAnim.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMMoment",},
+    {"moment":40,"evnt":{"isDnD":false,"eventNum":40,"eventType":0,"collisionObjectId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},"parent":{"name":"TailsRisingAnim","path":"timelines/TailsRisingAnim/TailsRisingAnim.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMMoment",},
+    {"moment":44,"evnt":{"isDnD":false,"eventNum":44,"eventType":0,"collisionObjectId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},"parent":{"name":"TailsRisingAnim","path":"timelines/TailsRisingAnim/TailsRisingAnim.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMMoment",},
+    {"moment":48,"evnt":{"isDnD":false,"eventNum":48,"eventType":0,"collisionObjectId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},"parent":{"name":"TailsRisingAnim","path":"timelines/TailsRisingAnim/TailsRisingAnim.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMMoment",},
+  ],
+  "parent": {
+    "name": "General",
+    "path": "folders/Timelines/Animations/Level Elements/Player/Characters/Tails/General.yy",
+  },
+  "resourceVersion": "1.0",
+  "name": "TailsRisingAnim",
+  "tags": [],
+  "resourceType": "GMTimeline",
+}
