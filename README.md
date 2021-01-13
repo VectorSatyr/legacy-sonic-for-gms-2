@@ -1,4 +1,4 @@
-<p align="center"><img src="https://github.com/VectorSatyr/sonic-gms2/blob/2.2.5/images/sonicgms-full-color-transparent.png" alt="Sonic for GMS Logo" width="664px" height="260px"/></p>
+<p align="center"><img src="https://github.com/VectorSatyr/sonic-gms2/blob/2.3/images/sonicgms-full-color-transparent.png" alt="Sonic for GMS Logo" width="664px" height="260px"/></p>
 
 ## What is this?
 
