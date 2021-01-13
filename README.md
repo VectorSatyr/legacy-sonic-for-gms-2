@@ -1,4 +1,4 @@
-![Sonic for GMS](https://github.com/VectorSatyr/sonic-gms2/blob/2.2.5/images/sonicgms-full-color-transparent.png)
+<p align="center"><img src="https://github.com/VectorSatyr/sonic-gms2/blob/2.2.5/images/sonicgms-full-color-transparent.png" alt="Sonic for GMS Logo" width="664px" height="260px"/></p>
 
 **Sonic For GMS** is a GameMaker Studio 2 project acting as a template for constructing video games based on the *Sonic the Hedgehog* titles for the Sega Genesis / Mega Drive.
 
