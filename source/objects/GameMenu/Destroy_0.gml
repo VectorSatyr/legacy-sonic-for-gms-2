@@ -2,7 +2,7 @@
 ds_list_destroy(pages);
 with (GameMenuPage)
 {
-    if (owner == other)
+    if (owner == other.id)
 	{
         instance_destroy();
     }

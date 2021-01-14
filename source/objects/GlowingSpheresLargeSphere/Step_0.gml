@@ -4,7 +4,7 @@ if (game_is_running())
 	var index, z_radius, ox, oy;
 	with (PlayableCharacter)
 	{
-		if (linked_object_id == other)
+		if (linked_object_id == other.id)
 		{
 			index = owner.index;
 

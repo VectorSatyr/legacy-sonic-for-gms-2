@@ -1,14 +1,14 @@
 /// @description Target
 with (owner)
 {
-    if (selection != other)
+    if (selection != other.id)
 	{
         with (selection)
 		{
             selected = false;
         }
         other.selected = true;
-        selection = other;
+        selection = other.id;
         previous_index = index;
         index = other.index;
     }

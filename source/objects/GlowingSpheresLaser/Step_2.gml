@@ -3,7 +3,7 @@ if (game_is_running())
 {
 	with (PlayableCharacter)
 	{
-		if (linked_object_id == other)
+		if (linked_object_id == other.id)
 		{
 			game_pc_position(id, x, other.y);
 		}
@@ -14,7 +14,7 @@ if (game_is_running())
 			x_speed = 0;
 			y_speed = 0;
 			spinning = true;
-			linked_object_id = other;
+			linked_object_id = other.id;
 
 			game_pc_animate(id, "spin");
 			image_angle = gravity_direction;

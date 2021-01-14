@@ -1,12 +1,12 @@
  /// @description  Control
 if (game_is_running()) {
 	with (PlayableCharacter) {
-		if (linked_object_id == other) {
+		if (linked_object_id == other.id) {
 			if (input_action_pressed) {
 				game_pc_perform(id, player_is_falling, true);
 				game_pc_lift(id, other.force, -(x_int - other.x) * other.x_friction);
 				game_pc_play_sound(id, FlipperSound);
-				timeline_set(other, GSFlipperAnim, 2, false, true);
+				timeline_set(other.id, GSFlipperAnim, 2, false, true);
 		        continue;
 		    }
 
@@ -20,7 +20,7 @@ if (game_is_running()) {
 				continue;
 		    }
 
-			if (ground_id != other) {
+			if (ground_id != other.id) {
 				game_pc_perform(id, player_is_rolling);
 				continue;
 			}

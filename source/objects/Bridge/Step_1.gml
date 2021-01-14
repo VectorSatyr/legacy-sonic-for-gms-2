@@ -4,7 +4,7 @@ if (game_is_running()) {
     var node;
 
     with (PlayableCharacter) {
-        if (ground_id == other) {
+        if (ground_id == other.id) {
             node = clamp(floor((x_int - other.bbox_left) * other.node_ratio), 0, other.total_nodes - 1);
             if (mean_node == -1) {
                 mean_node = node;
