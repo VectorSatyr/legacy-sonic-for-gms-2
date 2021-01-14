@@ -4,10 +4,10 @@ function player_react_to_push_block(argument0, argument1) {
 
 	switch (phase) {
 	case "checking":
-	    if (on_the_ground and game_pc_arms_in_shape(self, ind, x_wall_radius) and ind.y - ind.yprevious == 0) {
-	        var distance = game_pc_calc_wall_distance(self, ind, x_wall_radius);
+	    if (on_the_ground and game_pc_arms_in_shape(id, ind, x_wall_radius) and ind.y - ind.yprevious == 0) {
+	        var distance = game_pc_calc_wall_distance(id, ind, x_wall_radius);
 	        if (sign(x_speed) == sign(distance)) {
-	            game_pc_react_to(self, ind);
+	            game_pc_react_to(id, ind);
 	            wall_id = ind;
 	            wall_sign = sign(distance);
 	            var sine = dsin(mask_direction);
@@ -20,16 +20,16 @@ function player_react_to_push_block(argument0, argument1) {
 	                    y += oy;
 	                }
 	            }
-	            var new_distance = game_pc_calc_wall_distance(self, ind, x_wall_radius);
-	            game_pc_position(self, x - (cosine * new_distance), y + (sine * new_distance));
-	            //game_pc_position(self, x + ox, y + oy);
+	            var new_distance = game_pc_calc_wall_distance(id, ind, x_wall_radius);
+	            game_pc_position(id, x - (cosine * new_distance), y + (sine * new_distance));
+	            //game_pc_position(id, x + ox, y + oy);
 	            x_speed = 0;
 	        }
 	    }
 	    break;
 
 	case "entering":
-	    game_pc_perform(self, player_is_pushing);
+	    game_pc_perform(id, player_is_pushing);
 	    break;
 
 	case "exiting":

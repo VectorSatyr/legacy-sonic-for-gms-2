@@ -20,7 +20,7 @@ function game_pc_ride(argument0, argument1) {
 	        else if (ind.y - ind.yprevious != 0) {
 	            oy = (ind.y - ind.yprevious);
 	        }
-	        game_pc_position(self, x + ox, y + oy);
+	        game_pc_position(id, x + ox, y + oy);
 	    }
 	}
 

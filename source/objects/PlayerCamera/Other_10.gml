@@ -1,6 +1,6 @@
 /// @description  Attach
 if (view_exists(vind)) {
-    game_camera_direct(vind, game_pc_camera_state_normal, self);
+    game_camera_direct(vind, game_pc_camera_state_normal, id);
     view_centre(vind, x, y);
     bound_left = owner.bound_left;
     bound_top = owner.bound_top;

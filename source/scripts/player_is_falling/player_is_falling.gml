@@ -8,18 +8,18 @@ function player_is_falling(argument0) {
 	        on_the_ground = false;
 	    }
 
-	    game_pc_translate_speed(self, x_speed, local_direction);
-	    game_pc_redirect(self, gravity_direction);
-	    game_pc_align(self, gravity_direction);
+	    game_pc_translate_speed(id, x_speed, local_direction);
+	    game_pc_redirect(id, gravity_direction);
+	    game_pc_align(id, gravity_direction);
 
 	    switch (current_animation) {
 	    case "push":
-	        game_pc_animate(self, "walk");
+	        game_pc_animate(id, "walk");
 	        timeline_speed = 0.125;
 	        break;
 	    }
 
-	    game_pc_camera_direct(self, game_pc_camera_state_aerial);
+	    game_pc_camera_direct(id, game_pc_camera_state_aerial);
 	    break;
 
 	case "finish":
@@ -36,16 +36,16 @@ function player_is_falling(argument0) {
 	        }
 	    }
 
-	    game_pc_move_in_air(self);
+	    game_pc_move_in_air(id);
 	    if (state_changed) {
 	        return false;
 	    }
 
 	    if (on_the_ground) {
 	        if (x_speed != 0) {
-	            return game_pc_perform(self, player_is_running);
+	            return game_pc_perform(id, player_is_running);
 	        } else {
-	            return game_pc_perform(self, player_is_standing);
+	            return game_pc_perform(id, player_is_standing);
 	        }
 	    }
 

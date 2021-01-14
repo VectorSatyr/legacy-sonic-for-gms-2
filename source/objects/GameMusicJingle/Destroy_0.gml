@@ -12,7 +12,7 @@ event_inherited();
 if (next == noone) {
     with (previous) {
         if (playing) {
-            game_audio_fade_in_music(other.fade_time, self);
+            game_audio_fade_in_music(other.fade_time, id);
         }
     }
 }

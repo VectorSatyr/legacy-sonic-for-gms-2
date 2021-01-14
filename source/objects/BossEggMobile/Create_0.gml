@@ -2,9 +2,9 @@
 event_inherited();
 
 eggman = instance_create_layer(x, y, "objects", BossEggMobileEggman);
-eggman.owner = self;
+eggman.owner = id;
 flame = instance_create_layer(x, y, "objects", BossEggMobileFlame);
-flame.owner = self;
+flame.owner = id;
 
 base_y = ystart;
 

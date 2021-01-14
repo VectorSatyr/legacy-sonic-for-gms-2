@@ -1,4 +1,4 @@
 /// @description  Initialize
 event_inherited();
-timeline_set(self, BonusStarAnim);
+timeline_set(id, BonusStarAnim);
 constant = true;

@@ -5,9 +5,9 @@ function player_react_to_glowing_spheres_prize_sphere(argument0, argument1) {
 	switch (phase)
 	{
 	case "checking":
-	    if (game_pc_in_shape(self, ind, x_radius, y_radius))
+	    if (game_pc_in_shape(id, ind, x_radius, y_radius))
 		{
-	        game_pc_react_to(self, ind);
+	        game_pc_react_to(id, ind);
 	    }
 	    break;
 
@@ -25,7 +25,7 @@ function player_react_to_glowing_spheres_prize_sphere(argument0, argument1) {
 		ind.constant = true;
 		ind.used = true;
 
-		game_pc_play_sound(self, GumballSound);
+		game_pc_play_sound(id, GumballSound);
 	    break;
 	}
 

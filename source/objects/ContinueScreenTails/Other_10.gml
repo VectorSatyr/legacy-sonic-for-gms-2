@@ -1,2 +1,2 @@
 /// @description  React
-timeline_set(self, TailsContinueReactAnim);
+timeline_set(id, TailsContinueReactAnim);

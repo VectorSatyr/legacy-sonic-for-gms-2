@@ -1,3 +1,3 @@
 /// @description  Change animation
-game_pc_animate(self, "stance_loop");
+game_pc_animate(id, "stance_loop");
 

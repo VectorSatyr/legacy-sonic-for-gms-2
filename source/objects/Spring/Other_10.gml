@@ -1,2 +1,2 @@
 /// @description  Activate
-timeline_set(self, SpringAnim, 1, false);
+timeline_set(id, SpringAnim, 1, false);

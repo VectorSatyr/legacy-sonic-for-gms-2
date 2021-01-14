@@ -1,2 +1,2 @@
 /// @description  Fireball
-timeline_set(self, FlameShieldDashAnim, 1, false);
+timeline_set(id, FlameShieldDashAnim, 1, false);

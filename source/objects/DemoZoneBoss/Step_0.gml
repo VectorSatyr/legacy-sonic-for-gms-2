@@ -13,7 +13,7 @@ if (game_is_running()) {
         if (starting_time <= 0) {
             game_audio_enqueue_music(ZoneBossMusic, 0, true);
             mobile = instance_create_layer(camera_lock.left + CAMERA_WIDTH - 64, camera_lock.top - 48, "objects", GHZBossEggMobile);
-            mobile.owner = self;
+            mobile.owner = id;
             mobile.constant = true;
             mobile.camera_left = camera_lock.left;
             mobile.camera_top = camera_lock.top;

@@ -1,12 +1,12 @@
 /// @description  Bounce
 with (player) {
     if (state == player_is_hurt) {
-        game_pc_perform(self, player_is_falling);
+        game_pc_perform(id, player_is_falling);
     }
 
     if (state == player_is_aqua_bouncing) {
-        game_pc_perform(self, player_is_jumping);
-        game_pc_play_sound(self, AquaBounceSound);
+        game_pc_perform(id, player_is_jumping);
+        game_pc_play_sound(id, AquaBounceSound);
     }
 
 	if (state != player_is_linked) {
@@ -24,5 +24,5 @@ with (player) {
         rolling_jump = false;
     }
 
-    game_pc_play_sound(self, BumperSound2);
+    game_pc_play_sound(id, BumperSound2);
 }

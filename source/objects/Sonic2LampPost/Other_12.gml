@@ -1,3 +1,3 @@
 /// @description  Blink (Pre-Activated)
-timeline_set(self, LampPostBlinkAnim);
+timeline_set(id, LampPostBlinkAnim);
 activated = true;

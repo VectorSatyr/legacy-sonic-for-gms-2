@@ -1,3 +1,3 @@
 /// @description  Initialize
 event_inherited();
-timeline_set(self, TailsTailsStanceAnim);
+timeline_set(id, TailsTailsStanceAnim);

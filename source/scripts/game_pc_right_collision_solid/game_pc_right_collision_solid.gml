@@ -17,7 +17,7 @@ function game_pc_right_collision_solid(argument0, argument1) {
 	        ind = local_solids[| n];
 	        if (instance_exists(ind))
 			{
-	            if (ind.bottom_solid and game_pc_arm_in_shape(self, ind, radius))
+	            if (ind.bottom_solid and game_pc_arm_in_shape(id, ind, radius))
 				{
 	                result = ind;
 	                break;

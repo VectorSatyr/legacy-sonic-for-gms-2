@@ -1,3 +1,3 @@
 /// @description  Activate
-timeline_set(self, LampPostHitAnim);
+timeline_set(id, LampPostHitAnim);
 activated = true;

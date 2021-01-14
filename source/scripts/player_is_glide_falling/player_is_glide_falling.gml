@@ -8,16 +8,16 @@ function player_is_glide_falling(argument0) {
 	        on_the_ground = false;
 	    }
 
-	    game_pc_translate_speed(self, x_speed, local_direction);
-	    game_pc_redirect(self, gravity_direction);
-	    game_pc_align(self, gravity_direction);
+	    game_pc_translate_speed(id, x_speed, local_direction);
+	    game_pc_redirect(id, gravity_direction);
+	    game_pc_align(id, gravity_direction);
 
 	    x_speed *= 0.25;
 
-	    game_pc_animate(self, "glide_fall");
+	    game_pc_animate(id, "glide_fall");
 	    image_angle = gravity_direction;
 
-	    game_pc_camera_direct(self, game_pc_camera_state_aerial);
+	    game_pc_camera_direct(id, game_pc_camera_state_aerial);
 	    break;
 
 	case "step":
@@ -31,7 +31,7 @@ function player_is_glide_falling(argument0) {
 	        }
 	    }
 
-	    game_pc_move_in_air(self);
+	    game_pc_move_in_air(id);
 	    if (state_changed) {
 	        return false;
 	    }
@@ -39,10 +39,10 @@ function player_is_glide_falling(argument0) {
 		if (on_the_ground) {
 	        if (mask_direction != gravity_direction) {
 				control_lock_time = default_slide_lock_time;
-				return game_pc_perform(self, player_is_running);
+				return game_pc_perform(id, player_is_running);
 	        } else {
-	            game_pc_play_sound(self, LandingSound);
-	            return game_pc_perform(self, player_is_glide_landing);
+	            game_pc_play_sound(id, LandingSound);
+	            return game_pc_perform(id, player_is_glide_landing);
 	        }
 	    }
 

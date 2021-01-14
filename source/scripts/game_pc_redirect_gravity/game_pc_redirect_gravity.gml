@@ -8,8 +8,8 @@ function game_pc_redirect_gravity(argument0, argument1) {
 	with (character) {
 	    if (gravity_direction != angle) {
 	        gravity_direction = angle;
-	        game_pc_redirect(self, gravity_direction);
-	        game_pc_align(self, gravity_direction);
+	        game_pc_redirect(id, gravity_direction);
+	        game_pc_align(id, gravity_direction);
 	    }
 	}
 

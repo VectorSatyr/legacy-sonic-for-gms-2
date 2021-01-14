@@ -4,8 +4,8 @@ function player_react_to_glowing_spheres_wall_bumper(argument0, argument1) {
 
 	switch (phase) {
 	case "checking":
-	    if (game_pc_arms_in_shape(self, ind, x_wall_radius + 2)) {
-	        game_pc_react_to(self, ind);
+	    if (game_pc_arms_in_shape(id, ind, x_wall_radius + 2)) {
+	        game_pc_react_to(id, ind);
 	    }
 	    break;
 
@@ -13,7 +13,7 @@ function player_react_to_glowing_spheres_wall_bumper(argument0, argument1) {
 	    ind.timer = 12;
 
 	    if (state == player_is_hurt) {
-	        game_pc_perform(self, player_is_falling);
+	        game_pc_perform(id, player_is_falling);
 	    }
 
 	    x_speed = ind.force * sign(x_int - ind.x);
@@ -26,9 +26,9 @@ function player_react_to_glowing_spheres_wall_bumper(argument0, argument1) {
 	        rolling_jump = false;
 	    }
 
-	    game_pc_animate(self, "flip", true);
+	    game_pc_animate(id, "flip", true);
 
-	    game_pc_play_sound(self, BumperSound);
+	    game_pc_play_sound(id, BumperSound);
 	    break;
 
 	case "exiting":

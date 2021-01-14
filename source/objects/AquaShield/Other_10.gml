@@ -1,2 +1,2 @@
 /// @description  Bounce
-timeline_set(self, AquaShieldBounceAnim, 1, false);
+timeline_set(id, AquaShieldBounceAnim, 1, false);

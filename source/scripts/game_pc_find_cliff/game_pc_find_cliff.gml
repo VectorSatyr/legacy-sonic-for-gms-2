@@ -13,13 +13,13 @@ function game_pc_find_cliff(argument0) {
 	        ind = local_solids[| n];
 	        if (instance_exists(ind)) {
 	            if (ind.top_solid) {
-	                if (game_pc_leg_in_shape(self, ind, 0, radius)) {
+	                if (game_pc_leg_in_shape(id, ind, 0, radius)) {
 	                    center = ind;
 	                }
-	                if (game_pc_leg_in_shape(self, ind, -x_radius, radius)) {
+	                if (game_pc_leg_in_shape(id, ind, -x_radius, radius)) {
 	                    left = ind;
 	                }
-	                if (game_pc_leg_in_shape(self, ind, x_radius, radius)) {
+	                if (game_pc_leg_in_shape(id, ind, x_radius, radius)) {
 	                    right = ind;
 	                }
 	            }

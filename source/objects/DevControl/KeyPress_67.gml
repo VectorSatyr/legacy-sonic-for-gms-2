@@ -5,11 +5,11 @@ with (game_player_find(0))
 	{
         if (state == player_is_debug)
 		{
-            game_pc_perform(self, player_is_falling);
+            game_pc_perform(id, player_is_falling);
         }
 		else
 		{
-            game_pc_perform(self, player_is_debug);
+            game_pc_perform(id, player_is_debug);
         }
     }
 }

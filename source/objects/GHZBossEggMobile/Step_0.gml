@@ -135,7 +135,7 @@ if (game_is_running()) {
     case "escaping":
         x_speed = 3;
         y_speed = -0.5;
-        if (not instance_on_screen(self, 32)) {
+        if (not instance_on_screen(id, 32)) {
             instance_destroy();
         }
         break;

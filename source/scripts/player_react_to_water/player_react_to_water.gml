@@ -5,7 +5,7 @@ function player_react_to_water(argument0, argument1) {
 	switch (phase) {
 	case "checking":
 	    if (point_in_rectangle(x_int, y_int, ind.bbox_left, ind.bbox_top, ind.bbox_right, ind.bbox_bottom)) {
-	        game_pc_react_to(self, ind);
+	        game_pc_react_to(id, ind);
 	    }
 	    break;
 
@@ -13,7 +13,7 @@ function player_react_to_water(argument0, argument1) {
 	    if (not underwater) {
 	        underwater = true;
 	        remaining_air_time = default_remaining_air_time;
-	        game_pc_refresh_physics(self);
+	        game_pc_refresh_physics(id);
 	        y_speed *= 0.25;
 
 	        if (shield != noone) {
@@ -36,7 +36,7 @@ function player_react_to_water(argument0, argument1) {
 
 	        if (not point_in_rectangle(floor(xprevious), floor(yprevious), ind.bbox_left, ind.bbox_top, ind.bbox_right, ind.bbox_bottom)) {
 	            game_particles_spawn("splash", x_int, ind.bbox_top);
-	            game_pc_play_sound(self, SplashSound);
+	            game_pc_play_sound(id, SplashSound);
 	        }
 	    }
 	    break;
@@ -57,10 +57,10 @@ function player_react_to_water(argument0, argument1) {
 
 	        underwater = false;
 	        remaining_air_time = 0;
-	        game_pc_refresh_physics(self);
+	        game_pc_refresh_physics(id);
 	        y_speed *= 2;
 
-	        game_pc_play_sound(self, SplashSound);
+	        game_pc_play_sound(id, SplashSound);
 			game_particles_spawn("splash", x_int, ind.bbox_top);
 
 	        if (instance_exists(drowning_music)) {

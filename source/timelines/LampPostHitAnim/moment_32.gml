@@ -1,2 +1,2 @@
 /// @description  Change animation
-timeline_set(self, LampPostBlinkAnim);
+timeline_set(id, LampPostBlinkAnim);

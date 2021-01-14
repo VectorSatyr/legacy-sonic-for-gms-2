@@ -66,7 +66,7 @@ if (game_is_running()) {
 		--timer;
         if (timer <= 0) {
 			with (GamePlayer) {
-	            game_player_set_rings(self, 0);
+	            game_player_set_rings(id, 0);
 	            lives_via_rings = 0;
 	        }
 			game_zone_check_point_clear();

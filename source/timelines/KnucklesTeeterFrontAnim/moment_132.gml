@@ -1,3 +1,3 @@
 /// @description  Change animation
-game_pc_animate(self, "teeter_loop");
+game_pc_animate(id, "teeter_loop");
 

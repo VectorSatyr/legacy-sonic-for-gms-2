@@ -1,4 +1,4 @@
 /// @description  Initialize
 event_inherited();
-timeline_set(self, ThunderShieldAnim);
+timeline_set(id, ThunderShieldAnim);
 attract_range = 128;

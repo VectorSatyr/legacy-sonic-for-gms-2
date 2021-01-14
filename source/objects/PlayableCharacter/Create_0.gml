@@ -52,7 +52,7 @@ y_speed = 0;
 
 facing_sign = 1;
 
-game_pc_refresh_physics(self);
+game_pc_refresh_physics(id);
 
 wall_push_speed = land_acceleration;
 
@@ -98,7 +98,7 @@ reaction_list = ds_list_create();
 previous_reaction_list = ds_list_create();
 
 mask = instance_create_depth(x, y, depth - 1, PlayerBoundingMask);
-mask.source = self;
+mask.source = id;
 
 // regions and boundaries
 bound_left = 16;
@@ -119,10 +119,10 @@ image_angle_resolution = 45;
 
 // other values
 camera = instance_create_layer(x, y, "general", PlayerCamera);
-camera.owner = self;
+camera.owner = id;
 
 shader = instance_create_layer(x, y, "effects", SuperFormShader);
-shader.source = self;
+shader.source = id;
 
 shield = noone;
 

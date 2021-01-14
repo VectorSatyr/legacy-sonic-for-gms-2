@@ -52,7 +52,7 @@ function game_pc_calc_shape_normal(argument0, argument1, argument2) {
 	            }
 	        }
 	    } else {
-	        if (game_pc_in_shape_bounds(self, shape, orientation)) {
+	        if (game_pc_in_shape_bounds(id, shape, orientation)) {
 	            if (not is_undefined(shape.normal)) {
 	                // normal is pre-defined
 	                normal = shape.normal;

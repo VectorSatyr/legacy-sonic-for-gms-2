@@ -12,7 +12,7 @@ function game_pc_refresh_local_index(argument0) {
 	    var ind;
 	    for (var n = 0; n < size; ++n) {
 	        ind = instance_find(Deactivable, n);
-	        if (game_pc_in_shape(self, ind, xrad, yrad)) {
+	        if (game_pc_in_shape(id, ind, xrad, yrad)) {
 	            ds_list_add(local_instances, ind);
 	            if (object_is_family(ind.object_index, Solid)) {
 	                if ((depth_mask & ind.depth_mask) and (ind.top_solid or ind.bottom_solid)) {

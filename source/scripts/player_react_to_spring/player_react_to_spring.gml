@@ -6,21 +6,21 @@ function player_react_to_spring(argument0, argument1) {
 	case "checking":
 	    var rotation_offset = angle_wrap(round_to(ind.image_angle, 90) - mask_direction);
 
-	    if (game_pc_arms_in_shape(self, ind, x_wall_radius)) {
+	    if (game_pc_arms_in_shape(id, ind, x_wall_radius)) {
 	        if ((rotation_offset == 270 and x_speed < 0) or rotation_offset == 90 and x_speed > 0) {
-	            game_pc_react_to(self, ind);
+	            game_pc_react_to(id, ind);
 	        }
 	        break;
 	    }
-	    if (game_pc_lower_in_shape(self, ind, y_radius)) {
+	    if (game_pc_lower_in_shape(id, ind, y_radius)) {
 	        if (rotation_offset == 0 and y_speed >= 0) {
-	            game_pc_react_to(self, ind);
+	            game_pc_react_to(id, ind);
 	        }
 	        break;
 	    }
-	    if (game_pc_upper_in_shape(self, ind, y_radius)) {
+	    if (game_pc_upper_in_shape(id, ind, y_radius)) {
 	        if (rotation_offset == 180 and y_speed < 0) {
-	            game_pc_react_to(self, ind);
+	            game_pc_react_to(id, ind);
 	        }
 	        break;
 	    }
@@ -41,15 +41,15 @@ function player_react_to_spring(argument0, argument1) {
 	        }
 
 	        if (state == player_is_glide_sliding or state == player_is_glide_standing) {
-	            game_pc_perform(self, player_is_running);
+	            game_pc_perform(id, player_is_running);
 	        } else if (state == player_is_gliding) {
-	            game_pc_perform(self, player_is_falling);
-	            game_pc_animate(self, "run");
+	            game_pc_perform(id, player_is_falling);
+	            game_pc_animate(id, "run");
 	        }
 	    }
     
 	    if (y_spring_speed != 0) {
-	        game_pc_perform(self, player_is_falling);
+	        game_pc_perform(id, player_is_falling);
 
 	        spinning = false;
 
@@ -58,15 +58,15 @@ function player_react_to_spring(argument0, argument1) {
 	        image_angle = gravity_direction;
 
 	        if (ind.special_animation) {
-	            game_pc_animate(self, "flip", true);
+	            game_pc_animate(id, "flip", true);
 	        } else {
-	            game_pc_animate(self, "rise");
+	            game_pc_animate(id, "rise");
 	        }
 	    }
 
 	    if (x_spring_speed != 0 or y_spring_speed != 0) {
 	        instance_perform_user_event(ind, 0); // animate
-	        game_pc_play_sound(self, SpringSound);
+	        game_pc_play_sound(id, SpringSound);
 	    }
 	    break;
 

@@ -5,7 +5,7 @@ function player_react_to_switch(argument0, argument1) {
 	switch (phase) {
 	case "checking":
 	    if (ground_id == ind) {
-	        game_pc_react_to(self, ind);
+	        game_pc_react_to(id, ind);
 	    }
 	    break;
 

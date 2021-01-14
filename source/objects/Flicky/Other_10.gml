@@ -1,2 +1,2 @@
 /// @description  Animate
-timeline_set(self, FlickyFlyAnim);
+timeline_set(id, FlickyFlyAnim);

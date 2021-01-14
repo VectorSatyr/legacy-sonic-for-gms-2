@@ -12,11 +12,11 @@ if (game_is_running() and not state_changed) {
         image_angle = direction;
         var velocity = floor(abs(x_speed));
         if (velocity >= 8) {
-            game_pc_animate(self, "sprint");
+            game_pc_animate(id, "sprint");
         } else if (velocity >= 6) {
-            game_pc_animate(self, "run");
+            game_pc_animate(id, "run");
         } else {
-            game_pc_animate(self, "walk");
+            game_pc_animate(id, "walk");
         }
         timeline_speed = 1 / max(8 - velocity, 1);
         break;

@@ -7,13 +7,13 @@ function game_pc_find_ground(argument0, argument1) {
 
 	    var ind, new_dir;
 	    for (var oy = 0; oy < radius; ++oy) {
-	        ind = game_pc_lower_collision_solid(self, oy);
+	        ind = game_pc_lower_collision_solid(id, oy);
 	        if (ind != noone) {
-	            new_dir = game_pc_calc_shape_normal(self, ind, mask_direction);
+	            new_dir = game_pc_calc_shape_normal(id, ind, mask_direction);
 	            if (abs(angle_difference(new_dir, direction)) <= 45 or not on_the_ground) {
-	                game_pc_land(self, ind);
-	                game_pc_redirect(self, new_dir);
-	                game_pc_find_outlier(self);
+	                game_pc_land(id, ind);
+	                game_pc_redirect(id, new_dir);
+	                game_pc_find_outlier(id);
 	                break;
 	            }
 	        }
@@ -31,7 +31,7 @@ function game_pc_find_ground(argument0, argument1) {
 	            x2 = x_int + (cosine * x_radius) + (sine * oy);
 	            y2 = y_int - (sine * x_radius) + (cosine * oy);
 	            if (game_shape_in_rectangle(ground_id, x1, y1, x2, y2)) {
-	                game_pc_eject(self, (y_radius - oy) + 1, rotation);
+	                game_pc_eject(id, (y_radius - oy) + 1, rotation);
 	                break;
 	            }
 	        }

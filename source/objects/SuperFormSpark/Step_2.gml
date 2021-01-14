@@ -1,2 +1,2 @@
 /// @description Remove
-if (timeline_expired(self)) instance_destroy();
+if (timeline_expired(id)) instance_destroy();

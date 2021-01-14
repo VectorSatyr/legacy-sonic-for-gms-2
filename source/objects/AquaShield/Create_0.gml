@@ -1,3 +1,3 @@
 /// @description  Initialize
 event_inherited();
-timeline_set(self, AquaShieldAnim);
+timeline_set(id, AquaShieldAnim);

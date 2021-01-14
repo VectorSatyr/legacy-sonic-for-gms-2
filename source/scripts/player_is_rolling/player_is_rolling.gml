@@ -7,21 +7,21 @@ function player_is_rolling(argument0) {
 	case "start":
 	    spinning = true;
 
-	    game_pc_animate(self, "spin");
+	    game_pc_animate(id, "spin");
 	    image_angle = gravity_direction;
 	    timeline_speed = 1 / max(5 - floor(abs(x_speed)), 1);
 
-	    game_pc_camera_direct(self, game_pc_camera_state_normal);
+	    game_pc_camera_direct(id, game_pc_camera_state_normal);
 	    break;
 
 	case "finish":
 	    break;
 
 	case "step":
-	    if (input_action_pressed and game_pc_upper_collision_solid(self, y_radius + 5) == noone) {
+	    if (input_action_pressed and game_pc_upper_collision_solid(id, y_radius + 5) == noone) {
 	        //rolling_jump = true;
-	        game_pc_play_sound(self, JumpSound);
-	        return game_pc_perform(self, player_is_jumping);
+	        game_pc_play_sound(id, JumpSound);
+	        return game_pc_perform(id, player_is_jumping);
 	    }
 
 	    if (horizontal_axis_value != 0) {
@@ -37,13 +37,13 @@ function player_is_rolling(argument0) {
 
 	    x_speed -= min(abs(x_speed), roll_friction) * sign(x_speed);
 
-	    game_pc_move_on_ground(self);
+	    game_pc_move_on_ground(id);
 		if (state_changed) {
 	        return false;
 	    }
 
 	    if (not on_the_ground) {
-	        return game_pc_perform(self, player_is_falling);
+	        return game_pc_perform(id, player_is_falling);
 	    }
 
 	    var roll_slope_friction;
@@ -52,16 +52,16 @@ function player_is_rolling(argument0) {
 	    } else {
 	        roll_slope_friction = roll_slope_friction_down;
 	    }
-	    x_speed -= game_pc_calc_slope_friction(self, roll_slope_friction, roll_friction);
+	    x_speed -= game_pc_calc_slope_friction(id, roll_slope_friction, roll_friction);
 
 	    if (abs(x_speed) < slide_threshold) {
 	        if ((local_direction >= 90 and local_direction <= 270)) {
-	            return game_pc_perform(self, player_is_falling);
+	            return game_pc_perform(id, player_is_falling);
 	        }
 	    }
 
 	    if (abs(x_speed) < unroll_threshold and mask_direction == gravity_direction) {
-	        return game_pc_perform(self, player_is_running);
+	        return game_pc_perform(id, player_is_running);
 	    }
 
 	    // animate

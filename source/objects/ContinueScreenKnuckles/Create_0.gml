@@ -1,3 +1,3 @@
 /// @description  Initialize
 event_inherited();
-timeline_set(self, KnucklesContinueStanceAnim);
+timeline_set(id, KnucklesContinueStanceAnim);

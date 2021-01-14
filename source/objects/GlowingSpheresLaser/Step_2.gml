@@ -5,23 +5,23 @@ if (game_is_running())
 	{
 		if (linked_object_id == other)
 		{
-			game_pc_position(self, x, other.y);
+			game_pc_position(id, x, other.y);
 		}
 		else if (state != player_is_debug and y_int >= other.y)
 		{
-			game_pc_position(self, x, other.y);
-			game_pc_perform(self, player_is_linked);
+			game_pc_position(id, x, other.y);
+			game_pc_perform(id, player_is_linked);
 			x_speed = 0;
 			y_speed = 0;
 			spinning = true;
 			linked_object_id = other;
 
-			game_pc_animate(self, "spin");
+			game_pc_animate(id, "spin");
 			image_angle = gravity_direction;
 			timeline_speed = 0.2;
 
-			game_pc_camera_direct(self, game_pc_camera_state_aerial);
-			game_pc_play_sound(self, LaserCaptureSound, false);
+			game_pc_camera_direct(id, game_pc_camera_state_aerial);
+			game_pc_play_sound(id, LaserCaptureSound, false);
 
 			if (owner.index == 0)
 			{

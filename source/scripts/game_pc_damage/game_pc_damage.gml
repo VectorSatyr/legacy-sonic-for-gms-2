@@ -20,18 +20,18 @@ function game_pc_damage() {
 	            }
 	            instance_destroy(shield);
 	            shield = noone;
-	            game_pc_play_sound(self, soundid);
+	            game_pc_play_sound(id, soundid);
 	        } else if (owner.rings > 0) {
 	            game_player_spawn_rings(owner, x_int, y_int);
 	            game_player_set_rings(owner, 0);
-	            game_pc_play_sound(self, RingLossSound);
+	            game_pc_play_sound(id, RingLossSound);
 	        } else {
-	            game_pc_play_sound(self, HurtSound);
-	            game_pc_perform(self, player_is_defeated);
+	            game_pc_play_sound(id, HurtSound);
+	            game_pc_perform(id, player_is_defeated);
 	            break;
 	        }
 
-	        game_pc_perform(self, player_is_hurt);
+	        game_pc_perform(id, player_is_hurt);
 
 	        x_speed = recoil_sign * 2;
 	        if (x_speed == 0) {

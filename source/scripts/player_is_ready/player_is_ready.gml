@@ -9,7 +9,7 @@ function player_is_ready(argument0) {
 	    break;
 
 	case "step":
-	    game_pc_perform(self, player_is_standing);
+	    game_pc_perform(id, player_is_standing);
 	    break;
 	}
 

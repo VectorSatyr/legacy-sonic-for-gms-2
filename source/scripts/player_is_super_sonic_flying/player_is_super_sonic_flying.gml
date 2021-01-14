@@ -8,11 +8,11 @@ function player_is_super_sonic_flying(argument0) {
 	        on_the_ground = false;
 	    }
 
-	    game_pc_translate_speed(self, x_speed, local_direction);
-	    game_pc_redirect(self, gravity_direction);
-	    game_pc_align(self, gravity_direction);
-	    game_pc_animate(self, "run");
-	    game_pc_camera_direct(self, game_pc_camera_state_aerial);
+	    game_pc_translate_speed(id, x_speed, local_direction);
+	    game_pc_redirect(id, gravity_direction);
+	    game_pc_align(id, gravity_direction);
+	    game_pc_animate(id, "run");
+	    game_pc_camera_direct(id, game_pc_camera_state_aerial);
 	    break;
 
 	case "finish":
@@ -21,8 +21,8 @@ function player_is_super_sonic_flying(argument0) {
 	case "step":
 	    if (input_action_pressed) {
 	        spinning = true;
-	        game_pc_animate(self, "spin");
-	        return game_pc_perform(self, player_is_falling);
+	        game_pc_animate(id, "spin");
+	        return game_pc_perform(id, player_is_falling);
 	    }
 
 	    if (horizontal_axis_value != 0) {
@@ -55,16 +55,16 @@ function player_is_super_sonic_flying(argument0) {
 	        y_speed -= min(abs(y_speed), gravity_speed) * sign(y_speed);
 	    }
 
-	    game_pc_move_in_air(self);
+	    game_pc_move_in_air(id);
 	    if (state_changed) {
 	        return false;
 	    }
 
 	    if (on_the_ground) {
 	        if (x_speed != 0) {
-	            return game_pc_perform(self, player_is_running);
+	            return game_pc_perform(id, player_is_running);
 	        } else {
-	            return game_pc_perform(self, player_is_standing);
+	            return game_pc_perform(id, player_is_standing);
 	        }
 	    }
 	    break;

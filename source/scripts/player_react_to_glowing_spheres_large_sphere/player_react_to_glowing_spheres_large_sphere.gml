@@ -4,23 +4,23 @@ function player_react_to_glowing_spheres_large_sphere(argument0, argument1) {
 
 	switch (phase) {
 	case "checking":
-	    if (game_pc_in_shape(self, ind, x_radius, y_radius) or linked_object_id == ind) {
-	        game_pc_react_to(self, ind);
+	    if (game_pc_in_shape(id, ind, x_radius, y_radius) or linked_object_id == ind) {
+	        game_pc_react_to(id, ind);
 	    }
 	    break;
 
 	case "entering":
-		game_pc_perform(self, player_is_linked);
+		game_pc_perform(id, player_is_linked);
 		x_speed = 0;
 		y_speed = 0;
 		spinning = true;
 		linked_object_id = ind;
 
-	    game_pc_animate(self, "spin");
+	    game_pc_animate(id, "spin");
 	    image_angle = gravity_direction;
 	    timeline_speed = 0.2;
 
-	    game_pc_camera_direct(self, game_pc_camera_state_aerial);
+	    game_pc_camera_direct(id, game_pc_camera_state_aerial);
 
 		var index = owner.index;
 		ind.angle[index] = point_direction(ind.x, ind.y, x_int, y_int);

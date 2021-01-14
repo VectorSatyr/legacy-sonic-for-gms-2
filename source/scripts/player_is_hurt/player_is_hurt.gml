@@ -9,14 +9,14 @@ function player_is_hurt(argument0) {
 
 	    on_the_ground = false;
 
-	    game_pc_translate_speed(self, x_speed, local_direction);
-	    game_pc_redirect(self, gravity_direction);
-	    game_pc_align(self, gravity_direction);
+	    game_pc_translate_speed(id, x_speed, local_direction);
+	    game_pc_redirect(id, gravity_direction);
+	    game_pc_align(id, gravity_direction);
 
-	    game_pc_animate(self, "hurt");
+	    game_pc_animate(id, "hurt");
 	    image_angle = gravity_direction;
 
-	    game_pc_camera_direct(self, game_pc_camera_state_aerial);
+	    game_pc_camera_direct(id, game_pc_camera_state_aerial);
 	    break;
 
 	case "finish":
@@ -24,13 +24,13 @@ function player_is_hurt(argument0) {
 	    break;
 
 	case "step":
-	    game_pc_move_in_air(self);
+	    game_pc_move_in_air(id);
 	    if (state_changed) {
 	        return false;
 	    }
 
 	    if (on_the_ground) {
-	        game_pc_perform(self, player_is_standing);
+	        game_pc_perform(id, player_is_standing);
 	        x_speed = 0;
 	        y_speed = 0;
 	    }

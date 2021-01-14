@@ -14,14 +14,14 @@ if (game_is_running() and not state_changed)
 	case player_is_running:
 		var velocity = floor(abs(x_speed));
 		var velocity_cap = (superform) ? 8 : 6;
-		game_pc_animate(self, (velocity >= velocity_cap) ? "run" : "walk");
+		game_pc_animate(id, (velocity >= velocity_cap) ? "run" : "walk");
 		timeline_speed = 1 / max(8 - velocity, 1);
 		image_angle = direction;
 		break;
 	}
 	if (superform)
 	{
-		if (game_pc_animating(self, "walk"))
+		if (game_pc_animating(id, "walk"))
 		{
 			sprite_index = (game_clock_get_step() mod 4 == 0) ? 
 				SuperSonicWalkHighSprite : 

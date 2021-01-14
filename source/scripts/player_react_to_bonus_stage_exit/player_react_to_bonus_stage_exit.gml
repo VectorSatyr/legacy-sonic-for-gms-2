@@ -6,7 +6,7 @@ function player_react_to_bonus_stage_exit(argument0, argument1) {
 	case "checking":
 	    if (owner.index == 0 and
 			point_in_rectangle(x_int, y_int, ind.bbox_left, ind.bbox_top, ind.bbox_right, ind.bbox_bottom)) {
-	        game_pc_react_to(self, ind);
+	        game_pc_react_to(id, ind);
 	    }
 	    break;
 

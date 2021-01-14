@@ -1,3 +1,3 @@
 /// @description  Initialize
 event_inherited();
-timeline_set(self, StandardShieldAnim);
+timeline_set(id, StandardShieldAnim);

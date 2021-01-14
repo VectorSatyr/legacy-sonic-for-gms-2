@@ -5,7 +5,7 @@ if (game_is_running())
 	{
 	    if (not constant)
 		{
-	        instance_deactivate_object(self);
+	        instance_deactivate_object(id);
 	    }
 	}
 
@@ -28,7 +28,7 @@ if (game_is_running())
 
 	with (PlayableCharacter)
 	{
-	    if (not instance_on_screen(self))
+	    if (not instance_on_screen(id))
 		{
 	        if ((mask_direction mod 180) != 0)
 			{

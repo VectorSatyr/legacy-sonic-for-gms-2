@@ -6,7 +6,7 @@ function game_menu_change_page(argument0, argument1) {
 	var name = argument1;
 
 	with (menu) {
-	    var page = game_menu_find_page(self, name);
+	    var page = game_menu_find_page(id, name);
 	    if (not is_undefined(page)) {
 	        var total = ds_list_size(pages);
 	        for (var n = 0; n < total; ++n) {

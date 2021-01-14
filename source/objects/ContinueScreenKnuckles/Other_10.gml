@@ -1,2 +1,2 @@
 /// @description  React
-timeline_set(self, KnucklesContinueReactAnim);
+timeline_set(id, KnucklesContinueReactAnim);

@@ -22,7 +22,7 @@ room_width = start_x + nosave_w + (MAX_GAME_SAVES * save_w) + nosave_w + start_x
 
 // no save option
 choice_nosave = instance_create_layer(start_x + nosave_ox, start_y, "gui", FSNoSaveChoice);
-game_menu_page_add_choice(self, choice_nosave);
+game_menu_page_add_choice(id, choice_nosave);
 
 // save files
 var file, exists, type, name;
@@ -37,7 +37,7 @@ for (var n = 0; n < MAX_GAME_SAVES; ++n)
 	choice_save[n] = instance_create_layer(start_x + nosave_w + save_ox + (n * save_w), start_y, "gui", type);
 	choice_save[n].name = name;
     choice_save[n].file_index = n;
-    game_menu_page_add_choice(self, choice_save[n]);
+    game_menu_page_add_choice(id, choice_save[n]);
 	if (exists)
 	{
 		instance_perform_user_event(choice_save[n], 3); // load
@@ -56,7 +56,7 @@ instance_perform_user_event(starting_slot, 2); // target
 
 // delete option
 choice_delete = instance_create_layer(start_x + nosave_w + (MAX_GAME_SAVES * save_w) + nosave_ox, start_y, "gui", FSDeleteChoice);
-game_menu_page_add_choice(self, choice_delete);
+game_menu_page_add_choice(id, choice_delete);
 
 // delete icon
 delete_icon = instance_create_layer(choice_delete.x, choice_delete.y, "cursor", FileSelectMenuDeleteIcon);

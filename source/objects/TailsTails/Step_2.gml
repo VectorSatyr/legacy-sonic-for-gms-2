@@ -9,15 +9,15 @@ if (game_is_running()) {
     case "look_up":
     case "crouch":
     case "push":
-		timeline_set(self, TailsTailsStanceAnim, 1, true, false);
+		timeline_set(id, TailsTailsStanceAnim, 1, true, false);
         break;
 
     case "spin":
-        timeline_set(self, TailsTailsSpinAnim, 1, true, false);
+        timeline_set(id, TailsTailsSpinAnim, 1, true, false);
         break;
 
     case "spindash":
-        timeline_set(self, TailsTailsSpinDashAnim, 1, true, false);
+        timeline_set(id, TailsTailsSpinDashAnim, 1, true, false);
         break;
 
     default:

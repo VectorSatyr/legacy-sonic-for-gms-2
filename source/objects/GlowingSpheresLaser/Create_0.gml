@@ -23,7 +23,7 @@ for (var n = 0; n < total_spheres; ++n)
 {
 	sphere[n] = instance_create_layer(x + (n * separation), y, "laser", GlowingSpheresLaserSphere);
 	sphere[n].timeline_position = n mod 8;
-	sphere[n].owner = self;
+	sphere[n].owner = id;
 	sphere[n].node = n;
 	sphere[n].separation = separation;
 	sphere[n].x_speed = x_speed;

@@ -1,2 +1,2 @@
 /// @description  Change animation
-timeline_set(self, EggMobileFlameAnim);
+timeline_set(id, EggMobileFlameAnim);

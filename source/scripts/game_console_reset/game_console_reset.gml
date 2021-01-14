@@ -12,8 +12,8 @@ function game_console_reset() {
 	game_zone_check_point_clear();
 	with (GamePlayer)
 	{
-	    game_player_set_score(self, 0);
-	    game_player_set_rings(self, 0);
+	    game_player_set_score(id, 0);
+	    game_player_set_rings(id, 0);
 	    lives_via_rings = 0;
 	}
 

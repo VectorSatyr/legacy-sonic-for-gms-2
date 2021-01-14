@@ -10,9 +10,9 @@ function player_is_gliding(argument0) {
 	        on_the_ground = false;
 	    }
 
-	    game_pc_translate_speed(self, x_speed, local_direction);
-	    game_pc_redirect(self, gravity_direction);
-	    game_pc_align(self, gravity_direction);
+	    game_pc_translate_speed(id, x_speed, local_direction);
+	    game_pc_redirect(id, gravity_direction);
+	    game_pc_align(id, gravity_direction);
 
 	    if (y_speed <= -8) {
 	        y_speed *= 0.25;
@@ -25,10 +25,10 @@ function player_is_gliding(argument0) {
 	    glide_angle = 90 - (90 * facing_sign);
 	    glide_force = 0.5;
 
-	    game_pc_animate(self, "glide");
+	    game_pc_animate(id, "glide");
 	    image_angle = gravity_direction;
 
-	    game_pc_camera_direct(self, game_pc_camera_state_aerial);
+	    game_pc_camera_direct(id, game_pc_camera_state_aerial);
 	    break;
 
 	case "finish":
@@ -36,7 +36,7 @@ function player_is_gliding(argument0) {
 
 	case "step":
 	    if (not input_action) {
-	        return game_pc_perform(self, player_is_glide_falling);
+	        return game_pc_perform(id, player_is_glide_falling);
 	    }
 
 	    if (horizontal_axis_value != 0) {
@@ -54,7 +54,7 @@ function player_is_gliding(argument0) {
 
 	    x_speed = glide_speed * dcos(glide_angle);
 
-	    game_pc_move_in_air(self);
+	    game_pc_move_in_air(id);
 	    if (state_changed) {
 	        return false;
 	    }
@@ -62,9 +62,9 @@ function player_is_gliding(argument0) {
 	    if (on_the_ground) {
 	        if (mask_direction != gravity_direction) {
 	            control_lock_time = default_slide_lock_time;
-				return game_pc_perform(self, player_is_running);
+				return game_pc_perform(id, player_is_running);
 	        } else {
-	            return game_pc_perform(self, player_is_glide_sliding);
+	            return game_pc_perform(id, player_is_glide_sliding);
 	        }
 	    }
 

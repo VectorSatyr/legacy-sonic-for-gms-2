@@ -4,7 +4,7 @@ function player_perform_flame_dash() {
 	x_speed = facing_sign * flame_dash_speed;
 	y_speed = 0;
 
-	game_pc_animate(self, "spin", true);
+	game_pc_animate(id, "spin", true);
 	timeline_speed = 1;
 	image_angle = gravity_direction;
 
@@ -14,7 +14,7 @@ function player_perform_flame_dash() {
 	    freeze_time = 12;
 	}
 
-	game_pc_play_sound(self, FlameDashSound);
+	game_pc_play_sound(id, FlameDashSound);
 
 
 

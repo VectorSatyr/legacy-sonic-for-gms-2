@@ -1,2 +1,2 @@
 /// @description  Change animation
-timeline_set(self, EggMobileEggmanIdleAnim);
+timeline_set(id, EggMobileEggmanIdleAnim);

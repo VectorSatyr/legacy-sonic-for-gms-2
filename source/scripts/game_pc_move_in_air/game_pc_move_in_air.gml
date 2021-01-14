@@ -4,10 +4,10 @@ function game_pc_move_in_air(argument0) {
 	var character = argument0;
 
 	with (character) {
-	    game_pc_memorize_reactions(self);
-	    game_pc_sample_x(self, game_pc_step_in_air_horizontal);
-	    game_pc_memorize_reactions(self);
-	    game_pc_sample_y(self, game_pc_step_in_air_vertical);
+	    game_pc_memorize_reactions(id);
+	    game_pc_sample_x(id, game_pc_step_in_air_horizontal);
+	    game_pc_memorize_reactions(id);
+	    game_pc_sample_y(id, game_pc_step_in_air_vertical);
 	}
 
 

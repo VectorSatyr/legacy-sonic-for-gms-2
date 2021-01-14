@@ -1,2 +1,2 @@
 /// @description  Activate
-timeline_set(self, SignPostAnim, 1, false);
+timeline_set(id, SignPostAnim, 1, false);

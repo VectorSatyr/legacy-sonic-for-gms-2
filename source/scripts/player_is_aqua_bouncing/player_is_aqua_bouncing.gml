@@ -8,7 +8,7 @@ function player_is_aqua_bouncing(argument0) {
 
 	    spinning = true;
 
-	    game_pc_animate(self, "spin", true);
+	    game_pc_animate(id, "spin", true);
 	    timeline_speed = 1 / max(5 - abs(x_speed), 1);
 	    image_angle = gravity_direction;
 
@@ -30,15 +30,15 @@ function player_is_aqua_bouncing(argument0) {
 	        }
 	    }
 
-	    game_pc_move_in_air(self);
+	    game_pc_move_in_air(id);
 	    if (state_changed) {
 	        return false;
 	    }
 
 	    if (on_the_ground) {
-	        game_pc_perform(self, player_is_jumping);
+	        game_pc_perform(id, player_is_jumping);
 	        y_speed = -aqua_bounce_force;
-	        game_pc_play_sound(self, AquaBounceSound);
+	        game_pc_play_sound(id, AquaBounceSound);
 	    }
 
 	    if (y_speed < 0 and y_speed > -jump_release_force) {

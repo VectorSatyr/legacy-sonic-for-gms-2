@@ -1,2 +1,2 @@
 /// @description  Recoil
-timeline_set(self, AquaShieldRecoilAnim, 1, false);
+timeline_set(id, AquaShieldRecoilAnim, 1, false);

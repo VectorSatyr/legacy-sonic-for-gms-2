@@ -7,17 +7,17 @@ function player_is_swimming(argument0) {
 	        ground_id = noone;
 	        on_the_ground = false;
 
-	        game_pc_translate_speed(self, x_speed, local_direction);
-	        game_pc_redirect(self, gravity_direction);
-	        game_pc_align(self, gravity_direction);
+	        game_pc_translate_speed(id, x_speed, local_direction);
+	        game_pc_redirect(id, gravity_direction);
+	        game_pc_align(id, gravity_direction);
 	    }
 
 	    spinning = false;
 
 	    flight_force = flight_base_force;
 
-	    game_pc_animate(self, "swim");
-	    game_pc_camera_direct(self, game_pc_camera_state_aerial);
+	    game_pc_animate(id, "swim");
+	    game_pc_camera_direct(id, game_pc_camera_state_aerial);
 	    break;
 
 	case "finish":
@@ -42,21 +42,21 @@ function player_is_swimming(argument0) {
 	        }
 	    }
 
-	    game_pc_move_in_air(self);
+	    game_pc_move_in_air(id);
 	    if (state_changed) {
 	        return false;
 	    }
 
 	    if (on_the_ground) {
 	        if (x_speed != 0) {
-	            return game_pc_perform(self, player_is_running);
+	            return game_pc_perform(id, player_is_running);
 	        } else {
-	            return game_pc_perform(self, player_is_standing);
+	            return game_pc_perform(id, player_is_standing);
 	        }
 	    }
 
 	    if (not underwater) {
-	        return game_pc_perform(self, player_is_flying);
+	        return game_pc_perform(id, player_is_flying);
 	    }
 
 	    if (y_speed < 0 and y_speed > -jump_release_force) {
@@ -76,10 +76,10 @@ function player_is_swimming(argument0) {
 	    }
 
 	    if (flight_time) {
-	        game_pc_animate(self, "swim");
+	        game_pc_animate(id, "swim");
 	        timeline_speed = 0.75 - (0.25 * sign(y_speed));
 	    } else {
-	        game_pc_animate(self, "swim_fall");
+	        game_pc_animate(id, "swim_fall");
 	    }
 	    break;
 	}

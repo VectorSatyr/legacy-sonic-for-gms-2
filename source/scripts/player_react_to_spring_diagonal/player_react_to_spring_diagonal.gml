@@ -4,13 +4,13 @@ function player_react_to_spring_diagonal(argument0, argument1) {
 
 	switch (phase) {
 	case "checking":
-	    if (game_pc_in_shape(self, ind, x_radius, y_radius)) {
-	        game_pc_react_to(self, ind);
+	    if (game_pc_in_shape(id, ind, x_radius, y_radius)) {
+	        game_pc_react_to(id, ind);
 	    }
 	    break;
 
 	case "entering":
-	    game_pc_perform(self, player_is_falling);
+	    game_pc_perform(id, player_is_falling);
 
 	    spinning = false;
 
@@ -22,16 +22,16 @@ function player_react_to_spring_diagonal(argument0, argument1) {
 	    facing_sign = sign(x_speed);
 
 	    if (ind.special_animation) {
-	        game_pc_animate(self, "flip", true);
+	        game_pc_animate(id, "flip", true);
 	    } else {
-	        game_pc_animate(self, "rise");
+	        game_pc_animate(id, "rise");
 	    }
 
 	    image_angle = gravity_direction;
 
 	    instance_perform_user_event(ind, 0); // animate
 
-	    game_pc_play_sound(self, SpringSound);
+	    game_pc_play_sound(id, SpringSound);
 	    break;
 
 	case "exiting":

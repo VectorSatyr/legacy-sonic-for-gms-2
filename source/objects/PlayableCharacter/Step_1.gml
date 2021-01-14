@@ -3,8 +3,8 @@ if (game_is_running())
 {
 	if (game_zone_time_over() and not instance_exists(ZoneRestart))
 	{
-		game_pc_perform(self, player_is_defeated);
-		game_pc_play_sound(self, HurtSound);
+		game_pc_perform(id, player_is_defeated);
+		game_pc_play_sound(id, HurtSound);
 	}
 	
     if (on_the_ground and control_lock_time > 0)
@@ -21,7 +21,7 @@ if (game_is_running())
         --superspeed_time;
         if (superspeed_time <= 0)
 		{
-            game_pc_refresh_physics(self);
+            game_pc_refresh_physics(id);
         }
     }
 
@@ -52,7 +52,7 @@ if (game_is_running())
         case 900: // drown warning (player 1 only)
             if (owner.index == 0) 
 			{
-                game_pc_play_sound(self, DrownWarningSound);
+                game_pc_play_sound(id, DrownWarningSound);
             }
             break;
 
@@ -66,8 +66,8 @@ if (game_is_running())
         case 0: // drown
 			if (state != player_is_defeated and state != player_is_drowning)
 			{
-                game_pc_perform(self, player_is_drowning);
-                game_pc_play_sound(self, DrownSound);
+                game_pc_perform(id, player_is_drowning);
+                game_pc_play_sound(id, DrownSound);
 			}
             break;
         }
@@ -85,7 +85,7 @@ if (game_is_running())
             }
 			else
 			{
-                game_pc_lose_super(self);
+                game_pc_lose_super(id);
             }
         }
     }

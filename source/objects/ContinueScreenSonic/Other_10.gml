@@ -1,2 +1,2 @@
 /// @description  React
-timeline_set(self, SonicContinueReactAnim);
+timeline_set(id, SonicContinueReactAnim);

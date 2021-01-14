@@ -1,2 +1,2 @@
 /// @description  Change animation
-timeline_set(self, AquaShieldAnim);
+timeline_set(id, AquaShieldAnim);

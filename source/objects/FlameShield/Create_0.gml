@@ -1,3 +1,3 @@
 /// @description  Initialize
 event_inherited();
-timeline_set(self, FlameShieldAnim);
+timeline_set(id, FlameShieldAnim);

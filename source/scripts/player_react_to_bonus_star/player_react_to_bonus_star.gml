@@ -4,8 +4,8 @@ function player_react_to_bonus_star(argument0, argument1) {
 
 	switch (phase) {
 	case "checking":
-		if (owner.index == 0 and game_pc_in_shape(self, ind, x_radius, y_radius)) {
-	        game_pc_react_to(self, ind);
+		if (owner.index == 0 and game_pc_in_shape(id, ind, x_radius, y_radius)) {
+	        game_pc_react_to(id, ind);
 	    }
 	    break;
 

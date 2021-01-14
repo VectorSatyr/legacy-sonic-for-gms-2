@@ -25,7 +25,7 @@ function game_pc_calc_wall_distance(argument0, argument1, argument2) {
 	        }
 	    } else {
 	        for (var ox = radius; ox > -1; --ox) {
-	            if (not game_pc_arms_in_shape(self, ind, ox)) {
+	            if (not game_pc_arms_in_shape(id, ind, ox)) {
 	                if (game_shape_in_line(ind, x_int, y_int, x_int + (cosine * (ox + 1)), y_int - (sine * (ox + 1)))) {
 	                    distance = (radius - ox); // right side
 	                    break;

@@ -8,14 +8,14 @@ function player_is_flying(argument0) {
 		{
 			ground_id = noone;
 			on_the_ground = false;
-			game_pc_translate_speed(self, x_speed, local_direction);
-			game_pc_redirect(self, gravity_direction);
-			game_pc_align(self, gravity_direction);
+			game_pc_translate_speed(id, x_speed, local_direction);
+			game_pc_redirect(id, gravity_direction);
+			game_pc_align(id, gravity_direction);
 		}
 		spinning = false;
 		flight_force = flight_base_force;
-		game_pc_animate(self, "flight");
-		game_pc_camera_direct(self, game_pc_camera_state_aerial);
+		game_pc_animate(id, "flight");
+		game_pc_camera_direct(id, game_pc_camera_state_aerial);
 		break;
 
 	case "finish":
@@ -45,17 +45,17 @@ function player_is_flying(argument0) {
 			}
 		}
 
-		game_pc_move_in_air(self);
+		game_pc_move_in_air(id);
 		if (state_changed) return false;
 
 		if (on_the_ground)
 		{
 			return game_pc_perform(
-				self, ((x_speed != 0) ? player_is_running : player_is_standing)
+				id, ((x_speed != 0) ? player_is_running : player_is_standing)
 			);
 		}
 
-		if (underwater) return game_pc_perform(self, player_is_swimming);
+		if (underwater) return game_pc_perform(id, player_is_swimming);
 
 		if (y_speed < 0 and y_speed > -jump_release_force) 
 		{
@@ -85,20 +85,20 @@ function player_is_flying(argument0) {
 		if (flight_time > 0) flight_time--;
 		if (flight_time)
 		{
-			game_pc_animate(self, "flight");
+			game_pc_animate(id, "flight");
 			if (not audio_is_playing(FlightSound))
 			{
 				audio_stop_sound(flight_soundid);
-				flight_soundid = game_pc_play_sound(self, FlightSound, true);
+				flight_soundid = game_pc_play_sound(id, FlightSound, true);
 			}
 		}
 		else
 		{
-			game_pc_animate(self, "flight_fall");
+			game_pc_animate(id, "flight_fall");
 			if (not audio_is_playing(FlightFallSound))
 			{
 				audio_stop_sound(flight_soundid);
-				flight_soundid = game_pc_play_sound(self, FlightFallSound, 0);
+				flight_soundid = game_pc_play_sound(id, FlightFallSound, 0);
 			}
 		}
 		break;

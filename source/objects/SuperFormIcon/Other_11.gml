@@ -4,7 +4,7 @@ with (player) {
         if (owner.rings < 50) {
             game_player_set_rings(owner, 50);
         }
-        game_pc_perform(self, player_is_transforming);
+        game_pc_perform(id, player_is_transforming);
     }
 }
 

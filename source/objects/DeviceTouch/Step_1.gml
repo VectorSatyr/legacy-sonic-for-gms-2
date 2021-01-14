@@ -21,7 +21,7 @@ for (var n = 0; n < touch_limit; ++n)
 		{
 			if (enabled)
 			{
-				if (collision_point(ox, oy, self, true, false))
+				if (collision_point(ox, oy, id, true, false))
 				{
 					touched = true;
 					posX = ox;

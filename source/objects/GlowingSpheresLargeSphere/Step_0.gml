@@ -11,8 +11,8 @@ if (game_is_running())
 			// launch
 			if (input_action_pressed)
 			{
-				game_pc_perform(self, player_is_falling, true);
-				game_pc_lift(self, other.force * other.z_depth[index], other.angle[index] + 90);
+				game_pc_perform(id, player_is_falling, true);
+				game_pc_lift(id, other.force * other.z_depth[index], other.angle[index] + 90);
 		        continue;
 			}
 
@@ -28,12 +28,12 @@ if (game_is_running())
 			z_radius = dsin(other.z_pos[index]) * other.radius;
 			ox = dcos(other.angle[index]) * z_radius;
 			oy = -(dsin(other.angle[index]) * z_radius);
-			game_pc_position(self, other.x + ox, other.y + oy);
+			game_pc_position(id, other.x + ox, other.y + oy);
 
 			// collisions
-			game_pc_memorize_reactions(self);
-			game_pc_refresh_local_index(self);
-			game_pc_trigger_reactions(self);
+			game_pc_memorize_reactions(id);
+			game_pc_refresh_local_index(id);
+			game_pc_trigger_reactions(id);
 		}
 	}
 }

@@ -21,7 +21,7 @@ if (game_is_running()) {
 
     case 0:
         with (GamePlayer) {
-            game_player_set_rings(self, 0);
+            game_player_set_rings(id, 0);
             lives_via_rings = 0;
         }
         game_screen_fade_out(BlackFadeShd, 22, room);

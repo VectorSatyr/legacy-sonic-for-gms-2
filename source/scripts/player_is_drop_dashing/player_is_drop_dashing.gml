@@ -20,7 +20,7 @@ function player_is_drop_dashing(argument0) {
 	        }
 	    }
 
-	    game_pc_move_in_air(self);
+	    game_pc_move_in_air(id);
 	    if (state_changed) {
 	        return false;
 	    }
@@ -48,15 +48,15 @@ function player_is_drop_dashing(argument0) {
 		        }
 
 	            audio_stop_sound(rev_soundid);        
-	            game_pc_play_sound(self, SpinDashSound);
+	            game_pc_play_sound(id, SpinDashSound);
 				game_particles_spawn("drop_dash_dust", x_int, y_int);
 
-	            return game_pc_perform(self, player_is_rolling);
+	            return game_pc_perform(id, player_is_rolling);
 
 	        } else if (x_speed != 0) {
-	            return game_pc_perform(self, player_is_running);
+	            return game_pc_perform(id, player_is_running);
 	        } else {
-	            return game_pc_perform(self, player_is_standing);
+	            return game_pc_perform(id, player_is_standing);
 	        }
 	    }
 
@@ -64,14 +64,14 @@ function player_is_drop_dashing(argument0) {
 	        if (drop_dash_time > 0) {
 	            --drop_dash_time;
 	            if (drop_dash_time <= 0) {
-	                rev_soundid = game_pc_play_sound(self, DropDashSound);
-	                game_pc_animate(self, "spindash");
+	                rev_soundid = game_pc_play_sound(id, DropDashSound);
+	                game_pc_animate(id, "spindash");
 	                image_angle = gravity_direction;
 	            }
 	        }
 	    } else if (drop_dash_time < 20) {
 	        drop_dash_time = 20;
-	        game_pc_animate(self, "spin");
+	        game_pc_animate(id, "spin");
 	        image_angle = gravity_direction;
 	    }
 
