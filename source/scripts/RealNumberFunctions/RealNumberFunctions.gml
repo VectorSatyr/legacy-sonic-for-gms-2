@@ -34,3 +34,25 @@ function in_range(value, minimum, maximum)
 {
 	return (value > minimum and value < maximum);
 }
+
+/// @description Returns 'value' wrapped between minimum and maximum
+/// @argument {real} value number to wrap
+/// @argument {real} minimum minimum value
+/// @argument {real} maximum maximum value
+/// @returns {real}
+function range_mod(value, minimum, maximum)
+{
+	return (
+		(value < minimum) ? 
+		(maximum - (minimum - value)) : 
+		(minimum + (value - minimum))
+	) % (maximum - minimum);
+}
+
+/// @description Returns 'ang' wrapped between 0 and 360 degrees, inclusively
+/// @argument {real} angle angle to wrap
+/// @returns {real}
+function angle_wrap(angle)
+{
+	return range_mod(angle, 0, 360);
+}
