@@ -3,7 +3,7 @@
   "isCompatibility": false,
   "parent": {
     "name": "General",
-    "path": "folders/Scripts/Game Scripts/Zone/General.yy",
+    "path": "folders/Scripts/Deprecated/Game Scripts/Zone/General.yy",
   },
   "resourceVersion": "1.0",
   "name": "game_zone_time_over",

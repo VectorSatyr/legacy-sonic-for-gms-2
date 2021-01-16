@@ -3,7 +3,7 @@
   "isCompatibility": false,
   "parent": {
     "name": "Grounded",
-    "path": "folders/Scripts/Game Scripts/Player/Character/Actions/Common/Grounded.yy",
+    "path": "folders/Scripts/Deprecated/Game Scripts/Player/Character/Actions/Common/Grounded.yy",
   },
   "resourceVersion": "1.0",
   "name": "player_is_pushing",

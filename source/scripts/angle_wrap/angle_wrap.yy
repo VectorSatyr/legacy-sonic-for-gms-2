@@ -3,7 +3,7 @@
   "isCompatibility": false,
   "parent": {
     "name": "Vector Functions",
-    "path": "folders/Scripts/GML Extended Scripts/Vector Functions.yy",
+    "path": "folders/Scripts/Deprecated/GML Extended Scripts/Vector Functions.yy",
   },
   "resourceVersion": "1.0",
   "name": "angle_wrap",

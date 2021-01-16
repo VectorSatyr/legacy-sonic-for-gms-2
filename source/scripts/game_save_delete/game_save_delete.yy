@@ -3,7 +3,7 @@
   "isCompatibility": false,
   "parent": {
     "name": "File",
-    "path": "folders/Scripts/Game Scripts/Saving/File.yy",
+    "path": "folders/Scripts/Deprecated/Game Scripts/Saving/File.yy",
   },
   "resourceVersion": "1.0",
   "name": "game_save_delete",

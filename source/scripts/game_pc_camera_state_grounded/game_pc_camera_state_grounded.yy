@@ -3,7 +3,7 @@
   "isCompatibility": false,
   "parent": {
     "name": "Grounded",
-    "path": "folders/Scripts/Game Scripts/Player/Character/Camera/Behavior/Grounded.yy",
+    "path": "folders/Scripts/Deprecated/Game Scripts/Player/Character/Camera/Behavior/Grounded.yy",
   },
   "resourceVersion": "1.0",
   "name": "game_pc_camera_state_grounded",

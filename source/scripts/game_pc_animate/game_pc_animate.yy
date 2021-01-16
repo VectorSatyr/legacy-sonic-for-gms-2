@@ -3,7 +3,7 @@
   "isCompatibility": false,
   "parent": {
     "name": "Animation",
-    "path": "folders/Scripts/Game Scripts/Player/Character/Animation.yy",
+    "path": "folders/Scripts/Deprecated/Game Scripts/Player/Character/Animation.yy",
   },
   "resourceVersion": "1.0",
   "name": "game_pc_animate",
