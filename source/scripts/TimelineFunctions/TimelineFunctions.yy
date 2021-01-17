@@ -2,11 +2,11 @@
   "isDnD": false,
   "isCompatibility": false,
   "parent": {
-    "name": "Timelines",
-    "path": "folders/Scripts/Deprecated/GML Extended Scripts/Timelines.yy",
+    "name": "Common functions",
+    "path": "folders/Scripts/Common functions.yy",
   },
   "resourceVersion": "1.0",
-  "name": "timeline_expired",
+  "name": "TimelineFunctions",
   "tags": [],
   "resourceType": "GMScript",
 }
