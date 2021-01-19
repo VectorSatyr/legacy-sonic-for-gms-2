@@ -2,11 +2,11 @@
   "isDnD": false,
   "isCompatibility": false,
   "parent": {
-    "name": "Shaders",
-    "path": "folders/Scripts/Deprecated/GML Extended Scripts/Shaders.yy",
+    "name": "Common functions",
+    "path": "folders/Scripts/Common functions.yy",
   },
   "resourceVersion": "1.0",
-  "name": "shader_set_uniform_color",
+  "name": "ShaderFunctions",
   "tags": [],
   "resourceType": "GMScript",
 }
