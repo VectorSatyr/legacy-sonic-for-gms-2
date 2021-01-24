@@ -48,10 +48,10 @@ function line_in_line(argument0, argument1, argument2, argument3, argument4, arg
 	            }
 	        } else if (dr == 0) {
 	            // S is a point, but not D
-	            intersect = point_in_line(sx1, sy1, dx2, dy2, dx2, dy2);
+	            intersect = point_line_intersect(sx1, sy1, dx2, dy2, dx2, dy2);
 	        } else if (ds == 0) {
 	            // D is a point, but not S
-	            intersect = point_in_line(dx1, dy1, sx1, sy1, sx2, sy2);
+	            intersect = point_line_intersect(dx1, dy1, sx1, sy1, sx2, sy2);
 	        } else {
 	            var sdx2 = sx2 - dx1;
 	            var sdy2 = sy2 - dy1;

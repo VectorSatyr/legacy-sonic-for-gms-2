@@ -29,13 +29,13 @@ function game_shape_in_point(argument0, argument1, argument2) {
 	    var cy = shape.y + shape.sprite_height;
 	    var xrad = shape.sprite_width;
 	    var yrad = shape.sprite_height;
-	    intersect = point_in_quarter_ellipse(px, py, cx, cy, xrad, yrad);
+	    intersect = point_quarter_ellipse_intersect(px, py, cx, cy, xrad, yrad);
 	} else if (object_is_family(kind, QuarterPipe)) {
 	    var cx = shape.x;
 	    var cy = shape.y;
 	    var xrad = shape.sprite_width;
 	    var yrad = shape.sprite_height;
-	    intersect = point_in_quarter_pipe(px, py, cx, cy, xrad, yrad);
+	    intersect = point_quarter_pipe_intersect(px, py, cx, cy, xrad, yrad);
 	} else {
 	    intersect = (collision_point(px, py, shape, true, true) != noone);
 	}
