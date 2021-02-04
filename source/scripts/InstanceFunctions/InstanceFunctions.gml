@@ -12,7 +12,7 @@ function object_is_family(obj, kind)
 /// @argument {real} numb user event number
 function instance_perform_user_event(ind, numb)
 {
-	if (in_range(numb, -1, MAX_USER_EVENTS)) {
+	if (between(numb, -1, MAX_USER_EVENTS)) {
 	    with (ind) event_user(numb);
 	}
 }

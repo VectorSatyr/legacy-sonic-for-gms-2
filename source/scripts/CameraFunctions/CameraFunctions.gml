@@ -3,7 +3,7 @@
 /// @returns {boolean}
 function view_exists(vind)
 {
-	return in_range(vind, -1, MAX_VIEW_COUNT);
+	return between(vind, -1, MAX_VIEW_COUNT);
 }
 
 /// @description Centers the given view at the given point, taking the room boundaries into consideration
@@ -49,11 +49,11 @@ function view_follow(vind, ox, oy)
 
 		// limit movement speed
 		var view_speed_x = camera_get_view_speed_x(camera);
-		if (in_range(view_speed_x, -1, abs(ocx))) {
+		if (between(view_speed_x, -1, abs(ocx))) {
 			ocx = view_speed_x * sign(ocx);
 		}
 		var view_speed_y = camera_get_view_speed_y(camera);
-		if (in_range(view_speed_y, -1, abs(ocy))) {
+		if (between(view_speed_y, -1, abs(ocy))) {
 			ocy = view_speed_y * sign(ocy);
 		}
 

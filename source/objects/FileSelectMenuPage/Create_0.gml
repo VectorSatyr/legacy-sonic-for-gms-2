@@ -47,7 +47,7 @@ for (var n = 0; n < MAX_GAME_SAVES; ++n)
 var starting_slot = choice_save[0];
 with (GameSaveDirectory)
 {
-    if (in_range(index, -1, MAX_GAME_SAVES))
+    if (between(index, -1, MAX_GAME_SAVES))
 	{
         starting_slot = other.choice_save[index];
     }

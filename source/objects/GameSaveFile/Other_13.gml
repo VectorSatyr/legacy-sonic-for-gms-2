@@ -1,5 +1,5 @@
 /// @description  Write
-if (in_range(index, -1, MAX_GAME_SAVES)) {
+if (between(index, -1, MAX_GAME_SAVES)) {
     ini_open(fname);
     var section = "save" + string(index);
     if (object_exists(player_character)) {

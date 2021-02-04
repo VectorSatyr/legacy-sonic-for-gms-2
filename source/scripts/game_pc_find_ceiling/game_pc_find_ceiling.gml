@@ -21,7 +21,7 @@ function game_pc_find_ceiling(argument0, argument1) {
 	        var new_dir = game_pc_calc_shape_normal(id, ceiling, new_mask_dir);
 	        var diff = abs(angle_difference(new_mask_dir, new_dir));
 	        if (ceiling.sticky and y_speed <= ceiling_land_threshold and
-	            in_range(diff, 45, 90)) {
+	            between(diff, 45, 90)) {
 	            game_pc_land(id, ceiling);
 	            game_pc_redirect(id, new_dir);
 	            game_pc_align(id, new_mask_dir);

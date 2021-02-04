@@ -25,14 +25,24 @@ function round_to(value, factor)
 	return round(value / factor) * factor;
 }
 
-/// @description Checks if the given value 'value' is between the minimum 'minimum' and the maximum 'maximum', exclusively
+/// @description Checks if the given 'value' is between the 'minimum' and the 'maximum', exclusively
 /// @argument {real} value number to evaluate
 /// @argument {real} minimum minimum value
 /// @argument {real} maximum maximum value
 /// @returns {boolean}
-function in_range(value, minimum, maximum)
+function between(value, minimum, maximum)
 {
 	return (value > minimum and value < maximum);
+}
+
+/// @description Checks if the given 'value' is between the 'minimum' and the 'maximum', inclusively
+/// @argument {real} value number to evaluate
+/// @argument {real} minimum minimum value
+/// @argument {real} maximum maximum value
+/// @returns {boolean}
+function includes(value, minimum, maximum)
+{
+	return (value >= minimum and value <= maximum);
 }
 
 /// @description Returns 'value' wrapped between minimum and maximum

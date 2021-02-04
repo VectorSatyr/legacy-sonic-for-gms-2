@@ -1,5 +1,5 @@
 /// @description  Update
-if (in_range(index, -1, MAX_GAME_SAVES)) {
+if (between(index, -1, MAX_GAME_SAVES)) {
     location = room;
 
     var player = game_player_find(0);
