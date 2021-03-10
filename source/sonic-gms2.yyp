@@ -126,7 +126,6 @@
     {"id":{"name":"SonicWalkSprite","path":"sprites/SonicWalkSprite/SonicWalkSprite.yy",},"order":39,},
     {"id":{"name":"SuperSonicCrouchSprite","path":"sprites/SuperSonicCrouchSprite/SuperSonicCrouchSprite.yy",},"order":1,},
     {"id":{"name":"SuperSonicPushSprite","path":"sprites/SuperSonicPushSprite/SuperSonicPushSprite.yy",},"order":3,},
-    {"id":{"name":"CollisionFunctions","path":"scripts/CollisionFunctions/CollisionFunctions.yy",},"order":1,},
     {"id":{"name":"SuperSonicRunSprite","path":"sprites/SuperSonicRunSprite/SuperSonicRunSprite.yy",},"order":5,},
     {"id":{"name":"SuperSonicStanceSprite","path":"sprites/SuperSonicStanceSprite/SuperSonicStanceSprite.yy",},"order":7,},
     {"id":{"name":"SuperSonicTeeterSprite","path":"sprites/SuperSonicTeeterSprite/SuperSonicTeeterSprite.yy",},"order":9,},

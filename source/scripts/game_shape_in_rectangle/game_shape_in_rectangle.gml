@@ -41,7 +41,7 @@ function game_shape_in_rectangle(argument0, argument1, argument2, argument3, arg
 	    var yrad = shape.sprite_height;
 	    result = rectangle_in_quarter_pipe(x1, y1, x2, y2, cx, cy, xrad, yrad);
 	} else {
-	    result = collision_rectangle_intersect(x1, y1, x2, y2, shape, true, true);
+	    result = (collision_rectangle(x1, y1, x2, y2, shape, true, true) != noone);
 	}
 
 	return result;

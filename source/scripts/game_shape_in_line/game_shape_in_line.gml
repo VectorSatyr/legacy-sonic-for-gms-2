@@ -41,7 +41,7 @@ function game_shape_in_line(argument0, argument1, argument2, argument3, argument
 	    var yrad = shape.sprite_height;
 	    result = line_in_quarter_pipe(x1, y1, x2, y2, cx, cy, xrad, yrad);
 	} else {
-	    result = collision_line_intersect(x1, y1, x2, y2, shape, true, true);
+	    result = (collision_line(x1, y1, x2, y2, shape, true, true) != noone);
 	}
 
 	return result;
