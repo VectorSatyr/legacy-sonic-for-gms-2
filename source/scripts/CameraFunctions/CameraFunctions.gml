@@ -3,7 +3,7 @@
 /// @returns {boolean}
 function view_exists(vind)
 {
-	return between(vind, -1, MAX_VIEW_COUNT);
+	return includes(vind, 0, MAX_VIEW_COUNT - 1);
 }
 
 /// @description Centers the given view at the given point, taking the room boundaries into consideration
@@ -49,11 +49,11 @@ function view_follow(vind, ox, oy)
 
 		// limit movement speed
 		var view_speed_x = camera_get_view_speed_x(camera);
-		if (between(view_speed_x, -1, abs(ocx))) {
+		if (includes(view_speed_x, 0, abs(ocx))) {
 			ocx = view_speed_x * sign(ocx);
 		}
 		var view_speed_y = camera_get_view_speed_y(camera);
-		if (between(view_speed_y, -1, abs(ocy))) {
+		if (includes(view_speed_y, 0, abs(ocy))) {
 			ocy = view_speed_y * sign(ocy);
 		}
 
@@ -75,16 +75,16 @@ function instance_on_screen(ind)
 	var padding = (argument_count >= 2) ? argument[1] : 0;
 	var result = (not view_enabled);
 	if (not result) {
-	    var x1 = ind.x - padding;
-	    var y1 = ind.y - padding;
-	    var x2 = ind.x + padding;
-	    var y2 = ind.y + padding;
-	    for (var vind = 0; vind < MAX_VIEW_COUNT; ++vind) {
-	        if (view_get_visible(vind) and rectangle_in_view(x1, y1, x2, y2, vind)) {
-	            result = true;
-	            break;
-	        }
-	    }
+		var x1 = ind.x - padding;
+		var y1 = ind.y - padding;
+		var x2 = ind.x + padding;
+		var y2 = ind.y + padding;
+		for (var vind = 0; vind < MAX_VIEW_COUNT; ++vind) {
+			if (view_get_visible(vind) and rectangle_in_view(x1, y1, x2, y2, vind)) {
+				result = true;
+				break;
+			}
+		}
 	}
 	return result;
 }

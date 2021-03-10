@@ -1,16 +1,13 @@
-/// @description  Update
-if (between(index, -1, MAX_GAME_SAVES)) {
-    location = room;
-
-    var player = game_player_find(0);
-    if (instance_exists(player)) {
-        player_character = player.character_id;
-        player_lives = max(player.life_count, STARTING_LIFE_COUNT);
-    }
-
-    player = game_player_find(1);
-    if (instance_exists(player)) {
-        assist_character = player.character_id;
-    }
+/// @description Update
+if (includes(index, 0, MAX_GAME_SAVES - 1)) {
+	location = room;
+	var player0 = game_player_find(0);
+	if (instance_exists(player0)) {
+		player_character = player0.character_id;
+		player_lives = max(player0.life_count, STARTING_LIFE_COUNT);
+	}
+	var player1 = game_player_find(1);
+	if (instance_exists(player1)) {
+		assist_character = player1.character_id;
+	}
 }
-

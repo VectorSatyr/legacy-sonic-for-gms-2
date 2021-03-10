@@ -28,7 +28,7 @@ game_menu_page_add_choice(id, choice_nosave);
 var file, exists, type, name;
 for (var n = 0; n < MAX_GAME_SAVES; ++n)
 {
-    file = game_save_find(n);
+	file = game_save_find(n);
 	exists = instance_exists(file);
 	type = (not exists) ? FSNewFileChoice : 
 		((file.complete) ? FSCompleteFileChoice : FSExistingFileChoice);
@@ -36,8 +36,8 @@ for (var n = 0; n < MAX_GAME_SAVES; ++n)
 		((file.complete) ? "complete" + string(n) : "existing" + string(n));
 	choice_save[n] = instance_create_layer(start_x + nosave_w + save_ox + (n * save_w), start_y, "gui", type);
 	choice_save[n].name = name;
-    choice_save[n].file_index = n;
-    game_menu_page_add_choice(id, choice_save[n]);
+	choice_save[n].file_index = n;
+	game_menu_page_add_choice(id, choice_save[n]);
 	if (exists)
 	{
 		instance_perform_user_event(choice_save[n], 3); // load
@@ -47,10 +47,10 @@ for (var n = 0; n < MAX_GAME_SAVES; ++n)
 var starting_slot = choice_save[0];
 with (GameSaveDirectory)
 {
-    if (between(index, -1, MAX_GAME_SAVES))
+	if (includes(index, 0, MAX_GAME_SAVES - 1))
 	{
-        starting_slot = other.choice_save[index];
-    }
+		starting_slot = other.choice_save[index];
+	}
 }
 instance_perform_user_event(starting_slot, 2); // target
 
@@ -68,5 +68,5 @@ var cam = view_get_camera(0);
 camera_set_view_border(cam, camera_center_x, camera_get_view_border_y(cam));
 with (cursor)
 {
-    game_camera_default_behavior(0);
+	game_camera_default_behavior(0);
 }
