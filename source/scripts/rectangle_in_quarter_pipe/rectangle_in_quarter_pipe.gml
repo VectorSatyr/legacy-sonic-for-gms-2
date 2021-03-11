@@ -33,10 +33,10 @@ function rectangle_in_quarter_pipe(argument0, argument1, argument2, argument3, a
 	    } else if (line_in_rectangle(cx + xrad, cy, cx + xrad, cy + yrad, sx1, sy1, sx2, sy2) or
 	        line_in_rectangle(cx, cy + yrad, cx + xrad, cy + yrad, sx1, sy1, sx2, sy2)) {
 	        result = INTERSECT_OVERLAP;
-	    } else if (point_quarter_pipe_intersect(sx1, sy1, cx, cy, xrad, yrad) or
-	        point_quarter_pipe_intersect(sx1, sy2, cx, cy, xrad, yrad) or
-	        point_quarter_pipe_intersect(sx2, sy1, cx, cy, xrad, yrad) or
-	        point_quarter_pipe_intersect(sx2, sy2, cx, cy, xrad, yrad)) {
+	    } else if (point_in_quarter_pipe(sx1, sy1, cx, cy, xrad, yrad) or
+	        point_in_quarter_pipe(sx1, sy2, cx, cy, xrad, yrad) or
+	        point_in_quarter_pipe(sx2, sy1, cx, cy, xrad, yrad) or
+	        point_in_quarter_pipe(sx2, sy2, cx, cy, xrad, yrad)) {
 	        result = INTERSECT_OVERLAP;
 	    }
 	}

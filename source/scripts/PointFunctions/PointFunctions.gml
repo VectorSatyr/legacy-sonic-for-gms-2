@@ -7,7 +7,7 @@
 /// @argument {real} y2 second line point y-position
 /// @returns {boolean}
 /// @see {@link http://geomalgorithms.com/a05-_intersect-1.html#inSegment()}
-function point_line_intersect(px, py, x1, y1, x2, y2)
+function point_in_segment(px, py, x1, y1, x2, y2)
 {
 	return (x1 != x2) ?
 		includes(px, min(x1, x2), max(x1, x2)) :
@@ -23,7 +23,7 @@ function point_line_intersect(px, py, x1, y1, x2, y2)
 /// @argument {real} yrad ellipse y radius
 /// @returns {boolean}
 /// @see {@link http://math.stackexchange.com/a/243525}
-function point_ellipse_intersect(px, py, cx, cy, xrad, yrad)
+function point_in_ellipse(px, py, cx, cy, xrad, yrad)
 {
 	var qx = px - cx;
 	var qy = py - cy;
@@ -40,14 +40,14 @@ function point_ellipse_intersect(px, py, cx, cy, xrad, yrad)
 /// @argument {real} xrad ellipse x radius
 /// @argument {real} yrad ellipse y radius
 /// @returns {boolean}
-function point_quarter_ellipse_intersect(px, py, cx, cy, xrad, yrad)
+function point_in_quarter_ellipse(px, py, cx, cy, xrad, yrad)
 {
 	var x1 = min(cx, cx + xrad);
 	var y1 = min(cy, cy + yrad);
 	var x2 = max(cx, cx + xrad);
 	var y2 = max(cy, cy + yrad);
 	var rectangle = point_in_rectangle(px, py, x1, y1, x2, y2);
-	var ellipse = point_ellipse_intersect(
+	var ellipse = point_in_ellipse(
 		px, py, cx, cy, abs(xrad), abs(yrad)
 	);
 	return (rectangle and ellipse);
@@ -61,14 +61,14 @@ function point_quarter_ellipse_intersect(px, py, cx, cy, xrad, yrad)
 /// @argument {real} xrad ellipse x radius
 /// @argument {real} yrad ellipse y radius
 /// @returns {boolean}
-function point_quarter_pipe_intersect(px, py, cx, cy, xrad, yrad)
+function point_in_quarter_pipe(px, py, cx, cy, xrad, yrad)
 {
 	var x1 = min(cx, cx + xrad);
 	var y1 = min(cy, cy + yrad);
 	var x2 = max(cx, cx + xrad);
 	var y2 = max(cy, cy + yrad);
 	var rectangle = point_in_rectangle(px, py, x1, y1, x2, y2);
-	var ellipse = point_ellipse_intersect(
+	var ellipse = point_in_ellipse(
 		px, py, cx, cy, abs(xrad), abs(yrad)
 	);
 	return (rectangle and not ellipse);
