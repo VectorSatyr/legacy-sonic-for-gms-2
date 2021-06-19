@@ -72,9 +72,9 @@ function segment_in_rectangle(sx1, sy1, sx2, sy2, dx1, dy1, dx2, dy2)
 		point_in_rectangle(sx1, sy1, dx1, dy1, dx2, dy2) or 
 		point_in_rectangle(sx2, sy2, dx1, dy1, dx2, dy2) or 
 		segment_in_segment(sx1, sy1, sx2, sy2, dx1, dy1, dx2, dy1) or 
-	    segment_in_segment(sx1, sy1, sx2, sy2, dx1, dy1, dx1, dy2) or 
-	    segment_in_segment(sx1, sy1, sx2, sy2, dx2, dy1, dx2, dy2) or 
-	    segment_in_segment(sx1, sy1, sx2, sy2, dx1, dy2, dx2, dy2)
+		segment_in_segment(sx1, sy1, sx2, sy2, dx1, dy1, dx1, dy2) or 
+		segment_in_segment(sx1, sy1, sx2, sy2, dx2, dy1, dx2, dy2) or 
+		segment_in_segment(sx1, sy1, sx2, sy2, dx1, dy2, dx2, dy2)
 	);
 }
 
@@ -115,8 +115,8 @@ function segment_in_triangle(sx1, sy1, sx2, sy2, x1, y1, x2, y2, x3, y3)
 		point_in_triangle(sx1, sy1, x1, y1, x2, y2, x3, y3) or 
 		point_in_triangle(sx2, sy2, x1, y1, x2, y2, x3, y3) or 
 		segment_in_segment(sx1, sy1, sx2, sy2, x1, y1, x2, y2) or 
-	    segment_in_segment(sx1, sy1, sx2, sy2, x2, y2, x3, y3) or 
-	    segment_in_segment(sx1, sy1, sx2, sy2, x1, y1, x3, y3)
+		segment_in_segment(sx1, sy1, sx2, sy2, x2, y2, x3, y3) or 
+		segment_in_segment(sx1, sy1, sx2, sy2, x1, y1, x3, y3)
 	);
 }
 
@@ -135,16 +135,16 @@ function segment_in_circle(sx1, sy1, sx2, sy2, cx, cy, rad)
 	var result = false;
 	if (point_in_circle(sx1, sy1, cx, cy, rad) or 
 		point_in_circle(sx2, sy2, cx, cy, rad)) {
-	    result = true;
+		result = true;
 	} else {
-	    var sx = sx2 - sx1;
-	    var sy = sy2 - sy1;
-	    var length = abs(sqr(sx) + sqr(sy));
-	    if (length != 0) {
-	        var p = dot_product(cx - sx1, cy - sy1, sx, sy) / length;
-	        result = (includes(p, 0, 1) and 
-	            point_in_circle(sx1 + (sx * p), sy1 + (sy * p), cx, cy, rad));
-	    }
+		var sx = sx2 - sx1;
+		var sy = sy2 - sy1;
+		var length = abs(sqr(sx) + sqr(sy));
+		if (length != 0) {
+			var p = dot_product(cx - sx1, cy - sy1, sx, sy) / length;
+			result = (includes(p, 0, 1) and 
+				point_in_circle(sx1 + (sx * p), sy1 + (sy * p), cx, cy, rad));
+		}
 	}
 	return result;
 }
