@@ -25,10 +25,10 @@ function rectangle_in_circle_full(argument0, argument1, argument2, argument3, ar
 	    result = circle; // source is in destination
 	} else if (point_in_rectangle(cx, cy, sx1, sy1, sx2, sy2)) {
 	    result = INTERSECT_OVERLAP; // destination is in source
-	} else if (line_in_circle(sx1, sy1, sx2, sy1, cx, cy, rad) or
-	    line_in_circle(sx1, sy1, sx1, sy2, cx, cy, rad) or
-	    line_in_circle(sx2, sy1, sx2, sy2, cx, cy, rad) or
-	    line_in_circle(sx1, sy2, sx2, sy2, cx, cy, rad)) {
+	} else if (segment_in_circle(sx1, sy1, sx2, sy1, cx, cy, rad) or
+	    segment_in_circle(sx1, sy1, sx1, sy2, cx, cy, rad) or
+	    segment_in_circle(sx2, sy1, sx2, sy2, cx, cy, rad) or
+	    segment_in_circle(sx1, sy2, sx2, sy2, cx, cy, rad)) {
 	    result = INTERSECT_OVERLAP; // overlapping by edge
 	}
 

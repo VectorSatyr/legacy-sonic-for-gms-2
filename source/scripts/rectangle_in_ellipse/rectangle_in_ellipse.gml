@@ -46,10 +46,10 @@ function rectangle_in_ellipse(argument0, argument1, argument2, argument3, argume
 	    result = ellipse; // source is in destination
 	} else if (point_in_rectangle(cx, cy, sx1, sy1, sx2, sy2)) {
 	    result = INTERSECT_OVERLAP; // destination is in source
-	} else if (line_in_ellipse(sx1, sy1, sx2, sy1, cx, cy, xrad, yrad) or
-	    line_in_ellipse(sx1, sy1, sx1, sy2, cx, cy, xrad, yrad) or
-	    line_in_ellipse(sx2, sy1, sx2, sy2, cx, cy, xrad, yrad) or
-	    line_in_ellipse(sx1, sy2, sx2, sy2, cx, cy, xrad, yrad)) {
+	} else if (segment_in_ellipse(sx1, sy1, sx2, sy1, cx, cy, xrad, yrad) or
+	    segment_in_ellipse(sx1, sy1, sx1, sy2, cx, cy, xrad, yrad) or
+	    segment_in_ellipse(sx2, sy1, sx2, sy2, cx, cy, xrad, yrad) or
+	    segment_in_ellipse(sx1, sy2, sx2, sy2, cx, cy, xrad, yrad)) {
 	    result = INTERSECT_OVERLAP; // overlapping by edge
 	}
 
