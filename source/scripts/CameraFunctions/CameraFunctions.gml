@@ -6,6 +6,19 @@ function view_exists(vind)
 	return includes(vind, 0, MAX_VIEW_COUNT - 1);
 }
 
+/// @description Centers the given camera at the given point, taking the room boundaries into consideration
+/// @argument {real} vind view port
+/// @argument {real} x focal point x-position
+/// @argument {real} y focal point y-position
+function camera_centre(camera, ox, oy)
+{
+	var view_width = camera_get_view_width(camera);
+	var view_height = camera_get_view_height(camera);
+	var _x = clamp(ox - (view_width * 0.5), 0, room_width - view_width);
+	var _y = clamp(oy - (view_height * 0.5), 0, room_height - view_height);
+	camera_set_view_pos(camera, _x, _y);
+}
+
 /// @description Centers the given view at the given point, taking the room boundaries into consideration
 /// @argument {real} vind view port
 /// @argument {real} x focal point x-position
@@ -13,11 +26,47 @@ function view_exists(vind)
 function view_centre(vind, ox, oy)
 {
 	if (view_exists(vind)) {
-		var camera = view_get_camera(vind);
-		var view_width = camera_get_view_width(camera);
-		var view_height = camera_get_view_height(camera);
-		var _x = clamp(ox - (view_width * 0.5), 0, room_width - view_width);
-		var _y = clamp(oy - (view_height * 0.5), 0, room_height - view_height);
+		camera_centre(view_get_camera(vind), ox, oy);
+	}
+}
+
+/// @description Moves the specified camera as if camera_set_view_target were set to an instance at point {ox, oy}
+/// @argument {real} vind view port
+/// @argument {real} x focal point x-position
+/// @argument {real} y focal point y-position
+function camera_follow(camera, ox, oy)
+{
+	var view_x = camera_get_view_x(camera);
+	var view_y = camera_get_view_y(camera);
+	var view_width = camera_get_view_width(camera);
+	var view_height = camera_get_view_height(camera);
+
+	// calculate offset from centre point
+	var cx = view_x + (view_width * 0.5);
+	var cy = view_y + (view_height * 0.5);
+	var ocx = ox - cx;
+	var ocy = oy - cy;
+
+	// limit to view border
+	var hborder = (view_width * 0.5) - camera_get_view_border_x(camera);
+	var vborder = (view_height * 0.5) - camera_get_view_border_y(camera);
+	ocx = max(abs(ocx) - hborder, 0) * sign(ocx);
+	ocy = max(abs(ocy) - vborder, 0) * sign(ocy);
+
+	// limit movement speed
+	var view_speed_x = camera_get_view_speed_x(camera);
+	if (includes(view_speed_x, 0, abs(ocx))) {
+		ocx = view_speed_x * sign(ocx);
+	}
+	var view_speed_y = camera_get_view_speed_y(camera);
+	if (includes(view_speed_y, 0, abs(ocy))) {
+		ocy = view_speed_y * sign(ocy);
+	}
+
+	// move the view
+	if (ocx != 0 or ocy != 0) {
+		var _x = clamp(view_x + ocx, 0, room_width - view_width);
+		var _y = clamp(view_y + ocy, 0, room_height - view_height);
 		camera_set_view_pos(camera, _x, _y);
 	}
 }
@@ -29,40 +78,7 @@ function view_centre(vind, ox, oy)
 function view_follow(vind, ox, oy)
 {
 	if (view_exists(vind)) {
-		var camera = view_get_camera(vind);
-		var view_x = camera_get_view_x(camera);
-		var view_y = camera_get_view_y(camera);
-		var view_width = camera_get_view_width(camera);
-		var view_height = camera_get_view_height(camera);
-
-		// calculate offset from centre point
-		var cx = view_x + (view_width * 0.5);
-		var cy = view_y + (view_height * 0.5);
-		var ocx = ox - cx;
-		var ocy = oy - cy;
-
-		// limit to view border
-		var hborder = (view_width * 0.5) - camera_get_view_border_x(camera);
-		var vborder = (view_height * 0.5) - camera_get_view_border_y(camera);
-		ocx = max(abs(ocx) - hborder, 0) * sign(ocx);
-		ocy = max(abs(ocy) - vborder, 0) * sign(ocy);
-
-		// limit movement speed
-		var view_speed_x = camera_get_view_speed_x(camera);
-		if (includes(view_speed_x, 0, abs(ocx))) {
-			ocx = view_speed_x * sign(ocx);
-		}
-		var view_speed_y = camera_get_view_speed_y(camera);
-		if (includes(view_speed_y, 0, abs(ocy))) {
-			ocy = view_speed_y * sign(ocy);
-		}
-
-		// move the view
-		if (ocx != 0 or ocy != 0) {
-			var _x = clamp(view_x + ocx, 0, room_width - view_width);
-			var _y = clamp(view_y + ocy, 0, room_height - view_height);
-			camera_set_view_pos(camera, _x, _y);
-		}
+		camera_follow(view_get_camera(vind), ox, oy);
 	}
 }
 
