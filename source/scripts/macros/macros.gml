@@ -1,9 +1,5 @@
-function macros() {
 #macro CAMERA_HEIGHT 224
 #macro CAMERA_WIDTH 400
-#macro INTERSECT_INSIDE 1
-#macro INTERSECT_NONE 0
-#macro INTERSECT_OVERLAP 2
 #macro MAX_GAME_SAVES 8
 #macro MAX_LIFE_COUNT 999
 #macro MAX_LIVES_VIA_RINGS 2
@@ -15,7 +11,3 @@ function macros() {
 #macro RINGS_PER_LIFE 100
 #macro SCORE_PER_LIFE 50000
 #macro STARTING_LIFE_COUNT 3
-
-
-
-}

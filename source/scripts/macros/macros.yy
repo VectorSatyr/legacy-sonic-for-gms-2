@@ -2,11 +2,11 @@
   "isDnD": false,
   "isCompatibility": false,
   "parent": {
-    "name": "Deprecated",
-    "path": "folders/Scripts/Deprecated.yy",
+    "name": "Scripts",
+    "path": "folders/Scripts.yy",
   },
   "resourceVersion": "1.0",
-  "name": "macros",
+  "name": "Macros",
   "tags": [],
   "resourceType": "GMScript",
 }
