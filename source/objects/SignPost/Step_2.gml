@@ -20,7 +20,7 @@ case "wait":
 case "check":
     with (GamePlayer) {
         state = "leaving";
-        character.bound_ignore_mask |= 4;
+        character.bound_ignore_mask |= int64(4);
     }
     state = "exit";
     break;

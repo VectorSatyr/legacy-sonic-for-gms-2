@@ -18,7 +18,7 @@ if (time_to_crumble > 0) {
                 ind.normal = 0;
                 if (row > 0) {
                     ind.top_solid = false;
-                    ind.depth_mask = 0;
+                    ind.depth_mask = int64(0);
                 }
                 if (reverse) {
                     ind.timed_delay += (collumn * timed_delay_per_collumn);

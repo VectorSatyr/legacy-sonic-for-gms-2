@@ -7,7 +7,7 @@ if (game_is_running()) {
     } else {
         --timed_delay;
         if (timed_delay == 0) {
-            depth_mask = 0;
+            depth_mask = int64(0);
         }
     }
 }

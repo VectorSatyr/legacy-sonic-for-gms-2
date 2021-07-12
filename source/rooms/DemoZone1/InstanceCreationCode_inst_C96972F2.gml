@@ -1,1 +1,1 @@
-depth_mask = 1;
+depth_mask = int64(1);

@@ -82,7 +82,7 @@ ceiling_id = noone;
 
 linked_object_id = noone;
 
-depth_mask = 1;
+depth_mask = int64(1);
 
 direction = 0;
 gravity_direction = 0;

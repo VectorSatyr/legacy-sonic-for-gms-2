@@ -31,17 +31,17 @@ function game_pc_position(argument0, argument1, argument2) {
 	            var sy2 = y_int + y_radius;
 	        }
         
-	        var mask_left = 1;
-	        var mask_top = 2;
-	        var mask_right = 4;
-	        var mask_bottom = 8;
+	        var mask_left = int64(1);
+	        var mask_top = int64(2);
+	        var mask_right = int64(4);
+	        var mask_bottom = int64(8);
         
 	        var dx1 = bound_left;
 	        var dy1 = bound_top;
 	        var dx2 = bound_right;
 	        var dy2 = bound_bottom;
         
-	        bound_mask = 0;
+	        bound_mask = int64(0);
         
 	        if (rectangle_in_rectangle(sx1, sy1, sx2, sy2, dx1, dy1, dx2, dy2) != 1) {
 	            if (sx1 < dx1) {

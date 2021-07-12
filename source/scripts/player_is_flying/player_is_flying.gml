@@ -70,10 +70,10 @@ function player_is_flying(argument0) {
 		}
 
 		var mask = bound_mask & ~bound_ignore_mask;
-		var mask_left = 1;
-		var mask_top = 2;
-		var mask_right = 4;
-		var mask_bottom = 8;
+		var mask_left = int64(1);
+		var mask_top = int64(2);
+		var mask_right = int64(4);
+		var mask_bottom = int64(8);
 		switch (gravity_direction)
 		{
 		case 0: if (mask & mask_top) flight_force = flight_base_force; break;

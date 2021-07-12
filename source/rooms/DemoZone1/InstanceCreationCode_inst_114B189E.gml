@@ -1,2 +1,2 @@
-depth_mask = 2;
+depth_mask = int64(2);
 sticky = true;
