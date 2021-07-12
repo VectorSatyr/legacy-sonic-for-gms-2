@@ -2,7 +2,7 @@
 event_inherited();
 name = "complete";
 location_index = -1;
-emeralds_count = 0;
+emeralds_count = int64(0);
 completion_index = 0;
 total_locations = 2;
 total_emeralds = 7;

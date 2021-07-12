@@ -11,7 +11,7 @@ function game_save_collect_emerald() {
 
 	var file = game_save_find(index);
 	with (file) {
-	    player_emeralds |= (1 << emeraldIndex);
+	    player_emeralds |= int64(1 << emeraldIndex);
 	}
 
 

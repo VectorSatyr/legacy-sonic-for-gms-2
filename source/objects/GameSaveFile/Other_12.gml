@@ -14,9 +14,9 @@ if (includes(index, 0, MAX_GAME_SAVES - 1)) {
 		player_continues = ini_read_real(
 			section, "player_continues", player_continues
 		);
-		player_emeralds = ini_read_real(
+		player_emeralds = int64(ini_read_real(
 			section, "player_emeralds", player_emeralds
-		);
+		));
 		location = asset_get_index(
 			ini_read_string(section, "location", location)
 		);

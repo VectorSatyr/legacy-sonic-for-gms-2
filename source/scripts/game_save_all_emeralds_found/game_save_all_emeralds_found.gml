@@ -11,7 +11,7 @@ function game_save_all_emeralds_found() {
 
 	var file = game_save_find(index);
 	with (file) {
-	    found = (player_emeralds == power(2, total_emeralds) - 1);
+	    found = (player_emeralds == int64(power(2, total_emeralds) - 1));
 	}
 
 	return found;

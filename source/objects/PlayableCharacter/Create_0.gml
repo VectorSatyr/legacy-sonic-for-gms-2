@@ -106,8 +106,8 @@ bound_top = 16;
 bound_right = room_width - 16;
 bound_bottom = room_height - 16;
 
-bound_mask = 0;
-bound_ignore_mask = 8;
+bound_mask = int64(0);
+bound_ignore_mask = int64(8);
 
 // animation
 image_speed = 0;

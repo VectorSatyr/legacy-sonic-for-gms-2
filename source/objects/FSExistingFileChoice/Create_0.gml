@@ -2,7 +2,7 @@
 event_inherited();
 name = "save";
 location_index = 0;
-emeralds_count = 0;
+emeralds_count = int64(0);
 total_locations = 2;
 title_x = x + 2;
 title_y = bbox_top + 69;

@@ -14,5 +14,5 @@ player_continues = 0;
 location = DemoZone1;
 
 total_emeralds = 7;
-player_emeralds = 0;
+player_emeralds = int64(0);
 
