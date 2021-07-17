@@ -4,16 +4,8 @@
 /// @argument {real} frames (Optional) timeline speed in frames
 /// @argument {boolean} loop (Optional) whether or not the timeline should repeat
 /// @argument {boolean} reset (Optional) whether or not to ignore if the same timeline is already assigned
-function timeline_set(obj, timeline)
+function timeline_set(obj, timeline, frames = 1, loop = true, reset = true)
 {
-	var frames = 1;
-	var loop = true;
-	var reset = true;
-	switch (argument_count) {
-	case 5: reset = argument[4];
-	case 4: loop = argument[3];
-	case 3: frames = argument[2];
-	}
 	with (obj) {
 		if (timeline_index != timeline or reset) {
 	        timeline_index = timeline;
