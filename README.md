@@ -4,7 +4,7 @@
 
 **Sonic For GMS** is a GameMaker Studio 2 project acting as a template for constructing video games based on the *Sonic the Hedgehog* titles for the Sega Genesis / Mega Drive.
 
-:warning: *The branch you are currently viewing contains source code that is only compatible with the latest version of GameMaker Studio 2 (**2.3.1.409**,  as of this writing.)*
+:warning: *The branch you are currently viewing contains source code that is only compatible with the latest IDE version (**2.3.3.570**) and runtime (**2.3.3.434**) of GameMaker Studio 2.*
 
 ## Licensing
 
