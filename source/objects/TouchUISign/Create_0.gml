@@ -4,6 +4,7 @@ image_alpha = 0;
 enabled = false;
 touched = false;
 event = "";
+device = -1;
 posX = undefined;
 posY = undefined;
 min_alpha = 0.25;
