@@ -39,8 +39,7 @@ reaction_on_enter = function (character)
 		}
 		game_pc_play_sound(id, PopSound);
 		game_particles_spawn("explosion", other.x, other.y);
-		other.icon_instance.player = id;
-		instance_perform_user_event(other.icon_instance, 0);
+		other.icon_instance.release(id);
 		instance_create_depth(other.x, other.y, other.depth, BrokenMonitor);
 		instance_destroy(other.id);
 	}

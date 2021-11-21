@@ -1,10 +1,10 @@
-/// @description  Rise
+/// @description Rise
 if (game_is_running()) {
     if (y_speed != 0) {
         y += y_speed;
         if (y <= ystart - 32) {
             y_speed = 0;
-            event_user(1);
+            activate();
         }
     }
     if (life > 0) {
@@ -14,4 +14,3 @@ if (game_is_running()) {
         }
     }
 }
-

@@ -1,4 +1,4 @@
-/// @description Initialize
+/// @description Shade
 var owner = game_player_find(view_current);
 with (owner)
 {
