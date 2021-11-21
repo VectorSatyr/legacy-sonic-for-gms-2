@@ -1,8 +1,7 @@
 /// @description Initialize
 event_inherited();
+icon = instance_create_depth(x, y - (sign(image_yscale) * 2), depth - 1, kind);
 gravity_force = 0;
-icon = MonitorIcon;
-icon_instance = -1;
 reaction_test = function (character)
 {
 	with (character) {
@@ -39,7 +38,7 @@ reaction_on_enter = function (character)
 		}
 		game_pc_play_sound(id, PopSound);
 		game_particles_spawn("explosion", other.x, other.y);
-		other.icon_instance.release(id);
+		other.icon.release(id);
 		instance_create_depth(other.x, other.y, other.depth, BrokenMonitor);
 		instance_destroy(other.id);
 	}
