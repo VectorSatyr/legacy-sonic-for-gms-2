@@ -1,4 +1,4 @@
-/// @description  Fade away
+/// @description Fade away
 if (game_is_running()) {
     if (life > 0) {
         --life;
@@ -7,4 +7,3 @@ if (game_is_running()) {
         }
     }
 }
-

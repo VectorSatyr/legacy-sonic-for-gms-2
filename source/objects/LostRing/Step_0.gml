@@ -1,4 +1,4 @@
-/// @description  Move
+/// @description Move
 if (game_is_running()) {
     if (x_speed != 0) {
         x += (dsin(gravity_direction) * x_speed);
@@ -15,4 +15,3 @@ if (game_is_running()) {
         }
     }
 }
-
