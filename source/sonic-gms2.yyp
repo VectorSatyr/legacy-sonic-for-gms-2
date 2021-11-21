@@ -437,8 +437,6 @@
     {"id":{"name":"player_react_to_score_bumper","path":"scripts/player_react_to_score_bumper/player_react_to_score_bumper.yy",},"order":33,},
     {"id":{"name":"player_react_to_speed_based_mask","path":"scripts/player_react_to_speed_based_mask/player_react_to_speed_based_mask.yy",},"order":35,},
     {"id":{"name":"player_react_to_spike_trap","path":"scripts/player_react_to_spike_trap/player_react_to_spike_trap.yy",},"order":37,},
-    {"id":{"name":"player_react_to_spring","path":"scripts/player_react_to_spring/player_react_to_spring.yy",},"order":39,},
-    {"id":{"name":"player_react_to_spring_diagonal","path":"scripts/player_react_to_spring_diagonal/player_react_to_spring_diagonal.yy",},"order":41,},
     {"id":{"name":"player_react_to_switch","path":"scripts/player_react_to_switch/player_react_to_switch.yy",},"order":43,},
     {"id":{"name":"player_react_to_water","path":"scripts/player_react_to_water/player_react_to_water.yy",},"order":45,},
     {"id":{"name":"player_react_to_corkscrew","path":"scripts/player_react_to_corkscrew/player_react_to_corkscrew.yy",},"order":1,},
