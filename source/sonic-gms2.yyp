@@ -427,7 +427,6 @@
     {"id":{"name":"player_react_to_competition_lamp_post","path":"scripts/player_react_to_competition_lamp_post/player_react_to_competition_lamp_post.yy",},"order":11,},
     {"id":{"name":"player_react_to_crumbling_floor","path":"scripts/player_react_to_crumbling_floor/player_react_to_crumbling_floor.yy",},"order":13,},
     {"id":{"name":"player_react_to_death_zone","path":"scripts/player_react_to_death_zone/player_react_to_death_zone.yy",},"order":17,},
-    {"id":{"name":"player_react_to_enemy","path":"scripts/player_react_to_enemy/player_react_to_enemy.yy",},"order":19,},
     {"id":{"name":"player_react_to_hazard","path":"scripts/player_react_to_hazard/player_react_to_hazard.yy",},"order":21,},
     {"id":{"name":"player_react_to_lamp_post","path":"scripts/player_react_to_lamp_post/player_react_to_lamp_post.yy",},"order":23,},
     {"id":{"name":"player_react_to_layer_flip","path":"scripts/player_react_to_layer_flip/player_react_to_layer_flip.yy",},"order":25,},
