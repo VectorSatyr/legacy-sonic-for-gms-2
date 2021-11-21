@@ -23,11 +23,11 @@
   "physicsStartAwake": true,
   "physicsKinematic": false,
   "physicsShapePoints": [],
-  "eventList": [
-    {"isDnD":false,"eventNum":0,"eventType":0,"collisionObjectId":null,"parent":{"name":"YellowDiagonalSpring","path":"objects/YellowDiagonalSpring/YellowDiagonalSpring.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
-  ],
+  "eventList": [],
   "properties": [],
-  "overriddenProperties": [],
+  "overriddenProperties": [
+    {"propertyId":{"name":"force","path":"objects/DiagonalSpring/DiagonalSpring.yy",},"objectId":{"name":"DiagonalSpring","path":"objects/DiagonalSpring/DiagonalSpring.yy",},"value":"10","resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMOverriddenProperty",},
+  ],
   "parent": {
     "name": "Diagonal",
     "path": "folders/Objects/Level Elements/Common/Springs/Diagonal.yy",
