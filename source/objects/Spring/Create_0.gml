@@ -1,8 +1,6 @@
 /// @description Initialize
 event_inherited();
 image_index = 1;
-force = 0;
-special_animation = false;
 reaction_test = function (character)
 {
 	with (character) {
