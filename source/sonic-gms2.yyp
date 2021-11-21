@@ -432,7 +432,6 @@
     {"id":{"name":"player_react_to_hazard","path":"scripts/player_react_to_hazard/player_react_to_hazard.yy",},"order":21,},
     {"id":{"name":"player_react_to_lamp_post","path":"scripts/player_react_to_lamp_post/player_react_to_lamp_post.yy",},"order":23,},
     {"id":{"name":"player_react_to_layer_flip","path":"scripts/player_react_to_layer_flip/player_react_to_layer_flip.yy",},"order":25,},
-    {"id":{"name":"player_react_to_monitor","path":"scripts/player_react_to_monitor/player_react_to_monitor.yy",},"order":27,},
     {"id":{"name":"player_react_to_push_block","path":"scripts/player_react_to_push_block/player_react_to_push_block.yy",},"order":29,},
     {"id":{"name":"player_react_to_score_bumper","path":"scripts/player_react_to_score_bumper/player_react_to_score_bumper.yy",},"order":33,},
     {"id":{"name":"player_react_to_speed_based_mask","path":"scripts/player_react_to_speed_based_mask/player_react_to_speed_based_mask.yy",},"order":35,},
