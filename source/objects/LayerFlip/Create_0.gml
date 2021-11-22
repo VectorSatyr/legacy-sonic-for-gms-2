@@ -1,7 +1,5 @@
 /// @description Initialize
 event_inherited();
-left = int64(1);
-right = int64(2);
 reaction_test = function (character)
 {
 	if (
@@ -18,5 +16,5 @@ reaction_on_enter = function (character)
 	var reverse = (
 		sign(image_xscale) == sign(character.x_int - character.xprevious)
 	);
-	character.depth_mask = (reverse) ? left : right;
+	character.depth_mask = (reverse) ? int64(left) : int64(right);
 }
