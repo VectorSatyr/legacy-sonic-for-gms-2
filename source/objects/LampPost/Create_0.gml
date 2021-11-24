@@ -2,6 +2,14 @@
 event_inherited();
 activated = false;
 bonus_stage_threshold = 20;
+activate = function ()
+{
+	activated = true;
+};
+preactivate = function ()
+{
+	activated = true;
+};
 reaction_test = function (character)
 {
 	if (
@@ -13,8 +21,8 @@ reaction_test = function (character)
 };
 reaction_on_enter = function (character)
 {
+	activate();
 	game_zone_check_point_record(x, y);
-	instance_perform_user_event(id, 0);
 	game_pc_play_sound(character, LampPostSound);
 	if (character.owner.rings >= bonus_stage_threshold) {
 		instance_create_layer(x, y - 56, "general", BonusStagePortal);
