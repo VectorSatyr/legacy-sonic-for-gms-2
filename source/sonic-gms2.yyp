@@ -424,7 +424,6 @@
     {"id":{"name":"player_react_to_climbable_wall","path":"scripts/player_react_to_climbable_wall/player_react_to_climbable_wall.yy",},"order":9,},
     {"id":{"name":"player_react_to_death_zone","path":"scripts/player_react_to_death_zone/player_react_to_death_zone.yy",},"order":17,},
     {"id":{"name":"player_react_to_hazard","path":"scripts/player_react_to_hazard/player_react_to_hazard.yy",},"order":21,},
-    {"id":{"name":"player_react_to_push_block","path":"scripts/player_react_to_push_block/player_react_to_push_block.yy",},"order":29,},
     {"id":{"name":"player_react_to_speed_based_mask","path":"scripts/player_react_to_speed_based_mask/player_react_to_speed_based_mask.yy",},"order":35,},
     {"id":{"name":"player_react_to_switch","path":"scripts/player_react_to_switch/player_react_to_switch.yy",},"order":43,},
     {"id":{"name":"player_react_to_corkscrew","path":"scripts/player_react_to_corkscrew/player_react_to_corkscrew.yy",},"order":1,},
