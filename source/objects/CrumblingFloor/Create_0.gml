@@ -1,15 +1,24 @@
-/// @description  Initialize
+/// @description Initialize
 event_inherited();
-reaction_script = player_react_to_crumbling_floor;
 bottom_solid = false;
 normal = 0;
-
 perp = noone;
-
-time_to_crumble = 0;
-
-total_collumns = sprite_width div 16;
-total_rows = sprite_height div 16;
-timed_delay_per_collumn = 2;
-timed_delay_per_row = 5;
-
+crumbling = false;
+total_collumns = sprite_width div cell_width;
+total_rows = sprite_height div cell_height;
+reaction_test = function (character)
+{
+	with (character) {
+		if (ground_id == other.id) {
+			game_pc_react_to(id, other.id);
+		}
+	}
+};
+reaction_on_enter = function (character)
+{
+	if (not crumbling) {
+		crumbling = true;
+		constant = true;
+		perp = character;
+	}
+};
