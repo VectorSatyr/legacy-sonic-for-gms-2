@@ -1,10 +1,9 @@
-/// @description  Initialize
+/// @description Initialize
 image_speed = 0;
-
 state = "entering";
 next_room = GlowingSpheresRoom;
-
 timer = 0;
+active_time = 256;
 x_radius = 0;
 y_radius = 0;
 max_x_radius = 32;
