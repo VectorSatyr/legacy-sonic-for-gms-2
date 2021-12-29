@@ -140,6 +140,7 @@
     {"id":{"name":"TailsFlightFallSprite","path":"sprites/TailsFlightFallSprite/TailsFlightFallSprite.yy",},"order":11,},
     {"id":{"name":"TailsFlightSprite","path":"sprites/TailsFlightSprite/TailsFlightSprite.yy",},"order":13,},
     {"id":{"name":"TailsFlipReverseSprite","path":"sprites/TailsFlipReverseSprite/TailsFlipReverseSprite.yy",},"order":15,},
+    {"id":{"name":"ClimbableWall","path":"objects/ClimbableWall/ClimbableWall.yy",},"order":0,},
     {"id":{"name":"TailsFlipSprite","path":"sprites/TailsFlipSprite/TailsFlipSprite.yy",},"order":17,},
     {"id":{"name":"TailsLookSprite","path":"sprites/TailsLookSprite/TailsLookSprite.yy",},"order":19,},
     {"id":{"name":"TailsPushSprite","path":"sprites/TailsPushSprite/TailsPushSprite.yy",},"order":21,},
@@ -420,7 +421,6 @@
     {"id":{"name":"AirBubble","path":"objects/AirBubble/AirBubble.yy",},"order":6,},
     {"id":{"name":"player_react_to_glowing_spheres_wall_bumper","path":"scripts/player_react_to_glowing_spheres_wall_bumper/player_react_to_glowing_spheres_wall_bumper.yy",},"order":13,},
     {"id":{"name":"player_react_to_boss_enemy","path":"scripts/player_react_to_boss_enemy/player_react_to_boss_enemy.yy",},"order":1,},
-    {"id":{"name":"player_react_to_climbable_wall","path":"scripts/player_react_to_climbable_wall/player_react_to_climbable_wall.yy",},"order":9,},
     {"id":{"name":"player_react_to_hazard","path":"scripts/player_react_to_hazard/player_react_to_hazard.yy",},"order":21,},
     {"id":{"name":"game_pc_arms_collision_solid","path":"scripts/game_pc_arms_collision_solid/game_pc_arms_collision_solid.yy",},"order":1,},
     {"id":{"name":"game_pc_left_collision_solid","path":"scripts/game_pc_left_collision_solid/game_pc_left_collision_solid.yy",},"order":3,},
@@ -1214,6 +1214,7 @@
     {"folderPath":"folders/Scripts/Object functions/Player.yy","order":1,"resourceVersion":"1.0","name":"Player","tags":[],"resourceType":"GMFolder",},
     {"folderPath":"folders/Scripts/Object functions/Player/Character.yy","order":1,"resourceVersion":"1.0","name":"Character","tags":[],"resourceType":"GMFolder",},
     {"folderPath":"folders/Scripts/Object functions/Player/Character/Collision Detection.yy","order":1,"resourceVersion":"1.0","name":"Collision Detection","tags":[],"resourceType":"GMFolder",},
+    {"folderPath":"folders/Objects/Level Elements/Demo Zone/Terrain/Climbable Wall.yy","order":6,"resourceVersion":"1.0","name":"Climbable Wall","tags":[],"resourceType":"GMFolder",},
   ],
   "AudioGroups": [
     {"targets":-1,"resourceVersion":"1.3","name":"audiogroup_default","resourceType":"GMAudioGroup",},

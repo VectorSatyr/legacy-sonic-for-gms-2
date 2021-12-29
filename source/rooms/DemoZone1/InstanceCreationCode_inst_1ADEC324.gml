@@ -1,1 +1,0 @@
-reaction_script = player_react_to_climbable_wall;
