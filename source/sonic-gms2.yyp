@@ -413,7 +413,6 @@
     {"id":{"name":"game_pc_leg_in_shape","path":"scripts/game_pc_leg_in_shape/game_pc_leg_in_shape.yy",},"order":7,},
     {"id":{"name":"game_pc_lower_in_shape","path":"scripts/game_pc_lower_in_shape/game_pc_lower_in_shape.yy",},"order":9,},
     {"id":{"name":"game_pc_upper_in_shape","path":"scripts/game_pc_upper_in_shape/game_pc_upper_in_shape.yy",},"order":11,},
-    {"id":{"name":"player_react_to_glowing_spheres_gumball","path":"scripts/player_react_to_glowing_spheres_gumball/player_react_to_glowing_spheres_gumball.yy",},"order":7,},
     {"id":{"name":"player_react_to_glowing_spheres_large_sphere","path":"scripts/player_react_to_glowing_spheres_large_sphere/player_react_to_glowing_spheres_large_sphere.yy",},"order":9,},
     {"id":{"name":"player_react_to_glowing_spheres_prize_sphere","path":"scripts/player_react_to_glowing_spheres_prize_sphere/player_react_to_glowing_spheres_prize_sphere.yy",},"order":11,},
     {"id":{"name":"AirBubble","path":"objects/AirBubble/AirBubble.yy",},"order":6,},
