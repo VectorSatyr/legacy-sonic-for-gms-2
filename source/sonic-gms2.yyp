@@ -415,7 +415,6 @@
     {"id":{"name":"game_pc_upper_in_shape","path":"scripts/game_pc_upper_in_shape/game_pc_upper_in_shape.yy",},"order":11,},
     {"id":{"name":"AirBubble","path":"objects/AirBubble/AirBubble.yy",},"order":6,},
     {"id":{"name":"player_react_to_boss_enemy","path":"scripts/player_react_to_boss_enemy/player_react_to_boss_enemy.yy",},"order":1,},
-    {"id":{"name":"player_react_to_hazard","path":"scripts/player_react_to_hazard/player_react_to_hazard.yy",},"order":21,},
     {"id":{"name":"game_pc_arms_collision_solid","path":"scripts/game_pc_arms_collision_solid/game_pc_arms_collision_solid.yy",},"order":1,},
     {"id":{"name":"game_pc_left_collision_solid","path":"scripts/game_pc_left_collision_solid/game_pc_left_collision_solid.yy",},"order":3,},
     {"id":{"name":"game_pc_lower_collision_solid","path":"scripts/game_pc_lower_collision_solid/game_pc_lower_collision_solid.yy",},"order":5,},
