@@ -1,5 +1,9 @@
 /// @description Move
 if (game_is_running()) {
+	if (not instance_exists(target)) {
+		instance_create_layer(x, y, "objects", LostRing);
+		instance_destroy();
+	}
 	if (x_speed != 0) {
 		x += x_speed;
 	}

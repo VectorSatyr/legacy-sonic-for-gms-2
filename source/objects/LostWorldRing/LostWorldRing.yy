@@ -8,8 +8,8 @@
   "spriteMaskId": null,
   "persistent": false,
   "parentObjectId": {
-    "name": "Ring",
-    "path": "objects/Ring/Ring.yy",
+    "name": "WorldRing",
+    "path": "objects/WorldRing/WorldRing.yy",
   },
   "physicsObject": false,
   "physicsSensor": false,
@@ -26,7 +26,9 @@
   "eventList": [
     {"isDnD":false,"eventNum":0,"eventType":0,"collisionObjectId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
     {"isDnD":false,"eventNum":2,"eventType":3,"collisionObjectId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
+    {"isDnD":false,"eventNum":1,"eventType":3,"collisionObjectId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
     {"isDnD":false,"eventNum":0,"eventType":3,"collisionObjectId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
+    {"isDnD":false,"eventNum":0,"eventType":4,"collisionObjectId":{"name":"Solid","path":"objects/Solid/Solid.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
   ],
   "properties": [],
   "overriddenProperties": [],
@@ -35,7 +37,7 @@
     "path": "folders/Objects/Level Elements/Common/Rings.yy",
   },
   "resourceVersion": "1.0",
-  "name": "MagnetizedRing",
+  "name": "LostWorldRing",
   "tags": [],
   "resourceType": "GMObject",
 }
