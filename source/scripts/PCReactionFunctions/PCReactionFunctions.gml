@@ -43,13 +43,11 @@ function game_pc_test_reactions(character)
 		var inst;
 		for (var n = 0; n < total; ++n) {
 			inst = local_instances[| n];
-			if (ds_list_find_index(reaction_list, inst) == -1) {
+			if (
+				instance_exists(inst) and 
+				ds_list_find_index(reaction_list, inst) == -1
+			) {
 				inst.reaction_test(character);
-				if (instance_exists(inst)) {
-					if (script_exists(inst.reaction_script)) {
-						script_execute(inst.reaction_script, inst, "checking");
-					}
-				}
 			}
 		}
 	}
@@ -69,11 +67,6 @@ function game_pc_enter_reactions(character)
 				ds_list_find_index(previous_reaction_list, inst) == -1
 			) {
 				inst.reaction_on_enter(character);
-				if (instance_exists(inst)) {
-					if (script_exists(inst.reaction_script)) {
-						script_execute(inst.reaction_script, inst, "entering");
-					}
-				}
 			}
 		}
 	}
@@ -93,11 +86,6 @@ function game_pc_exit_reactions(character)
 				ds_list_find_index(reaction_list, inst) == -1
 			) {
 				inst.reaction_on_exit(character);
-				if (instance_exists(inst)) {
-					if (script_exists(inst.reaction_script)) {
-						script_execute(inst.reaction_script, inst, "exiting");
-					}
-				}
 			}
 		}
 	}
